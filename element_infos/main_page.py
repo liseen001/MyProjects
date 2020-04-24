@@ -10,11 +10,12 @@ driver_path=os.path.join(current,'../webdriver/geckodriver')
 
 class MainPage(object):
     def __init__(self):
-        self.driver = webdriver.Firefox(executable_path=driver_path)
-        self.driver.implicitly_wait(20)
-        self.driver.maximize_window()
-        self.driver.get('http://106.53.50.202:8999/zentao6/www/user-login.html')
-
+        login_page = LoginPage()
+        login_page.input_username('admin')
+        login_page.input_password('P1666666,'),
+        login_page.keep_kogin()
+        login_page.click_login()
+        self.driver=login_page.driver    #把loginpage的driver属性拿过来使用
         self.companyname=self.driver.find_element(By.XPATH,'//h1[@id="companyname"]')          #1、查找公司命名元素
         self.myzone_menu=self.driver.find_element(By.XPATH,'//li[@data-id="my"]')              #2、我的地盘
         self.product_menu=self.driver.find_element(By.XPATH,'//li[@data-id="product"]')        #3、产品
@@ -27,7 +28,7 @@ class MainPage(object):
         self.admin_menu=self.driver.find_element(By.XPATH,'//li[@data-id="admin"]')            #10、后台
 
     def get_companyname(self):
-        value = self.companyname.text
+        value = self.companyname.get_attribute('title')
         return value
     def click_myzone_menu(self):
         self.myzone_menu.click()
@@ -48,8 +49,9 @@ class MainPage(object):
     def click_admin_menu(self):
         self.admin_menu.click()
 
-if __name__=="main__":
+if __name__=="__main__":
     main_page=MainPage()
-    main_page.get_companyname()
+    username = main_page.get_companyname()
+    print(username)
     main_page.click_myzone_menu()
     main_page.click_product_menu()

@@ -9,7 +9,7 @@ driver_path=os.path.join(current,'../webdriver/geckodriver')
 class LoginPage(object):
     def __init__(self):
         self.driver=webdriver.Firefox(executable_path=driver_path)
-        self.driver.implicitly_wait(20)
+        self.driver.implicitly_wait(30)
         self.driver.maximize_window()
         self.driver.get('http://106.53.50.202:8999/zentao6/www/user-login.html')
         self.username_inputbox=self.driver.find_element(By.XPATH,'//input[@id="account"]')
