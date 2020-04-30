@@ -7,3 +7,31 @@ file:2020-04-30 12:01:52,331,logger,INFO,输入密码P1666666,
 file:2020-04-30 12:01:52,559,logger,INFO,点击登录按钮
 file:2020-04-30 16:02:56,056,logger,INFO,打开url地址http://106.53.50.202:8999/zentao6/www/user-login.html
 file:2020-04-30 16:05:03,645,logger,INFO,打开url地址http://106.53.50.202:8999/zentao6/www/user-login.html
+file:2020-04-30 22:06:17,377,logger,INFO,输入用户名admin
+file:2020-04-30 22:06:17,441,logger,INFO,输入密码P1666666,
+file:2020-04-30 22:06:17,683,logger,INFO,点击登录按钮
+file:2020-04-30 22:13:17,018,logger,INFO,打开url地址http://106.53.50.202:8999/zentao6/www/user-login.html
+file:2020-04-30 22:50:59,280,logger,INFO,打开url地址http://106.53.50.202:8999/zentao6/www/user-login.html
+file:2020-04-30 22:50:59,378,logger,INFO,输入用户名admin
+file:2020-04-30 22:50:59,472,logger,INFO,输入密码P1666666,
+file:2020-04-30 22:50:59,728,logger,INFO,点击登录按钮
+file:2020-04-30 22:52:04,074,logger,INFO,打开url地址http://106.53.50.202:8999/zentao6/www/user-login.html
+file:2020-04-30 22:52:04,128,logger,INFO,输入用户名admin
+file:2020-04-30 22:52:04,189,logger,INFO,输入密码P1666666,
+file:2020-04-30 22:52:04,442,logger,INFO,点击登录按钮
+file:2020-04-30 23:01:36,622,logger,INFO,打开url地址http://106.53.50.202:8999/zentao6/www/user-login.html
+file:2020-04-30 23:01:36,668,logger,INFO,输入用户名admin
+file:2020-04-30 23:01:36,709,logger,INFO,输入密码P1666666,
+file:2020-04-30 23:01:38,025,logger,INFO,点击登录按钮
+file:2020-04-30 23:12:44,782,logger,INFO,打开url地址http://106.53.50.202:8999/zentao6/www/user-login.html
+file:2020-04-30 23:14:52,013,logger,INFO,打开url地址http://106.53.50.202:8999/zentao6/www/user-login.html
+file:2020-04-30 23:16:28,854,logger,INFO,打开url地址http://106.53.50.202:8999/zentao6/www/user-login.html
+file:2020-04-30 23:16:28,872,logger,INFO,[用户名输入框]元素识别成功
+file:2020-04-30 23:16:28,908,logger,INFO,[用户名输入框]元素输入内容： admin
+file:2020-04-30 23:16:28,908,logger,INFO,输入用户名admin
+file:2020-04-30 23:16:28,914,logger,INFO,[输入密码]元素识别成功
+file:2020-04-30 23:16:28,976,logger,INFO,[输入密码]元素输入内容： P1666666,
+file:2020-04-30 23:16:28,976,logger,INFO,输入密码P1666666,
+file:2020-04-30 23:16:28,981,logger,INFO,[登录按钮]元素识别成功
+file:2020-04-30 23:16:29,223,logger,INFO,[登录按钮]元素进行点击操作
+file:2020-04-30 23:16:29,223,logger,INFO,点击登录按钮
