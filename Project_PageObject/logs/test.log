@@ -5,3 +5,5 @@ file:2020-04-30 11:57:29,764,logger,INFO,登录禅道操作
 file:2020-04-30 12:01:52,300,logger,INFO,输入用户名admin
 file:2020-04-30 12:01:52,331,logger,INFO,输入密码P1666666,
 file:2020-04-30 12:01:52,559,logger,INFO,点击登录按钮
+file:2020-04-30 16:02:56,056,logger,INFO,打开url地址http://106.53.50.202:8999/zentao6/www/user-login.html
+file:2020-04-30 16:05:03,645,logger,INFO,打开url地址http://106.53.50.202:8999/zentao6/www/user-login.html
