@@ -37,8 +37,13 @@ class ConfigUtils:
         value=self.conf.get('default','foxdriver_path')
         return value
 
+    def get_logs_path(self):
+        value=self.conf.get('default','log_path')
+        return value
+
 conf=ConfigUtils()
 
 if __name__=="__main__":
     print(conf.get_password())
+    print(conf.get_logs_path())
 
