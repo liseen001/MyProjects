@@ -41,6 +41,10 @@ class ConfigUtils:
         value=self.conf.get('default','log_path')
         return value
 
+    def get_excel_path(self):
+        value=self.conf.get('default','excel_path')
+        return value
+
 conf=ConfigUtils()
 
 if __name__=="__main__":

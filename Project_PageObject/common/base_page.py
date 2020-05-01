@@ -6,9 +6,6 @@ from Project_PageObject.common.config_utils import conf
 from Project_PageObject.common.logutils import logutils
 from selenium.webdriver.support.wait import WebDriverWait
 
-current_path = os.path.dirname(__file__)
-driver_path = os.path.join(current_path, conf.get_foxfire_path())
-driver = webdriver.Firefox(executable_path=driver_path)
 
 class BasePage(object):
     def __init__(self,driver):
