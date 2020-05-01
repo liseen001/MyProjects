@@ -41,6 +41,8 @@ class BasePage(object):
             locator_type=By.ID          #把字符串的方式改成真正的方式
         elif locator_type_name=='class':
             locator_type=By.CLASS_NAME
+        elif locator_type_name=='name':
+            locator_type=By.NAME
         elif locator_type_name=='xpath':
             locator_type=By.XPATH         #self.driver传入浏览器，等待时间   locator_type：定位方式    locator_value_info：元素信息
         element=WebDriverWait(self.driver,locator_timeout).until(lambda x:x.find_element(locator_type,locator_value_info))
