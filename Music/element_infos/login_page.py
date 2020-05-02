@@ -1,7 +1,5 @@
 # -*- coding utf-8 -*-
 import os
-import time
-from selenium.webdriver.common.by import By
 from selenium import webdriver
 from Music.common.confing_utils import conf
 from Music.common.base_page import BasePage

@@ -45,6 +45,10 @@ class ConfigUtils:
         value=self.conf.get('default','excel_path')
         return value
 
+    def get_element_infos_excel_path(self):
+        value=self.conf.get('default','element_infos_excel')
+        return value
+
 conf=ConfigUtils()
 
 if __name__=="__main__":

@@ -1,40 +1,57 @@
 # --*utf-8*--
 import os
-from selenium.webdriver.common.by import By
+from selenium import webdriver
 from Project_PageObject.common.config_utils import conf
-from Project_PageObject.elemet_infos.login_page import loginpage
-from Project_PageObject.common.logutils import logutils
+from Project_PageObject.common.base_page import BasePage
+from Project_PageObject.elemet_infos.login_page import LoginPage
+from  Project_PageObject.common.read_excel import ReadExcel
 
-current_path=os.path.dirname(__file__)
-driver_path=os.path.join(current_path,conf.get_foxfire_path())
-
-class MainPage(object):
-    def __init__(self):
-        self.driver=loginpage.driver
+class MainPage(BasePage):
+    def __init__(self,driver):
+        super().__init__(driver)
+        loginpage=LoginPage(driver)
+        loginpage.open_url(conf.get_zend_path())
         loginpage.input_username(conf.get_username())
         loginpage.input_password(conf.get_password())
         loginpage.click_login()
-        self.companyname_showbox=self.driver.find_element(By.XPATH,'//h1[@id="companyname"]')
-        self.myzone_menu=self.driver.find_element(By.XPATH,'//li[@data-id="my"]')
-        self.product_menu=self.driver.find_element(By.XPATH,'//li[@data-id="product"]')
-        self.username_showspan=self.driver.find_element(By.XPATH,'//span[@class="user-name"]')
-        logutils.logger.info('登录禅道操作')
 
-    def get_companyname(self):
-        value=self.companyname_showbox.get_attribute('title')
-        return value
+        elements=ReadExcel('main_page').get_element_info()
+        self.click_myzone=elements['click_myzone']
+        self.click_product_menu=elements['click_product_menu']
+        self.click_project_menu=elements['click_project_menu']
+        self.click_test_menu=elements['click_test_menu']
+        self.click_integration_menu=elements['click_integration_menu']
+        self.click_doc_menu=elements['click_doc_menu']
+        self.click_statistics_menu=elements['click_statistics_menu']
+        self.click_organazation_menu=elements['click_organazation_menu']
+        self.click_backstage_menu=elements['click_backstage_menu']
+        self.click_username_menu=elements['click_username_menu']
 
-    def goto_myzone(self):
-        self.myzone_menu.click()
+    def click_myzone_operation(self):
+        self.click(self.click_myzone())
+    def click_product_menu_operation(self):
+        self.click(self.click_product_menu)
+    def click_project_menu_operation(self):
+        self.click(self.click_project_menu)
+    def click_test_menu_operation(self):
+        self.click(self.click_test_menu)
+    def click_integration_menu_operation(self):
+        self.click(self.click_integration_menu)
+    def click_doc_menu_operation(self):
+        self.click(self.click_doc_menu)
+    def click_statistics_menu_operation(self):
+        self.click(self.click_statistics_menu)
+    def click_organazation_menu_operation(self):
+        self.click(self.click_organazation_menu)
+    def click_backstage_menu_operation(self):
+        self.click(self.click_backstage_menu)
+    def click_username_menu_operation(self):
+        self.click(self.click_username_menu)
 
-
-    def goto_productzone(self):
-        self.product_menu.click()
-
-    def get_username(self):
-        value=self.username_showspan.text
-        return value
-
-mainpage=MainPage()
 if __name__=="__main__":
-    mainpage.goto_productzone()
+    current_path=os.path.dirname(__file__)
+    driver_path=os.path.join(current_path,conf.get_foxfire_path())
+    driver=webdriver.Firefox(executable_path=driver_path)
+    mainpage=MainPage(driver)
+    mainpage.click_doc_menu_operation()
+    mainpage.click_product_menu_operation()
