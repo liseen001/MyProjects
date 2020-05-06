@@ -17,7 +17,12 @@ class Browser(object):
 
     '''封装获取配置文件配置的默人浏览器驱动方法'''
     def get_driver(self):
-        pass
+        if self.__driver_name.lower()=='chrome':
+            return self.get_chrome_driver
+        elif self.__driver_name.lower()=='firefox':
+            return self.get_firefox_driver
+        elif self.__driver_name.lower()=='edge':
+            return self.get_edge_driver
 
 
     '''封装谷歌浏览器'''
@@ -28,7 +33,7 @@ class Browser(object):
         chrome_options.add_argument('lang=zh_CN.UTF-8')  #设置默认编码为utf-8
         chrome_options.add_experimental_option('useAutomationExtension',False) #取消浏览器正在收到自动化工具的提示
         chrome_options.add_experimental_option("excludeSwitches",['enable-aotomation'])
-        chrome_driver_path=os.path.join(self.__chrome_driver_path,'chromediver')
+        chrome_driver_path=os.path.join(self.__chrome_driver_path,)
         driver=webdriver.Chrome(options=chrome_options,executable_path=chrome_driver_path)
         return driver
 
@@ -40,10 +45,11 @@ class Browser(object):
         return driver
 
     '''封装IE浏览器'''
+    @property
     def get_edge_driver(self):
         pass
 
 browser=Browser()
 
 if __name__=="__main__":
-    Browser().get_chrome_driver()
+    browser.get_chrome_driver

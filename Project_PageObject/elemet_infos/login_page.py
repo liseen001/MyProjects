@@ -33,7 +33,7 @@ class LoginPage(BasePage):
 
 if  __name__=="__main__":
     '''打开浏览器，显示构造,调用browser类中的构造属性，当方法用，不用加括号driver'''
-    driver=browser.get_chrome_driver
+    driver=browser.get_driver()
 
     loginpage = LoginPage(driver)   #实例化driver操作
     loginpage.open_url('http://106.53.50.202:8999/zentao6/www/user-login.html')  #调用父类中打开浏览器的方法

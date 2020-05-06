@@ -69,4 +69,41 @@ class BasePage(object):
         logutils.info('[%s]元素输入内容： %s'%(element_info['element_name'],content))
 
 
+    #封装iframe切换框架，有id\name用id\name，没有就做iframe对象
+    '''思路一'''
+    def switch_to_frame(self,element_info):
+        element = self.find_element(element_info)
+        self.driver.switch_to.frame(element)
+
+    '''思路二,先处理id和name,然后再切换框架'''
+    def switch_to_frame_id_or_name(self,id_or_name):
+        self.driver.switch_to.frame(id_or_name)
+
+    def switch_to_frame_by_element(self,element_info):
+        elment=self.find_element(element_info)
+        self.driver.switch_to.frame(elment)
+
+    '''思路三：用字典的方式处理，不定长参数，一个*代表元组，两个则代表字典'''
+    def switch_to_frame_dict(self,**element_dict):
+        if 'id' in element_dict.keys():
+            self.driver.switch_to.frame(element_dict['id'])
+        elif 'name' in element_dict.keys():
+            self.driver.switch_to.frame(element_dict['name'])
+        elif 'element' in element_dict.keys():
+            self.driver.switch_to.frame(element_dict['element'])
+
+
+    '''对js进行封装，执行js操作'''
+    def execute_script(self,js_str,element_info=None):
+        if element_info:
+            self.driver.excute_script(js_str)
+        else:
+            self.driver.excute_script(js_str,None)
+
+    '''对js删除操作封装'''
+    def delete_element_attribute(self,element_info,attribute_name):
+        element=self.find_element(element_info)
+        self.execute_script('..JScode..')
+
+
 
