@@ -1,7 +1,7 @@
 # --*utf-8*--
 import os
 import xlrd
-from common.config_utils import conf
+from Test.common.config_utils import conf
 
 current_path=os.path.dirname(__file__)
 excel_path=os.path.join(current_path,conf.get_excel_path())
