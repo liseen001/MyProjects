@@ -12,7 +12,7 @@ class LoginPage(BasePage):
         '''父类有self.driver的构造，子类也有这个构造，因此要显示调用父类的构造'''
         super().__init__(driver)
         '''元素的识别信息，可以放数据库或者文件中'''
-        elements=ReadExcel('login_page').get_element_info()
+        elements=ReadExcel('login','login_page').get_element_info()   #模块与页面
         self.username_inputbox=elements['username_inputbox']
         self.password_inputbox=elements['password_inputbox']
         self.login_button=elements['login_button']

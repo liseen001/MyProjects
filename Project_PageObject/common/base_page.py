@@ -1,5 +1,6 @@
 # -*- coding utf-8 -*-
 import os
+import time
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from Project_PageObject.common.config_utils import conf
@@ -28,10 +29,19 @@ class BasePage(object):
         self.driver.minimize_window()
         logutils.info('设置浏览器最小化')
 
+    '''隐式等待封装'''
+    def time(self,seconds=conf.time_out):
+        self.driver.implicitly_wait(seconds)
+
+
     def get_title(self):
         value=self.driver.title
         logutils.info('获取浏览器网页标题')
         return value
+
+    def refresh(self):
+        self.driver.refresh()
+        logutils.info('浏览器刷新操作')
 
 #元素识别、操作  元素操作封装
 
@@ -72,6 +82,7 @@ class BasePage(object):
     #封装iframe切换框架，有id\name用id\name，没有就做iframe对象
     '''思路一'''
     def switch_to_frame(self,element_info):
+        self.wait()
         element = self.find_element(element_info)
         self.driver.switch_to.frame(element)
 
@@ -104,6 +115,11 @@ class BasePage(object):
     def delete_element_attribute(self,element_info,attribute_name):
         element=self.find_element(element_info)
         self.execute_script('..JScode..')
+        pass
+
+    '''固定等待封装'''
+    def wait(self,seconds=conf.time_out):
+        time.sleep(seconds)
 
 
 

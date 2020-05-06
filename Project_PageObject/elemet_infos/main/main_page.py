@@ -3,7 +3,7 @@ import os
 from selenium import webdriver
 from Project_PageObject.common.config_utils import conf
 from Project_PageObject.common.base_page import BasePage
-from Project_PageObject.elemet_infos.login_page import LoginPage
+from Project_PageObject.elemet_infos.login.login_page import LoginPage
 from  Project_PageObject.common.read_excel import ReadExcel
 
 class MainPage(BasePage):

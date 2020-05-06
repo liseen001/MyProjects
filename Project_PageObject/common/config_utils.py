@@ -68,10 +68,18 @@ class ConfigUtils:
         value=self.conf.get('default','driver_name')
         return value
 
+    '''默认等待时间'''
+    @property
+    def time_out(self):
+        '''因为返回的等待时间为字符串，此处强制转换成浮点型'''
+        value=float(self.conf.get('default','time_out'))
+        return  value
+
 conf=ConfigUtils()
 
 if __name__=="__main__":
     print(conf.get_password())
-    print(conf.get_driver_name)
+    print(type(conf.time_out),conf.time_out)
+
 
 
