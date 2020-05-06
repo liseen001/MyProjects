@@ -5,6 +5,7 @@ from Project_PageObject.common.config_utils import conf
 from Project_PageObject.common.logutils import logutils
 from Project_PageObject.common.base_page import BasePage
 from Project_PageObject.common.read_excel import ReadExcel
+from Project_PageObject.common.browser import browser
 
 class LoginPage(BasePage):
     def __init__(self,driver):
@@ -31,10 +32,8 @@ class LoginPage(BasePage):
         logutils.info('点击登录按钮')
 
 if  __name__=="__main__":
-    '''打开浏览器，显示构造driver'''
-    current_path = os.path.dirname(__file__)
-    driver_path = os.path.join(current_path, conf.get_foxfire_path())
-    driver=webdriver.Firefox(executable_path=driver_path)
+    '''打开浏览器，显示构造,调用browser类中的构造属性，当方法用，不用加括号driver'''
+    driver=browser.get_chrome_driver
 
     loginpage = LoginPage(driver)   #实例化driver操作
     loginpage.open_url('http://106.53.50.202:8999/zentao6/www/user-login.html')  #调用父类中打开浏览器的方法

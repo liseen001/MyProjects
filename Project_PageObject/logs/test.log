@@ -149,3 +149,43 @@ file:2020-05-05 12:10:28,205,logger,INFO,输入密码P1666666,
 file:2020-05-05 12:10:28,212,logger,INFO,[登录按钮]元素识别成功
 file:2020-05-05 12:10:28,434,logger,INFO,[登录按钮]元素进行点击操作
 file:2020-05-05 12:10:28,434,logger,INFO,点击登录按钮
+file:2020-05-06 20:36:13,840,logger,INFO,打开url地址http://106.53.50.202:8999/zentao6/www/user-login.html
+file:2020-05-06 20:36:13,846,logger,INFO,[用户名输入框]元素识别成功
+file:2020-05-06 20:36:13,876,logger,INFO,[用户名输入框]元素输入内容： admin
+file:2020-05-06 20:36:13,876,logger,INFO,输入用户名admin
+file:2020-05-06 20:36:13,882,logger,INFO,[输入密码]元素识别成功
+file:2020-05-06 20:36:13,909,logger,INFO,[输入密码]元素输入内容： P1666666,
+file:2020-05-06 20:36:13,909,logger,INFO,输入密码P1666666,
+file:2020-05-06 20:36:13,913,logger,INFO,[登录按钮]元素识别成功
+file:2020-05-06 20:36:14,144,logger,INFO,[登录按钮]元素进行点击操作
+file:2020-05-06 20:36:14,144,logger,INFO,点击登录按钮
+file:2020-05-06 20:38:01,950,logger,INFO,打开url地址http://106.53.50.202:8999/zentao6/www/user-login.html
+file:2020-05-06 20:38:01,960,logger,INFO,[用户名输入框]元素识别成功
+file:2020-05-06 20:38:01,991,logger,INFO,[用户名输入框]元素输入内容： admin
+file:2020-05-06 20:38:01,991,logger,INFO,输入用户名admin
+file:2020-05-06 20:38:01,995,logger,INFO,[输入密码]元素识别成功
+file:2020-05-06 20:38:02,035,logger,INFO,[输入密码]元素输入内容： P1666666,
+file:2020-05-06 20:38:02,035,logger,INFO,输入密码P1666666,
+file:2020-05-06 20:38:02,041,logger,INFO,[登录按钮]元素识别成功
+file:2020-05-06 20:38:02,269,logger,INFO,[登录按钮]元素进行点击操作
+file:2020-05-06 20:38:02,269,logger,INFO,点击登录按钮
+file:2020-05-06 21:49:57,103,logger,INFO,打开url地址http://106.53.50.202:8999/zentao6/www/user-login.html
+file:2020-05-06 21:49:57,111,logger,INFO,[用户名输入框]元素识别成功
+file:2020-05-06 21:49:57,140,logger,INFO,[用户名输入框]元素输入内容： admin
+file:2020-05-06 21:49:57,140,logger,INFO,输入用户名admin
+file:2020-05-06 21:49:57,145,logger,INFO,[输入密码]元素识别成功
+file:2020-05-06 21:49:57,172,logger,INFO,[输入密码]元素输入内容： P1666666,
+file:2020-05-06 21:49:57,173,logger,INFO,输入密码P1666666,
+file:2020-05-06 21:49:57,178,logger,INFO,[登录按钮]元素识别成功
+file:2020-05-06 21:49:57,405,logger,INFO,[登录按钮]元素进行点击操作
+file:2020-05-06 21:49:57,406,logger,INFO,点击登录按钮
+file:2020-05-06 21:50:38,488,logger,INFO,打开url地址http://106.53.50.202:8999/zentao6/www/user-login.html
+file:2020-05-06 21:50:38,494,logger,INFO,[用户名输入框]元素识别成功
+file:2020-05-06 21:50:38,522,logger,INFO,[用户名输入框]元素输入内容： admin
+file:2020-05-06 21:50:38,522,logger,INFO,输入用户名admin
+file:2020-05-06 21:50:38,529,logger,INFO,[输入密码]元素识别成功
+file:2020-05-06 21:50:38,559,logger,INFO,[输入密码]元素输入内容： P1666666,
+file:2020-05-06 21:50:38,559,logger,INFO,输入密码P1666666,
+file:2020-05-06 21:50:38,564,logger,INFO,[登录按钮]元素识别成功
+file:2020-05-06 21:50:38,789,logger,INFO,[登录按钮]元素进行点击操作
+file:2020-05-06 21:50:38,789,logger,INFO,点击登录按钮

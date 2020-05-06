@@ -37,8 +37,14 @@ class ConfigUtils:
         return value
 
     '''定义获取配置文件中火狐驱动的方法'''
+    '''构造方法调用的时候不用加括号'''
+    @property
     def get_foxfire_path(self):
         value=self.conf.get('default','foxdriver_path')
+        return value
+    @property
+    def get_chrome_driver(self):
+        value=self.conf.get('default','chromedriver_path')
         return value
 
     '''定义获取配置文件中日志文件路径的方法'''
@@ -56,10 +62,16 @@ class ConfigUtils:
         value=self.conf.get('default','element_infos_excel')
         return value
 
+    '''获取默认默认浏览器驱动的方法'''
+    @property
+    def get_driver_name(self):
+        value=self.conf.get('default','driver_name')
+        return value
+
 conf=ConfigUtils()
 
 if __name__=="__main__":
     print(conf.get_password())
-    print(conf.get_logs_path())
+    print(conf.get_driver_name)
 
 
