@@ -31,7 +31,7 @@ class LoginPage(BasePage):
     @property
     def click_login(self):
         self.click_operation(self.__login_button)
-
+    '''点击忘记密码'''
     @property
     def clic_forget_password(self):
         self.click_operation(self.__forget_password)
