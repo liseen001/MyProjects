@@ -5,6 +5,7 @@ from Project_PageObject.common.config_utils import conf
 from Project_PageObject.common.base_page import BasePage
 from Project_PageObject.elemet_infos.login.login_page import LoginPage
 from  Project_PageObject.common.read_excel import ReadExcel
+from  Project_PageObject.common.browser import browser
 
 class MainPage(BasePage):
     def __init__(self,driver):
@@ -28,7 +29,7 @@ class MainPage(BasePage):
         self.click_username_menu=elements['click_username_menu']
 
     def click_myzone_operation(self):
-        self.click(self.click_myzone())
+        self.click(self.click_myzone)
     def click_product_menu_operation(self):
         self.click(self.click_product_menu)
     def click_project_menu_operation(self):
@@ -50,7 +51,7 @@ class MainPage(BasePage):
 
 if __name__=="__main__":
     current_path=os.path.dirname(__file__)
-    driver_path=os.path.join(current_path,conf.get_foxfire_path())
+    driver_path=os.path.join(current_path,browser.get_firefox_driver)
     driver=webdriver.Firefox(executable_path=driver_path)
     mainpage=MainPage(driver)
     mainpage.click_doc_menu_operation()

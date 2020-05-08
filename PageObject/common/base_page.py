@@ -15,9 +15,9 @@ class BasePage(object):
 
 #浏览器封装操作
     '''打开浏览器地址'''
-    def open_url(self,url):
-        self.driver.get(url)
-        logutils.info('打开浏览器url地址%s'%url)
+    def open_url(self,zendao_url):
+        self.driver.get(zendao_url)
+        logutils.info('打开浏览器path地址%s'%zendao_url)
 
     '''设置浏览器最大化并打印日志'''
     def set_browser_max(self):
@@ -46,12 +46,12 @@ class BasePage(object):
     def wait(self,seconds=conf.time_out):
         time.sleep(seconds)
         logutils.info('固定等待时间为%s'%(seconds))
-    @property
+
     def set_browser_quit(self):
         time.sleep(5)
         self.driver.close()
         logutils.info('关闭浏览器')
-    @property
+
     def set_browser_back(self):
         self.wait()
         self.driver.back()
@@ -121,3 +121,6 @@ class BasePage(object):
             self.driver.execute_script(js_str)
         else:
             self.driver.execute_script(js_str,None)
+
+if __name__=="__main__":
+    pass

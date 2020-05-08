@@ -56,7 +56,7 @@ class ConfigUtils(object):
     def firefoxdriver_path(self):
         value=self.conf.get('default','firefoxdriver_path')
         return value
-    '''配置默认驱动'''
+    '''获取默认驱动'''
     @property
     def default_driver_name(self):
         value=self.conf.get('default','driver_name')
@@ -78,5 +78,5 @@ class ConfigUtils(object):
 conf=ConfigUtils()
 
 if __name__=="__main__":
-    e=conf.driver_name
+    e=conf.zend_path
     print(e)

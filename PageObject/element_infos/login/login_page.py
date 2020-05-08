@@ -5,7 +5,7 @@ from PageObject.common.read_excel import ReadExcel
 from PageObject.common.base_page import BasePage
 
 class LoginPage(BasePage):
-    def __init__(self,driver=browser.get_default_driver):
+    def __init__(self,driver):
         '''父类有self.driver的构造，子类也有这个构造，因此要显示调用父类的构造'''
         super().__init__(driver)
         '''读取表格中存储的元素识别信息，元素信息也可以放数据库或者文件中'''
@@ -28,23 +28,27 @@ class LoginPage(BasePage):
         self.input_operation(self.__password_inputbox,password)
 
     '''调用父类点击操作'''
-    @property
+
     def click_login(self):
         self.click_operation(self.__login_button)
     '''点击忘记密码'''
-    @property
-    def clic_forget_password(self):
+
+    def click_forget_password(self):
         self.click_operation(self.__forget_password)
 
 
-loginpage=LoginPage()
+
 if __name__=="__main__":
+    loginpage = LoginPage(driver=browser.get_default_driver())
     '''调用父类中打开浏览器的方法，传入url'''
     loginpage.open_url(conf.zend_path)
+    loginpage.set_browser_max()
+    loginpage.browser_refresh()
     loginpage.inuput_username(conf.zengtao_username)
     loginpage.input_password(conf.zentao_password)
-    loginpage.clic_forget_password
-    loginpage.set_browser_back
+    loginpage.click_forget_password()
+    loginpage.set_browser_back()
     loginpage.input_password(conf.zentao_password)
-    loginpage.click_login
-    loginpage.set_browser_quit
+    loginpage.click_login()
+    loginpage.set_browser_quit()
+

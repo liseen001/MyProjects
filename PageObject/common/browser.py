@@ -15,7 +15,7 @@ class Browser(object):
         self.__driver_name=driver_name
 
     '''获取配置文件中默认配置浏览器的方法'''
-    @property
+
     def get_default_driver(self):
         if self.__driver_name.lower()=='chrome':
             return self.get_chrome_driver
@@ -29,7 +29,7 @@ class Browser(object):
     '''获取谷歌驱动'''
     @property
     def get_chrome_driver(self):
-        chrome_driver_path=os.path.join(self.__chromedriver_path,'chromedriver')
+        chrome_driver_path=os.path.join(self.__chromedriver_path)
         driver=webdriver.Chrome(executable_path=chrome_driver_path)
         return driver
 
@@ -41,4 +41,4 @@ class Browser(object):
         return driver
 browser=Browser()
 if __name__=="__main__":
-    browser.get_default_driver
+    browser.get_default_driver()
