@@ -74,6 +74,24 @@ class ConfigUtils(object):
         value=self.conf.get('default','password')
         return value
 
+    '''截图路径封装'''
+    @property
+    def screen_shoot_path(self):
+        value=self.conf.get('default','screen_shot_path')
+        return value
+    '''默认登录用户名'''
+    @property
+    def default_username(self):
+        value = self.conf.get('default', 'default_username')
+        return value
+
+    '''默认登录密码'''
+    @property
+    def default_password(self):
+        value = self.conf.get('default', 'default_password')
+        return value
+
+
 
 conf=ConfigUtils()
 

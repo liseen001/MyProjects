@@ -20,7 +20,7 @@ class LoginPage(BasePage):
 
     '''代码逻辑：元素信息（字典），调用父类中find_element方法查找相关元素，然后调用父类input_operation方法进行输入操作'''
     '''输入登录账号操作'''
-    def inuput_username(self,username):
+    def input_username(self,username):
         self.input_operation(self.__username_inputbox,username)
 
     '''输入登录密码操作'''
@@ -36,6 +36,9 @@ class LoginPage(BasePage):
     def click_forget_password(self):
         self.click_operation(self.__forget_password)
 
+    def get_login_fail_alter_content(self):
+        return self.switch_to_alter()
+
 
 
 if __name__=="__main__":
@@ -44,11 +47,13 @@ if __name__=="__main__":
     loginpage.open_url(conf.zend_path)
     loginpage.set_browser_max()
     loginpage.browser_refresh()
-    loginpage.inuput_username(conf.zengtao_username)
+    loginpage.input_username(conf.zengtao_username)
     loginpage.input_password(conf.zentao_password)
-    loginpage.click_forget_password()
-    loginpage.set_browser_back()
-    loginpage.input_password(conf.zentao_password)
+    # loginpage.click_forget_password()
+    # loginpage.set_browser_back()
+    # loginpage.input_password(conf.zentao_password)
     loginpage.click_login()
+    '''截图'''
+    loginpage.screen_shoot_as_file()
     loginpage.set_browser_quit()
 
