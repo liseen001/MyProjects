@@ -3,7 +3,7 @@ import os
 import time
 from selenium import webdriver
 from  selenium.webdriver.common.action_chains import ActionChains
-from selenium.webdriver.support.expected_conditions import WebDriverException
+from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.alert import Alert
 from selenium.webdriver.common.by import By
 from PageObject.common.config_utils import conf
@@ -18,7 +18,7 @@ class BasePage(object):
         '''实例化driver'''
         self.driver=driver
 
-#浏览器封装操作
+    #浏览器封装操作
     '''打开浏览器地址'''
     def open_url(self,zendao_url):
         self.driver.get(zendao_url)
@@ -143,7 +143,7 @@ class BasePage(object):
     def switch_to_alter(self,action='accept',time_out=conf.time_out):
         '''等待时间'''
         self.wait(time_out)
-        WebDriverWait(self.driver,time_out).until(EC.alter_is_present())
+        WebDriverWait(self.driver,time_out).until(EC.alert_is_present())
         alter=self.driver.switch_to.alter()
         alter_text=alter.text
         if action=='accect':
@@ -154,7 +154,7 @@ class BasePage(object):
 
 #切换句柄的封装
     def get_window_handle(self):
-        return self.driver.cureent_window__handle
+        return self.driver.current_window_handle
 
     def switch_to_window_by_handle(self,window_handle):
         self.driver.switch_to.window(window_handle)
@@ -163,14 +163,14 @@ class BasePage(object):
         window_handles =self.driver.window_handles
         for window_handle in window_handles:
             '''页面包含title则切过去，如果不包含则不等待'''
-            if WebDriverWait(self.driver,conf.time_out).until(EC.title_contains('title')):
+            if WebDriverWait(self.driver,conf.time_out).until(EC.title_contains(title)):
                 self.driver.switch_to.window(window_handle)
                 break
     '''根据url切换'''
     def switch_to_window_by_url(self,url):
-        window_handles=self.driver.weindow_handles
+        window_handles=self.driver.window_handles
         for window_handle in window_handles:
-            if self.get_url==url:
+            if WebDriverWait(self.driver,conf.time_out).until(EC.url_contains(url)):
                 self.driver.switch_to.window(window_handle)
                 break
 #截图封装
@@ -182,7 +182,7 @@ class BasePage(object):
         else:
             screenshot_filepath=screenshot_path[0]
         now=time.strftime('%Y_%m_%d_%H_%M_%S')
-        screenshot_filepath=os.path.join(current_dir,screenshot_filepath,'UITest——%s'%now)
+        screenshot_filepath=os.path.join(current_dir,screenshot_filepath,'UITest——%s.png'%now)
         self.driver.get_screenshot_as_file(screenshot_filepath)
 
 

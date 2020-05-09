@@ -12,7 +12,7 @@ class FirstPage(BasePage):
         loginpage = LoginPage(driver)
         loginpage.open_url(conf.zend_path)
         loginpage.set_browser_max()
-        loginpage.inuput_username(conf.zengtao_username)
+        loginpage.input_username(conf.zengtao_username)
         loginpage.input_password(conf.zentao_password)
         loginpage.click_login()
 
@@ -26,3 +26,5 @@ class FirstPage(BasePage):
 if __name__=="__main__":
     firstpage = FirstPage(driver=browser.get_default_driver())
     firstpage.clck_homepage_button()
+    firstpage.screen_shoot_as_file()
+

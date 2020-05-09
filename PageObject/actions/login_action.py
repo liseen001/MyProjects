@@ -2,6 +2,7 @@
 from PageObject.element_infos.login.login_page import LoginPage
 from PageObject.element_infos.main.main_page import MainPage
 from PageObject.common.config_utils import conf
+from PageObject.common.browser import browser
 
 class LoginAction:
     def __init__(self,driver):
@@ -15,7 +16,7 @@ class LoginAction:
         self.login_page.input_password(password)
         self.login_page.click_login()
 
-    '''登录成功，登录成功后进入主页,不管'''
+    '''登录成功，登录成功后进入主页'''
     def login_success(self,username,passworld):
         self.login_action(username,passworld)
         return MainPage(self.login_page.driver)
@@ -32,3 +33,6 @@ class LoginAction:
     '''利用cookie登录，自己写'''
     def login_by_cookie(self):
         pass
+
+if __name__=="__main__":
+    pass
