@@ -55,12 +55,21 @@ class BasePage(object):
     def set_browser_quit(self):
         time.sleep(5)
         self.driver.close()
-        logutils.info('关闭浏览器')
+        logutils.info('退出浏览器')
+
+    def close_tab(self):
+        self.driver.close()
+        logutils.info('关闭当前tab页签')
 
     def set_browser_back(self):
         self.wait()
         self.driver.back()
         logutils.info('浏览器返回上一页')
+
+    def get_text(self,element_info):
+        element=self.find_element(element_info)
+        # logutils.info('获取元素文本信息%s'%(element_info))
+        return element.text
 
 #元素识别、操作、元素操封装
 
@@ -144,7 +153,7 @@ class BasePage(object):
         '''等待时间'''
         self.wait(time_out)
         WebDriverWait(self.driver,time_out).until(EC.alert_is_present())
-        alter=self.driver.switch_to.alter()
+        alter=self.driver.switch_to.alter
         alter_text=alter.text
         if action=='accect':
             alter.accept()

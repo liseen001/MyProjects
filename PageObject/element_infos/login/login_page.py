@@ -37,7 +37,7 @@ class LoginPage(BasePage):
         self.click_operation(self.__forget_password)
 
     def get_login_fail_alter_content(self):
-        return self.switch_to_alter()
+        return self.get_login_fail_alter_content()
 
 
 

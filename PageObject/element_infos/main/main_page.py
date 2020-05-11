@@ -5,6 +5,7 @@ from PageObject.common.base_page import BasePage
 from PageObject.common.config_utils import conf
 from PageObject.common.read_excel import ReadExcel
 from PageObject.element_infos.login.login_page import LoginPage
+from PageObject.common.browser import browser
 
 class MainPage(BasePage):
     def __init__(self,driver):
@@ -12,7 +13,7 @@ class MainPage(BasePage):
         loginpage=LoginPage(driver)
         loginpage.open_url(conf.zend_path)
         loginpage.set_browser_max()
-        loginpage.inuput_username(conf.zengtao_username)
+        loginpage.input_username(conf.zengtao_username)
         loginpage.input_password(conf.zentao_password)
         loginpage.click_login()
 
@@ -27,13 +28,14 @@ class MainPage(BasePage):
         self.__click_statistics_menu=mainpage_element['click_statistics_menu']
         self.__click_organazation_menu=mainpage_element['click_organazation_menu']
         self.__click_backstage_menu=mainpage_element['click_backstage_menu']
+        self.click_username_menu=mainpage_element['click_username_menu']
 
     '''点击我的地盘'''
     def click_myzone(self):
-        self.click_operation(self.__click_product_menu)
+        self.click_operation(self.__click_myzone)
     '''点击产品菜单'''
     def click_product_menu(self):
-        self.click_operation(self.__click_doc_menu)
+        self.click_operation(self.__click_product_menu)
     '''点击项目菜单'''
     def click_project_menu(self):
         self.click_operation(self.__click_project_menu)
@@ -56,6 +58,15 @@ class MainPage(BasePage):
     def click_backstage_menu(self):
         self.click_operation(self.__click_backstage_menu)
 
+    def click_username_menu(self):
+        self.click_operation(self.click_username_menu)
+
+    '''返回元素信息文本'''
+    def get_usrname(self):
+        value=self.get_text(self.click_username_menu)
+        return value
+
+mainpage = MainPage
 if __name__=="__main__":
     mainpage = MainPage(driver=browser.get_default_driver())
     mainpage.click_myzone()
@@ -67,6 +78,10 @@ if __name__=="__main__":
     mainpage.click_statistics_menu()
     mainpage.click_organazation_menu()
     mainpage.click_backstage_menu()
+    mainpage.click_username_menu()
+    value=mainpage.get_usrname()
+    print(value)
+
 
 
 
