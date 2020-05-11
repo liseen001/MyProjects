@@ -1,0 +1,5 @@
+/new/
+/report/*.html
+*.log
+/new.test.c
+.DS_Store
