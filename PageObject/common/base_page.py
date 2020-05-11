@@ -128,7 +128,7 @@ class BasePage(object):
             self.driver.execute_script(js_str,None)
 
 #鼠标键盘封装  建议代码思路：先判断操作系统类型
-    '''鼠标移动到元素上q去'''
+    '''鼠标移动到元素上去'''
     def move_to_element_be_mouse(self,element_info):
         element=self.find_element(element_info) #识别元素
         ActionChains(self.driver).move_to_element(element).perform()
