@@ -28,7 +28,7 @@ class LoginAction:
     '''登录失败,获取弹窗的内容'''
     def login_fail(self,username,password):
         self.login_action(username,password)
-        return self.login_page.switch_to_alter()
+        return self.login_page.get_login_fail_alter_content()
 
     '''利用cookie登录，自己写'''
     def login_by_cookie(self):

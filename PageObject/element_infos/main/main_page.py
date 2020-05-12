@@ -28,7 +28,8 @@ class MainPage(BasePage):
         self.__click_statistics_menu=mainpage_element['click_statistics_menu']
         self.__click_organazation_menu=mainpage_element['click_organazation_menu']
         self.__click_backstage_menu=mainpage_element['click_backstage_menu']
-        self.click_username_menu=mainpage_element['click_username_menu']
+        self.__click_username_menu=mainpage_element['click_username_menu']
+        self.__quit_login=mainpage_element['quit_login']
 
     '''点击我的地盘'''
     def click_myzone(self):
@@ -59,16 +60,18 @@ class MainPage(BasePage):
         self.click_operation(self.__click_backstage_menu)
 
     def click_username_menu(self):
-        self.click_operation(self.click_username_menu)
+        self.click_operation(self.__click_username_menu)
 
     '''返回元素信息文本'''
     def get_usrname(self):
-        value=self.get_text(self.click_username_menu)
+        value=self.get_text(self.__click_username_menu)
         return value
 
-mainpage = MainPage
+    def quit_zentao(self):
+        self.click_operation(self.__quit_login)
+
+mainpage = MainPage(driver=browser.get_default_driver())
 if __name__=="__main__":
-    mainpage = MainPage(driver=browser.get_default_driver())
     mainpage.click_myzone()
     mainpage.click_product_menu()
     mainpage.click_project_menu()
@@ -81,7 +84,7 @@ if __name__=="__main__":
     mainpage.click_username_menu()
     value=mainpage.get_usrname()
     print(value)
-
+    mainpage.quit_zentao()
 
 
 

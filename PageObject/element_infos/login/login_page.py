@@ -17,6 +17,7 @@ class LoginPage(BasePage):
         self.__keep_login=element['keep_login']
         self.__forget_password=element['forget_password']
         self.__language_select=element['language_select']
+        # self.__get_login_fail_alter_content=element['get_login_fail_alter_content']
 
     '''代码逻辑：元素信息（字典），调用父类中find_element方法查找相关元素，然后调用父类input_operation方法进行输入操作'''
     '''输入登录账号操作'''
@@ -37,7 +38,7 @@ class LoginPage(BasePage):
         self.click_operation(self.__forget_password)
 
     def get_login_fail_alter_content(self):
-        return self.get_login_fail_alter_content()
+        return self.switch_to_alter()
 
 
 
@@ -47,15 +48,15 @@ if __name__=="__main__":
     loginpage.open_url(conf.zend_path)
     loginpage.set_browser_max()
     loginpage.browser_refresh()
-    loginpage.input_username(conf.zengtao_username)
+    loginpage.input_username('dsfew')
     loginpage.screen_shoot_as_file()
-    loginpage.input_password(conf.zentao_password)
-    loginpage.click_forget_password()
-    loginpage.set_browser_back()
-    loginpage.screen_shoot_as_file()
-    loginpage.input_password(conf.zentao_password)
+    loginpage.input_password('sad24234')
     loginpage.click_login()
     '''截图'''
     loginpage.screen_shoot_as_file()
+    value=loginpage.get_login_fail_alter_content()
+    print(value)
     loginpage.set_browser_quit()
+
+
 

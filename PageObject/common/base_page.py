@@ -37,10 +37,6 @@ class BasePage(object):
         self.driver.refresh()
         logutils.info('刷新浏览器')
 
-    def title(self):
-        title=self.driver.title
-        logutils.info('获取浏览器网页标题title')
-        return title
 
     '''隐式等待时间封装，设置为配置文件中默认等时间为5'''
     def implicitly_wait(self,seconds=conf.time_out):
@@ -68,8 +64,12 @@ class BasePage(object):
 
     def get_text(self,element_info):
         element=self.find_element(element_info)
-        # logutils.info('获取元素文本信息%s'%(element_info))
+        logutils.info('获取元素文本信息%s'%element_info['element_name'])
         return element.text
+
+    def get_title(self):
+        value=self.driver.title
+        logutils.info('获取浏览器标题，标题是%s'%value)
 
 #元素识别、操作、元素操封装
 
@@ -153,9 +153,9 @@ class BasePage(object):
         '''等待时间'''
         self.wait(time_out)
         WebDriverWait(self.driver,time_out).until(EC.alert_is_present())
-        alter=self.driver.switch_to.alter
+        alter=self.driver.switch_to.alert
         alter_text=alter.text
-        if action=='accect':
+        if action=='accept':
             alter.accept()
         elif action=='dismiss':
             alter.dismiss()
