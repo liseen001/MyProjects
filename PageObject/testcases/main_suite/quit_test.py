@@ -24,6 +24,7 @@ class QuitTest(unittest.TestCase):
         quit_action=QuitAction(main_page.driver)
         login_page=quit_action.quit()
         actual_result=login_page.get_title()
+        print(actual_result)
         self.assertEqual(actual_result.__contains__('用户登录'),True,'test_quit用例执行失败')
 
 

@@ -70,6 +70,7 @@ class MainPage(BasePage):
     def quit_zentao(self):
         self.click_operation(self.__quit_login)
 
+
 mainpage = MainPage(driver=browser.get_default_driver())
 if __name__=="__main__":
     mainpage.click_myzone()
@@ -83,8 +84,12 @@ if __name__=="__main__":
     mainpage.click_backstage_menu()
     mainpage.click_username_menu()
     value=mainpage.get_usrname()
-    print(value)
+    value1=mainpage.get_title()
+    print(value,value1)
     mainpage.quit_zentao()
+    value2=mainpage.get_title()
+    print(value2)
+
 
 
 

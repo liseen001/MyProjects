@@ -70,6 +70,7 @@ class BasePage(object):
     def get_title(self):
         value=self.driver.title
         logutils.info('获取浏览器标题，标题是%s'%value)
+        return value
 
 #元素识别、操作、元素操封装
 
