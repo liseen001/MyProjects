@@ -40,6 +40,6 @@ class ReadExcel():
 
 
 if __name__=="__main__":
-    value=ReadExcel('main','main_page').get_element_info()
+    value=ReadExcel('product','add_product_page').get_element_info()
     for e in value.values():
         print(e)
