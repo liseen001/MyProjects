@@ -5,17 +5,20 @@ from PageObject.actions.login_action import LoginAction
 from PageObject.common.base_page import BasePage
 from PageObject.common.config_utils import conf
 from PageObject.element_infos.main.main_page import MainPage
-from PageObject.common.selenium_base_case import SeleniumBaseCase
 
-class LoginTest(SeleniumBaseCase):
+class LoginTest(unittest.TestCase):
     def setUp(self):
-        '''如果遇到需要单独写的东西可以在运行代码中的setup里面 刷新操作'''
-        '''调用父类的setUp'''
-        super().setUp()
-        print('helllo')
+        '''做一个basepage对象'''
+        self.base_page=BasePage(browser.get_default_driver())
+        '''浏览器最大化'''
+        self.base_page.set_browser_max()
+        '''隐式等待'''
+        self.base_page.implicitly_wait()
+        '''打开禅道网址'''
+        self.base_page.open_url(conf.zend_path)
 
-    # def tearDown(self):
-    #     self.base_page.close_tab()
+    def tearDown(self):
+        self.base_page.close_tab()
 
     '''登录成功'''
     def test_login_success(self):

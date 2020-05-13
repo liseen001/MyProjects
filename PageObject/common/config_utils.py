@@ -91,6 +91,17 @@ class ConfigUtils(object):
         value = self.conf.get('default', 'default_password')
         return value
 
+    '''定义的新的log路径'''
+    @property
+    def log_path(self):
+        value=self.conf.get('default','logs')
+        return value
+
+    '''日志级别'''
+    @property
+    def log_level(self):
+        log_level_value=int(self.conf.get('default','log_path'))
+        return log_level_value
 
 
 conf=ConfigUtils()

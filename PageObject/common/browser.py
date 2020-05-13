@@ -3,6 +3,7 @@ import os
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from PageObject.common.config_utils import conf
+from PageObject.common.log_utils import logutils
 
 current_path=os.path.dirname(__file__)
 chromedriver_path=os.path.join(current_path,conf.chromedriver_path)
@@ -38,6 +39,7 @@ class Browser(object):
     def get_firefox_driver(self):
         firefoxdriver_path=os.path.join(self.__firefoxdriver_path)
         driver=webdriver.Firefox(executable_path=firefoxdriver_path)
+        logutils.info('初始化并启动默认浏览器驱动')
         return driver
 browser=Browser()
 if __name__=="__main__":

@@ -2,6 +2,7 @@
 import os
 import xlrd
 from PageObject.common.config_utils import conf
+from PageObject.common.excel_utils import ExcelUtils
 
 current_path=os.path.dirname(__file__)
 '''调用配置类中元素信息表格路径的属性当方法'''
@@ -18,6 +19,8 @@ class ReadExcel():
         self.page_name=page_name
         '''定义行数对象'''
         self.row_count=self.sheet.nrows
+
+
 
     '''创建获取表格元素信息的方法'''
     def get_element_info(self):

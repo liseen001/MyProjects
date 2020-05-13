@@ -77,6 +77,13 @@ class BasePage(object):
     '''识别元素信息封装：核心  element_info=login中的元素的识别信息，可以让所有元素显示等待   补齐元素识别方法，加可以加异常'''
     '''封装查找元素的方法'''
     def find_element(self,element_info):
+        '''
+
+        根据提供的元素参数信息进行元素的查找，
+
+        :param element_info: 元素信息参数，字典类{。。。}
+        :return: element对象
+        '''
         '''locator_type  定位方式'''
         locator_type_name=element_info['locator_type']
         '''被定位到的元素'''
