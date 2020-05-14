@@ -17,6 +17,7 @@ class BasePage(object):
     def __init__(self,driver):
         '''实例化driver'''
         self.driver=driver
+        logutils.info('实例化浏览器驱动')
 
     #浏览器封装操作
     '''打开浏览器地址'''
@@ -120,10 +121,12 @@ class BasePage(object):
         self.wait()
         element=self.find_element(element_info)
         self.driver.switch_to.frame(element)
+        logutils.info('切换至frame框架')
 
     '''封装iframe切换框架方法二，先处理id和name，然后再切换框架'''
     def switch_to_frame_id_or_name(self,id_or_name):
         self.driver.switch_to.frame(id_or_name)
+        logutils.info('切换至frame框架')
 
     def switch_to_frame_by_element(self,element_info):
         element=self.find_element(element_info)
@@ -143,17 +146,20 @@ class BasePage(object):
             self.driver.execute_script(js_str)
         else:
             self.driver.execute_script(js_str,None)
+            logutils.info('执行js操作')
 
 #鼠标键盘封装  建议代码思路：先判断操作系统类型
     '''鼠标移动到元素上去'''
     def move_to_element_be_mouse(self,element_info):
         element=self.find_element(element_info) #识别元素
         ActionChains(self.driver).move_to_element(element).perform()
+        logutils.info('鼠标移动至元素%s'%(element))
 
     '''推荐写法'''
     def long_press_element(self,element_info):
         element = self.find_element(element_info)  # 识别元素
         ActionChains(self.driver).click_and_hold(element).pause(seconds=conf.time_out).reset_actions(element)
+        logutils.info('鼠标移动至元素%s' % (element))
 
 #alrer弹出窗的封装
     '''确定与取消按钮，默认点击确定'''
@@ -167,6 +173,7 @@ class BasePage(object):
             alter.accept()
         elif action=='dismiss':
             alter.dismiss()
+        logutils.info('切换至弹出框，返回弹出框文本信息%s'%(alter_text))
         return alter_text
 
 #切换句柄的封装
@@ -182,13 +189,16 @@ class BasePage(object):
             '''页面包含title则切过去，如果不包含则不等待'''
             if WebDriverWait(self.driver,conf.time_out).until(EC.title_contains(title)):
                 self.driver.switch_to.window(window_handle)
+                logutils.info('根据网页标题%s切换句柄' % (title))
                 break
+
     '''根据url切换'''
     def switch_to_window_by_url(self,url):
         window_handles=self.driver.window_handles
         for window_handle in window_handles:
             if WebDriverWait(self.driver,conf.time_out).until(EC.url_contains(url)):
                 self.driver.switch_to.window(window_handle)
+                logutils.info('根据url%s切换句柄' % (url))
                 break
 #截图封装
     '''根据时间截图的封装,元组类型的不定长阐述，长度为0则为默认路径，不为零则取第一个路径'''
@@ -201,6 +211,7 @@ class BasePage(object):
         now=time.strftime('%Y_%m_%d_%H_%M_%S')
         screenshot_filepath=os.path.join(current_dir,screenshot_filepath,'UITest——%s.png'%now)
         self.driver.get_screenshot_as_file(screenshot_filepath)
+        logutils.info('截图')
 
 
 if __name__=="__main__":

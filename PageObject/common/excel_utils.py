@@ -45,5 +45,12 @@ class ExcelUtils(object):
             all_excel_data.append(row_excel_data)
         return all_excel_data
 
-
     '''以字典的方式返回'''
+
+
+
+
+if __name__=="__main__":
+    value=ExcelUtils('main').get_sheet_data_by_list()
+    for e in value:
+        print(e)

@@ -1,0 +1,155 @@
+[2020-05-14 16:42:17,815] log_utils.py-><module> line:38 [INFO] : liseen
+[2020-05-14 16:48:32,174] remote_connection.py->_request line:388 [DEBUG] : POST http://127.0.0.1:62181/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "firefox", "acceptInsecureCerts": true}}, "desiredCapabilities": {"browserName": "firefox", "acceptInsecureCerts": true, "marionette": true}}
+[2020-05-14 16:48:32,175] connectionpool.py->_new_conn line:221 [DEBUG] : Starting new HTTP connection (1): 127.0.0.1:62181
+[2020-05-14 16:48:41,677] connectionpool.py->_make_request line:428 [DEBUG] : http://127.0.0.1:62181 "POST /session HTTP/1.1" 200 736
+[2020-05-14 16:48:41,678] remote_connection.py->_request line:440 [DEBUG] : Finished Request
+[2020-05-14 16:48:41,678] browser.py->get_firefox_driver line:42 [INFO] : 初始化并启动默认浏览器驱动
+[2020-05-14 16:48:41,678] base_page.py->__init__ line:20 [INFO] : 实例化浏览器驱动
+[2020-05-14 16:48:41,678] base_page.py->__init__ line:20 [INFO] : 实例化浏览器驱动
+[2020-05-14 16:48:41,708] remote_connection.py->_request line:388 [DEBUG] : POST http://127.0.0.1:62181/session/ba65f90e-93b9-491b-83b7-11826fb71f4d/url {"url": "http://106.53.50.202:8999/zentao6/www/user-login.html"}
+[2020-05-14 16:48:45,228] connectionpool.py->_make_request line:428 [DEBUG] : http://127.0.0.1:62181 "POST /session/ba65f90e-93b9-491b-83b7-11826fb71f4d/url HTTP/1.1" 200 14
+[2020-05-14 16:48:45,228] remote_connection.py->_request line:440 [DEBUG] : Finished Request
+[2020-05-14 16:48:45,249] base_page.py->open_url line:26 [INFO] : 打开浏览器path地址http://106.53.50.202:8999/zentao6/www/user-login.html
+[2020-05-14 16:48:45,249] remote_connection.py->_request line:388 [DEBUG] : POST http://127.0.0.1:62181/session/ba65f90e-93b9-491b-83b7-11826fb71f4d/window/maximize {}
+[2020-05-14 16:48:45,525] connectionpool.py->_make_request line:428 [DEBUG] : http://127.0.0.1:62181 "POST /session/ba65f90e-93b9-491b-83b7-11826fb71f4d/window/maximize HTTP/1.1" 200 52
+[2020-05-14 16:48:45,525] remote_connection.py->_request line:440 [DEBUG] : Finished Request
+[2020-05-14 16:48:45,525] base_page.py->set_browser_max line:31 [INFO] : 设置浏览器最大化
+[2020-05-14 16:48:45,525] remote_connection.py->_request line:388 [DEBUG] : POST http://127.0.0.1:62181/session/ba65f90e-93b9-491b-83b7-11826fb71f4d/element {"using": "xpath", "value": "//input[@name=\"account\"]"}
+[2020-05-14 16:48:45,532] connectionpool.py->_make_request line:428 [DEBUG] : http://127.0.0.1:62181 "POST /session/ba65f90e-93b9-491b-83b7-11826fb71f4d/element HTTP/1.1" 200 88
+[2020-05-14 16:48:45,533] remote_connection.py->_request line:440 [DEBUG] : Finished Request
+[2020-05-14 16:48:45,533] base_page.py->find_element line:104 [INFO] : [用户名输入框]元素识别成功
+[2020-05-14 16:48:45,533] remote_connection.py->_request line:388 [DEBUG] : POST http://127.0.0.1:62181/session/ba65f90e-93b9-491b-83b7-11826fb71f4d/element/cc6d3238-312a-45b8-9baa-ceaf3c93199f/value {"text": "admin", "value": ["a", "d", "m", "i", "n"], "id": "cc6d3238-312a-45b8-9baa-ceaf3c93199f"}
+[2020-05-14 16:48:45,565] connectionpool.py->_make_request line:428 [DEBUG] : http://127.0.0.1:62181 "POST /session/ba65f90e-93b9-491b-83b7-11826fb71f4d/element/cc6d3238-312a-45b8-9baa-ceaf3c93199f/value HTTP/1.1" 200 14
+[2020-05-14 16:48:45,565] remote_connection.py->_request line:440 [DEBUG] : Finished Request
+[2020-05-14 16:48:45,566] base_page.py->input_operation line:117 [INFO] : [用户名输入框]元素进行输入内容：admin
+[2020-05-14 16:48:45,566] remote_connection.py->_request line:388 [DEBUG] : POST http://127.0.0.1:62181/session/ba65f90e-93b9-491b-83b7-11826fb71f4d/element {"using": "xpath", "value": "//input[@name=\"password\"]"}
+[2020-05-14 16:48:45,574] connectionpool.py->_make_request line:428 [DEBUG] : http://127.0.0.1:62181 "POST /session/ba65f90e-93b9-491b-83b7-11826fb71f4d/element HTTP/1.1" 200 88
+[2020-05-14 16:48:45,574] remote_connection.py->_request line:440 [DEBUG] : Finished Request
+[2020-05-14 16:48:45,575] base_page.py->find_element line:104 [INFO] : [输入密码]元素识别成功
+[2020-05-14 16:48:45,575] remote_connection.py->_request line:388 [DEBUG] : POST http://127.0.0.1:62181/session/ba65f90e-93b9-491b-83b7-11826fb71f4d/element/f357f5b8-401f-4917-946d-1eeab5ba3c7b/value {"text": "P1666666,", "value": ["P", "1", "6", "6", "6", "6", "6", "6", ","], "id": "f357f5b8-401f-4917-946d-1eeab5ba3c7b"}
+[2020-05-14 16:48:45,616] connectionpool.py->_make_request line:428 [DEBUG] : http://127.0.0.1:62181 "POST /session/ba65f90e-93b9-491b-83b7-11826fb71f4d/element/f357f5b8-401f-4917-946d-1eeab5ba3c7b/value HTTP/1.1" 200 14
+[2020-05-14 16:48:45,616] remote_connection.py->_request line:440 [DEBUG] : Finished Request
+[2020-05-14 16:48:45,616] base_page.py->input_operation line:117 [INFO] : [输入密码]元素进行输入内容：P1666666,
+[2020-05-14 16:48:45,616] remote_connection.py->_request line:388 [DEBUG] : POST http://127.0.0.1:62181/session/ba65f90e-93b9-491b-83b7-11826fb71f4d/element {"using": "xpath", "value": "//button[@id=\"submit\"]"}
+[2020-05-14 16:48:45,627] connectionpool.py->_make_request line:428 [DEBUG] : http://127.0.0.1:62181 "POST /session/ba65f90e-93b9-491b-83b7-11826fb71f4d/element HTTP/1.1" 200 88
+[2020-05-14 16:48:45,627] remote_connection.py->_request line:440 [DEBUG] : Finished Request
+[2020-05-14 16:48:45,627] base_page.py->find_element line:104 [INFO] : [登录按钮]元素识别成功
+[2020-05-14 16:48:45,627] remote_connection.py->_request line:388 [DEBUG] : POST http://127.0.0.1:62181/session/ba65f90e-93b9-491b-83b7-11826fb71f4d/element/36ebfd91-606a-46f3-a8e1-aeef9f0bbe98/click {"id": "36ebfd91-606a-46f3-a8e1-aeef9f0bbe98"}
+[2020-05-14 16:48:45,857] connectionpool.py->_make_request line:428 [DEBUG] : http://127.0.0.1:62181 "POST /session/ba65f90e-93b9-491b-83b7-11826fb71f4d/element/36ebfd91-606a-46f3-a8e1-aeef9f0bbe98/click HTTP/1.1" 200 14
+[2020-05-14 16:48:45,857] remote_connection.py->_request line:440 [DEBUG] : Finished Request
+[2020-05-14 16:48:45,858] base_page.py->click_operation line:111 [INFO] : [登录按钮]元素进行点击操作
+[2020-05-14 16:48:45,905] selenium_base_case.py->setUpClass line:11 [INFO] : 
+[2020-05-14 16:48:45,906] selenium_base_case.py->setUpClass line:12 [INFO] : ==============测试类开始执行==============
+[2020-05-14 16:48:45,906] selenium_base_case.py->setUp line:16 [INFO] : -------------测试方法开始执行-------------
+[2020-05-14 16:48:48,958] remote_connection.py->_request line:388 [DEBUG] : POST http://127.0.0.1:62250/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "firefox", "acceptInsecureCerts": true}}, "desiredCapabilities": {"browserName": "firefox", "acceptInsecureCerts": true, "marionette": true}}
+[2020-05-14 16:48:48,958] connectionpool.py->_new_conn line:221 [DEBUG] : Starting new HTTP connection (1): 127.0.0.1:62250
+[2020-05-14 16:48:56,413] connectionpool.py->_make_request line:428 [DEBUG] : http://127.0.0.1:62250 "POST /session HTTP/1.1" 200 736
+[2020-05-14 16:48:56,414] remote_connection.py->_request line:440 [DEBUG] : Finished Request
+[2020-05-14 16:48:56,414] browser.py->get_firefox_driver line:42 [INFO] : 初始化并启动默认浏览器驱动
+[2020-05-14 16:48:56,414] base_page.py->__init__ line:20 [INFO] : 实例化浏览器驱动
+[2020-05-14 16:48:56,414] remote_connection.py->_request line:388 [DEBUG] : POST http://127.0.0.1:62250/session/9114422c-5faf-4fd4-b89e-e9629051019c/window/maximize {}
+[2020-05-14 16:48:56,689] connectionpool.py->_make_request line:428 [DEBUG] : http://127.0.0.1:62250 "POST /session/9114422c-5faf-4fd4-b89e-e9629051019c/window/maximize HTTP/1.1" 200 52
+[2020-05-14 16:48:56,690] remote_connection.py->_request line:440 [DEBUG] : Finished Request
+[2020-05-14 16:48:56,690] base_page.py->set_browser_max line:31 [INFO] : 设置浏览器最大化
+[2020-05-14 16:48:56,690] remote_connection.py->_request line:388 [DEBUG] : POST http://127.0.0.1:62250/session/9114422c-5faf-4fd4-b89e-e9629051019c/timeouts {"implicit": 20000}
+[2020-05-14 16:48:56,696] connectionpool.py->_make_request line:428 [DEBUG] : http://127.0.0.1:62250 "POST /session/9114422c-5faf-4fd4-b89e-e9629051019c/timeouts HTTP/1.1" 200 14
+[2020-05-14 16:48:56,696] remote_connection.py->_request line:440 [DEBUG] : Finished Request
+[2020-05-14 16:48:56,697] base_page.py->implicitly_wait line:45 [INFO] : 设置隐式等待时间为5秒
+[2020-05-14 16:48:56,697] remote_connection.py->_request line:388 [DEBUG] : POST http://127.0.0.1:62250/session/9114422c-5faf-4fd4-b89e-e9629051019c/url {"url": "http://106.53.50.202:8999/zentao6/www/user-login.html"}
+[2020-05-14 16:49:02,723] connectionpool.py->_make_request line:428 [DEBUG] : http://127.0.0.1:62250 "POST /session/9114422c-5faf-4fd4-b89e-e9629051019c/url HTTP/1.1" 200 14
+[2020-05-14 16:49:02,724] remote_connection.py->_request line:440 [DEBUG] : Finished Request
+[2020-05-14 16:49:02,724] base_page.py->open_url line:26 [INFO] : 打开浏览器path地址http://106.53.50.202:8999/zentao6/www/user-login.html
+[2020-05-14 16:49:02,724] base_page.py->__init__ line:20 [INFO] : 实例化浏览器驱动
+[2020-05-14 16:49:02,729] remote_connection.py->_request line:388 [DEBUG] : POST http://127.0.0.1:62250/session/9114422c-5faf-4fd4-b89e-e9629051019c/element {"using": "xpath", "value": "//input[@name=\"account\"]"}
+[2020-05-14 16:49:02,735] connectionpool.py->_make_request line:428 [DEBUG] : http://127.0.0.1:62250 "POST /session/9114422c-5faf-4fd4-b89e-e9629051019c/element HTTP/1.1" 200 88
+[2020-05-14 16:49:02,735] remote_connection.py->_request line:440 [DEBUG] : Finished Request
+[2020-05-14 16:49:02,735] base_page.py->find_element line:104 [INFO] : [用户名输入框]元素识别成功
+[2020-05-14 16:49:02,735] remote_connection.py->_request line:388 [DEBUG] : POST http://127.0.0.1:62250/session/9114422c-5faf-4fd4-b89e-e9629051019c/element/9d15e2a2-dfb6-475f-acc0-915e6a3676cd/value {"text": "admin", "value": ["a", "d", "m", "i", "n"], "id": "9d15e2a2-dfb6-475f-acc0-915e6a3676cd"}
+[2020-05-14 16:49:02,770] connectionpool.py->_make_request line:428 [DEBUG] : http://127.0.0.1:62250 "POST /session/9114422c-5faf-4fd4-b89e-e9629051019c/element/9d15e2a2-dfb6-475f-acc0-915e6a3676cd/value HTTP/1.1" 200 14
+[2020-05-14 16:49:02,770] remote_connection.py->_request line:440 [DEBUG] : Finished Request
+[2020-05-14 16:49:02,771] base_page.py->input_operation line:117 [INFO] : [用户名输入框]元素进行输入内容：admin
+[2020-05-14 16:49:02,772] remote_connection.py->_request line:388 [DEBUG] : POST http://127.0.0.1:62250/session/9114422c-5faf-4fd4-b89e-e9629051019c/element {"using": "xpath", "value": "//input[@name=\"password\"]"}
+[2020-05-14 16:49:02,777] connectionpool.py->_make_request line:428 [DEBUG] : http://127.0.0.1:62250 "POST /session/9114422c-5faf-4fd4-b89e-e9629051019c/element HTTP/1.1" 200 88
+[2020-05-14 16:49:02,778] remote_connection.py->_request line:440 [DEBUG] : Finished Request
+[2020-05-14 16:49:02,778] base_page.py->find_element line:104 [INFO] : [输入密码]元素识别成功
+[2020-05-14 16:49:02,778] remote_connection.py->_request line:388 [DEBUG] : POST http://127.0.0.1:62250/session/9114422c-5faf-4fd4-b89e-e9629051019c/element/909a3873-5fe5-4330-a2a5-5bbb60fe3157/value {"text": "P1666666,", "value": ["P", "1", "6", "6", "6", "6", "6", "6", ","], "id": "909a3873-5fe5-4330-a2a5-5bbb60fe3157"}
+[2020-05-14 16:49:02,812] connectionpool.py->_make_request line:428 [DEBUG] : http://127.0.0.1:62250 "POST /session/9114422c-5faf-4fd4-b89e-e9629051019c/element/909a3873-5fe5-4330-a2a5-5bbb60fe3157/value HTTP/1.1" 200 14
+[2020-05-14 16:49:02,813] remote_connection.py->_request line:440 [DEBUG] : Finished Request
+[2020-05-14 16:49:02,813] base_page.py->input_operation line:117 [INFO] : [输入密码]元素进行输入内容：P1666666,
+[2020-05-14 16:49:02,813] remote_connection.py->_request line:388 [DEBUG] : POST http://127.0.0.1:62250/session/9114422c-5faf-4fd4-b89e-e9629051019c/element {"using": "xpath", "value": "//button[@id=\"submit\"]"}
+[2020-05-14 16:49:02,819] connectionpool.py->_make_request line:428 [DEBUG] : http://127.0.0.1:62250 "POST /session/9114422c-5faf-4fd4-b89e-e9629051019c/element HTTP/1.1" 200 88
+[2020-05-14 16:49:02,819] remote_connection.py->_request line:440 [DEBUG] : Finished Request
+[2020-05-14 16:49:02,819] base_page.py->find_element line:104 [INFO] : [登录按钮]元素识别成功
+[2020-05-14 16:49:02,819] remote_connection.py->_request line:388 [DEBUG] : POST http://127.0.0.1:62250/session/9114422c-5faf-4fd4-b89e-e9629051019c/element/7b5b7de2-820d-443c-9908-3aaac940e538/click {"id": "7b5b7de2-820d-443c-9908-3aaac940e538"}
+[2020-05-14 16:49:03,051] connectionpool.py->_make_request line:428 [DEBUG] : http://127.0.0.1:62250 "POST /session/9114422c-5faf-4fd4-b89e-e9629051019c/element/7b5b7de2-820d-443c-9908-3aaac940e538/click HTTP/1.1" 200 14
+[2020-05-14 16:49:03,051] remote_connection.py->_request line:440 [DEBUG] : Finished Request
+[2020-05-14 16:49:03,052] base_page.py->click_operation line:111 [INFO] : [登录按钮]元素进行点击操作
+[2020-05-14 16:49:03,052] base_page.py->__init__ line:20 [INFO] : 实例化浏览器驱动
+[2020-05-14 16:49:03,052] base_page.py->__init__ line:20 [INFO] : 实例化浏览器驱动
+[2020-05-14 16:49:03,057] remote_connection.py->_request line:388 [DEBUG] : POST http://127.0.0.1:62250/session/9114422c-5faf-4fd4-b89e-e9629051019c/url {"url": "http://106.53.50.202:8999/zentao6/www/user-login.html"}
+[2020-05-14 16:49:18,076] connectionpool.py->_make_request line:428 [DEBUG] : http://127.0.0.1:62250 "POST /session/9114422c-5faf-4fd4-b89e-e9629051019c/url HTTP/1.1" 200 14
+[2020-05-14 16:49:18,077] remote_connection.py->_request line:440 [DEBUG] : Finished Request
+[2020-05-14 16:49:18,077] base_page.py->open_url line:26 [INFO] : 打开浏览器path地址http://106.53.50.202:8999/zentao6/www/user-login.html
+[2020-05-14 16:49:18,077] remote_connection.py->_request line:388 [DEBUG] : POST http://127.0.0.1:62250/session/9114422c-5faf-4fd4-b89e-e9629051019c/window/maximize {}
+[2020-05-14 16:49:18,082] connectionpool.py->_make_request line:428 [DEBUG] : http://127.0.0.1:62250 "POST /session/9114422c-5faf-4fd4-b89e-e9629051019c/window/maximize HTTP/1.1" 200 52
+[2020-05-14 16:49:18,083] remote_connection.py->_request line:440 [DEBUG] : Finished Request
+[2020-05-14 16:49:18,083] base_page.py->set_browser_max line:31 [INFO] : 设置浏览器最大化
+[2020-05-14 16:49:18,083] remote_connection.py->_request line:388 [DEBUG] : POST http://127.0.0.1:62250/session/9114422c-5faf-4fd4-b89e-e9629051019c/element {"using": "xpath", "value": "//input[@name=\"account\"]"}
+[2020-05-14 16:49:38,112] connectionpool.py->_make_request line:428 [DEBUG] : http://127.0.0.1:62250 "POST /session/9114422c-5faf-4fd4-b89e-e9629051019c/element HTTP/1.1" 404 304
+[2020-05-14 16:49:38,113] remote_connection.py->_request line:440 [DEBUG] : Finished Request
+[2020-05-14 16:49:38,614] selenium_base_case.py->tearDown line:23 [INFO] : -------------测试方法执行完毕-------------
+[2020-05-14 16:49:38,614] remote_connection.py->_request line:388 [DEBUG] : DELETE http://127.0.0.1:62250/session/9114422c-5faf-4fd4-b89e-e9629051019c/window {}
+[2020-05-14 16:49:40,483] connectionpool.py->_make_request line:428 [DEBUG] : http://127.0.0.1:62250 "DELETE /session/9114422c-5faf-4fd4-b89e-e9629051019c/window HTTP/1.1" 200 12
+[2020-05-14 16:49:40,483] remote_connection.py->_request line:440 [DEBUG] : Finished Request
+[2020-05-14 16:49:40,483] base_page.py->close_tab line:59 [INFO] : 关闭当前tab页签
+[2020-05-14 16:49:40,518] selenium_base_case.py->tearDownClass line:29 [INFO] : ==============测试类执行完毕==============
+[2020-05-14 16:53:21,488] browser.py->get_firefox_driver line:42 [INFO] : 初始化并启动默认浏览器驱动
+[2020-05-14 16:53:21,491] base_page.py->__init__ line:20 [INFO] : 实例化浏览器驱动
+[2020-05-14 16:53:21,492] base_page.py->__init__ line:20 [INFO] : 实例化浏览器驱动
+[2020-05-14 16:53:31,377] base_page.py->open_url line:26 [INFO] : 打开浏览器path地址http://106.53.50.202:8999/zentao6/www/user-login.html
+[2020-05-14 16:53:31,688] base_page.py->set_browser_max line:31 [INFO] : 设置浏览器最大化
+[2020-05-14 16:53:31,694] base_page.py->find_element line:104 [INFO] : [用户名输入框]元素识别成功
+[2020-05-14 16:53:31,721] base_page.py->input_operation line:117 [INFO] : [用户名输入框]元素进行输入内容：admin
+[2020-05-14 16:53:31,732] base_page.py->find_element line:104 [INFO] : [输入密码]元素识别成功
+[2020-05-14 16:53:31,758] base_page.py->input_operation line:117 [INFO] : [输入密码]元素进行输入内容：P1666666,
+[2020-05-14 16:53:31,764] base_page.py->find_element line:104 [INFO] : [登录按钮]元素识别成功
+[2020-05-14 16:53:31,988] base_page.py->click_operation line:111 [INFO] : [登录按钮]元素进行点击操作
+[2020-05-14 16:53:31,996] selenium_base_case.py->setUpClass line:11 [INFO] : 
+[2020-05-14 16:53:31,996] selenium_base_case.py->setUpClass line:12 [INFO] : ==============测试类开始执行==============
+[2020-05-14 16:53:31,997] selenium_base_case.py->setUp line:16 [INFO] : -------------测试方法开始执行-------------
+[2020-05-14 16:53:42,453] browser.py->get_firefox_driver line:42 [INFO] : 初始化并启动默认浏览器驱动
+[2020-05-14 16:53:42,453] base_page.py->__init__ line:20 [INFO] : 实例化浏览器驱动
+[2020-05-14 16:53:42,756] base_page.py->set_browser_max line:31 [INFO] : 设置浏览器最大化
+[2020-05-14 16:53:42,760] base_page.py->implicitly_wait line:45 [INFO] : 设置隐式等待时间为5秒
+[2020-05-14 16:53:48,066] base_page.py->open_url line:26 [INFO] : 打开浏览器path地址http://106.53.50.202:8999/zentao6/www/user-login.html
+[2020-05-14 16:53:48,066] base_page.py->__init__ line:20 [INFO] : 实例化浏览器驱动
+[2020-05-14 16:53:48,079] base_page.py->find_element line:104 [INFO] : [用户名输入框]元素识别成功
+[2020-05-14 16:53:48,109] base_page.py->input_operation line:117 [INFO] : [用户名输入框]元素进行输入内容：sss
+[2020-05-14 16:53:48,117] base_page.py->find_element line:104 [INFO] : [输入密码]元素识别成功
+[2020-05-14 16:53:48,156] base_page.py->input_operation line:117 [INFO] : [输入密码]元素进行输入内容：213123
+[2020-05-14 16:53:48,163] base_page.py->find_element line:104 [INFO] : [登录按钮]元素识别成功
+[2020-05-14 16:53:48,400] base_page.py->click_operation line:111 [INFO] : [登录按钮]元素进行点击操作
+[2020-05-14 16:54:08,401] base_page.py->wait line:50 [INFO] : 固定等待时间为20.0
+[2020-05-14 16:54:08,463] base_page.py->switch_to_alter line:176 [INFO] : 切换至弹出框，返回弹出框文本信息登录失败，请检查您的用户名或密码是否填写正确。
+[2020-05-14 16:54:08,463] selenium_base_case.py->tearDown line:23 [INFO] : -------------测试方法执行完毕-------------
+[2020-05-14 16:54:10,551] base_page.py->close_tab line:59 [INFO] : 关闭当前tab页签
+[2020-05-14 16:54:10,551] selenium_base_case.py->setUp line:16 [INFO] : -------------测试方法开始执行-------------
+[2020-05-14 16:54:21,432] browser.py->get_firefox_driver line:42 [INFO] : 初始化并启动默认浏览器驱动
+[2020-05-14 16:54:21,433] base_page.py->__init__ line:20 [INFO] : 实例化浏览器驱动
+[2020-05-14 16:54:21,707] base_page.py->set_browser_max line:31 [INFO] : 设置浏览器最大化
+[2020-05-14 16:54:21,709] base_page.py->implicitly_wait line:45 [INFO] : 设置隐式等待时间为5秒
+[2020-05-14 16:54:25,450] base_page.py->open_url line:26 [INFO] : 打开浏览器path地址http://106.53.50.202:8999/zentao6/www/user-login.html
+[2020-05-14 16:54:25,451] base_page.py->__init__ line:20 [INFO] : 实例化浏览器驱动
+[2020-05-14 16:54:25,463] base_page.py->find_element line:104 [INFO] : [用户名输入框]元素识别成功
+[2020-05-14 16:54:25,491] base_page.py->input_operation line:117 [INFO] : [用户名输入框]元素进行输入内容：admin
+[2020-05-14 16:54:25,498] base_page.py->find_element line:104 [INFO] : [输入密码]元素识别成功
+[2020-05-14 16:54:25,536] base_page.py->input_operation line:117 [INFO] : [输入密码]元素进行输入内容：P1666666,
+[2020-05-14 16:54:25,545] base_page.py->find_element line:104 [INFO] : [登录按钮]元素识别成功
+[2020-05-14 16:54:25,769] base_page.py->click_operation line:111 [INFO] : [登录按钮]元素进行点击操作
+[2020-05-14 16:54:25,770] base_page.py->__init__ line:20 [INFO] : 实例化浏览器驱动
+[2020-05-14 16:54:25,770] base_page.py->__init__ line:20 [INFO] : 实例化浏览器驱动
+[2020-05-14 16:54:28,774] base_page.py->open_url line:26 [INFO] : 打开浏览器path地址http://106.53.50.202:8999/zentao6/www/user-login.html
+[2020-05-14 16:54:28,779] base_page.py->set_browser_max line:31 [INFO] : 设置浏览器最大化
+[2020-05-14 16:54:49,299] selenium_base_case.py->tearDown line:23 [INFO] : -------------测试方法执行完毕-------------
+[2020-05-14 16:54:51,364] base_page.py->close_tab line:59 [INFO] : 关闭当前tab页签
+[2020-05-14 16:54:51,369] selenium_base_case.py->tearDownClass line:29 [INFO] : ==============测试类执行完毕==============

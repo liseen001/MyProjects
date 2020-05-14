@@ -94,18 +94,17 @@ class ConfigUtils(object):
     '''定义的新的log路径'''
     @property
     def log_path(self):
-        value=self.conf.get('default','logs')
+        value=self.conf.get('default','log_path')
         return value
 
     '''日志级别'''
     @property
     def log_level(self):
-        log_level_value=int(self.conf.get('default','log_path'))
+        log_level_value=int(self.conf.get('default','log_level'))
         return log_level_value
 
 
 conf=ConfigUtils()
 
 if __name__=="__main__":
-    e=conf.zend_path
-    print(e)
+    print(conf.log_level)
