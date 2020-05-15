@@ -1,5 +1,5 @@
 # -*- coding utf-8 -*-
-from PageObject.common.browser import browser
+from PageObject.common.browser import Browser
 from PageObject.common.config_utils import conf
 from PageObject.common.read_excel import ReadExcel
 from PageObject.common.base_page import BasePage
@@ -43,7 +43,7 @@ class LoginPage(BasePage):
 
 
 if __name__=="__main__":
-    loginpage = LoginPage(driver=browser.get_default_driver())
+    loginpage = LoginPage(driver=Browser().get_default_driver())
     '''调用父类中打开浏览器的方法，传入url'''
     loginpage.open_url(conf.zend_path)
     loginpage.set_browser_max()

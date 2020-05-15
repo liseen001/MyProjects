@@ -12,13 +12,16 @@ class SeleniumBaseCase(unittest.TestCase):
         logutils.info('==============测试类开始执行==============')
         cls.url=conf.zend_path
 
+    '''测试执行之前准备工作'''
     def setUp(self):
         logutils.info('-------------测试方法开始执行-------------')
-        self.base_page=BasePage(Browser().get_default_driver())
-        self.base_page.set_browser_max()
-        self.base_page.implicitly_wait()
-        self.base_page.open_url(self.url)
+        self.base_page=BasePage(Browser().get_default_driver())   #实例化base_page对象
+        self.base_page.set_browser_max()   #设置浏览器最大化
+        self.base_page.implicitly_wait()   #设置隐式等待时间,base_page
+        self.base_page.open_url(self.url)  #打开浏览器
 
+
+    '''测试方法执行完毕后关闭浏览器'''
     def tearDown(self):
         logutils.info('-------------测试方法执行完毕-------------')
         self.base_page.close_tab()

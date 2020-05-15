@@ -2,7 +2,7 @@
 from PageObject.element_infos.login.login_page import LoginPage
 from PageObject.element_infos.main.main_page import MainPage
 from PageObject.common.config_utils import conf
-from PageObject.common.browser import browser
+
 
 class LoginAction:
     def __init__(self,driver):
@@ -34,5 +34,3 @@ class LoginAction:
     def login_by_cookie(self):
         pass
 
-if __name__=="__main__":
-    pass

@@ -41,6 +41,7 @@ class Browser(object):
         driver=webdriver.Firefox(executable_path=firefoxdriver_path)
         logutils.info('初始化并启动默认浏览器驱动')
         return driver
-browser=Browser()
+
+browser = Browser()
 if __name__=="__main__":
     browser.get_default_driver()

@@ -51,6 +51,6 @@ class ExcelUtils(object):
 
 
 if __name__=="__main__":
-    value=ExcelUtils('main').get_sheet_data_by_list()
+    value=ExcelUtils('../data/element_infos.xls','product').get_sheet_data_by_list()
     for e in value:
         print(e)

@@ -1,6 +1,6 @@
 # -*- coding utf-8 -*-
 import os
-from PageObject.common.browser import browser
+
 from PageObject.common.base_page import BasePage
 from PageObject.common.config_utils import conf
 from PageObject.common.read_excel import ReadExcel
