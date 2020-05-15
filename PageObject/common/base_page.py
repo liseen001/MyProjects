@@ -22,8 +22,11 @@ class BasePage(object):
     #浏览器封装操作
     '''打开浏览器地址'''
     def open_url(self,zendao_url):
-        self.driver.get(zendao_url)
-        logutils.info('打开浏览器path地址%s'%zendao_url)
+        try:
+            self.driver.get(zendao_url)
+            logutils.info('打开浏览器path地址%s'%zendao_url)
+        except Exception as e:
+            logutils.error('不能打开指定的测试网址，原因是：%s'%e.__str__())
 
     '''设置浏览器最大化并打印日志'''
     def set_browser_max(self):
@@ -76,7 +79,7 @@ class BasePage(object):
 #元素识别、操作、元素操封装
 
     '''识别元素信息封装：核心  element_info=login中的元素的识别信息，可以让所有元素显示等待   补齐元素识别方法，加可以加异常'''
-    '''封装查找元素的方法'''
+    #封装查找元素的方法
     def find_element(self,element_info):
         '''
 
@@ -85,30 +88,41 @@ class BasePage(object):
         :param element_info: 元素信息参数，字典类{。。。}
         :return: element对象
         '''
-        '''locator_type  定位方式'''
-        locator_type_name=element_info['locator_type']
-        '''被定位到的元素'''
-        locator_value_info=element_info['locator_value']
-        '''超时花间'''
-        locator_timeout=element_info['timeout']
-        if locator_type_name=='id':
-            locator_type=By.ID
-        elif locator_type_name=='class':
-            locator_type=By.CLASS_NAME
-        elif locator_type_name=='xpath':
-            locator_type=By.XPATH
-        elif locator_type_name=='text':
-            locator_type=By.LINK_TEXT
-        '''self.driver传入浏览器，等待时间 locator_type：定位方式，locator_value_info：元素信息 '''
-        element=WebDriverWait(self.driver,locator_timeout).until(lambda x:x.find_element(locator_type,locator_value_info))
-        logutils.info('[%s]元素识别成功'%element_info['element_name'])
+        try:
+            '''locator_type  定位方式'''
+            locator_type_name=element_info['locator_type']
+            '''被定位到的元素'''
+            locator_value_info=element_info['locator_value']
+            '''超时花间'''
+            locator_timeout=element_info['timeout']
+            if locator_type_name=='id':
+                locator_type=By.ID
+            elif locator_type_name=='class':
+                locator_type=By.CLASS_NAME
+            elif locator_type_name=='xpath':
+                locator_type=By.XPATH
+            elif locator_type_name=='text':
+                locator_type=By.LINK_TEXT
+            '''self.driver传入浏览器，等待时间 locator_type：定位方式，locator_value_info：元素信息 '''
+            element=WebDriverWait(self.driver,locator_timeout)\
+                .until(lambda x:x.find_element(locator_type,locator_value_info))
+            logutils.info('[%s]元素识别成功'%element_info['element_name'])
+        except Exception as e:
+            logutils.error('[%s]元素不能识别，原因是%s'%(element_info['element_name'],e.__str__()))
+        # finally:
+        #     if element is None:
+        #         element=''
         return element
 
     '''点击操作的封装  element_info  元素信息'''
     def click_operation(self,element_info):
         element=self.find_element(element_info)
-        element.click()
-        logutils.info('[%s]元素进行点击操作'%element_info['element_name'])
+        try:
+            element.click()
+            logutils.info('[%s]元素进行点击操作'%element_info['element_name'])
+        except Exception as e:
+            logutils.error('[%s]元素点击操作失败，原因是%s'%e.__str__())
+            self.screen_shoot_as_file()
 
     '''输入操作封装  conten:输入内容'''
     def input_operation(self,element_info,content):
