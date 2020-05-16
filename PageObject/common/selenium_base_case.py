@@ -10,7 +10,7 @@ class SeleniumBaseCase(unittest.TestCase):
     def setUpClass(cls):
         logutils.info('')
         logutils.info('==============测试类开始执行==============')
-        cls.url=conf.zend_path
+        cls.url=conf.url
 
     '''测试执行之前准备工作'''
     def setUp(self):
@@ -26,6 +26,7 @@ class SeleniumBaseCase(unittest.TestCase):
         logutils.info('-------------测试方法执行完毕-------------')
         self.base_page.close_tab()
         '''可以加测试用例失败截图'''
+        self.base_page.screen_shoot_as_file()
 
     @classmethod
     def tearDownClass(cls):

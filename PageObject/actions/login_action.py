@@ -4,6 +4,7 @@ from PageObject.element_infos.main.main_page import MainPage
 from PageObject.common.config_utils import conf
 
 
+
 class LoginAction:
     def __init__(self,driver):
         '''实例化登录页面'''
