@@ -14,6 +14,7 @@ class LoginTest(SeleniumBaseCase):
         super().setUp()
 
     '''登录成功'''
+    @unittest.skipIf(True,'')  #判断测试用例是否执行,满足条件则跳过执行用例
     def test_login_success(self):
         login_action=LoginAction(self.base_page.driver)
         mainpage=login_action.login_success(conf.zengtao_username,conf.default_password)

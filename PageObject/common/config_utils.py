@@ -94,10 +94,14 @@ class ConfigUtils(object):
         return testdata_path_value
     @property
     def case_path(self):
-        case_path_value = self.cfg.get('default', 'case_path')
+        case_path_value = self.conf.get('default', 'case_path')
         return case_path_value
+    @property
+    def report_path(self):
+        report_path_value=self.conf.get('default', 'report_path')
+        return report_path_value
 
 
 conf=ConfigUtils()
 if __name__=="__main__":
-    print(conf.driver_name,conf.driver_path)
+    print(conf.case_path,conf.report_path)

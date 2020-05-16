@@ -23,10 +23,16 @@ class SeleniumBaseCase(unittest.TestCase):
 
     '''测试方法执行完毕后关闭浏览器'''
     def tearDown(self):
-        logutils.info('-------------测试方法执行完毕-------------')
+        #判断测试用例失败截图，如果测试用例执行失败就截图
+        # if len(self._outcome.errors)>=1:
+        #     self.base_page.screen_shoot_as_file()
+        errors = self._outcome.errors
+        for test,exc_info in errors:
+            if exc_info:
+                self.base_page.wait(3)
+                self.base_page.screen_shoot_as_file()
         self.base_page.close_tab()
-        '''可以加测试用例失败截图'''
-        self.base_page.screen_shoot_as_file()
+        logutils.info('-------------测试方法执行完毕-------------')
 
     @classmethod
     def tearDownClass(cls):

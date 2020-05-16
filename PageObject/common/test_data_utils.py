@@ -29,7 +29,7 @@ class TestDataUtils:
         for i in range(1,self.excel_rows):  #1,2
             test_data_info = {}
             test_data_info['test_name'] = self.excel_data[i][1]
-            test_data_info['isnot'] = False if self.excel_data[i][2].__eq__('是') else True
+            test_data_info['isnot'] = False if self.excel_data[i][2].__eq__('是') else True  #三目运算符判断是否执行时返回的True或False
             test_data_info['excepted_result'] = self.excel_data[i][3]
             test_parameter = {}
             for j in range(4, len(self.excel_data[i])):
@@ -41,7 +41,7 @@ class TestDataUtils:
         return test_data_infos
 
 if __name__ == '__main__':
-    infos = TestDataUtils('LoginTest', 'login_test').convert_exceldata_to_testdata()
+    infos = TestDataUtils('login_suite', 'login_test').convert_exceldata_to_testdata()
     for i in infos.values():
         print(i)
 

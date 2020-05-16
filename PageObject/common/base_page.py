@@ -4,6 +4,7 @@ import time
 from selenium import webdriver
 from  selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.support import expected_conditions as EC
+from PageObject.common import HTMLTestReportCN
 from selenium.webdriver.common.alert import Alert
 from selenium.webdriver.common.by import By
 from PageObject.common.config_utils import conf
@@ -266,7 +267,7 @@ class BasePage(object):
                 break
 #截图封装
     '''根据时间截图的封装,元组类型的不定长阐述，长度为0则为默认路径，不为零则取第一个路径'''
-    def screen_shoot_as_file(self,*screenshot_path):
+    def screen_shoot_as_file_old(self,*screenshot_path):
         try:
             current_dir = os.path.dirname(__file__)
             if len(screenshot_path)==0:
@@ -279,3 +280,9 @@ class BasePage(object):
             logutils.info('截图')
         except Exception as e:
             logutils.error('截图失败，失败的原因是：%s'%e.__str__())
+    #调用HTML。。.CN里面的方法截图
+    def screen_shoot_as_file(self):
+        repotr_path=os.path.join(os.path.abspath(os.path.dirname(__file__)),'..',conf.report_path) #定义截图报告路径
+        repotr_dir = HTMLTestReportCN.ReportDirectory(repotr_path)
+        repotr_dir.get_screenshot(self.driver)
+
