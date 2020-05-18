@@ -6,6 +6,7 @@
 # @desc:封装发送邮件类
 import os
 import smtplib
+from email import encoders
 from email.mime.base import MIMEBase
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
@@ -55,7 +56,7 @@ class EmailUtils:
             mime.add_header('Content-ID', '<0>')
             mime.add_header('X-Attachment-Id', '0')
             mime.set_payload(f.read())
-            # encoders.encode_base64(mime)
+            encoders.encode_base64(mime)
             msg.attach(mime)
         msg.attach(MIMEText(self.smtp_body, "html", "utf-8"))
         msg['from'] = self.smtp_sender
