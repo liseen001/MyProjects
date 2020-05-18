@@ -35,7 +35,7 @@ class ReadExcel():
                 element_info['locator_value']=self.sheet.cell_value(i,4)
                 '''利用三目运算符与isinstance设置表格超时时间为浮点型，如果表格time_out没有传等待时间则默认等待时间为5'''
                 timeout_value=self.sheet.cell_value(i,5)
-                element_info['timeout']=timeout_value if isinstance(timeout_value,float) else conf.time_out
+                element_info['time_out']=timeout_value if isinstance(timeout_value,float) else conf.time_out
                 '''获取表格中下表0的值放入element_infos中'''
                 element_infos[self.sheet.cell_value(i,0)]=element_info
         return element_infos

@@ -3,13 +3,15 @@
 # @author: Mrliu
 # @file: excel_utils.py
 # @time: 2020/5/13 23:32
-# @desc:
+# @desc:封装读取表格数据
 import os
 import xlrd
 from PageObject.common.config_utils import conf
 
 class ExcelUtils(object):
-    '''判断是否是一个excel文件再进行处理，并且文件确实存在的文件下再进行处理'''
+    '''
+    判断是否是一个excel文件再进行处理，并且文件确实存在的文件下再进行处理
+    '''
     def __init__(self,excel_path,sheet_name=None):
         self.excel_path=excel_path
         self.sheet_name=sheet_name  #表格
@@ -28,6 +30,7 @@ class ExcelUtils(object):
     def get_row_count(self):
         row_count=self.sheet_data.nrows
         return row_count
+
     '''统计列数'''
     @property
     def get_col_count(self):
@@ -35,7 +38,7 @@ class ExcelUtils(object):
         return col_count
 
     '''通过列表的方式读取数据'''
-    def get_sheet_data_by_list(self):
+    def get_sheet_data_by_list(self):  #把excel的数据通过列表返回 [ [] , [] , [] ]
         all_excel_data=[]
         for rownum in range(self.get_row_count):
             row_excel_data=[]
@@ -51,6 +54,7 @@ class ExcelUtils(object):
 
 
 if __name__=="__main__":
-    value=ExcelUtils('../data/element_infos.xls','product').get_sheet_data_by_list()
-    for e in value:
-        print(e)
+    current_path=os.path.abspath(os.path.dirname(__file__))
+    test_data_path= os.path.join(current_path,'..',conf.testdata_path)
+    sheet_infos = ExcelUtils(test_data_path,'login_suite').get_sheet_data_by_list()
+    print(sheet_infos)

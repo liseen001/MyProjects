@@ -1,7 +1,7 @@
 # -*- coding utf-8 -*-
 from PageObject.common.browser import Browser
 from PageObject.common.config_utils import conf
-from PageObject.common.read_excel import ReadExcel
+from PageObject.common.element_data_utils import ElementdataUtils
 from PageObject.common.base_page import BasePage
 
 class LoginPage(BasePage):
@@ -10,18 +10,18 @@ class LoginPage(BasePage):
         super().__init__(driver)
         '''读取表格中存储的元素识别信息，元素信息也可以放数据库或者文件中'''
         '''传入模块名（sheet）及所属页面参数,默认参数'''
-        element=ReadExcel('login','login_page').get_element_info()
+        element = ElementdataUtils('login','login_page').get_element_info()
         self.__username_inputbox=element['username_inputbox']
         self.__password_inputbox=element['password_inputbox']
         self.__login_button=element['login_button']
-        self.__keep_login=element['keep_login']
-        self.__forget_password=element['forget_password']
-        self.__language_select=element['language_select']
+        # self.__keep_login=element['keep_login']
+        # self.__forget_password=element['forget_password']
+        # self.__language_select=element['language_select']
         # self.__get_login_fail_alter_content=element['get_login_fail_alter_content']
 
     '''代码逻辑：元素信息（字典），调用父类中find_element方法查找相关元素，然后调用父类input_operation方法进行输入操作'''
     '''输入登录账号操作'''
-    def input_username(self,username):
+    def input_username(self,username):  #方法 == 》控件的操作
         self.input_operation(self.__username_inputbox,username)
 
     '''输入登录密码操作'''
@@ -43,20 +43,14 @@ class LoginPage(BasePage):
 
 
 if __name__=="__main__":
-    loginpage = LoginPage(driver=Browser().get_default_driver())
-    '''调用父类中打开浏览器的方法，传入url'''
-    loginpage.open_url(conf.zend_path)
-    loginpage.set_browser_max()
-    loginpage.browser_refresh()
-    loginpage.input_username('dsfew')
-    loginpage.screen_shoot_as_file()
-    loginpage.input_password('sad24234')
-    loginpage.click_login()
-    '''截图'''
-    loginpage.screen_shoot_as_file()
-    value=loginpage.get_login_fail_alter_content()
-    print(value)
-    loginpage.set_browser_quit()
+    driver= Browser().get_default_driver()
+    login_page=LoginPage(driver)
+    login_page.open_url(conf.url)
+    login_page.input_username(conf.zengtao_username)
+    login_page.input_password(conf.zentao_password)
+    login_page.click_login()
+    login_page.wait(2)
+    login_page.screen_shoot_as_file()
 
 
 

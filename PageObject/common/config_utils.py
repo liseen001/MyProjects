@@ -60,11 +60,17 @@ class ConfigUtils(object):
         value=self.conf.get('default','password')
         return value
 
-    '''截图路径封装'''
+
     @property
     def screen_shoot_path(self):
-        value=self.conf.get('default','screen_shot_path')
-        return value
+        screen_shoot_path_value=self.conf.get('default','screen_shot_path')
+        return screen_shoot_path_value
+
+    @property
+    def report_path(self):
+        report_path_value=self.conf.get('default', 'report_path')
+        return report_path_value
+
     '''默认登录用户名'''
     @property
     def default_username(self):
@@ -96,10 +102,40 @@ class ConfigUtils(object):
     def case_path(self):
         case_path_value = self.conf.get('default', 'case_path')
         return case_path_value
+
+
+
+    #邮件
     @property
-    def report_path(self):
-        report_path_value=self.conf.get('default', 'report_path')
-        return report_path_value
+    def smtp_server(self):  #邮件服务器
+        smtp_server_value=self.conf.get('email', 'smtp_server')
+        return smtp_server_value
+
+    @property
+    def smtp_sender(self):  #邮件发送人
+        smtp_sender_value=self.conf.get('email', 'smtp_sender')
+        return smtp_sender_value
+
+    @property
+    def smtp_password(self):  #邮件授权码
+        smtp_password_value=self.conf.get('email', 'smtp_password')
+        return smtp_password_value
+
+    @property
+    def smtp_receiver(self):  #邮件接收人
+        smtp_receiver_value=self.conf.get('email', 'smtp_receiver')
+        return smtp_receiver_value
+
+    @property
+    def smtp_cc(self):  #邮件抄送人
+        smtp_cc_value=self.conf.get('email', 'smtp_cc')
+        return smtp_cc_value
+
+    @property
+    def smtp_subject(self):  #邮件主题
+        smtp_subject_value = self.conf.get('email', 'smtp_subject')
+        return smtp_subject_value
+
 
 
 conf=ConfigUtils()

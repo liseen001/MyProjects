@@ -8,8 +8,7 @@ from PageObject.common.config_utils import conf
 class LoginAction:
     def __init__(self,driver):
         '''实例化登录页面'''
-        self.login_page=LoginPage(driver)
-
+        self.login_page=LoginPage(driver)   #实例化login_page对象，传入driver
 
     '''登录动作'''
     def login_action(self,username,password):

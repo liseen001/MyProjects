@@ -1,8 +1,9 @@
-#!/usr/bin/env python
+#！/usr/bin/env python
 # encoding: utf-8
-# @author: liusir
-# @file: zip_demo.py
-# @time: 2020/5/10 10:00 上午
+# @author: Mrliu
+# @file: email_utils.py
+# @time: 2020/5/17 0:39
+# @desc:封装压缩文件成zip格式类
 
 import os
 import zipfile

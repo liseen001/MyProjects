@@ -130,22 +130,21 @@ class BasePage(object):
         try:
             locator_type_name=element_info['locator_type']  #locator_type  定位方式
             locator_value_info=element_info['locator_value']  # locator_value_info   被定位到的元素
-            locator_timeout=element_info['timeout']   #locator_timeout   超时时间
+            locator_timeout=element_info['time_out']   #locator_timeout   超时时间
             if locator_type_name=='id':
                 locator_type=By.ID
-            elif locator_type_name=='class':
+            elif locator_type_name=='name':
                 locator_type=By.NAME
-            elif locator_type_name=='xpath':
-                locator_type=By.XPATH
-            elif locator_type_name=='text':
-                locator_type=By.LINK_TEXT
             elif locator_type_name=='class':
                 locator_type=By.CLASS_NAME
-            element= WebDriverWait(self.driver , locator_timeout)\
+            elif locator_type_name=='xpath':
+                locator_type=By.XPATH
+            element= WebDriverWait(self.driver,locator_timeout)\
                 .until(lambda x:x.find_element(locator_type,locator_value_info))    #self.driver传入浏览器，等待时间 locator_type：定位方式，locator_value_info：元素信息
             logutils.info('[%s]元素识别成功'%element_info['element_name'])
         except Exception as e:
             logutils.error('[%s]元素不能识别，原因是%s'%(element_info['element_name'],e.__str__()))
+            self.screen_shoot_as_file()
         # finally:
         #     if element is None:
         #         element=''
@@ -282,7 +281,11 @@ class BasePage(object):
             logutils.error('截图失败，失败的原因是：%s'%e.__str__())
     #调用HTML。。.CN里面的方法截图
     def screen_shoot_as_file(self):
-        repotr_path=os.path.join(os.path.abspath(os.path.dirname(__file__)),'..',conf.report_path) #定义截图报告路径
-        repotr_dir = HTMLTestReportCN.ReportDirectory(repotr_path)
-        repotr_dir.get_screenshot(self.driver)
+        try:
+            repotr_path = os.path.join( os.path.abspath(os.path.dirname(__file__)), '..', conf.report_path)  # 定义截图报告路径
+            repotr_dir = HTMLTestReportCN.ReportDirectory(repotr_path)
+            repotr_dir.get_screenshot(self.driver)
+            logutils.info('截图成功')
+        except Exception as e:
+            logutils.error('截图失败，失败的原因是：%s'%e.__str__())
 
