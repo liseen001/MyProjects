@@ -1,6 +1,6 @@
 # --*utf-8*--
 import unittest
-from PageObject.common.browser import browser
+from PageObject.common.browser import Browser
 from PageObject.actions.login_action import LoginAction
 from PageObject.common.base_page import BasePage
 from PageObject.common.config_utils import conf
@@ -10,7 +10,7 @@ from PageObject.common.selenium_base_case import SeleniumBaseCase
 
 class QuitTest(SeleniumBaseCase):
     def setUp(self):
-        self.base_page=BasePage(browser.get_default_driver())
+        self.base_page=BasePage(Browser().get_default_driver())
         self.base_page.set_browser_max()
         self.base_page.implicitly_wait()
         self.base_page.open_url(conf.zend_path)
