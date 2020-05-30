@@ -1,37 +1,55 @@
-# -*- coding utf-8 -*-
+#！/usr/bin/env python
+# encoding: utf-8
+# @author: Mrliu
+# @file: demo.py
+# @time: 2020/5/13 23:09
+# @desc:封装日志模块,这里获取日志配置文件设置的日志级别的时候会有坑，需要把获取的日志参数强转成整型
 import os
-from Music.common.confing_utils import conf
 import logging
+import time
+from common.config_utils import conf
 
 current_path=os.path.dirname(__file__)
-logs_path=os.path.join(current_path,conf.get_logs_path())
+log_path=os.path.join(current_path,'..',conf.log_path)
 
-class LogUtils(object):
-    '''实例化日志路径'''
-    def __init__(self,log_path=logs_path):
-        self.log_path=log_path
-        '''创建logger对象,可以引用logging中的方法'''
-        self.logger=logging.getLogger('logger')
-        '''设置对象中的日志级别'''
-        self.logger.setLevel(level=logging.INFO)
-        '''创建日志输入位置,输入格式为utf-8'''
-        file_log=logging.FileHandler(self.log_path,encoding='utf-8')
-        '''设置输出日志格式'''
-        formatter=logging.Formatter('file:%(asctime)s,%(name)s,%(levelname)s,%(message)s')
-        '''把上面设置的日志格式传入日志对象位置'''
-        file_log.setFormatter(formatter)
-        self.logger.addHandler(file_log)
+class LogUtil(object):
+    def __init__(self,logger=None):
+        self.log_name=os.path.join(log_path,'自动化测日志_%s.log'%time.strftime('%Y_%m_%d'))
+        self.logger=logging.getLogger(logger)  #设置logger对象
+        self.logger.setLevel(conf.log_level)   #设置日志级别
 
+        self.fh=logging.FileHandler(self.log_name,encoding='utf-8')
+        self.fh.setLevel(conf.log_level)
+        self.ch=logging.StreamHandler()
+        self.ch.setLevel(conf.log_level)
 
-    '''创建输入日志方法'''
-    def info(self,message):
-        self.logger.info(message)
+        '''
+        %(levelno)s: 打印日志级别的数值
+        %(levelname)s: 打印日志级别名称
+        %(pathname)s: 打印当前执行程序的路径，其实就是sys.argv[0]
+        %(filename)s: 打印当前执行程序名
+        %(funcName)s: 打印日志的当前函数
+        %(lineno)d: 打印日志的当前行号
+        %(asctime)s: 打印日志的时间
+        %(thread)d: 打印线程ID
+        %(threadName)s: 打印线程名称
+        %(process)d: 打印进程ID
+        %(message)s: 打印日志信息
+        '''
 
-    '''创建输入日志方法error'''
-    def error(self,message):
-        self.logger.error(self,message)
+        formatter=logging.Formatter(
+            '[%(asctime)s] %(filename)s->%(funcName)s line:%(lineno)d [%(levelname)s] : %(message)s')
+        self.fh.setFormatter(formatter)
+        self.ch.setFormatter(formatter)
+        self.logger.addHandler(self.fh)
+        self.logger.addHandler(self.ch)
+        self.fh.close()
+        self.ch.close()
 
-logutils=LogUtils()
+    def get_log(self):
+        return self.logger
+
+logutils=LogUtil().get_log()
 
 if __name__=="__main__":
-    logutils.info('test')
+    logging.info('liseen')
