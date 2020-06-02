@@ -7,8 +7,8 @@
 import os
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
-from common.config_utils import conf
-from common.log_utils import logutils
+from Music.common.config_utils import conf
+from Music.common.log_utils import logutils
 
 current_path=os.path.abspath(os.path.dirname(__file__))
 dri_path=os.path.join(current_path,'..',conf.driver_path)

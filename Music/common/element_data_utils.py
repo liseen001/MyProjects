@@ -6,7 +6,7 @@
 # @desc:
 import os
 import xlrd
-from common.config_utils import conf
+from Music.common.config_utils import conf
 
 current_path=os.path.dirname(__file__)
 excel_path=os.path.join(current_path,'..',conf.element_infos_path)

@@ -14,10 +14,10 @@ class LoginPage(BasePage):
         self.__username_inputbox=element['username_inputbox']
         self.__password_inputbox=element['password_inputbox']
         self.__login_button=element['login_button']
-        # self.__keep_login=element['keep_login']
-        # self.__forget_password=element['forget_password']
-        # self.__language_select=element['language_select']
-        # self.__get_login_fail_alter_content=element['get_login_fail_alter_content']
+        self.__keep_login=element['keep_login']
+        self.__forget_password=element['forget_password']
+        self.__language_select=element['language_select']
+        self.__get_login_fail_alter_content=element['get_login_fail_alter_content']
 
     '''代码逻辑：元素信息（字典），调用父类中find_element方法查找相关元素，然后调用父类input_operation方法进行输入操作'''
     '''输入登录账号操作'''

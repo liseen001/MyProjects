@@ -4,8 +4,8 @@ import time
 import xlrd
 from selenium import webdriver
 from selenium.webdriver.common.by import By
-from Project_PageObject.common.config_utils import conf
-from PageObject.common.browser import browser
+from PageObject.common.config_utils import conf
+from PageObject.common.browser import Browser
 
 
 current_path=os.path.dirname(__file__)

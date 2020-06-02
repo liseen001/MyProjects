@@ -26,5 +26,6 @@ class LoginTest(SeleniumBaseCase):
         login_action=LoginAction(self.base_page.driver)
         actual_result=login_action.login_fail('sss','213123')
         self.assertEqual(actual_result,'登录失败，请检查您的用户名或密码是否填写正确。','test_login_fail用例执行失败')
+
 if __name__=="__main__":
     unittest.main()

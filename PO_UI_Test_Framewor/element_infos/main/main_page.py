@@ -30,9 +30,9 @@ class MainPage(BasePage):
 
 if __name__ == '__main__':
     driver = Browser().get_driver()
-    # driver.get('http://47.107.178.45/zentao/www/index.php?m=user&f=login')
-    # main_page = LoginAction(driver).default_login()
-    # value = main_page.get_username()
-    # print(value)
+    driver.get('http://47.107.178.45/zentao/www/index.php?m=user&f=login')
+    main_page = LoginAction(driver).default_login()
+    value = main_page.get_username()
+    print(value)
 
 
