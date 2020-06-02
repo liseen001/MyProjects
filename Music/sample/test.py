@@ -16,9 +16,11 @@ driver = webdriver.Firefox(executable_path='../webdriver/geckodriver')
 driver.get(conf.music_url)
 time.sleep(1)
 driver.set_window_size(450,900)
-driver.find_element(By.XPATH,'//input[@placeholder="用户名"]').send_keys('liseen001')
+driver.find_element(By.XPATH,'//input[@placeholder="用户名"]').send_keys('liseen003')
 driver.find_element(By.XPATH,'//input[@placeholder="密码"]').send_keys('000000')
 driver.find_element(By.XPATH,'//div[@class="login-btn"]').click()
+text=driver.find_element(By.XPATH,'//div[@class="van-toast__text"]').text
+print(text)
 # driver.find_element(By.XPATH,'//a[@href="#/register"]').click()
 
 # time.sleep(5)
@@ -39,6 +41,6 @@ driver.find_element(By.XPATH,'//div[@class="login-btn"]').click()
 # time.sleep(5)
 # driver.find_element(By.XPATH,'//i[@class="van-icon van-icon-search"]').click()
 
-time.sleep(3)
-value=driver.find_element(By.XPATH,'//div[@class="more"]').text
-print(value)
+# time.sleep(3)
+# value=driver.find_element(By.XPATH,'//div[@class="more"]').text
+# print(value)

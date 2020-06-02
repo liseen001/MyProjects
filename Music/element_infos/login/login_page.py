@@ -16,6 +16,7 @@ class LoginPage(BasePage):
         self.username_inputbox = element['username_inputbox']
         self.password_inputbox = element['password_inputbox']
         self.login_button = element['login_button']
+        self.return_loginfail_content = element['return_loginfail_content']
 
     def input_username(self,username):
         self.input_element_operation(self.username_inputbox,username)
@@ -28,6 +29,11 @@ class LoginPage(BasePage):
 
     def get_login_fail_alter_content(self):
         return self.switch_to_alter()
+
+    def get_login_fail_return_content(self):
+        text=self.get_elementinfo_text(self.return_loginfail_content)
+        return text
+
 
 if __name__ == "__main__":
     driver = Browser().get_default_driver()

@@ -12,6 +12,7 @@ from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 from PageObject.common.config_utils import conf
 from PageObject.common import zip_utils
+from Music.common.log_utils import logutils
 
 class EmailUtils:
     def __init__(self, smtp_body, smtp_file_path=None):
@@ -78,6 +79,7 @@ class EmailUtils:
         try:
             smtp.sendmail(self.smtp_sender, self.smtp_receiver.split(',') + self.smtp_cc.split(','),
                           mail_content.as_string())
+
         except Exception as e:
             print('发送失败')
         smtp.quit()
@@ -94,6 +96,7 @@ class EmailUtils:
         try:
             smtp.sendmail(self.smtp_sender, self.smtp_receiver.split(',') + self.smtp_cc.split(','),
                           mail_content.as_string())
+            logutils.info('邮件发送成功')
         except Exception as e:
-            print('发送失败')
+            logutils.error('邮件发送失败，失败的原因是：%s'%e.__str__())
         smtp.quit()
