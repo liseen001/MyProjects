@@ -10,9 +10,9 @@ from selenium import webdriver
 from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.support import expected_conditions as Ec
 from selenium.webdriver.common.by import By
-from common import HTMLTestReportCN
-from common.config_utils import conf
-from common.log_utils import logutils
+from Music.common import HTMLTestReportCN
+from Music.common.config_utils import conf
+from Music.common.log_utils import logutils
 from selenium.webdriver.support.wait import WebDriverWait
 
 class BasePage(object):

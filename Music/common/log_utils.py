@@ -7,7 +7,7 @@
 import os
 import logging
 import time
-from common.config_utils import conf
+from Music.common.config_utils import conf
 
 current_path=os.path.dirname(__file__)
 log_path=os.path.join(current_path,'..',conf.log_path)

@@ -6,7 +6,7 @@
 # @desc:
 import os
 import xlrd
-from common.config_utils import conf
+from Music.common.config_utils import conf
 
 class ExcelUtils(object):
     '''
