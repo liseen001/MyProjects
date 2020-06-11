@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="afcc23c1-79c2-4044-bb81-d7635a743003" name="Default Changelist" comment="" />
+    <list default="true" id="afcc23c1-79c2-4044-bb81-d7635a743003" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../PageObject/samples/chrome_H5.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PO_UI_Test_Framewor/common/excel_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/../PO_UI_Test_Framewor/common/excel_utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PO_UI_Test_Framewor/test_datas/login_suite/login_test.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/../PO_UI_Test_Framewor/test_datas/login_suite/login_test.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PageObject/element_info_datas/element_infos.xls" beforeDir="false" afterPath="$PROJECT_DIR$/../PageObject/element_info_datas/element_infos.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PageObject/element_infos/login/geckodriver.log" beforeDir="false" afterPath="$PROJECT_DIR$/../PageObject/element_infos/login/geckodriver.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PageObject/element_infos/login/login_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/../PageObject/element_infos/login/login_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PageObject/runner/run_all_cases.py" beforeDir="false" afterPath="$PROJECT_DIR$/../PageObject/runner/run_all_cases.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PageObject/samples/geckodriver.log" beforeDir="false" afterPath="$PROJECT_DIR$/../PageObject/samples/geckodriver.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PageObject/samples/read_excel.py" beforeDir="false" afterPath="$PROJECT_DIR$/../PageObject/samples/read_excel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PageObject/testcases/login_suite/login_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/../PageObject/testcases/login_suite/login_test.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,10 +23,12 @@
     <session id="80838418">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.17" value="1" />
           <entry key="project.open.time.2" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -36,11 +49,13 @@
         <counts>
           <entry key="ini" value="181" />
           <entry key="py" value="11005" />
+          <entry key="txt" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Ini" value="181" />
+          <entry key="PLAIN_TEXT" value="5" />
           <entry key="Python" value="11005" />
         </counts>
       </usages-collector>
@@ -60,8 +75,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/element_infos/login/login_page.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="34" column="44" lean-forward="true" selection-start-line="34" selection-start-column="44" selection-end-line="34" selection-end-column="44" />
+            <state relative-caret-position="527">
+              <caret line="34" column="44" selection-start-line="34" selection-start-column="44" selection-end-line="34" selection-end-column="44" />
               <folding>
                 <element signature="e#115#149#0" expanded="true" />
                 <marker date="1590841768773" expanded="true" signature="307:312" ph="..." />
@@ -73,7 +88,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/common/config_utils.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
+            <state relative-caret-position="1122">
               <caret line="67" column="68" selection-start-line="67" selection-start-column="55" selection-end-line="67" selection-end-column="68" />
               <folding>
                 <element signature="e#120#129#0" expanded="true" />
@@ -86,10 +101,9 @@
         <entry file="file://$PROJECT_DIR$/common/element_data_utils.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="544">
-              <caret line="34" column="4" lean-forward="true" selection-start-line="34" selection-start-column="4" selection-end-line="34" selection-end-column="4" />
+              <caret line="34" column="4" selection-start-line="34" selection-start-column="4" selection-end-line="34" selection-end-column="4" />
               <folding>
                 <element signature="e#108#117#0" expanded="true" />
-                <marker date="1590841613697" expanded="true" signature="298:1417" ph="..." />
               </folding>
             </state>
           </provider>
@@ -98,7 +112,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/common/browser.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="701">
+            <state relative-caret-position="816">
               <caret line="52" column="13" selection-start-line="52" selection-start-column="13" selection-end-line="52" selection-end-column="13" />
               <folding>
                 <element signature="e#113#122#0" expanded="true" />
@@ -111,7 +125,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/common/log_utils.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="497">
+            <state relative-caret-position="731">
               <caret line="46" column="23" selection-start-line="46" selection-start-column="23" selection-end-line="46" selection-end-column="23" />
               <folding>
                 <marker date="1590745710296" expanded="true" signature="346:351" ph="..." />
@@ -137,7 +151,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/common/excel_utils.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="497">
+            <state relative-caret-position="498">
               <caret line="43" column="49" lean-forward="true" selection-start-line="43" selection-start-column="49" selection-end-line="43" selection-end-column="49" />
               <folding>
                 <element signature="e#108#117#0" expanded="true" />
@@ -214,32 +228,6 @@
             <path>
               <item name="Music" type="b2602c69:ProjectViewProjectNode" />
               <item name="Music" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Music" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Music" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Music" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Music" type="462c0819:PsiDirectoryNode" />
-              <item name="conf" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Music" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Music" type="462c0819:PsiDirectoryNode" />
-              <item name="test_datas" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Music" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Music" type="462c0819:PsiDirectoryNode" />
-              <item name="test_datas" type="462c0819:PsiDirectoryNode" />
-              <item name="login_suite" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Music" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Music" type="462c0819:PsiDirectoryNode" />
-              <item name="testcases" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -409,11 +397,18 @@
       <option name="presentableId" value="Default" />
       <updated>1590740440297</updated>
     </task>
+    <task id="LOCAL-00001" summary="MUSIC">
+      <created>1590844761275</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1590844761275</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="2338" y="60" width="1425" height="898" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14691271" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -436,6 +431,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="MUSIC" />
+    <option name="LAST_COMMIT_MESSAGE" value="MUSIC" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/logs/自动化测日志_2020_05_29.log">
@@ -469,9 +468,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="21" column="63" lean-forward="true" selection-start-line="21" selection-start-column="56" selection-end-line="21" selection-end-column="63" />
-          <folding>
-            <element signature="e#112#143#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -479,25 +475,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="309">
           <caret line="167" column="78" selection-start-line="167" selection-start-column="59" selection-end-line="167" selection-end-column="78" />
-          <folding>
-            <element signature="e#121#130#0" expanded="true" />
-            <marker date="1590841432617" expanded="true" signature="541:572" ph="..." />
-            <marker date="1590841432617" expanded="true" signature="4256:4750" ph="..." />
-            <marker date="1590841432617" expanded="true" signature="4974:5262" ph="..." />
-            <marker date="1590841432617" expanded="true" signature="5331:5340" ph="..." />
-            <marker date="1590841432617" expanded="true" signature="6262:6356" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/element_infos/login/login_page.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="34" column="44" lean-forward="true" selection-start-line="34" selection-start-column="44" selection-end-line="34" selection-end-column="44" />
-          <folding>
-            <element signature="e#115#149#0" expanded="true" />
-            <marker date="1590841768773" expanded="true" signature="307:312" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -510,8 +487,33 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="36" lean-forward="true" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conf/config.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="26" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/element_infos/login/login_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="34" column="44" selection-start-line="34" selection-start-column="44" selection-end-line="34" selection-end-column="44" />
           <folding>
-            <element signature="e#108#142#0" expanded="true" />
+            <element signature="e#115#149#0" expanded="true" />
+            <marker date="1590841768773" expanded="true" signature="307:312" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/config_utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1122">
+          <caret line="67" column="68" selection-start-line="67" selection-start-column="55" selection-end-line="67" selection-end-column="68" />
+          <folding>
+            <element signature="e#120#129#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -519,17 +521,16 @@
     <entry file="file://$PROJECT_DIR$/common/element_data_utils.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="544">
-          <caret line="34" column="4" lean-forward="true" selection-start-line="34" selection-start-column="4" selection-end-line="34" selection-end-column="4" />
+          <caret line="34" column="4" selection-start-line="34" selection-start-column="4" selection-end-line="34" selection-end-column="4" />
           <folding>
             <element signature="e#108#117#0" expanded="true" />
-            <marker date="1590841613697" expanded="true" signature="298:1417" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/common/browser.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="701">
+        <state relative-caret-position="816">
           <caret line="52" column="13" selection-start-line="52" selection-start-column="13" selection-end-line="52" selection-end-column="13" />
           <folding>
             <element signature="e#113#122#0" expanded="true" />
@@ -540,7 +541,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/common/log_utils.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="497">
+        <state relative-caret-position="731">
           <caret line="46" column="23" selection-start-line="46" selection-start-column="23" selection-end-line="46" selection-end-column="23" />
           <folding>
             <marker date="1590745710296" expanded="true" signature="346:351" ph="..." />
@@ -558,26 +559,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/conf/config.ini">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="26" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/config_utils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="67" column="68" selection-start-line="67" selection-start-column="55" selection-end-line="67" selection-end-column="68" />
-          <folding>
-            <element signature="e#120#129#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/common/excel_utils.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="497">
+        <state relative-caret-position="498">
           <caret line="43" column="49" lean-forward="true" selection-start-line="43" selection-start-column="49" selection-end-line="43" selection-end-column="49" />
           <folding>
             <element signature="e#108#117#0" expanded="true" />

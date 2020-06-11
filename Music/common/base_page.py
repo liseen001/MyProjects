@@ -90,7 +90,8 @@ class BasePage(object):
 
     def get_elementinfo_text(self,element_info):
         try:
-            element=self.driver.find_element(element_info)
+            self.implicity_wait()
+            element=self.find_element(element_info)
             logutils.info('获取元素文本信息%s成功'%(element_info['element_name']))
         except Exception as e:
             logutils.error(('获取元素文本信息%s失败'%element_info['element_name']),'原因是：%s'%e.__str__())

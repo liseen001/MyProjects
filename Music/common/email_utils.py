@@ -1,17 +1,17 @@
 #！/usr/bin/env python
 # encoding: utf-8
 # @author: Mrliu
-# @file: email_utils.py
-# @time: 2020/5/17 0:39
-# @desc:封装发送邮件类
+# @file: demo.py
+# @time: 2020/5/13 23:09
+# @desc:
 import os
 import smtplib
 from email import encoders
 from email.mime.base import MIMEBase
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
-from PageObject.common.config_utils import conf
-from PageObject.common import zip_utils
+from Music.common.config_utils import conf
+from Music.common import zip_utils
 from Music.common.log_utils import logutils
 
 class EmailUtils:

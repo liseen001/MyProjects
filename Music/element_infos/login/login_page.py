@@ -4,11 +4,10 @@
 # @file: demo.py
 # @time: 2020/5/13 23:09
 # @desc: 获取元素信息
-from Music.common.browser import Browser
-from Music.common.config_utils import conf
-from Music.common.base_page import BasePage
-from Music.common.element_data_utils import ELementdataUtils
-
+from common.browser import Browser
+from common.config_utils import conf
+from common.base_page import BasePage
+from common.element_data_utils import ELementdataUtils
 
 class LoginPage(BasePage):
     def __init__(self,driver):

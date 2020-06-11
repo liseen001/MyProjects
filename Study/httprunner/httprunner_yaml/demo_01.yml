@@ -1,0 +1,12 @@
+— config:
+   name: 验证能否打开主网页
+   base_url: http://www.hnxmxit.com
+
+
+— test:
+  name: open hnxmtit mainpage api
+  request:
+    url: /
+    method: GET
+  validata:
+    — eq: ["status_code",200]  #断言必须是一个数组

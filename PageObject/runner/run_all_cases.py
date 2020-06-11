@@ -8,7 +8,6 @@ import os
 import unittest
 from PageObject.common import HTMLTestReportCN
 from PageObject.common.config_utils import conf
-from PageObject.common import zip_utils
 from PageObject.common.email_utils import EmailUtils
 
 current_path=os.path.abspath(os.path.dirname(__file__))
