@@ -1,0 +1,20 @@
+#模拟请求头的请求
+- config:
+    name: 模拟请求头，验证百度搜索返回值
+    verify: False   #忽略证书验证
+    base_url: https://www.baidu.com  #主机地址
+
+- test:
+    name: 测试用例名称：搜索湖南新梦想，验证百度搜索请求
+    request:
+      url: /s  #接口文件路径
+      method: GET  #请求方式
+      headers:
+        User-Agent: "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36"
+        Accept-Encoding: gzip, deflate, br
+        Accept-Language: zh-CN,zh;q=0.9,en;q=0.8
+      params:
+          wd: "新梦想软测"
+    validate:
+      - eq: ['status_code',200]
+
