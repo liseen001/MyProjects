@@ -4,8 +4,6 @@
 # @file: demo.py
 # @time: 2020/5/13 23:09
 # @desc:
-import os
-import time
 import unittest
 from API_TEST_LINE_Frame.utils import HTMLTestReportCN
 from API_TEST_LINE_Frame.utils.config_utils import conf

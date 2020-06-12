@@ -1,0 +1,15 @@
+#模拟post请求
+- config:
+    name: '验证能否创建标签'
+    base_url: https://api.weixin.qq.com
+
+- test:
+    name: /cgi-bin/tags/create?access_token=ACCESS_TOKEN
+    request:
+      url: /cgi-bin/tags/create
+      params:
+        access_token: 34_jxIOm4DBRqUzPIVKHQfYqVhzP2cHHTTb6-A9uv0U1TOoo-R8VJZt0_O5iL0hXEVVvlvso70fFZJUO0TJRrUlGrZTtHW-eRdt5ipTuhMscj1CJD7jdaCa43NWhlwtdiPU8XmfYOJ10n_IjQ4RWBZjAGAHMK
+      json: {   "tag":{ "id":134, "name":"测试剑客"   } }
+      method: POST
+    viladate:
+      - eq: ["status_code",200]

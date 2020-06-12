@@ -1,0 +1,8 @@
+config:
+  name: 测试套件
+
+testcases:
+  - name: test_demo_05
+    testcase: testcases/test_demo_06.yml
+    parameters:
+      search_word: [天天向上,12306,python]

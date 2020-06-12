@@ -4,7 +4,6 @@
 # @file: demo.py
 # @time: 2020/5/13 23:09
 # @desc: 配置文件封装
-
 import os
 import configparser
 
@@ -27,16 +26,28 @@ class ConfigUtils(object):
     def report_parh(self):
         report_path_value = self.conf.get('default', 'report_path')
         return report_path_value
-    @property  #登录账号
-    def login_username(self):
-        login_username_value =self.conf.get('default','username')
-        return login_username_value
     @property
-    def login_password(self):
-        login_password_value = self.conf.get('default','password')
-        return login_password_value
+    def weixin_grant_type(self):
+        lweixin_grant_type_value =self.conf.get('default','grant_type')
+        return lweixin_grant_type_value
+    @property
+    def weixin_appid(self):
+        weixin_appid_value = self.conf.get('default','appid')
+        return weixin_appid_value
+    @property
+    def weixin_secret(self):
+        weixin_secret_value = self.conf.get('default','secret')
+        return weixin_secret_value
+    @property
+    def log_path(self):
+        log_path_value = self.conf.get('default','log_path')
+        return log_path_value
+    @property
+    def log_level(self):
+        log_level_value = int(self.conf.get('default','log_level'))
+        return log_level_value
 
 
 conf = ConfigUtils()
 if  __name__=="__main__":
-    print(conf.report_parh)
+    print(conf.log_level)
