@@ -50,4 +50,4 @@ class ConfigUtils(object):
 
 conf = ConfigUtils()
 if  __name__=="__main__":
-    print(conf.log_level)
+    print(conf.log_path)

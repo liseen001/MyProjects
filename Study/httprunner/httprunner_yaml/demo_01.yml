@@ -8,5 +8,5 @@
   request:
     url: /
     method: GET
-  validata:
-    — eq: ["status_code",200]  #断言必须是一个数组
+  validate:
+    — eq: ["status_code",200]
