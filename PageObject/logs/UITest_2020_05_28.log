@@ -1,0 +1,25 @@
+[2020-05-28 12:10:36,171] selenium_base_case.py->setUpClass line:11 [INFO] : 
+[2020-05-28 12:10:36,172] selenium_base_case.py->setUpClass line:12 [INFO] : ==============测试类开始执行==============
+[2020-05-28 12:10:36,173] selenium_base_case.py->setUp line:17 [INFO] : -------------测试方法开始执行-------------
+[2020-05-28 12:10:47,298] base_page.py->__init__ line:22 [INFO] : 实例化浏览器驱动
+[2020-05-28 12:10:47,611] base_page.py->set_browser_max line:52 [INFO] : 设置浏览器最大化
+[2020-05-28 12:10:47,615] base_page.py->implicitly_wait line:69 [INFO] : 设置隐式等待时间为5秒
+[2020-05-28 12:10:51,816] base_page.py->open_url line:28 [INFO] : 打开浏览器path地址http://106.53.50.202:8999/zentao6/www/user-login.html
+[2020-05-28 12:10:51,816] base_page.py->__init__ line:22 [INFO] : 实例化浏览器驱动
+[2020-05-28 12:10:51,953] base_page.py->find_element line:144 [INFO] : [用户名输入框]元素识别成功
+[2020-05-28 12:10:51,970] base_page.py->input_operation line:168 [INFO] : [用户名输入框]元素进行输入内容：sss
+[2020-05-28 12:10:51,975] base_page.py->find_element line:144 [INFO] : [密码输入框]元素识别成功
+[2020-05-28 12:10:52,014] base_page.py->input_operation line:168 [INFO] : [密码输入框]元素进行输入内容：213123
+[2020-05-28 12:10:52,021] base_page.py->find_element line:144 [INFO] : [登录按钮]元素识别成功
+[2020-05-28 12:10:52,275] base_page.py->click_operation line:158 [INFO] : [登录按钮]元素进行点击操作
+[2020-05-28 12:11:12,275] base_page.py->wait line:111 [INFO] : 固定等待时间为20.0
+[2020-05-28 12:11:12,329] base_page.py->switch_to_alter line:238 [INFO] : 切换至弹出框，返回弹出框文本信息登录失败，请检查您的用户名或密码是否填写正确。
+[2020-05-28 12:11:15,496] base_page.py->close_tab line:36 [INFO] : 关闭当前tab页签
+[2020-05-28 12:11:15,496] selenium_base_case.py->tearDown line:35 [INFO] : -------------测试方法执行完毕-------------
+[2020-05-28 12:11:15,496] selenium_base_case.py->tearDownClass line:39 [INFO] : ==============测试类执行完毕==============
+[2020-05-28 12:11:15,497] selenium_base_case.py->setUpClass line:11 [INFO] : 
+[2020-05-28 12:11:15,497] selenium_base_case.py->setUpClass line:12 [INFO] : ==============测试类开始执行==============
+[2020-05-28 12:11:26,522] base_page.py->__init__ line:22 [INFO] : 实例化浏览器驱动
+[2020-05-28 12:11:26,794] base_page.py->set_browser_max line:52 [INFO] : 设置浏览器最大化
+[2020-05-28 12:11:26,797] base_page.py->implicitly_wait line:69 [INFO] : 设置隐式等待时间为5秒
+[2020-05-28 12:11:26,799] selenium_base_case.py->tearDownClass line:39 [INFO] : ==============测试类执行完毕==============

@@ -1,0 +1,173 @@
+[2020-05-30 18:31:04,647] browser.py->__get_firefox_driver line:35 [INFO] : 初始化并启动火狐浏览器
+[2020-05-30 18:31:47,626] browser.py->__get_firefox_driver line:35 [INFO] : 初始化并启动火狐浏览器
+[2020-05-30 18:31:47,628] base_page.py->__init__ line:22 [INFO] : 实例化浏览器驱动
+[2020-05-30 18:32:11,657] base_page.py->open_url line:28 [INFO] : 打开浏览器地址http://150.109.170.136:8082/
+[2020-05-30 18:32:11,658] base_page.py->set_browser_personalized line:59 [INFO] : 开始进行个性化浏览器设置
+[2020-05-30 18:32:14,042] base_page.py->set_browser_personalized line:63 [INFO] : 最大化浏览器，等待时间为默认等待时间，设置浏览器窗口为450*900的H5页面
+[2020-05-30 18:32:14,049] base_page.py->find_element line:197 [INFO] : [用户名输入框]元素识别成功
+[2020-05-30 18:32:14,049] base_page.py->input_element_operation line:220 [ERROR] : [用户名输入框]元素输入失败，输入的元素内容为:ldf123
+[2020-05-30 18:32:14,049] base_page.py->screen_shoot_as_file line:158 [ERROR] : 截图失败，失败的原因是：unsupported operand type(s) for +: 'NoneType' and 'str'
+[2020-05-30 18:32:14,055] base_page.py->find_element line:197 [INFO] : [密码输入框]元素识别成功
+[2020-05-30 18:32:14,055] base_page.py->input_element_operation line:220 [ERROR] : [密码输入框]元素输入失败，输入的元素内容为:123456
+[2020-05-30 18:32:14,055] base_page.py->screen_shoot_as_file line:158 [ERROR] : 截图失败，失败的原因是：unsupported operand type(s) for +: 'NoneType' and 'str'
+[2020-05-30 18:32:14,061] base_page.py->find_element line:197 [INFO] : [登录按钮]元素识别成功
+[2020-05-30 18:32:14,090] base_page.py->screen_shoot_as_file line:158 [ERROR] : 截图失败，失败的原因是：unsupported operand type(s) for +: 'NoneType' and 'str'
+[2020-05-30 18:32:16,090] base_page.py->substation_wait line:140 [INFO] : 设置固定等待时间为：2
+[2020-05-30 18:35:16,783] browser.py->__get_firefox_driver line:35 [INFO] : 初始化并启动火狐浏览器
+[2020-05-30 18:35:16,784] base_page.py->__init__ line:22 [INFO] : 实例化浏览器驱动
+[2020-05-30 18:35:35,887] base_page.py->open_url line:28 [INFO] : 打开浏览器地址http://150.109.170.136:8082/
+[2020-05-30 18:35:35,887] base_page.py->set_browser_personalized line:59 [INFO] : 开始进行个性化浏览器设置
+[2020-05-30 18:35:38,248] base_page.py->set_browser_personalized line:63 [INFO] : 最大化浏览器，等待时间为默认等待时间，设置浏览器窗口为450*900的H5页面
+[2020-05-30 18:35:38,265] base_page.py->find_element line:197 [INFO] : [用户名输入框]元素识别成功
+[2020-05-30 18:35:38,265] base_page.py->input_element_operation line:220 [ERROR] : [用户名输入框]元素输入失败，输入的元素内容为:ldf123
+[2020-05-30 18:35:38,265] base_page.py->screen_shoot_as_file line:158 [ERROR] : 截图失败，失败的原因是：unsupported operand type(s) for +: 'NoneType' and 'str'
+[2020-05-30 18:35:38,273] base_page.py->find_element line:197 [INFO] : [密码输入框]元素识别成功
+[2020-05-30 18:35:38,273] base_page.py->input_element_operation line:220 [ERROR] : [密码输入框]元素输入失败，输入的元素内容为:123456
+[2020-05-30 18:35:38,273] base_page.py->screen_shoot_as_file line:158 [ERROR] : 截图失败，失败的原因是：unsupported operand type(s) for +: 'NoneType' and 'str'
+[2020-05-30 18:35:38,281] base_page.py->find_element line:197 [INFO] : [登录按钮]元素识别成功
+[2020-05-30 18:36:33,579] browser.py->__get_firefox_driver line:35 [INFO] : 初始化并启动火狐浏览器
+[2020-05-30 18:36:33,582] base_page.py->__init__ line:22 [INFO] : 实例化浏览器驱动
+[2020-05-30 18:36:52,712] base_page.py->open_url line:28 [INFO] : 打开浏览器地址http://150.109.170.136:8082/
+[2020-05-30 18:36:52,712] base_page.py->set_browser_personalized line:59 [INFO] : 开始进行个性化浏览器设置
+[2020-05-30 18:36:55,076] base_page.py->set_browser_personalized line:63 [INFO] : 最大化浏览器，等待时间为默认等待时间，设置浏览器窗口为450*900的H5页面
+[2020-05-30 18:36:55,092] base_page.py->find_element line:197 [INFO] : [用户名输入框]元素识别成功
+[2020-05-30 18:36:55,092] base_page.py->input_element_operation line:220 [ERROR] : [用户名输入框]元素输入失败，输入的元素内容为:ldf123
+[2020-05-30 18:36:55,093] base_page.py->screen_shoot_as_file line:158 [ERROR] : 截图失败，失败的原因是：unsupported operand type(s) for +: 'NoneType' and 'str'
+[2020-05-30 18:36:55,103] base_page.py->find_element line:197 [INFO] : [密码输入框]元素识别成功
+[2020-05-30 18:36:55,104] base_page.py->input_element_operation line:220 [ERROR] : [密码输入框]元素输入失败，输入的元素内容为:123456
+[2020-05-30 18:36:55,104] base_page.py->screen_shoot_as_file line:158 [ERROR] : 截图失败，失败的原因是：unsupported operand type(s) for +: 'NoneType' and 'str'
+[2020-05-30 18:36:55,111] base_page.py->find_element line:197 [INFO] : [登录按钮]元素识别成功
+[2020-05-30 18:44:20,469] browser.py->__get_firefox_driver line:35 [INFO] : 初始化并启动火狐浏览器
+[2020-05-30 18:44:20,472] base_page.py->__init__ line:22 [INFO] : 实例化浏览器驱动
+[2020-05-30 18:44:39,566] base_page.py->open_url line:28 [INFO] : 打开浏览器地址http://150.109.170.136:8082/
+[2020-05-30 18:44:39,573] base_page.py->find_element line:197 [INFO] : [用户名输入框]元素识别成功
+[2020-05-30 18:44:39,573] base_page.py->input_element_operation line:220 [ERROR] : [用户名输入框]元素输入失败，输入的元素内容为:ldf123
+[2020-05-30 18:44:39,573] base_page.py->screen_shoot_as_file line:158 [ERROR] : 截图失败，失败的原因是：unsupported operand type(s) for +: 'NoneType' and 'str'
+[2020-05-30 18:44:39,580] base_page.py->find_element line:197 [INFO] : [密码输入框]元素识别成功
+[2020-05-30 18:44:39,581] base_page.py->input_element_operation line:220 [ERROR] : [密码输入框]元素输入失败，输入的元素内容为:123456
+[2020-05-30 18:44:39,581] base_page.py->screen_shoot_as_file line:158 [ERROR] : 截图失败，失败的原因是：unsupported operand type(s) for +: 'NoneType' and 'str'
+[2020-05-30 18:44:39,586] base_page.py->find_element line:197 [INFO] : [登录按钮]元素识别成功
+[2020-05-30 18:49:33,012] browser.py->__get_firefox_driver line:35 [INFO] : 初始化并启动火狐浏览器
+[2020-05-30 18:49:33,013] base_page.py->__init__ line:22 [INFO] : 实例化浏览器驱动
+[2020-05-30 18:49:53,705] base_page.py->open_url line:28 [INFO] : 打开浏览器地址http://150.109.170.136:8082/
+[2020-05-30 18:49:53,721] base_page.py->find_element line:197 [INFO] : [用户名输入框]元素识别成功
+[2020-05-30 18:49:53,721] base_page.py->input_element_operation line:220 [ERROR] : [用户名输入框]元素输入失败，输入的元素内容为:ldf123
+[2020-05-30 18:49:53,721] base_page.py->screen_shoot_as_file line:158 [ERROR] : 截图失败，失败的原因是：unsupported operand type(s) for +: 'NoneType' and 'str'
+[2020-05-30 18:49:53,732] base_page.py->find_element line:197 [INFO] : [密码输入框]元素识别成功
+[2020-05-30 18:49:53,732] base_page.py->input_element_operation line:220 [ERROR] : [密码输入框]元素输入失败，输入的元素内容为:123456
+[2020-05-30 18:49:53,732] base_page.py->screen_shoot_as_file line:158 [ERROR] : 截图失败，失败的原因是：unsupported operand type(s) for +: 'NoneType' and 'str'
+[2020-05-30 18:49:53,738] base_page.py->find_element line:197 [INFO] : [登录按钮]元素识别成功
+[2020-05-30 18:54:50,620] browser.py->__get_firefox_driver line:35 [INFO] : 初始化并启动火狐浏览器
+[2020-05-30 18:54:50,622] base_page.py->__init__ line:22 [INFO] : 实例化浏览器驱动
+[2020-05-30 18:55:10,820] base_page.py->open_url line:28 [INFO] : 打开浏览器地址http://150.109.170.136:8082/
+[2020-05-30 18:55:10,821] base_page.py->set_browser_personalized line:59 [INFO] : 开始进行个性化浏览器设置
+[2020-05-30 18:55:13,215] base_page.py->set_browser_personalized line:63 [INFO] : 最大化浏览器，等待时间为默认等待时间，设置浏览器窗口为450*900的H5页面
+[2020-05-30 18:55:13,251] base_page.py->find_element line:197 [INFO] : [用户名输入框]元素识别成功
+[2020-05-30 18:55:13,251] base_page.py->input_element_operation line:220 [ERROR] : [用户名输入框]元素输入失败，输入的元素内容为:ldf123
+[2020-05-30 18:55:13,251] base_page.py->screen_shoot_as_file line:158 [ERROR] : 截图失败，失败的原因是：unsupported operand type(s) for +: 'NoneType' and 'str'
+[2020-05-30 18:55:13,260] base_page.py->find_element line:197 [INFO] : [密码输入框]元素识别成功
+[2020-05-30 18:55:13,260] base_page.py->input_element_operation line:220 [ERROR] : [密码输入框]元素输入失败，输入的元素内容为:123456
+[2020-05-30 18:55:13,260] base_page.py->screen_shoot_as_file line:158 [ERROR] : 截图失败，失败的原因是：unsupported operand type(s) for +: 'NoneType' and 'str'
+[2020-05-30 18:55:13,270] base_page.py->find_element line:197 [INFO] : [登录按钮]元素识别成功
+[2020-05-30 18:55:13,270] base_page.py->click_element_operation line:210 [ERROR] : 对[%s]元素点击的操作失败
+[2020-05-30 18:55:13,270] base_page.py->screen_shoot_as_file line:158 [ERROR] : 截图失败，失败的原因是：unsupported operand type(s) for +: 'NoneType' and 'str'
+[2020-05-30 18:55:15,272] base_page.py->substation_wait line:140 [INFO] : 设置固定等待时间为：2
+[2020-05-30 20:00:31,083] browser.py->__get_firefox_driver line:35 [INFO] : 初始化并启动火狐浏览器
+[2020-05-30 20:00:31,085] base_page.py->__init__ line:22 [INFO] : 实例化浏览器驱动
+[2020-05-30 20:00:50,420] base_page.py->open_url line:28 [INFO] : 打开浏览器地址http://150.109.170.136:8082/
+[2020-05-30 20:00:50,420] base_page.py->set_browser_personalized line:59 [INFO] : 开始进行个性化浏览器设置
+[2020-05-30 20:00:52,874] base_page.py->set_browser_personalized line:63 [INFO] : 最大化浏览器，等待时间为默认等待时间，设置浏览器窗口为450*900的H5页面
+[2020-05-30 20:00:52,935] base_page.py->find_element line:197 [INFO] : [用户名输入框]元素识别成功
+[2020-05-30 20:00:52,935] base_page.py->input_element_operation line:220 [ERROR] : [用户名输入框]元素输入失败，输入的元素内容为:ldf123
+[2020-05-30 20:00:52,935] base_page.py->screen_shoot_as_file line:158 [ERROR] : 截图失败，失败的原因是：unsupported operand type(s) for +: 'NoneType' and 'str'
+[2020-05-30 20:00:52,946] base_page.py->find_element line:197 [INFO] : [密码输入框]元素识别成功
+[2020-05-30 20:00:52,947] base_page.py->input_element_operation line:220 [ERROR] : [密码输入框]元素输入失败，输入的元素内容为:123456
+[2020-05-30 20:00:52,947] base_page.py->screen_shoot_as_file line:158 [ERROR] : 截图失败，失败的原因是：unsupported operand type(s) for +: 'NoneType' and 'str'
+[2020-05-30 20:00:52,954] base_page.py->find_element line:197 [INFO] : [登录按钮]元素识别成功
+[2020-05-30 20:02:19,374] browser.py->__get_firefox_driver line:35 [INFO] : 初始化并启动火狐浏览器
+[2020-05-30 20:02:19,375] base_page.py->__init__ line:22 [INFO] : 实例化浏览器驱动
+[2020-05-30 20:02:38,294] base_page.py->open_url line:28 [INFO] : 打开浏览器地址http://150.109.170.136:8082/
+[2020-05-30 20:02:38,295] base_page.py->set_browser_personalized line:59 [INFO] : 开始进行个性化浏览器设置
+[2020-05-30 20:02:40,692] base_page.py->set_browser_personalized line:63 [INFO] : 最大化浏览器，等待时间为默认等待时间，设置浏览器窗口为450*900的H5页面
+[2020-05-30 20:02:40,713] base_page.py->find_element line:197 [INFO] : [用户名输入框]元素识别成功
+[2020-05-30 20:02:40,714] base_page.py->input_element_operation line:220 [ERROR] : [用户名输入框]元素输入失败，输入的元素内容为:ldf123
+[2020-05-30 20:02:40,714] base_page.py->screen_shoot_as_file line:158 [ERROR] : 截图失败，失败的原因是：unsupported operand type(s) for +: 'NoneType' and 'str'
+[2020-05-30 20:02:40,731] base_page.py->find_element line:197 [INFO] : [密码输入框]元素识别成功
+[2020-05-30 20:02:40,731] base_page.py->input_element_operation line:220 [ERROR] : [密码输入框]元素输入失败，输入的元素内容为:123456
+[2020-05-30 20:02:40,732] base_page.py->screen_shoot_as_file line:158 [ERROR] : 截图失败，失败的原因是：unsupported operand type(s) for +: 'NoneType' and 'str'
+[2020-05-30 20:02:40,746] base_page.py->find_element line:197 [INFO] : [登录按钮]元素识别成功
+[2020-05-30 20:05:49,351] browser.py->__get_firefox_driver line:35 [INFO] : 初始化并启动火狐浏览器
+[2020-05-30 20:05:49,353] base_page.py->__init__ line:22 [INFO] : 实例化浏览器驱动
+[2020-05-30 20:06:08,835] base_page.py->open_url line:28 [INFO] : 打开浏览器地址http://150.109.170.136:8082/
+[2020-05-30 20:06:08,835] base_page.py->set_browser_personalized line:59 [INFO] : 开始进行个性化浏览器设置
+[2020-05-30 20:06:11,242] base_page.py->set_browser_personalized line:63 [INFO] : 最大化浏览器，等待时间为默认等待时间，设置浏览器窗口为450*900的H5页面
+[2020-05-30 20:06:11,267] base_page.py->find_element line:197 [INFO] : [用户名输入框]元素识别成功
+[2020-05-30 20:06:11,267] base_page.py->input_element_operation line:220 [ERROR] : [用户名输入框]元素输入失败，输入的元素内容为:ldf123
+[2020-05-30 20:06:11,267] base_page.py->screen_shoot_as_file line:158 [ERROR] : 截图失败，失败的原因是：unsupported operand type(s) for +: 'NoneType' and 'str'
+[2020-05-30 20:06:11,290] base_page.py->find_element line:197 [INFO] : [密码输入框]元素识别成功
+[2020-05-30 20:06:11,290] base_page.py->input_element_operation line:220 [ERROR] : [密码输入框]元素输入失败，输入的元素内容为:123456
+[2020-05-30 20:06:11,291] base_page.py->screen_shoot_as_file line:158 [ERROR] : 截图失败，失败的原因是：unsupported operand type(s) for +: 'NoneType' and 'str'
+[2020-05-30 20:06:11,309] base_page.py->find_element line:197 [INFO] : [登录按钮]元素识别成功
+[2020-05-30 20:08:36,760] browser.py->__get_firefox_driver line:35 [INFO] : 初始化并启动火狐浏览器
+[2020-05-30 20:08:36,762] base_page.py->__init__ line:22 [INFO] : 实例化浏览器驱动
+[2020-05-30 20:08:56,067] base_page.py->open_url line:28 [INFO] : 打开浏览器地址http://150.109.170.136:8082/
+[2020-05-30 20:08:56,067] base_page.py->set_browser_personalized line:59 [INFO] : 开始进行个性化浏览器设置
+[2020-05-30 20:08:58,459] base_page.py->set_browser_personalized line:63 [INFO] : 最大化浏览器，等待时间为默认等待时间，设置浏览器窗口为450*900的H5页面
+[2020-05-30 20:08:58,504] base_page.py->find_element line:197 [INFO] : [用户名输入框]元素识别成功
+[2020-05-30 20:08:58,504] base_page.py->input_element_operation line:220 [ERROR] : [用户名输入框]元素输入失败，输入的元素内容为:ldf123
+[2020-05-30 20:08:58,504] base_page.py->screen_shoot_as_file line:158 [ERROR] : 截图失败，失败的原因是：unsupported operand type(s) for +: 'NoneType' and 'str'
+[2020-05-30 20:08:58,519] base_page.py->find_element line:197 [INFO] : [密码输入框]元素识别成功
+[2020-05-30 20:08:58,519] base_page.py->input_element_operation line:220 [ERROR] : [密码输入框]元素输入失败，输入的元素内容为:123456
+[2020-05-30 20:08:58,519] base_page.py->screen_shoot_as_file line:158 [ERROR] : 截图失败，失败的原因是：unsupported operand type(s) for +: 'NoneType' and 'str'
+[2020-05-30 20:08:58,528] base_page.py->find_element line:197 [INFO] : [登录按钮]元素识别成功
+[2020-05-30 20:11:33,371] browser.py->__get_firefox_driver line:35 [INFO] : 初始化并启动火狐浏览器
+[2020-05-30 20:11:33,372] base_page.py->__init__ line:22 [INFO] : 实例化浏览器驱动
+[2020-05-30 20:11:53,302] base_page.py->open_url line:28 [INFO] : 打开浏览器地址http://150.109.170.136:8082/
+[2020-05-30 20:11:53,302] base_page.py->set_browser_personalized line:59 [INFO] : 开始进行个性化浏览器设置
+[2020-05-30 20:11:55,762] base_page.py->set_browser_personalized line:63 [INFO] : 最大化浏览器，等待时间为默认等待时间，设置浏览器窗口为450*900的H5页面
+[2020-05-30 20:11:55,785] base_page.py->find_element line:197 [INFO] : [用户名输入框]元素识别成功
+[2020-05-30 20:11:55,785] base_page.py->input_element_operation line:220 [ERROR] : [用户名输入框]元素输入失败，输入的元素内容为:ldf123
+[2020-05-30 20:11:55,786] base_page.py->screen_shoot_as_file line:158 [ERROR] : 截图失败，失败的原因是：unsupported operand type(s) for +: 'NoneType' and 'str'
+[2020-05-30 20:11:55,800] base_page.py->find_element line:197 [INFO] : [密码输入框]元素识别成功
+[2020-05-30 20:11:55,800] base_page.py->input_element_operation line:220 [ERROR] : [密码输入框]元素输入失败，输入的元素内容为:123456
+[2020-05-30 20:11:55,800] base_page.py->screen_shoot_as_file line:158 [ERROR] : 截图失败，失败的原因是：unsupported operand type(s) for +: 'NoneType' and 'str'
+[2020-05-30 20:21:36,485] browser.py->__get_firefox_driver line:35 [INFO] : 初始化并启动火狐浏览器
+[2020-05-30 20:21:36,489] base_page.py->__init__ line:22 [INFO] : 实例化浏览器驱动
+[2020-05-30 20:21:55,641] base_page.py->open_url line:28 [INFO] : 打开浏览器地址http://150.109.170.136:8082/
+[2020-05-30 20:21:55,642] base_page.py->set_browser_personalized line:59 [INFO] : 开始进行个性化浏览器设置
+[2020-05-30 20:21:58,078] base_page.py->set_browser_personalized line:63 [INFO] : 最大化浏览器，等待时间为默认等待时间，设置浏览器窗口为450*900的H5页面
+[2020-05-30 20:21:58,078] base_page.py->find_element line:199 [ERROR] : [用户名输入框]元素识失败，失败的原因是：'timeout'
+[2020-05-30 20:21:58,078] base_page.py->screen_shoot_as_file line:158 [ERROR] : 截图失败，失败的原因是：unsupported operand type(s) for +: 'NoneType' and 'str'
+[2020-05-30 20:24:09,016] browser.py->__get_firefox_driver line:35 [INFO] : 初始化并启动火狐浏览器
+[2020-05-30 20:24:09,017] base_page.py->__init__ line:22 [INFO] : 实例化浏览器驱动
+[2020-05-30 20:24:28,093] base_page.py->open_url line:28 [INFO] : 打开浏览器地址http://150.109.170.136:8082/
+[2020-05-30 20:24:28,094] base_page.py->set_browser_personalized line:59 [INFO] : 开始进行个性化浏览器设置
+[2020-05-30 20:24:30,517] base_page.py->set_browser_personalized line:63 [INFO] : 最大化浏览器，等待时间为默认等待时间，设置浏览器窗口为450*900的H5页面
+[2020-05-30 20:24:30,517] base_page.py->find_element line:199 [ERROR] : [用户名输入框]元素识失败，失败的原因是：'timeout'
+[2020-05-30 20:24:30,517] base_page.py->screen_shoot_as_file line:158 [ERROR] : 截图失败，失败的原因是：unsupported operand type(s) for +: 'NoneType' and 'str'
+[2020-05-30 20:27:11,921] browser.py->__get_firefox_driver line:35 [INFO] : 初始化并启动火狐浏览器
+[2020-05-30 20:27:11,926] base_page.py->__init__ line:22 [INFO] : 实例化浏览器驱动
+[2020-05-30 20:27:31,729] base_page.py->open_url line:28 [INFO] : 打开浏览器地址http://150.109.170.136:8082/
+[2020-05-30 20:27:31,729] base_page.py->set_browser_personalized line:59 [INFO] : 开始进行个性化浏览器设置
+[2020-05-30 20:27:34,297] base_page.py->set_browser_personalized line:63 [INFO] : 最大化浏览器，等待时间为默认等待时间，设置浏览器窗口为450*900的H5页面
+[2020-05-30 20:27:34,316] base_page.py->find_element line:197 [INFO] : [用户名输入框]元素识别成功
+[2020-05-30 20:27:34,396] base_page.py->input_element_operation line:218 [INFO] : [用户名输入框]元素输入内容为：ldf123
+[2020-05-30 20:27:34,403] base_page.py->find_element line:197 [INFO] : [密码输入框]元素识别成功
+[2020-05-30 20:27:34,465] base_page.py->input_element_operation line:218 [INFO] : [密码输入框]元素输入内容为：123456
+[2020-05-30 20:27:34,470] base_page.py->find_element line:197 [INFO] : [登录按钮]元素识别成功
+[2020-05-30 20:27:34,799] base_page.py->click_operation line:208 [INFO] : [登录按钮]元素进行点击操作
+[2020-05-30 20:27:36,799] base_page.py->substation_wait line:140 [INFO] : 设置固定等待时间为：2
+[2020-05-30 20:27:37,116] base_page.py->screen_shot_as_file_old line:170 [INFO] : 截图成功
+[2020-05-30 20:29:50,042] browser.py->__get_firefox_driver line:35 [INFO] : 初始化并启动火狐浏览器
+[2020-05-30 20:29:50,045] base_page.py->__init__ line:22 [INFO] : 实例化浏览器驱动
+[2020-05-30 20:30:10,640] base_page.py->open_url line:28 [INFO] : 打开浏览器地址http://150.109.170.136:8082/
+[2020-05-30 20:30:10,641] base_page.py->set_browser_personalized line:59 [INFO] : 开始进行个性化浏览器设置
+[2020-05-30 20:30:13,033] base_page.py->set_browser_personalized line:63 [INFO] : 最大化浏览器，等待时间为默认等待时间，设置浏览器窗口为450*900的H5页面
+[2020-05-30 20:30:13,071] base_page.py->find_element line:197 [INFO] : [用户名输入框]元素识别成功
+[2020-05-30 20:30:13,157] base_page.py->input_element_operation line:218 [INFO] : [用户名输入框]元素输入内容为：liseen001
+[2020-05-30 20:30:13,168] base_page.py->find_element line:197 [INFO] : [密码输入框]元素识别成功
+[2020-05-30 20:30:13,217] base_page.py->input_element_operation line:218 [INFO] : [密码输入框]元素输入内容为：000000
+[2020-05-30 20:30:13,223] base_page.py->find_element line:197 [INFO] : [登录按钮]元素识别成功
+[2020-05-30 20:30:13,480] base_page.py->click_operation line:208 [INFO] : [登录按钮]元素进行点击操作
+[2020-05-30 20:30:15,481] base_page.py->substation_wait line:140 [INFO] : 设置固定等待时间为：2
+[2020-05-30 20:30:15,481] base_page.py->screen_shoot_as_file line:158 [ERROR] : 截图失败，失败的原因是：unsupported operand type(s) for +: 'NoneType' and 'str'

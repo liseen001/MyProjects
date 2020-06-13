@@ -1,0 +1,3 @@
+[2020-05-29 17:47:35,621] log_utils.py-><module> line:55 [INFO] : liseen
+[2020-05-29 17:48:31,521] log_utils.py-><module> line:55 [INFO] : liseen
+[2020-05-29 18:28:12,637] browser.py->__get_firefox_driver line:35 [INFO] : 初始化并启动火狐浏览器

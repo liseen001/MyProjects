@@ -233,14 +233,22 @@ table       { font-size: 100%; }
                 innerSize: '80%',
                 name: '比例',
                 data: [
+<<<<<<< HEAD
                     ['通过', 0],
+=======
+                    ['通过', 1],
+>>>>>>> origin/master
                     {
                         name: '失败',
                         y: 0,
                         sliced: true,
                         selected: true
                     },
+<<<<<<< HEAD
                     ['错误', 2]
+=======
+                    ['错误', 1]
+>>>>>>> origin/master
                 ]
             }]
         }, function(c) {
@@ -375,11 +383,19 @@ function html_escape(s) {
 <div style="width: 650px; float: left;">
     <h1 style="font-family: Microsoft YaHei">禅道自动化测试报告</h1>
     <p class='attribute'><strong>测试人员 : </strong> MrLiu</p>
+<<<<<<< HEAD
 <p class='attribute'><strong>开始时间 : </strong> 2020-05-16 22:47:50</p>
 <p class='attribute'><strong>合计耗时 : </strong> 0:00:00</p>
 <p class='attribute'><strong>测试结果 : </strong> 共 2，错误 2，通过率 = 0.00%</p>
 <p class='attribute'><strong>失败用例合集 : </strong> <ol style='float: left;'>无</ol></p>
 <p class='attribute'><strong>错误用例合集 : </strong> <div class='panel-default' style='float: left;'><a class='showDetail' data-toggle='collapse' href='#errorCaseOl' style='text-decoration: none;'>点击查看</a></div><ol id='errorCaseOl' class='collapse' style='float: left;'><li>login_suite.login_test (unittest.loader._FailedTest)</li><li>main_suite.quit_test (unittest.loader._FailedTest)</li></ol></p>
+=======
+<p class='attribute'><strong>开始时间 : </strong> 2020-05-18 18:44:15</p>
+<p class='attribute'><strong>合计耗时 : </strong> 0:00:40.941905</p>
+<p class='attribute'><strong>测试结果 : </strong> 共 2，通过 1，错误 1，通过率 = 50.00%</p>
+<p class='attribute'><strong>失败用例合集 : </strong> <ol style='float: left;'>无</ol></p>
+<p class='attribute'><strong>错误用例合集 : </strong> <div class='panel-default' style='float: left;'><a class='showDetail' data-toggle='collapse' href='#errorCaseOl' style='text-decoration: none;'>点击查看</a></div><ol id='errorCaseOl' class='collapse' style='float: left;'><li>main_suite.quit_test (unittest.loader._FailedTest)</li></ol></p>
+>>>>>>> origin/master
 
     <p class='description'>newdream</p>
 </div>
@@ -390,10 +406,17 @@ function html_escape(s) {
 
 <div style="width: 500px; clear: both;">
 <p id='show_detail_line'>
+<<<<<<< HEAD
 <a class="btn btn-primary" href='javascript:showCase(0)'>概要{ 0.00% }</a>
 <a class="btn btn-success" href='javascript:showCase(2)'>通过{ 0 }</a>
 <a class="btn btn-danger" href='javascript:showCase(1)'>失败{ 0 }</a>
 <a class="btn btn-warning" href='javascript:showCase(3)'>错误{ 2 }</a>
+=======
+<a class="btn btn-primary" href='javascript:showCase(0)'>概要{ 50.00% }</a>
+<a class="btn btn-success" href='javascript:showCase(2)'>通过{ 1 }</a>
+<a class="btn btn-danger" href='javascript:showCase(1)'>失败{ 0 }</a>
+<a class="btn btn-warning" href='javascript:showCase(3)'>错误{ 1 }</a>
+>>>>>>> origin/master
 <a class="btn btn-info" href='javascript:showCase(4)'>所有{ 2 }</a>
 </p>
 </div>
@@ -419,6 +442,7 @@ function html_escape(s) {
     <td>详细</td>
 </tr>
 
+<<<<<<< HEAD
 <tr class='errorClass warning'>
     <td>_FailedTest</td>
     <td></td>
@@ -466,10 +490,43 @@ ImportError: cannot import name 'browser' from 'PageObject.common.browser' (D:\P
     </tr>
     
     <tr id='et1_2' class='none'>
+=======
+<tr class='passClass warning'>
+    <td>LoginTest</td>
+    <td></td>
+    <td class="text-center">1</td>
+    <td class="text-center">1</td>
+    <td class="text-center">0</td>
+    <td class="text-center">0</td>
+    <td class="text-center">40.94秒</td>
+    <td class="text-center"><a href="javascript:showClassDetail('c1',1)" class="detail" id='c1'>详细</a></td>
+</tr>
+
+<tr id='pt1_1' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_login_fail</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr class='errorClass warning'>
+    <td>_FailedTest</td>
+    <td></td>
+    <td class="text-center">1</td>
+    <td class="text-center">0</td>
+    <td class="text-center">0</td>
+    <td class="text-center">1</td>
+    <td class="text-center">0.0秒</td>
+    <td class="text-center"><a href="javascript:showClassDetail('c2',1)" class="detail" id='c2'>详细</a></td>
+</tr>
+
+    <tr id='et2_1' class='none'>
+>>>>>>> origin/master
         <td class='errorCase' style="vertical-align: middle"><div class='testcase'>quit_test</div></td>
         <td style="vertical-align: middle"></td>
         <td colspan='5' align='center'>
         <!--默认收起错误信息 -Findyou
+<<<<<<< HEAD
         <button id='btn_et1_2' type="button"  class="btn btn-xs collapsed" data-toggle="collapse" data-target='#div_et1_2'>错误</button>
         <div id='div_et1_2' class="collapse">  -->
 
@@ -487,6 +544,25 @@ Traceback (most recent call last):
   File "D:\PageObject\PageObject\testcases\main_suite\quit_test.py", line 3, in &lt;module&gt;
     from PageObject.common.browser import browser
 ImportError: cannot import name 'browser' from 'PageObject.common.browser' (D:\PageObject\PageObject\common\browser.py)
+=======
+        <button id='btn_et2_1' type="button"  class="btn btn-xs collapsed" data-toggle="collapse" data-target='#div_et2_1'>错误</button>
+        <div id='div_et2_1' class="collapse">  -->
+
+        <!-- 默认展开错误信息 -Findyou /  修复失败按钮的颜色 -- Gelomen -->
+        <button id='btn_et2_1' type="button"  class="btn btn-xs" data-toggle="collapse" data-target='#div_et2_1'>错误</button>
+        <div id='div_et2_1' class="collapse in">
+        <pre style="text-align:left">
+        
+et2_1: ImportError: Failed to import test module: main_suite.quit_test
+Traceback (most recent call last):
+  File "D:\Users\LiSeen\Documents\python\lib\unittest\loader.py", line 436, in _find_test_path
+    module = self._get_module_from_name(name)
+  File "D:\Users\LiSeen\Documents\python\lib\unittest\loader.py", line 377, in _get_module_from_name
+    __import__(name)
+  File "C:\Users\Administrator\PycharmProjects\MyProjects\PageObject\testcases\main_suite\quit_test.py", line 3, in &lt;module&gt;
+    from PageObject.common.browser import browser
+ImportError: cannot import name 'browser' from 'PageObject.common.browser' (C:\Users\Administrator\PycharmProjects\MyProjects\PageObject\common\browser.py)
+>>>>>>> origin/master
 
 
 
@@ -499,11 +575,19 @@ ImportError: cannot import name 'browser' from 'PageObject.common.browser' (D:\P
 <tr id='total_row' class="text-center active">
     <td colspan='2'>总计</td>
     <td>2</td>
+<<<<<<< HEAD
     <td>0</td>
     <td>0</td>
     <td>2</td>
     <td>0.0秒</td>
     <td>通过率：0.00%</td>
+=======
+    <td>1</td>
+    <td>0</td>
+    <td>1</td>
+    <td>40.94秒</td>
+    <td>通过率：50.00%</td>
+>>>>>>> origin/master
 </tr>
 </table>
 

@@ -1,0 +1,22 @@
+- config:
+    name: 创建用户标签
+    base_url: ${ENV(url)}
+    verify: False
+    export:
+      - tag_id
+
+
+- test:
+    name: /cgi-bin/tags/create
+    request:
+      url: /cgi-bin/tags/create
+      headers:
+        Content-Type: application/json
+      params:
+        access_token: ${get_access_token()}
+      json: {"tag": {"name":'${ranstr()}'}}
+      method: POST
+    extract:
+     - tag_id: content.tag.id
+    validate:
+      - eq: [content.tag.id,$tag_id]

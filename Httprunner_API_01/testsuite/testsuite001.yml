@@ -1,0 +1,16 @@
+config:
+  name: 测试套件
+
+
+testcases:
+  - name: 获取token
+    testcase: testcases/case001_get_accesstoken.yml
+
+  - name: 创建标签
+    testcase: testcases/case002_add_users_tags.yml
+
+  - name: 查看被创建的标签
+    testcase: testcases/case003_lookfor_makedtags.yml
+
+  - name: 删除case001中被创建的标签
+    testcase: testcases/case004_delete_tags.yml

@@ -1,0 +1,55 @@
+[2020-05-21 18:36:20,722] selenium_base_case.py->setUpClass line:11 [INFO] : 
+[2020-05-21 18:36:20,725] selenium_base_case.py->setUpClass line:12 [INFO] : ==============测试类开始执行==============
+[2020-05-21 18:36:20,726] selenium_base_case.py->setUp line:17 [INFO] : -------------测试方法开始执行-------------
+[2020-05-21 18:36:35,405] base_page.py->__init__ line:22 [INFO] : 实例化浏览器驱动
+[2020-05-21 18:36:35,677] base_page.py->set_browser_max line:52 [INFO] : 设置浏览器最大化
+[2020-05-21 18:36:35,684] base_page.py->implicitly_wait line:69 [INFO] : 设置隐式等待时间为5秒
+[2020-05-21 18:36:40,320] base_page.py->open_url line:28 [INFO] : 打开浏览器path地址http://106.53.50.202:8999/zentao6/www/user-login.html
+[2020-05-21 18:36:40,320] base_page.py->__init__ line:22 [INFO] : 实例化浏览器驱动
+[2020-05-21 18:36:40,469] base_page.py->find_element line:144 [INFO] : [用户名输入框]元素识别成功
+[2020-05-21 18:36:40,507] base_page.py->input_operation line:168 [INFO] : [用户名输入框]元素进行输入内容：sss
+[2020-05-21 18:36:40,521] base_page.py->find_element line:144 [INFO] : [密码输入框]元素识别成功
+[2020-05-21 18:36:40,590] base_page.py->input_operation line:168 [INFO] : [密码输入框]元素进行输入内容：213123
+[2020-05-21 18:36:40,616] base_page.py->find_element line:144 [INFO] : [登录按钮]元素识别成功
+[2020-05-21 18:36:40,905] base_page.py->click_operation line:158 [INFO] : [登录按钮]元素进行点击操作
+[2020-05-21 18:37:00,907] base_page.py->wait line:111 [INFO] : 固定等待时间为20.0
+[2020-05-21 18:37:04,535] base_page.py->wait line:111 [INFO] : 固定等待时间为3
+[2020-05-21 18:37:04,538] base_page.py->screen_shoot_as_file line:290 [ERROR] : 截图失败，失败的原因是：Message: Tried to run command without establishing a connection
+
+[2020-05-21 18:37:04,539] base_page.py->close_tab line:38 [ERROR] : 关闭浏览器失败，原因是：Message: Tried to run command without establishing a connection
+
+[2020-05-21 18:37:04,542] base_page.py->screen_shoot_as_file line:290 [ERROR] : 截图失败，失败的原因是：Message: Tried to run command without establishing a connection
+
+[2020-05-21 18:37:04,542] selenium_base_case.py->tearDown line:35 [INFO] : -------------测试方法执行完毕-------------
+[2020-05-21 18:37:04,614] selenium_base_case.py->tearDownClass line:39 [INFO] : ==============测试类执行完毕==============
+[2020-05-21 18:37:04,615] selenium_base_case.py->setUpClass line:11 [INFO] : 
+[2020-05-21 18:37:04,615] selenium_base_case.py->setUpClass line:12 [INFO] : ==============测试类开始执行==============
+[2020-05-21 18:37:16,726] base_page.py->__init__ line:22 [INFO] : 实例化浏览器驱动
+[2020-05-21 18:37:17,027] base_page.py->set_browser_max line:52 [INFO] : 设置浏览器最大化
+[2020-05-21 18:37:17,034] base_page.py->implicitly_wait line:69 [INFO] : 设置隐式等待时间为5秒
+[2020-05-21 18:37:17,035] selenium_base_case.py->tearDownClass line:39 [INFO] : ==============测试类执行完毕==============
+[2020-05-21 20:52:14,129] selenium_base_case.py->setUpClass line:11 [INFO] : 
+[2020-05-21 20:52:14,131] selenium_base_case.py->setUpClass line:12 [INFO] : ==============测试类开始执行==============
+[2020-05-21 20:52:14,131] selenium_base_case.py->setUp line:17 [INFO] : -------------测试方法开始执行-------------
+[2020-05-21 20:52:26,400] base_page.py->__init__ line:22 [INFO] : 实例化浏览器驱动
+[2020-05-21 20:52:26,663] base_page.py->set_browser_max line:52 [INFO] : 设置浏览器最大化
+[2020-05-21 20:52:26,741] base_page.py->implicitly_wait line:69 [INFO] : 设置隐式等待时间为5秒
+[2020-05-21 20:52:30,633] base_page.py->open_url line:28 [INFO] : 打开浏览器path地址http://106.53.50.202:8999/zentao6/www/user-login.html
+[2020-05-21 20:52:30,633] base_page.py->__init__ line:22 [INFO] : 实例化浏览器驱动
+[2020-05-21 20:52:30,684] base_page.py->find_element line:144 [INFO] : [用户名输入框]元素识别成功
+[2020-05-21 20:52:30,704] base_page.py->input_operation line:168 [INFO] : [用户名输入框]元素进行输入内容：sss
+[2020-05-21 20:52:30,710] base_page.py->find_element line:144 [INFO] : [密码输入框]元素识别成功
+[2020-05-21 20:52:30,739] base_page.py->input_operation line:168 [INFO] : [密码输入框]元素进行输入内容：213123
+[2020-05-21 20:52:30,744] base_page.py->find_element line:144 [INFO] : [登录按钮]元素识别成功
+[2020-05-21 20:52:30,971] base_page.py->click_operation line:158 [INFO] : [登录按钮]元素进行点击操作
+[2020-05-21 20:52:50,972] base_page.py->wait line:111 [INFO] : 固定等待时间为20.0
+[2020-05-21 20:52:50,998] base_page.py->switch_to_alter line:238 [INFO] : 切换至弹出框，返回弹出框文本信息登录失败，请检查您的用户名或密码是否填写正确。
+[2020-05-21 20:52:53,229] base_page.py->close_tab line:36 [INFO] : 关闭当前tab页签
+[2020-05-21 20:52:53,229] selenium_base_case.py->tearDown line:35 [INFO] : -------------测试方法执行完毕-------------
+[2020-05-21 20:52:53,229] selenium_base_case.py->tearDownClass line:39 [INFO] : ==============测试类执行完毕==============
+[2020-05-21 20:52:53,230] selenium_base_case.py->setUpClass line:11 [INFO] : 
+[2020-05-21 20:52:53,230] selenium_base_case.py->setUpClass line:12 [INFO] : ==============测试类开始执行==============
+[2020-05-21 20:53:08,086] base_page.py->__init__ line:22 [INFO] : 实例化浏览器驱动
+[2020-05-21 20:53:08,447] base_page.py->set_browser_max line:52 [INFO] : 设置浏览器最大化
+[2020-05-21 20:53:08,466] base_page.py->implicitly_wait line:69 [INFO] : 设置隐式等待时间为5秒
+[2020-05-21 20:53:08,467] selenium_base_case.py->tearDownClass line:39 [INFO] : ==============测试类执行完毕==============

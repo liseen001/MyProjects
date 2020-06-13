@@ -1,0 +1,288 @@
+[2020-06-13 17:38:13,729] common_api.py->get_access_token line:37 [INFO] : 调用获取access_token接口成功
+[2020-06-13 17:38:14,736] common_api.py->get_access_token line:37 [INFO] : 调用获取access_token接口成功
+[2020-06-13 17:38:14,737] common_api.py->get_default_access_token line:46 [INFO] : 获取access_token成功，access_token为：[34_3R_D8Sm5-T6CRyejK-_flMfTiGyox5hn823XWUsMmXRwO06x6ZVmAkGadV0-bcjJVJgSVrFuRZpMX-QPdAWEYzaebQtfz7xOtl-tWAaj5qESzM6_ubtih5At-vwetv40zMZvTHflTsSIRnzNVAChAFALQS]
+[2020-06-13 17:38:15,820] common_api.py->add_tags line:61 [INFO] : 新增用户标签成功，新增的标签为：[YZ5dC]
+[2020-06-13 17:45:06,094] common_api.py->get_access_token line:37 [INFO] : 调用获取access_token接口成功
+[2020-06-13 17:45:06,095] common_api.py->get_default_access_token line:46 [INFO] : 获取access_token成功，access_token为：[34_5BguoX7ohaf72j6epzmg_VbPJlOyZV10f6NLiVmtVvnZ7Egz4Kzf5z4G1yQaOmoQCkB7duR_34L69_TRue_6LvDAYhBdaCj8oLIpXz0Np2wdjOXcBnh2pm4wmeaw3gdGwTjwRNW94E5EVPwbGGCcAGACCY]
+[2020-06-13 17:45:07,055] common_api.py->get_access_token line:37 [INFO] : 调用获取access_token接口成功
+[2020-06-13 17:45:07,057] common_api.py->get_default_access_token line:46 [INFO] : 获取access_token成功，access_token为：[34_5BguoX7ohaf72j6epzmg_VbPJlOyZV10f6NLiVmtVvnZ7Egz4Kzf5z4G1yQaOmoQCkB7duR_34L69_TRue_6LvDAYhBdaCj8oLIpXz0Np2wdjOXcBnh2pm4wmeaw3gdGwTjwRNW94E5EVPwbFGZcAGAQRK]
+[2020-06-13 17:45:07,981] common_api.py->look_for_makedtags line:73 [INFO] : 获取公众号已创建的标签成功
+[2020-06-13 17:45:08,941] common_api.py->edit_tags line:88 [INFO] : 编辑标签成功
+[2020-06-13 17:54:46,197] common_api.py->get_access_token line:37 [INFO] : 调用获取access_token接口成功
+[2020-06-13 17:54:46,199] common_api.py->get_default_access_token line:46 [INFO] : 获取access_token成功，access_token为：[34_YrqaRSsnejdnnSVCXwfFI4gG377AE6_Avmhaw2zkc64NjRGu_SfD6s6SA6v8_RjTR19U5ZrGZYzRsUfw3bQ7gugq4KwlcGerNVRjcwCSnoY50ar9uThwMIrjL6rvBc0uJb9LvEn5sHU0oO9WPZQbAEADNE]
+[2020-06-13 17:54:46,630] common_api.py->get_access_token line:37 [INFO] : 调用获取access_token接口成功
+[2020-06-13 17:54:46,631] common_api.py->get_default_access_token line:46 [INFO] : 获取access_token成功，access_token为：[34_YrqaRSsnejdnnSVCXwfFI4gG377AE6_Avmhaw2zkc64NjRGu_SfD6s6SA6v8_RjTR19U5ZrGZYzRsUfw3bQ7gugq4KwlcGerNVRjcwCSnoY50ar9uThwMIrjL6rvBc0uJb9LvEn5sHU0oO9WDTAbAEANDK]
+[2020-06-13 17:54:47,148] common_api.py->add_tags line:61 [INFO] : 新增用户标签成功，新增的标签为：[7msKX]
+[2020-06-13 17:54:47,678] common_api.py->delete_tags line:103 [INFO] : 删除标签id: [271] 成功
+[2020-06-13 17:56:57,393] common_api.py->get_access_token line:37 [INFO] : 调用获取access_token接口成功
+[2020-06-13 17:56:57,394] common_api.py->get_default_access_token line:46 [INFO] : 获取access_token成功，access_token为：[34_vA4JjcEH5gP4tGpX9zHZRgMygFnHj_3f9CCFrcnpQW0idv5r688ruOSMtAxwyY6ze29ea3ScfpN2E4zGZ7LvXPdw6Z9Yjvzi2C15NVYRcGMDcMiByBXxd3bYkjTpAFTzckXisuIDP1Lg5YptDLRgAHAMUA]
+[2020-06-13 17:56:57,786] common_api.py->get_access_token line:37 [INFO] : 调用获取access_token接口成功
+[2020-06-13 17:56:57,786] common_api.py->get_default_access_token line:46 [INFO] : 获取access_token成功，access_token为：[34_vA4JjcEH5gP4tGpX9zHZRgMygFnHj_3f9CCFrcnpQW0idv5r688ruOSMtAxwyY6ze29ea3ScfpN2E4zGZ7LvXPdw6Z9Yjvzi2C15NVYRcGMDcMiByBXxd3bYkjTpAFTzckXisuIDP1Lg5YptHOUgAHAWDJ]
+[2020-06-13 17:56:58,313] common_api.py->add_tags line:63 [ERROR] : 新增用户标签失败，失败的原因是:['id']
+[2020-06-13 17:56:58,869] common_api.py->delete_tags line:103 [INFO] : 删除标签id: [272] 成功
+[2020-06-13 18:01:39,469] common_api.py->get_access_token line:37 [INFO] : 调用获取access_token接口成功
+[2020-06-13 18:01:39,470] common_api.py->get_default_access_token line:46 [INFO] : 获取access_token成功，access_token为：[34_TkwC8e-IL_XqfSWGgLbVYTRSX_mgXXAKRLnLxSuLuo60RizKCPVpd3qSp0M78yCbMyk-XfIub4hJPqPgsoeRQw_fnLDIk-VP9fa0STOHn02Vdmxb-iVgb6WrtmroW4EE6vVDvCr-tJlXYf1nHVLcADADRH]
+[2020-06-13 18:01:39,878] common_api.py->get_access_token line:37 [INFO] : 调用获取access_token接口成功
+[2020-06-13 18:01:39,878] common_api.py->get_default_access_token line:46 [INFO] : 获取access_token成功，access_token为：[34_TkwC8e-IL_XqfSWGgLbVYTRSX_mgXXAKRLnLxSuLuo60RizKCPVpd3qSp0M78yCbMyk-XfIub4hJPqPgsoeRQw_fnLDIk-VP9fa0STOHn02Vdmxb-iVgb6WrtmroW4EE6vVDvCr-tJlXYf1nICDcADABVW]
+[2020-06-13 18:01:41,003] common_api.py->delete_tags line:103 [INFO] : 删除标签id: [273] 成功
+[2020-06-13 18:02:43,449] common_api.py->get_access_token line:37 [INFO] : 调用获取access_token接口成功
+[2020-06-13 18:02:43,450] common_api.py->get_default_access_token line:46 [INFO] : 获取access_token成功，access_token为：[34_-Et8gD69tRuB3Mar7VTc8FB_oucD_Fe1jgQRbvHskMfipb32GlG_BphK6zX0d2J9b3T_8BZSEUSpXC_1phQuzDhLJKaIXousbn3SemwJxzTwTWDFYPDdGRcjOPOLs4kSDR-csBWHtQpXFEg2TOAiACAFAM]
+[2020-06-13 18:02:43,874] common_api.py->get_access_token line:37 [INFO] : 调用获取access_token接口成功
+[2020-06-13 18:02:43,874] common_api.py->get_default_access_token line:46 [INFO] : 获取access_token成功，access_token为：[34_-Et8gD69tRuB3Mar7VTc8FB_oucD_Fe1jgQRbvHskMfipb32GlG_BphK6zX0d2J9b3T_8BZSEUSpXC_1phQuzDhLJKaIXousbn3SemwJxzTwTWDFYPDdGRcjOPOLs4kSDR-csBWHtQpXFEg2EAQiACAXTJ]
+[2020-06-13 18:02:44,888] common_api.py->delete_tags line:103 [INFO] : 删除标签id: [274] 成功
+[2020-06-13 18:03:13,914] common_api.py->get_access_token line:37 [INFO] : 调用获取access_token接口成功
+[2020-06-13 18:03:13,915] common_api.py->get_default_access_token line:46 [INFO] : 获取access_token成功，access_token为：[34_3Hv08rM6XZQHqDB-x7_MZPfborALulPgDP7wCimXQD-oPFoM3DBG_WTE0y4wTDZ48ltTTW7Cg2_8eeumUUxTVHYO7jQIaD176_1Kjheq0WtyFEBu8EIrmImpIxOea5lN3gweEI6A2Dbv-uV9ETLfAEAXME]
+[2020-06-13 18:03:14,364] common_api.py->get_access_token line:37 [INFO] : 调用获取access_token接口成功
+[2020-06-13 18:03:14,364] common_api.py->get_default_access_token line:46 [INFO] : 获取access_token成功，access_token为：[34_3Hv08rM6XZQHqDB-x7_MZPfborALulPgDP7wCimXQD-oPFoM3DBG_WTE0y4wTDZ48ltTTW7Cg2_8eeumUUxTVHYO7jQIaD176_1Kjheq0WtyFEBu8EIrmImpIxOea5lN3gweEI6A2Dbv-uV9GFHfAEARQS]
+[2020-06-13 18:03:15,397] common_api.py->delete_tags line:103 [INFO] : 删除标签id: [275] 成功
+[2020-06-13 18:03:47,897] common_api.py->get_access_token line:37 [INFO] : 调用获取access_token接口成功
+[2020-06-13 18:03:47,899] common_api.py->get_default_access_token line:46 [INFO] : 获取access_token成功，access_token为：[34_iMpVKMh5oTb-figSu7-yQd7TBF8lCcEBHxW2cTlbKPqUogAXwf7j6iIf861QbA-LoDkJtZvuQNDcVtFQcn0d1thX2rW9VG2E_V6xvdTcZ6P0SrTNSZRQKtFB9wPswiOqzWnzeEGXcmFHAaLgOSQbABATXV]
+[2020-06-13 18:03:48,315] common_api.py->get_access_token line:37 [INFO] : 调用获取access_token接口成功
+[2020-06-13 18:03:48,315] common_api.py->get_default_access_token line:46 [INFO] : 获取access_token成功，access_token为：[34_iMpVKMh5oTb-figSu7-yQd7TBF8lCcEBHxW2cTlbKPqUogAXwf7j6iIf861QbA-LoDkJtZvuQNDcVtFQcn0d1thX2rW9VG2E_V6xvdTcZ6P0SrTNSZRQKtFB9wPswiOqzWnzeEGXcmFHAaLgHCPbABALGT]
+[2020-06-13 18:03:48,792] common_api.py->add_tags line:61 [INFO] : 新增用户标签成功，新增的标签为：[9qX1Q]
+[2020-06-13 18:03:49,305] common_api.py->delete_tags line:103 [INFO] : 删除标签id: [276] 成功
+[2020-06-13 18:04:09,786] common_api.py->get_access_token line:37 [INFO] : 调用获取access_token接口成功
+[2020-06-13 18:04:09,788] common_api.py->get_default_access_token line:46 [INFO] : 获取access_token成功，access_token为：[34_7-HrUm0ehM9vEp7xx0A8R9KeUQe6UkZggQFJLZFWwoK1FwJKf4PJc4GIqqC2-Lj9QaXGzWnp25QZyrYKK1SuLC0bjredXRVG_MC6h2QgSPw1L5m3l_um0LtlBMqXKHsuVkSks04Nf6TxBQp_MYZgACAXJK]
+[2020-06-13 18:04:10,270] common_api.py->get_access_token line:37 [INFO] : 调用获取access_token接口成功
+[2020-06-13 18:04:10,270] common_api.py->get_default_access_token line:46 [INFO] : 获取access_token成功，access_token为：[34_7-HrUm0ehM9vEp7xx0A8R9KeUQe6UkZggQFJLZFWwoK1FwJKf4PJc4GIqqC2-Lj9QaXGzWnp25QZyrYKK1SuLC0bjredXRVG_MC6h2QgSPw1L5m3l_um0LtlBMqXKHsuVkSks04Nf6TxBQp_ZRPgACAMEC]
+[2020-06-13 18:04:10,821] common_api.py->add_tags line:61 [INFO] : 新增用户标签成功，新增的标签为：[pBCjE]
+[2020-06-13 18:04:10,821] common_api.py->add_tags line:62 [INFO] : 创建的标签id为：[277]
+[2020-06-13 18:04:11,413] common_api.py->delete_tags line:104 [INFO] : 删除标签id: [277] 成功
+[2020-06-13 18:15:11,858] common_api.py->get_access_token line:37 [INFO] : 调用获取access_token接口成功
+[2020-06-13 18:15:11,859] common_api.py->get_default_access_token line:46 [INFO] : 获取access_token成功，access_token为：[34_EMBS8ctmhBufQC3S-VzZMNv95mPxZFVMjsySqSNjv1r4VKeSaUWwVwuEUR12Ez4XJg3wS2urIVEwa0Qgo55gy8_4tXN2M9WDTKcXqsTzNPHzQ2wIZevHaRslaEPx7ImQSTkwtECRqcUPaHRxDZXbAEAQMK]
+[2020-06-13 18:15:12,327] common_api.py->look_for_makedtags line:75 [INFO] : 获取公众号已创建的标签成功
+[2020-06-13 18:15:53,098] common_api.py->get_access_token line:37 [INFO] : 调用获取access_token接口成功
+[2020-06-13 18:15:53,100] common_api.py->get_default_access_token line:46 [INFO] : 获取access_token成功，access_token为：[34_wyaKSfd7GvE_N8jKiD4xMlkn382ps0fIL9kl_0PDbhZ1Utpk0SuZCHOaSzQUkYZj5v4uPMDy4nNyjWmHbmF6x6pdlVLB7ZYi4WyqtapucL0V37r6pXRAsG9wDsF6JqgG2OHE8nmFNp_LgTi3ALZiAIAEPD]
+[2020-06-13 18:15:53,547] common_api.py->look_for_makedtags line:75 [INFO] : 获取公众号已创建的标签成功
+[2020-06-13 18:16:34,321] common_api.py->get_access_token line:37 [INFO] : 调用获取access_token接口成功
+[2020-06-13 18:16:34,322] common_api.py->get_default_access_token line:46 [INFO] : 获取access_token成功，access_token为：[34_LsZO2t9h49bG6jLC5G4APUlIcXJX6NvErNWoJHRbXl3jLepRbqHmTUShuWjq2OjlL3b_yRH6qgyue8n6Mne98Pje1xK1ib08ZmyRmtrc9t_z0Kr2Twqy2aGrfMCHo_pnXG7K1ISFWp3gmBGbZWIgABAEBN]
+[2020-06-13 18:16:34,806] common_api.py->look_for_makedtags line:75 [INFO] : 获取公众号已创建的标签成功
+[2020-06-13 18:16:44,656] common_api.py->get_access_token line:37 [INFO] : 调用获取access_token接口成功
+[2020-06-13 18:16:44,656] common_api.py->get_default_access_token line:46 [INFO] : 获取access_token成功，access_token为：[34_LsZO2t9h49bG6jLC5G4APUlIcXJX6NvErNWoJHRbXl3jLepRbqHmTUShuWjq2OjlL3b_yRH6qgyue8n6Mne98Pje1xK1ib08ZmyRmtrc9t_z0Kr2Twqy2aGrfMCHo_pnXG7K1ISFWp3gmBGbVKAgABAHWM]
+[2020-06-13 18:16:45,110] common_api.py->look_for_makedtags line:75 [INFO] : 获取公众号已创建的标签成功
+[2020-06-13 18:21:28,742] common_api.py->get_access_token line:37 [INFO] : 调用获取access_token接口成功
+[2020-06-13 18:21:28,743] common_api.py->get_default_access_token line:46 [INFO] : 获取access_token成功，access_token为：[34_60dZJsRCOcp7ogZ1lUgi_M5IWGZTBbtntedj9j2Sr0CxBS8Y4SnCljFCy4pkpUxXWeraORQMt5u0Xx6xRHeX77ZfrMkVYPJaUEPKdYfzsdpR16ClzpTkpO4ywrJ9VGiPXiDxG8V2lcm_ZdTjWEViAAALTK]
+[2020-06-13 18:21:29,283] common_api.py->look_for_makedtags line:75 [INFO] : 获取公众号已创建的标签成功
+[2020-06-13 18:21:43,019] common_api.py->get_access_token line:37 [INFO] : 调用获取access_token接口成功
+[2020-06-13 18:21:43,021] common_api.py->get_default_access_token line:46 [INFO] : 获取access_token成功，access_token为：[34_60dZJsRCOcp7ogZ1lUgi_M5IWGZTBbtntedj9j2Sr0CxBS8Y4SnCljFCy4pkpUxXWeraORQMt5u0Xx6xRHeX77ZfrMkVYPJaUEPKdYfzsdpR16ClzpTkpO4ywrJ9VGiPXiDxG8V2lcm_ZdTjDSPiAAATIF]
+[2020-06-13 18:21:43,621] common_api.py->look_for_makedtags line:75 [INFO] : 获取公众号已创建的标签成功
+[2020-06-13 18:22:17,268] common_api.py->get_access_token line:37 [INFO] : 调用获取access_token接口成功
+[2020-06-13 18:22:17,272] common_api.py->get_default_access_token line:46 [INFO] : 获取access_token成功，access_token为：[34_svfvUUe8Q59rp_v-x0A8R9KeUQe6UkZggQFJLdob_VAi88Ahw5LlcY_83CBdahOQRqMD8_8clbBT_Lo9NC1DRvaDb5cb3VaHsLOyWk-Lz5v2i_m9fJ-a9W3hARLDScfeyznPJKcNkGakrx6JVHHgACAAMM]
+[2020-06-13 18:22:17,791] common_api.py->look_for_makedtags line:75 [INFO] : 获取公众号已创建的标签成功
+[2020-06-13 18:27:44,078] case002_lookfor_maked_tags_testcase.py->setUp line:15 [INFO] : 测试用例 [获取公众号已创建的标签] 开始执行
+[2020-06-13 18:27:44,693] common_api.py->get_access_token line:37 [INFO] : 调用获取access_token接口成功
+[2020-06-13 18:27:44,693] common_api.py->get_default_access_token line:46 [INFO] : 获取access_token成功，access_token为：[34_dXbFE9xEgOVkQMCC8tAwV4Wbto4ogHmAntbZu0EjBOxzcqrQeUOdtzkv8eGEgzhewQfIk60nsJUdAvlzN7sk7nF-k-_0CaEFee2XIg-TDfqojC3dIPBYqXlgbaxH-w8p6z1x9IbdqJbjBqi6QQOdACAEEC]
+[2020-06-13 18:27:45,117] common_api.py->look_for_makedtags line:75 [INFO] : 获取公众号已创建的标签成功
+[2020-06-13 18:27:45,118] case002_lookfor_maked_tags_testcase.py->tearDown line:18 [INFO] : 测试用例 [获取公众号已创建的标签] 执行结束
+[2020-06-13 18:30:21,677] case002_lookfor_maked_tags_testcase.py->setUp line:14 [INFO] : 测试用例 [获取公众号已创建的标签] 开始执行
+[2020-06-13 18:30:22,299] common_api.py->get_access_token line:37 [INFO] : 调用获取access_token接口成功
+[2020-06-13 18:30:22,299] common_api.py->get_default_access_token line:46 [INFO] : 获取access_token成功，access_token为：[34_qxWX0OpLR-N2SfJc-rlOfAVgtASvnXbXYP_Sdi-dz2PNglH1_TlJli1LId1WT4FByO5dGIf0sf-Kxa4B5F27_p6TVTX31fqdUX3QsTflt5y6bWm_c4LBa1bSqAc108w4xCfGW4WaoXAtISYrKXKcABAFSF]
+[2020-06-13 18:30:22,801] common_api.py->look_for_makedtags line:75 [INFO] : 获取公众号已创建的标签成功
+[2020-06-13 18:30:22,803] case002_lookfor_maked_tags_testcase.py->tearDown line:17 [INFO] : 测试用例 [获取公众号已创建的标签] 执行结束
+[2020-06-13 18:33:31,382] case003_update_makedtags_testcase.py->setUp line:13 [INFO] : 测试用例 [获取编辑标签接口测试] 开始执行
+[2020-06-13 18:33:32,255] common_api.py->get_access_token line:37 [INFO] : 调用获取access_token接口成功
+[2020-06-13 18:33:32,256] common_api.py->get_default_access_token line:46 [INFO] : 获取access_token成功，access_token为：[34_5CX-n71GIHt5V6EcdTx_LQTBJfaPhjV1RpjCKjsb9GvA4yJS0p-YyaLvanKmwnKRlP7rl7MU9M8mj_y8SoweJ7Y5zFW5fwkVKasKWSF2z4PXjkvE4gx8TG_lCXrexBRuByE8C0GljKJux0_LHCReAHAZUJ]
+[2020-06-13 18:33:32,667] common_api.py->get_access_token line:37 [INFO] : 调用获取access_token接口成功
+[2020-06-13 18:33:32,667] common_api.py->get_default_access_token line:46 [INFO] : 获取access_token成功，access_token为：[34_5CX-n71GIHt5V6EcdTx_LQTBJfaPhjV1RpjCKjsb9GvA4yJS0p-YyaLvanKmwnKRlP7rl7MU9M8mj_y8SoweJ7Y5zFW5fwkVKasKWSF2z4PXjkvE4gx8TG_lCXrexBRuByE8C0GljKJux0_LRKMeAHAYRT]
+[2020-06-13 18:33:33,176] common_api.py->look_for_makedtags line:75 [INFO] : 获取公众号已创建的标签成功
+[2020-06-13 18:33:33,689] common_api.py->edit_tags line:91 [INFO] : 编辑标签成功
+[2020-06-13 18:33:33,689] case003_update_makedtags_testcase.py->tearDown line:15 [INFO] : 测试用例 [获取编辑标签接口测试] 执行完毕
+[2020-06-13 18:33:51,739] case003_update_makedtags_testcase.py->setUp line:13 [INFO] : 测试用例 [获取编辑标签接口测试] 开始执行
+[2020-06-13 18:33:52,245] common_api.py->get_access_token line:37 [INFO] : 调用获取access_token接口成功
+[2020-06-13 18:33:52,245] common_api.py->get_default_access_token line:46 [INFO] : 获取access_token成功，access_token为：[34_gE-ti04gAr7sNiboYGgmS50wYxHcXKOIcR_xIhSdP36mS4siqzV7dAZMuW5tWJmHIcMiujTp5GpaxPBrLmRNs8oddFBCxyduixDWwElIDh4asPYJIr4Oh_W3SyNsJ9yDXigD5V5Rr0Lcjc1kXYQbAJAQRJ]
+[2020-06-13 18:33:52,684] common_api.py->get_access_token line:37 [INFO] : 调用获取access_token接口成功
+[2020-06-13 18:33:52,684] common_api.py->get_default_access_token line:46 [INFO] : 获取access_token成功，access_token为：[34_gE-ti04gAr7sNiboYGgmS50wYxHcXKOIcR_xIhSdP36mS4siqzV7dAZMuW5tWJmHIcMiujTp5GpaxPBrLmRNs8oddFBCxyduixDWwElIDh4asPYJIr4Oh_W3SyNsJ9yDXigD5V5Rr0Lcjc1kVEBbAJAENK]
+[2020-06-13 18:33:53,119] common_api.py->look_for_makedtags line:75 [INFO] : 获取公众号已创建的标签成功
+[2020-06-13 18:33:53,617] common_api.py->edit_tags line:91 [INFO] : 编辑标签成功
+[2020-06-13 18:33:53,617] case003_update_makedtags_testcase.py->tearDown line:15 [INFO] : 测试用例 [获取编辑标签接口测试] 执行完毕
+[2020-06-13 18:38:40,347] case004_delete_tags_testcase.py->setUp line:13 [INFO] : 测试用例 [删除标签接口测试] 开始执行
+[2020-06-13 18:38:41,005] common_api.py->get_access_token line:37 [INFO] : 调用获取access_token接口成功
+[2020-06-13 18:38:41,005] common_api.py->get_default_access_token line:46 [INFO] : 获取access_token成功，access_token为：[34_kpe8r5RSZfZwGwt8dTx_LQTBJfaPhjV1RpjCKhK0-zQXacJAGgalwvkDVS-sqsudIkMikU4wINmwZDK0xlSTUePhh-rNf2EDJPakmAt0aHD8v-WuQfTCJBXe8ZDSJfAa_nyZJEzXO_8pY90lUAUiAJAEKE]
+[2020-06-13 18:38:41,414] common_api.py->get_access_token line:37 [INFO] : 调用获取access_token接口成功
+[2020-06-13 18:38:41,415] common_api.py->get_default_access_token line:46 [INFO] : 获取access_token成功，access_token为：[34_kpe8r5RSZfZwGwt8dTx_LQTBJfaPhjV1RpjCKhK0-zQXacJAGgalwvkDVS-sqsudIkMikU4wINmwZDK0xlSTUePhh-rNf2EDJPakmAt0aHD8v-WuQfTCJBXe8ZDSJfAa_nyZJEzXO_8pY90lKRWiAJAXEJ]
+[2020-06-13 18:38:42,043] common_api.py->add_tags line:61 [INFO] : 新增用户标签成功，新增的标签为：[Sj5sJ]
+[2020-06-13 18:38:42,043] common_api.py->add_tags line:62 [INFO] : 创建的标签id为：[278]
+[2020-06-13 18:38:42,553] common_api.py->delete_tags line:107 [INFO] : 删除标签id: [278] 成功
+[2020-06-13 18:38:42,554] case004_delete_tags_testcase.py->tearDown line:15 [INFO] : 测试用例 [删除标签接口测试] 执行完毕
+[2020-06-13 18:39:04,850] case001_get_access_testcase.py->setUp line:13 [INFO] : 测试用例 [获取access_token接口测试] 开始执行
+[2020-06-13 18:39:05,348] common_api.py->get_access_token line:37 [INFO] : 调用获取access_token接口成功
+[2020-06-13 18:39:05,349] case001_get_access_testcase.py->tearDown line:16 [INFO] : 测试用例 [获取access_token接口测试] 执行完毕
+[2020-06-13 18:39:05,349] case001_add_tags_testcase.py->setUp line:14 [INFO] : 测试用例 [创建标签接口测试] 开始执行
+[2020-06-13 18:39:05,749] common_api.py->get_access_token line:37 [INFO] : 调用获取access_token接口成功
+[2020-06-13 18:39:05,750] common_api.py->get_default_access_token line:46 [INFO] : 获取access_token成功，access_token为：[34_Wx17PSB3r963xVxijDUdBLocA0CGpSC4pR7M0mXZyo3UswjyZPexbDm403lEJ6tKf6TRdfpWRD9WeScFUmmw0IqwFMJIoXqvu_jpsCZx8ERNGoRkcTt1NDkFhT89SdCmKFHgOWL75Gbm6HX7LENiABAWPY]
+[2020-06-13 18:39:06,290] common_api.py->add_tags line:61 [INFO] : 新增用户标签成功，新增的标签为：[WFzyj]
+[2020-06-13 18:39:06,290] common_api.py->add_tags line:62 [INFO] : 创建的标签id为：[279]
+[2020-06-13 18:39:06,290] case001_add_tags_testcase.py->tearDown line:16 [INFO] : 测试用例 [创建标签接口测试] 执行完毕
+[2020-06-13 18:39:06,291] case002_lookfor_maked_tags_testcase.py->setUp line:14 [INFO] : 测试用例 [获取公众号已创建的标签] 开始执行
+[2020-06-13 18:39:06,704] common_api.py->get_access_token line:37 [INFO] : 调用获取access_token接口成功
+[2020-06-13 18:39:06,705] common_api.py->get_default_access_token line:46 [INFO] : 获取access_token成功，access_token为：[34_Wx17PSB3r963xVxijDUdBLocA0CGpSC4pR7M0mXZyo3UswjyZPexbDm403lEJ6tKf6TRdfpWRD9WeScFUmmw0IqwFMJIoXqvu_jpsCZx8ERNGoRkcTt1NDkFhT89SdCmKFHgOWL75Gbm6HX7FYLiABAWPC]
+[2020-06-13 18:39:07,205] common_api.py->look_for_makedtags line:75 [INFO] : 获取公众号已创建的标签成功
+[2020-06-13 18:39:07,206] case002_lookfor_maked_tags_testcase.py->tearDown line:17 [INFO] : 测试用例 [获取公众号已创建的标签] 执行结束
+[2020-06-13 18:39:07,206] case003_update_makedtags_testcase.py->setUp line:13 [INFO] : 测试用例 [获取编辑标签接口测试] 开始执行
+[2020-06-13 18:39:07,651] common_api.py->get_access_token line:37 [INFO] : 调用获取access_token接口成功
+[2020-06-13 18:39:07,651] common_api.py->get_default_access_token line:46 [INFO] : 获取access_token成功，access_token为：[34_Wx17PSB3r963xVxijDUdBLocA0CGpSC4pR7M0mXZyo3UswjyZPexbDm403lEJ6tKf6TRdfpWRD9WeScFUmmw0IqwFMJIoXqvu_jpsCZx8ERNGoRkcTt1NDkFhT89SdCmKFHgOWL75Gbm6HX7YUHiABADZM]
+[2020-06-13 18:39:08,088] common_api.py->get_access_token line:37 [INFO] : 调用获取access_token接口成功
+[2020-06-13 18:39:08,088] common_api.py->get_default_access_token line:46 [INFO] : 获取access_token成功，access_token为：[34_Wx17PSB3r963xVxijDUdBLocA0CGpSC4pR7M0mXZyo3UswjyZPexbDm403lEJ6tKf6TRdfpWRD9WeScFUmmw0IqwFMJIoXqvu_jpsCZx8ERNGoRkcTt1NDkFhT89SdCmKFHgOWL75Gbm6HX7WIRiABAOAJ]
+[2020-06-13 18:39:08,610] common_api.py->look_for_makedtags line:75 [INFO] : 获取公众号已创建的标签成功
+[2020-06-13 18:39:09,141] common_api.py->edit_tags line:91 [INFO] : 编辑标签成功
+[2020-06-13 18:39:09,141] case003_update_makedtags_testcase.py->tearDown line:15 [INFO] : 测试用例 [获取编辑标签接口测试] 执行完毕
+[2020-06-13 18:39:09,141] case004_delete_tags_testcase.py->setUp line:13 [INFO] : 测试用例 [删除标签接口测试] 开始执行
+[2020-06-13 18:39:09,589] common_api.py->get_access_token line:37 [INFO] : 调用获取access_token接口成功
+[2020-06-13 18:39:09,589] common_api.py->get_default_access_token line:46 [INFO] : 获取access_token成功，access_token为：[34_Wx17PSB3r963xVxijDUdBLocA0CGpSC4pR7M0mXZyo3UswjyZPexbDm403lEJ6tKf6TRdfpWRD9WeScFUmmw0IqwFMJIoXqvu_jpsCZx8ERNGoRkcTt1NDkFhT89SdCmKFHgOWL75Gbm6HX7KUOiABAVFZ]
+[2020-06-13 18:39:10,064] common_api.py->get_access_token line:37 [INFO] : 调用获取access_token接口成功
+[2020-06-13 18:39:10,064] common_api.py->get_default_access_token line:46 [INFO] : 获取access_token成功，access_token为：[34_Wx17PSB3r963xVxijDUdBLocA0CGpSC4pR7M0mXZyo3UswjyZPexbDm403lEJ6tKf6TRdfpWRD9WeScFUmmw0IqwFMJIoXqvu_jpsCZx8ERNGoRkcTt1NDkFhT89SdCmKFHgOWL75Gbm6HX7FDLiABAZXF]
+[2020-06-13 18:39:10,621] common_api.py->add_tags line:61 [INFO] : 新增用户标签成功，新增的标签为：[jQCKF]
+[2020-06-13 18:39:10,621] common_api.py->add_tags line:62 [INFO] : 创建的标签id为：[280]
+[2020-06-13 18:39:11,158] common_api.py->delete_tags line:107 [INFO] : 删除标签id: [280] 成功
+[2020-06-13 18:39:11,158] case004_delete_tags_testcase.py->tearDown line:15 [INFO] : 测试用例 [删除标签接口测试] 执行完毕
+[2020-06-13 18:42:16,084] case001_get_access_testcase.py->setUp line:13 [INFO] : 测试用例 [获取access_token接口测试] 开始执行
+[2020-06-13 18:42:16,747] common_api.py->get_access_token line:37 [INFO] : 调用获取access_token接口成功
+[2020-06-13 18:42:16,747] case001_get_access_testcase.py->tearDown line:16 [INFO] : 测试用例 [获取access_token接口测试] 执行完毕
+[2020-06-13 18:42:16,747] case001_add_tags_testcase.py->setUp line:14 [INFO] : 测试用例 [创建标签接口测试] 开始执行
+[2020-06-13 18:42:17,200] common_api.py->get_access_token line:37 [INFO] : 调用获取access_token接口成功
+[2020-06-13 18:42:17,200] common_api.py->get_default_access_token line:46 [INFO] : 获取access_token成功，access_token为：[34_Xr5z03lul-1OQuhxkVkVEWcrr7RbXtj4kkyAwyTeuj4CLUB0FmKV3ddV2Z3PPaEFRinURW54xt90Qp3DtiQGYcGzMnUA2SKtXa3DCdzrpnJH3AJenSaqecitv0c22xxlpJ9VZtqo5CR9ClBdBRWdAAAEUZ]
+[2020-06-13 18:42:17,763] common_api.py->add_tags line:61 [INFO] : 新增用户标签成功，新增的标签为：[cJOGw]
+[2020-06-13 18:42:17,763] common_api.py->add_tags line:62 [INFO] : 创建的标签id为：[281]
+[2020-06-13 18:42:17,764] case001_add_tags_testcase.py->tearDown line:16 [INFO] : 测试用例 [创建标签接口测试] 执行完毕
+[2020-06-13 18:42:17,764] case002_lookfor_maked_tags_testcase.py->setUp line:14 [INFO] : 测试用例 [获取公众号已创建的标签] 开始执行
+[2020-06-13 18:42:18,211] common_api.py->get_access_token line:37 [INFO] : 调用获取access_token接口成功
+[2020-06-13 18:42:18,212] common_api.py->get_default_access_token line:46 [INFO] : 获取access_token成功，access_token为：[34_Xr5z03lul-1OQuhxkVkVEWcrr7RbXtj4kkyAwyTeuj4CLUB0FmKV3ddV2Z3PPaEFRinURW54xt90Qp3DtiQGYcGzMnUA2SKtXa3DCdzrpnJH3AJenSaqecitv0c22xxlpJ9VZtqo5CR9ClBdDKLdAAANUV]
+[2020-06-13 18:42:18,692] common_api.py->look_for_makedtags line:75 [INFO] : 获取公众号已创建的标签成功
+[2020-06-13 18:42:18,692] case002_lookfor_maked_tags_testcase.py->tearDown line:17 [INFO] : 测试用例 [获取公众号已创建的标签] 执行结束
+[2020-06-13 18:42:18,693] case003_update_makedtags_testcase.py->setUp line:13 [INFO] : 测试用例 [获取编辑标签接口测试] 开始执行
+[2020-06-13 18:42:19,092] common_api.py->get_access_token line:37 [INFO] : 调用获取access_token接口成功
+[2020-06-13 18:42:19,092] common_api.py->get_default_access_token line:46 [INFO] : 获取access_token成功，access_token为：[34_Xr5z03lul-1OQuhxkVkVEWcrr7RbXtj4kkyAwyTeuj4CLUB0FmKV3ddV2Z3PPaEFRinURW54xt90Qp3DtiQGYcGzMnUA2SKtXa3DCdzrpnJH3AJenSaqecitv0c22xxlpJ9VZtqo5CR9ClBdRWAdAAABGK]
+[2020-06-13 18:42:19,496] common_api.py->get_access_token line:37 [INFO] : 调用获取access_token接口成功
+[2020-06-13 18:42:19,497] common_api.py->get_default_access_token line:46 [INFO] : 获取access_token成功，access_token为：[34_Xr5z03lul-1OQuhxkVkVEWcrr7RbXtj4kkyAwyTeuj4CLUB0FmKV3ddV2Z3PPaEFRinURW54xt90Qp3DtiQGYcGzMnUA2SKtXa3DCdzrpnJH3AJenSaqecitv0c22xxlpJ9VZtqo5CR9ClBdNYCdAAAZKO]
+[2020-06-13 18:42:19,977] common_api.py->look_for_makedtags line:75 [INFO] : 获取公众号已创建的标签成功
+[2020-06-13 18:42:20,528] common_api.py->edit_tags line:91 [INFO] : 编辑标签成功
+[2020-06-13 18:42:20,528] case003_update_makedtags_testcase.py->tearDown line:15 [INFO] : 测试用例 [获取编辑标签接口测试] 执行完毕
+[2020-06-13 18:42:20,528] case004_delete_tags_testcase.py->setUp line:13 [INFO] : 测试用例 [删除标签接口测试] 开始执行
+[2020-06-13 18:42:20,977] common_api.py->get_access_token line:37 [INFO] : 调用获取access_token接口成功
+[2020-06-13 18:42:20,977] common_api.py->get_default_access_token line:46 [INFO] : 获取access_token成功，access_token为：[34_Xr5z03lul-1OQuhxkVkVEWcrr7RbXtj4kkyAwyTeuj4CLUB0FmKV3ddV2Z3PPaEFRinURW54xt90Qp3DtiQGYcGzMnUA2SKtXa3DCdzrpnJH3AJenSaqecitv0c22xxlpJ9VZtqo5CR9ClBdGCZdAAAMIF]
+[2020-06-13 18:42:21,439] common_api.py->get_access_token line:37 [INFO] : 调用获取access_token接口成功
+[2020-06-13 18:42:21,440] common_api.py->get_default_access_token line:46 [INFO] : 获取access_token成功，access_token为：[34_Xr5z03lul-1OQuhxkVkVEWcrr7RbXtj4kkyAwyTeuj4CLUB0FmKV3ddV2Z3PPaEFRinURW54xt90Qp3DtiQGYcGzMnUA2SKtXa3DCdzrpnJH3AJenSaqecitv0c22xxlpJ9VZtqo5CR9ClBdOJDdAAAEZT]
+[2020-06-13 18:42:22,015] common_api.py->add_tags line:61 [INFO] : 新增用户标签成功，新增的标签为：[Rzoxu]
+[2020-06-13 18:42:22,016] common_api.py->add_tags line:62 [INFO] : 创建的标签id为：[282]
+[2020-06-13 18:42:22,593] common_api.py->delete_tags line:107 [INFO] : 删除标签id: [282] 成功
+[2020-06-13 18:42:22,594] case004_delete_tags_testcase.py->tearDown line:15 [INFO] : 测试用例 [删除标签接口测试] 执行完毕
+[2020-06-13 18:42:44,873] case001_get_access_testcase.py->setUp line:13 [INFO] : 测试用例 [获取access_token接口测试] 开始执行
+[2020-06-13 18:42:45,477] common_api.py->get_access_token line:37 [INFO] : 调用获取access_token接口成功
+[2020-06-13 18:42:45,478] case001_get_access_testcase.py->tearDown line:16 [INFO] : 测试用例 [获取access_token接口测试] 执行完毕
+[2020-06-13 18:42:45,478] case001_add_tags_testcase.py->setUp line:14 [INFO] : 测试用例 [创建标签接口测试] 开始执行
+[2020-06-13 18:42:45,925] common_api.py->get_access_token line:37 [INFO] : 调用获取access_token接口成功
+[2020-06-13 18:42:45,925] common_api.py->get_default_access_token line:46 [INFO] : 获取access_token成功，access_token为：[34_OX8d6MZqBGy_i2GO0BLMBwYcTFhfgMFjOGBJ4DrvUmTLMWI4_tVXzOohvYWnz-Nec2sJLjGmTQ33GK4j0P8h27Ja6BHlHtwHs29y4O8zv0B61pu3jBz5mOXCg2UyE4-4M_qqcXeE2acE42XRJWZbAIADQT]
+[2020-06-13 18:42:46,481] common_api.py->add_tags line:61 [INFO] : 新增用户标签成功，新增的标签为：[hPcza]
+[2020-06-13 18:42:46,481] common_api.py->add_tags line:62 [INFO] : 创建的标签id为：[283]
+[2020-06-13 18:42:46,482] case001_add_tags_testcase.py->tearDown line:16 [INFO] : 测试用例 [创建标签接口测试] 执行完毕
+[2020-06-13 18:42:46,482] case002_lookfor_maked_tags_testcase.py->setUp line:14 [INFO] : 测试用例 [获取公众号已创建的标签] 开始执行
+[2020-06-13 18:42:46,923] common_api.py->get_access_token line:37 [INFO] : 调用获取access_token接口成功
+[2020-06-13 18:42:46,924] common_api.py->get_default_access_token line:46 [INFO] : 获取access_token成功，access_token为：[34_OX8d6MZqBGy_i2GO0BLMBwYcTFhfgMFjOGBJ4DrvUmTLMWI4_tVXzOohvYWnz-Nec2sJLjGmTQ33GK4j0P8h27Ja6BHlHtwHs29y4O8zv0B61pu3jBz5mOXCg2UyE4-4M_qqcXeE2acE42XRCXRbAIAHCW]
+[2020-06-13 18:42:47,409] common_api.py->look_for_makedtags line:75 [INFO] : 获取公众号已创建的标签成功
+[2020-06-13 18:42:47,410] case002_lookfor_maked_tags_testcase.py->tearDown line:17 [INFO] : 测试用例 [获取公众号已创建的标签] 执行结束
+[2020-06-13 18:42:47,410] case003_update_makedtags_testcase.py->setUp line:13 [INFO] : 测试用例 [获取编辑标签接口测试] 开始执行
+[2020-06-13 18:42:47,840] common_api.py->get_access_token line:37 [INFO] : 调用获取access_token接口成功
+[2020-06-13 18:42:47,840] common_api.py->get_default_access_token line:46 [INFO] : 获取access_token成功，access_token为：[34_OX8d6MZqBGy_i2GO0BLMBwYcTFhfgMFjOGBJ4DrvUmTLMWI4_tVXzOohvYWnz-Nec2sJLjGmTQ33GK4j0P8h27Ja6BHlHtwHs29y4O8zv0B61pu3jBz5mOXCg2UyE4-4M_qqcXeE2acE42XRUGYbAIAIUM]
+[2020-06-13 18:42:48,278] common_api.py->get_access_token line:37 [INFO] : 调用获取access_token接口成功
+[2020-06-13 18:42:48,278] common_api.py->get_default_access_token line:46 [INFO] : 获取access_token成功，access_token为：[34_OX8d6MZqBGy_i2GO0BLMBwYcTFhfgMFjOGBJ4DrvUmTLMWI4_tVXzOohvYWnz-Nec2sJLjGmTQ33GK4j0P8h27Ja6BHlHtwHs29y4O8zv0B61pu3jBz5mOXCg2UyE4-4M_qqcXeE2acE42XRUXVbAIAEHF]
+[2020-06-13 18:42:48,783] common_api.py->look_for_makedtags line:75 [INFO] : 获取公众号已创建的标签成功
+[2020-06-13 18:42:49,324] common_api.py->edit_tags line:91 [INFO] : 编辑标签成功
+[2020-06-13 18:42:49,324] case003_update_makedtags_testcase.py->tearDown line:15 [INFO] : 测试用例 [获取编辑标签接口测试] 执行完毕
+[2020-06-13 18:42:49,324] case004_delete_tags_testcase.py->setUp line:13 [INFO] : 测试用例 [删除标签接口测试] 开始执行
+[2020-06-13 18:42:49,799] common_api.py->get_access_token line:37 [INFO] : 调用获取access_token接口成功
+[2020-06-13 18:42:49,800] common_api.py->get_default_access_token line:46 [INFO] : 获取access_token成功，access_token为：[34_OX8d6MZqBGy_i2GO0BLMBwYcTFhfgMFjOGBJ4DrvUmTLMWI4_tVXzOohvYWnz-Nec2sJLjGmTQ33GK4j0P8h27Ja6BHlHtwHs29y4O8zv0B61pu3jBz5mOXCg2UyE4-4M_qqcXeE2acE42XRFLIbAIAYEB]
+[2020-06-13 18:42:50,257] common_api.py->get_access_token line:37 [INFO] : 调用获取access_token接口成功
+[2020-06-13 18:42:50,257] common_api.py->get_default_access_token line:46 [INFO] : 获取access_token成功，access_token为：[34_OX8d6MZqBGy_i2GO0BLMBwYcTFhfgMFjOGBJ4DrvUmTLMWI4_tVXzOohvYWnz-Nec2sJLjGmTQ33GK4j0P8h27Ja6BHlHtwHs29y4O8zv0B61pu3jBz5mOXCg2UyE4-4M_qqcXeE2acE42XRUTXbAIAYXB]
+[2020-06-13 18:42:50,777] common_api.py->add_tags line:61 [INFO] : 新增用户标签成功，新增的标签为：[5GZp3]
+[2020-06-13 18:42:50,777] common_api.py->add_tags line:62 [INFO] : 创建的标签id为：[284]
+[2020-06-13 18:42:51,368] common_api.py->delete_tags line:107 [INFO] : 删除标签id: [284] 成功
+[2020-06-13 18:42:51,368] case004_delete_tags_testcase.py->tearDown line:15 [INFO] : 测试用例 [删除标签接口测试] 执行完毕
+[2020-06-13 18:45:01,905] common_api.py->get_access_token line:37 [INFO] : 调用获取access_token接口成功
+[2020-06-13 18:45:01,906] common_api.py->get_default_access_token line:46 [INFO] : 获取access_token成功，access_token为：[34_7Wcv_3dN5ot3hlHreS1qRyti4l1kthjfa8LLFM0tb1GEz3qAPqQAFni2NmP8JCJ6zvh-lriziof80K3yiyzKHqT8eWVXiKEeObYaXr-escbS0VkyMqDMhBZ2dL6bc8SvfnXnoXlq8o54uqmLMCKeAHAPFN]
+[2020-06-13 18:45:02,425] common_api.py->add_tags line:61 [INFO] : 新增用户标签成功，新增的标签为：[qOm0t]
+[2020-06-13 18:45:02,425] common_api.py->add_tags line:62 [INFO] : 创建的标签id为：[285]
+[2020-06-13 18:45:24,998] common_api.py->get_access_token line:37 [INFO] : 调用获取access_token接口成功
+[2020-06-13 18:45:24,999] common_api.py->get_default_access_token line:46 [INFO] : 获取access_token成功，access_token为：[34_3KFHtaz_hhham5MuKE8rkzOTGItFYForvP0t_LAeF0l4kFcqJoH5H3RQeN3w7DY2WtiTB-irhUbWlkKu0xnZpfHrfkGbIzyl3Rg6hxqUMPSeeFKIGRqdCRkgVHI923SnAncaeYWZGdJ-BZTdVQLbADAMHC]
+[2020-06-13 18:45:25,500] common_api.py->look_for_makedtags line:75 [INFO] : 获取公众号已创建的标签成功
+[2020-06-13 18:46:51,659] common_api.py->get_access_token line:37 [INFO] : 调用获取access_token接口成功
+[2020-06-13 18:46:51,660] common_api.py->get_default_access_token line:46 [INFO] : 获取access_token成功，access_token为：[34_8HGLZMqBIYuGdXwwK-_flMfTiGyox5hn823XWch17ofOhCFUPqZV2T6XYK95PWsU0xRc2zfUyHB_1Jd9hwszrYGh36qLpO4lcSjeWp6lUzAiX2TE1DKEh8DhYXL1_nYmNzjbHdAe-oB1LQaBMKDjAGAZXQ]
+[2020-06-13 18:46:52,149] common_api.py->get_access_token line:37 [INFO] : 调用获取access_token接口成功
+[2020-06-13 18:46:52,149] common_api.py->get_default_access_token line:46 [INFO] : 获取access_token成功，access_token为：[34_8HGLZMqBIYuGdXwwK-_flMfTiGyox5hn823XWch17ofOhCFUPqZV2T6XYK95PWsU0xRc2zfUyHB_1Jd9hwszrYGh36qLpO4lcSjeWp6lUzAiX2TE1DKEh8DhYXL1_nYmNzjbHdAe-oB1LQaBMVIjAGACLY]
+[2020-06-13 18:46:52,652] common_api.py->look_for_makedtags line:75 [INFO] : 获取公众号已创建的标签成功
+[2020-06-13 18:46:53,239] common_api.py->edit_tags line:91 [INFO] : 编辑标签成功
+[2020-06-13 18:48:13,971] common_api.py->get_access_token line:37 [INFO] : 调用获取access_token接口成功
+[2020-06-13 18:48:13,972] common_api.py->get_default_access_token line:46 [INFO] : 获取access_token成功，access_token为：[34_8z-1AsPi8O9eR55MVCPAuMlIzCu4Nc7A2BBDtaFd3d4aWF-phLcPzDBoFn3ra9m2LI5iinGOb8m4O4O7cx5lDjgQ5_kna7YRM63Xw5d1qL7pYP46JJkihi4WHkaAA6byI1eqSRzurOng9kdeSYYcAEACII]
+[2020-06-13 18:48:14,524] common_api.py->add_tags line:61 [INFO] : 新增用户标签成功，新增的标签为：[tGDQn]
+[2020-06-13 18:48:14,525] common_api.py->add_tags line:62 [INFO] : 创建的标签id为：[286]
+[2020-06-13 18:48:47,566] common_api.py->get_access_token line:37 [INFO] : 调用获取access_token接口成功
+[2020-06-13 18:48:47,567] common_api.py->get_default_access_token line:46 [INFO] : 获取access_token成功，access_token为：[34_ekqybfrell9AC4x1wQYKyhRuou0TlKwXdxjCyMfbXH_iw_Hu7zpw3Jvxwu1M-5s1OwBMUZy2s0Gfa76ZvHlXbK72nn0_wSnXDkhgKMe_V9jHMIUw4cl4WjVY75dFoofRmHYgFzrp9BBLr0gnABQiAEAKLA]
+[2020-06-13 18:48:48,056] common_api.py->look_for_makedtags line:75 [INFO] : 获取公众号已创建的标签成功
+[2020-06-13 18:48:55,814] common_api.py->get_access_token line:37 [INFO] : 调用获取access_token接口成功
+[2020-06-13 18:48:55,815] common_api.py->get_default_access_token line:46 [INFO] : 获取access_token成功，access_token为：[34_ekqybfrell9AC4x1wQYKyhRuou0TlKwXdxjCyMfbXH_iw_Hu7zpw3Jvxwu1M-5s1OwBMUZy2s0Gfa76ZvHlXbK72nn0_wSnXDkhgKMe_V9jHMIUw4cl4WjVY75dFoofRmHYgFzrp9BBLr0gnZFXiAEAOUM]
+[2020-06-13 18:48:56,310] common_api.py->get_access_token line:37 [INFO] : 调用获取access_token接口成功
+[2020-06-13 18:48:56,310] common_api.py->get_default_access_token line:46 [INFO] : 获取access_token成功，access_token为：[34_ekqybfrell9AC4x1wQYKyhRuou0TlKwXdxjCyMfbXH_iw_Hu7zpw3Jvxwu1M-5s1OwBMUZy2s0Gfa76ZvHlXbK72nn0_wSnXDkhgKMe_V9jHMIUw4cl4WjVY75dFoofRmHYgFzrp9BBLr0gnXUXiAEAPMP]
+[2020-06-13 18:48:56,875] common_api.py->add_tags line:61 [INFO] : 新增用户标签成功，新增的标签为：[aQVEe]
+[2020-06-13 18:48:56,875] common_api.py->add_tags line:62 [INFO] : 创建的标签id为：[287]
+[2020-06-13 18:48:57,427] common_api.py->delete_tags line:107 [INFO] : 删除标签id: [287] 成功
+[2020-06-13 18:49:09,869] common_api.py->get_access_token line:37 [INFO] : 调用获取access_token接口成功
+[2020-06-13 18:49:09,871] common_api.py->get_default_access_token line:46 [INFO] : 获取access_token成功，access_token为：[34_fiVLy8l5DDLwWJlBZ_lkHeNY-wU81pCUltqjexga1nYsheFw6vlnUycqXL8Ud_P6eYTp_jQWXaErfmmxhXmWjMTY_dE6worYfNYvFwghBSbG__3zf0OJF8a7p7K_BEsUAqQeN9g1VKngts_7PJMcABAYSV]
+[2020-06-13 18:49:10,381] common_api.py->look_for_makedtags line:75 [INFO] : 获取公众号已创建的标签成功
+[2020-06-13 18:50:19,313] common_api.py->get_access_token line:37 [INFO] : 调用获取access_token接口成功
+[2020-06-13 18:50:19,315] common_api.py->get_default_access_token line:46 [INFO] : 获取access_token成功，access_token为：[34_oCfjlpXLVWJ_a1fkernE4jtCAmPBgtiPI7iHHM-80H4xNsmxDSIH4bCyP9y3VE2B4b79kSECMX6qZmhTZuBOp10saigQugjpwF-85rWsoKEpLS8dFBv2h34xAHxlfIU_O00YxeMEnNuOs4CBAJChAGAMVO]
+[2020-06-13 18:50:19,745] common_api.py->get_access_token line:37 [INFO] : 调用获取access_token接口成功
+[2020-06-13 18:50:19,746] common_api.py->get_default_access_token line:46 [INFO] : 获取access_token成功，access_token为：[34_oCfjlpXLVWJ_a1fkernE4jtCAmPBgtiPI7iHHM-80H4xNsmxDSIH4bCyP9y3VE2B4b79kSECMX6qZmhTZuBOp10saigQugjpwF-85rWsoKEpLS8dFBv2h34xAHxlfIU_O00YxeMEnNuOs4CBKDLhAGASLT]
+[2020-06-13 18:50:20,259] common_api.py->add_tags line:61 [INFO] : 新增用户标签成功，新增的标签为：[pOrVz]
+[2020-06-13 18:50:20,259] common_api.py->add_tags line:62 [INFO] : 创建的标签id为：[288]
+[2020-06-13 18:50:20,804] common_api.py->delete_tags line:107 [INFO] : 删除标签id: [288] 成功
+[2020-06-13 18:54:21,704] common_api.py->get_access_token line:37 [INFO] : 调用获取access_token接口成功
+[2020-06-13 18:54:21,705] common_api.py->get_default_access_token line:46 [INFO] : 获取access_token成功，access_token为：[34_2l9uT2MII1Xu8hl1f9lyEBbQtGz8HYdmFWvVqLHq9d5sFq9gjUpLlxlPLWImwKUdTgbv2iINp8mJUzLATC-XOFJft2bpSLLr-K1v1dqPm73fPKnJ97THPXXJktoVNzVKBfT_8V70R5k1FphsIKHfAEAEGD]
+[2020-06-13 18:54:22,147] common_api.py->get_access_token line:37 [INFO] : 调用获取access_token接口成功
+[2020-06-13 18:54:22,147] common_api.py->get_default_access_token line:46 [INFO] : 获取access_token成功，access_token为：[34_2l9uT2MII1Xu8hl1f9lyEBbQtGz8HYdmFWvVqLHq9d5sFq9gjUpLlxlPLWImwKUdTgbv2iINp8mJUzLATC-XOFJft2bpSLLr-K1v1dqPm73fPKnJ97THPXXJktoVNzVKBfT_8V70R5k1FphsKORfAEATXA]
+[2020-06-13 18:54:22,675] common_api.py->add_tags line:61 [INFO] : 新增用户标签成功，新增的标签为：[CFTdy]
+[2020-06-13 18:54:22,675] common_api.py->add_tags line:62 [INFO] : 创建的标签id为：[289]
+[2020-06-13 18:55:03,467] common_api.py->get_access_token line:37 [INFO] : 调用获取access_token接口成功
+[2020-06-13 18:55:03,468] common_api.py->get_default_access_token line:46 [INFO] : 获取access_token成功，access_token为：[34_PV5eMruBgDD5ROiPpnfQ7yiW22OavdBJ8JX3zhlXGMG45CujvgotqDLC7_mJZgRwrG0Kc7JRkUx_ydKp81qvIhE-wJA6tajZNMLegVCrORyAiQQN9tMrKnlps2WwA0IlqAcTQB9m-FVj2bnjIIKjAJAYYA]
+[2020-06-13 18:55:04,032] common_api.py->get_access_token line:37 [INFO] : 调用获取access_token接口成功
+[2020-06-13 18:55:04,033] common_api.py->get_default_access_token line:46 [INFO] : 获取access_token成功，access_token为：[34_PV5eMruBgDD5ROiPpnfQ7yiW22OavdBJ8JX3zhlXGMG45CujvgotqDLC7_mJZgRwrG0Kc7JRkUx_ydKp81qvIhE-wJA6tajZNMLegVCrORyAiQQN9tMrKnlps2WwA0IlqAcTQB9m-FVj2bnjSCNjAJAEOZ]
+[2020-06-13 18:55:04,616] common_api.py->add_tags line:61 [INFO] : 新增用户标签成功，新增的标签为：[w1WuX]
+[2020-06-13 18:55:04,616] common_api.py->add_tags line:62 [INFO] : 创建的标签id为：[290]
+[2020-06-13 18:55:05,216] common_api.py->delete_tags line:107 [INFO] : 删除标签id: [290] 成功
+[2020-06-13 18:55:57,278] common_api.py->get_access_token line:37 [INFO] : 调用获取access_token接口成功
+[2020-06-13 18:55:57,279] common_api.py->get_default_access_token line:46 [INFO] : 获取access_token成功，access_token为：[34_SW8as8Lrjl15mby3RqR0kEhlK33LSwhTC6t_9wf1pqEXRwiiLtZ_DIydiHEEtDG1rWhioi8i6bTx6sQdTDbG2lbAozbIDIFhaYfJbHIBMP_WFc_l3T9UQoZyY7C-nVIcPd06n3YZ2v-1RdcjONEbAIASRI]
+[2020-06-13 18:55:57,765] common_api.py->get_access_token line:37 [INFO] : 调用获取access_token接口成功
+[2020-06-13 18:55:57,765] common_api.py->get_default_access_token line:46 [INFO] : 获取access_token成功，access_token为：[34_SW8as8Lrjl15mby3RqR0kEhlK33LSwhTC6t_9wf1pqEXRwiiLtZ_DIydiHEEtDG1rWhioi8i6bTx6sQdTDbG2lbAozbIDIFhaYfJbHIBMP_WFc_l3T9UQoZyY7C-nVIcPd06n3YZ2v-1RdcjGWRbAIAMCX]
+[2020-06-13 18:55:58,331] common_api.py->add_tags line:61 [INFO] : 新增用户标签成功，新增的标签为：[qC7aP]
+[2020-06-13 18:55:58,332] common_api.py->add_tags line:62 [INFO] : 创建的标签id为：[291]
+[2020-06-13 18:56:16,008] common_api.py->get_access_token line:37 [INFO] : 调用获取access_token接口成功
+[2020-06-13 18:56:16,009] common_api.py->get_default_access_token line:46 [INFO] : 获取access_token成功，access_token为：[34_SW8as8Lrjl15mby3RqR0kEhlK33LSwhTC6t_9wf1pqEXRwiiLtZ_DIydiHEEtDG1rWhioi8i6bTx6sQdTDbG2lbAozbIDIFhaYfJbHIBMP_WFc_l3T9UQoZyY7C-nVIcPd06n3YZ2v-1RdcjEXWbAIAJCB]
+[2020-06-13 18:56:16,481] common_api.py->get_access_token line:37 [INFO] : 调用获取access_token接口成功
+[2020-06-13 18:56:16,481] common_api.py->get_default_access_token line:46 [INFO] : 获取access_token成功，access_token为：[34_SW8as8Lrjl15mby3RqR0kEhlK33LSwhTC6t_9wf1pqEXRwiiLtZ_DIydiHEEtDG1rWhioi8i6bTx6sQdTDbG2lbAozbIDIFhaYfJbHIBMP_WFc_l3T9UQoZyY7C-nVIcPd06n3YZ2v-1RdcjXTCbAIAQMV]
+[2020-06-13 18:56:17,090] common_api.py->add_tags line:61 [INFO] : 新增用户标签成功，新增的标签为：[8YSws]
+[2020-06-13 18:56:17,090] common_api.py->add_tags line:62 [INFO] : 创建的标签id为：[292]
+[2020-06-13 18:57:02,774] common_api.py->get_access_token line:37 [INFO] : 调用获取access_token接口成功
+[2020-06-13 18:57:02,775] common_api.py->get_default_access_token line:46 [INFO] : 获取access_token成功，access_token为：[34_4o0OMWESm7oVVnXOe7CWdXKK_1lfycmXkIKSOYOq8cxxXcHTl9V9yyz3VajRS__vvLs1lLDcxOMqbNuU9yxkAdLPygViRTP_bxMIZARps8OMX_Pm8-9E_vWUPJoJ4OTCP07xVgTY4s7rJuSqGKHjABANRO]
+[2020-06-13 18:57:03,251] common_api.py->get_access_token line:37 [INFO] : 调用获取access_token接口成功
+[2020-06-13 18:57:03,251] common_api.py->get_default_access_token line:46 [INFO] : 获取access_token成功，access_token为：[34_4o0OMWESm7oVVnXOe7CWdXKK_1lfycmXkIKSOYOq8cxxXcHTl9V9yyz3VajRS__vvLs1lLDcxOMqbNuU9yxkAdLPygViRTP_bxMIZARps8OMX_Pm8-9E_vWUPJoJ4OTCP07xVgTY4s7rJuSqAXZjABAKHJ]
+[2020-06-13 18:57:03,858] common_api.py->add_tags line:61 [INFO] : 新增用户标签成功，新增的标签为：[VT3Em]
+[2020-06-13 18:57:03,858] common_api.py->add_tags line:62 [INFO] : 创建的标签id为：[293]
+[2020-06-13 18:57:04,490] common_api.py->delete_tags line:107 [INFO] : 删除标签id: [293] 成功
+[2020-06-13 18:57:11,044] common_api.py->get_access_token line:37 [INFO] : 调用获取access_token接口成功
+[2020-06-13 18:57:11,045] common_api.py->get_default_access_token line:46 [INFO] : 获取access_token成功，access_token为：[34_4o0OMWESm7oVVnXOe7CWdXKK_1lfycmXkIKSOYOq8cxxXcHTl9V9yyz3VajRS__vvLs1lLDcxOMqbNuU9yxkAdLPygViRTP_bxMIZARps8OMX_Pm8-9E_vWUPJoJ4OTCP07xVgTY4s7rJuSqQTDjABAJMW]
+[2020-06-13 18:57:11,653] common_api.py->get_access_token line:37 [INFO] : 调用获取access_token接口成功
+[2020-06-13 18:57:11,654] common_api.py->get_default_access_token line:46 [INFO] : 获取access_token成功，access_token为：[34_4o0OMWESm7oVVnXOe7CWdXKK_1lfycmXkIKSOYOq8cxxXcHTl9V9yyz3VajRS__vvLs1lLDcxOMqbNuU9yxkAdLPygViRTP_bxMIZARps8OMX_Pm8-9E_vWUPJoJ4OTCP07xVgTY4s7rJuSqXDWjABAFLE]
+[2020-06-13 18:57:12,374] common_api.py->add_tags line:61 [INFO] : 新增用户标签成功，新增的标签为：[YbOyU]
+[2020-06-13 18:57:12,374] common_api.py->add_tags line:62 [INFO] : 创建的标签id为：[294]
+[2020-06-13 18:57:13,107] common_api.py->delete_tags line:107 [INFO] : 删除标签id: [294] 成功
+[2020-06-13 18:57:22,725] common_api.py->get_access_token line:37 [INFO] : 调用获取access_token接口成功
+[2020-06-13 18:57:22,726] common_api.py->get_default_access_token line:46 [INFO] : 获取access_token成功，access_token为：[34_rVZfFtvTiVL9fRqxszG86c-OortWYeaTsExHA33oqVuhshzdzZf-B4JVQd8mFg8b0Id35yAs0aKyKx3b_L-6CSmobRYhytUxcVSWz1szageOIKiuqN0FgyWkjN48U45C9AamZm7M6QMefcBmXJYcADAHTI]
+[2020-06-13 18:57:23,274] common_api.py->look_for_makedtags line:75 [INFO] : 获取公众号已创建的标签成功
+[2020-06-13 19:57:35,420] common_api.py->get_access_token line:37 [INFO] : 调用获取access_token接口成功
+[2020-06-13 19:57:35,421] common_api.py->get_default_access_token line:46 [INFO] : 获取access_token成功，access_token为：[34_V9wRJ5cy70O6j0drtMuhXZTGQk7Av1ae3wtiBTAv2s5RCZzTehQfDy8ON8-OjniS3rYC2ouIkVW01oB3konWjKdwLv5SIJRu-XnQoNHR4kKvqprR8rXCTSNktUCODJB7qU9dMqi7wKqrPwmJSKGjAJAFXT]
+[2020-06-13 19:57:35,911] common_api.py->add_tags line:65 [ERROR] : 新增用户标签失败，失败的原因是:['id']
+[2020-06-13 19:59:18,671] common_api.py->get_access_token line:37 [INFO] : 调用获取access_token接口成功
+[2020-06-13 19:59:18,674] common_api.py->get_default_access_token line:46 [INFO] : 获取access_token成功，access_token为：[34_RuFiW8BjXoBrQf_eupj7gGkF2hf5ieoapGXxf3T_sYU5Y2EyFUEiSQ_q4UJ04rIqOHSbilyVvw5qYn6p8NT88unpnaXkSqOwDrXL6id_fOTiGgs9_Lv4E2pTn1_rA_QcpRqML210LtgfmBzUBHXiAFALRH]
+[2020-06-13 19:59:19,238] common_api.py->add_tags line:65 [ERROR] : 新增用户标签失败，失败的原因是:['id']
+[2020-06-13 19:59:51,654] common_api.py->get_access_token line:37 [INFO] : 调用获取access_token接口成功
+[2020-06-13 19:59:51,656] common_api.py->get_default_access_token line:46 [INFO] : 获取access_token成功，access_token为：[34_dOfyRYYtaAlKP4gA6cz7MbNtpeA94-dpccoHog-P8VcANffkA3QTBunIKDl5P3fHh0y77m0qye04ReSI4NSuKxkJBLHsLT5GFZBvaLHDQ7oggiTRrvpxooois8GJ0Ai8ygoYfL5Yyzt3QNphPMRjAJAEBG]
+[2020-06-13 19:59:52,145] common_api.py->add_tags line:61 [INFO] : 新增用户标签成功，新增的标签为：[PlHLa]
+[2020-06-13 19:59:52,145] common_api.py->add_tags line:62 [INFO] : 创建的标签id为：[297]

@@ -1,0 +1,21 @@
+- config:
+    name: 删除标签
+    base_url: ${ENV(url)}
+    export:
+      - tag_id
+
+
+- test:
+    name: /cgi-bin/tags/delete
+    variables:
+      tag_id: ${add_tags()}
+    request:
+      method: POST
+      url: /cgi-bin/tags/delete
+      params:
+        access_token: ${get_access_token()}
+      json: {"tag":{"id":$tag_id}}
+      headers:
+            Content-Type: application/json
+    validate:
+      - eq: [content.errcode,0]
