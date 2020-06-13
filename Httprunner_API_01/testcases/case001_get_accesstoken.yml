@@ -1,0 +1,23 @@
+- config:
+    name: 获取微信公众号Access token
+    base_url: ${ENV(url)}
+    export:
+      - token
+
+
+
+- test:
+    name: get access_token api
+    request:
+      url: /cgi-bin/token
+      method: GET
+      params:
+        grant_type: ${ENV(grant_type)}
+        appid: ${ENV(appid)}
+        secret: ${ENV(secret)}
+      headers:
+         Content-Type: application/json
+    extract:
+      - token: content.access_token
+    validate:
+      - eq: [content.expires_in,7200]

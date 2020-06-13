@@ -1,0 +1,9 @@
+config:
+  name: 测试套件
+
+
+testcases:
+  - name: 获取token
+    testcase: testcases/case004_delete_tags.yml
+    parameters:
+      json: [{"tag":{"id":245}},{"tag":{"id":246}},{"tag":{"id":247}}]

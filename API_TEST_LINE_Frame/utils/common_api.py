@@ -98,5 +98,5 @@ class CommonApi(object):
 
 
 if __name__=="__main__":
-    re = CommonApi().edit_tags()
+    re = CommonApi().ranstr(5)
     print(re)

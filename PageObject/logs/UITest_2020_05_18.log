@@ -1,0 +1,123 @@
+[2020-05-18 17:03:21,626] base_page.py->__init__ line:22 [INFO] : 实例化浏览器驱动
+[2020-05-18 17:14:39,018] base_page.py->__init__ line:22 [INFO] : 实例化浏览器驱动
+[2020-05-18 17:24:03,782] base_page.py->__init__ line:22 [INFO] : 实例化浏览器驱动
+[2020-05-18 17:24:57,449] base_page.py->__init__ line:22 [INFO] : 实例化浏览器驱动
+[2020-05-18 17:25:02,301] base_page.py->open_url line:28 [INFO] : 打开浏览器path地址http://106.53.50.202:8999/zentao6/www/user-login.html
+[2020-05-18 17:25:02,301] base_page.py->find_element line:148 [ERROR] : [用户名输入框]元素不能识别，原因是'timeout'
+[2020-05-18 17:25:02,302] base_page.py->input_operation line:171 [ERROR] : 输入操作失败，失败的原因是：local variable 'element' referenced before assignment
+[2020-05-18 17:25:02,302] base_page.py->find_element line:148 [ERROR] : [用户名输入框]元素不能识别，原因是'timeout'
+[2020-05-18 17:25:02,302] base_page.py->input_operation line:171 [ERROR] : 输入操作失败，失败的原因是：local variable 'element' referenced before assignment
+[2020-05-18 17:25:02,302] base_page.py->find_element line:148 [ERROR] : [登录按钮]元素不能识别，原因是'timeout'
+[2020-05-18 17:28:17,630] base_page.py->__init__ line:22 [INFO] : 实例化浏览器驱动
+[2020-05-18 17:28:22,814] base_page.py->open_url line:28 [INFO] : 打开浏览器path地址http://106.53.50.202:8999/zentao6/www/user-login.html
+[2020-05-18 17:28:22,814] base_page.py->find_element line:148 [ERROR] : [用户名输入框]元素不能识别，原因是'timeout'
+[2020-05-18 17:28:22,814] base_page.py->input_operation line:171 [ERROR] : 输入操作失败，失败的原因是：local variable 'element' referenced before assignment
+[2020-05-18 17:28:22,814] base_page.py->find_element line:148 [ERROR] : [用户名输入框]元素不能识别，原因是'timeout'
+[2020-05-18 17:28:22,814] base_page.py->input_operation line:171 [ERROR] : 输入操作失败，失败的原因是：local variable 'element' referenced before assignment
+[2020-05-18 17:28:22,814] base_page.py->find_element line:148 [ERROR] : [登录按钮]元素不能识别，原因是'timeout'
+[2020-05-18 17:36:35,346] base_page.py->__init__ line:22 [INFO] : 实例化浏览器驱动
+[2020-05-18 17:36:39,781] base_page.py->open_url line:28 [INFO] : 打开浏览器path地址http://106.53.50.202:8999/zentao6/www/user-login.html
+[2020-05-18 17:36:39,781] base_page.py->find_element line:146 [ERROR] : [用户名输入框]元素不能识别，原因是'timeout'
+[2020-05-18 17:36:39,781] base_page.py->input_operation line:170 [ERROR] : 输入操作失败，失败的原因是：unsupported operand type(s) for +: 'NoneType' and 'str'
+[2020-05-18 17:36:39,781] base_page.py->find_element line:146 [ERROR] : [用户名输入框]元素不能识别，原因是'timeout'
+[2020-05-18 17:36:39,781] base_page.py->input_operation line:170 [ERROR] : 输入操作失败，失败的原因是：unsupported operand type(s) for +: 'NoneType' and 'str'
+[2020-05-18 17:36:39,781] base_page.py->find_element line:146 [ERROR] : [登录按钮]元素不能识别，原因是'timeout'
+[2020-05-18 17:38:59,977] base_page.py->__init__ line:22 [INFO] : 实例化浏览器驱动
+[2020-05-18 17:39:04,368] base_page.py->open_url line:28 [INFO] : 打开浏览器path地址http://106.53.50.202:8999/zentao6/www/user-login.html
+[2020-05-18 17:39:04,378] base_page.py->find_element line:144 [INFO] : [用户名输入框]元素识别成功
+[2020-05-18 17:39:04,421] base_page.py->input_operation line:168 [INFO] : [用户名输入框]元素进行输入内容：admin
+[2020-05-18 17:39:04,435] base_page.py->find_element line:144 [INFO] : [用户名输入框]元素识别成功
+[2020-05-18 17:39:04,472] base_page.py->input_operation line:168 [INFO] : [用户名输入框]元素进行输入内容：P1666666,
+[2020-05-18 17:39:04,481] base_page.py->find_element line:144 [INFO] : [登录按钮]元素识别成功
+[2020-05-18 17:39:04,723] base_page.py->click_operation line:158 [INFO] : [登录按钮]元素进行点击操作
+[2020-05-18 17:40:11,239] base_page.py->__init__ line:22 [INFO] : 实例化浏览器驱动
+[2020-05-18 17:40:15,205] base_page.py->open_url line:28 [INFO] : 打开浏览器path地址http://106.53.50.202:8999/zentao6/www/user-login.html
+[2020-05-18 17:40:15,220] base_page.py->find_element line:144 [INFO] : [用户名输入框]元素识别成功
+[2020-05-18 17:40:15,259] base_page.py->input_operation line:168 [INFO] : [用户名输入框]元素进行输入内容：admin
+[2020-05-18 17:40:15,269] base_page.py->find_element line:144 [INFO] : [密码输入框]元素识别成功
+[2020-05-18 17:40:15,299] base_page.py->input_operation line:168 [INFO] : [密码输入框]元素进行输入内容：P1666666,
+[2020-05-18 17:40:15,305] base_page.py->find_element line:144 [INFO] : [登录按钮]元素识别成功
+[2020-05-18 17:40:15,539] base_page.py->click_operation line:158 [INFO] : [登录按钮]元素进行点击操作
+[2020-05-18 17:45:31,123] base_page.py->__init__ line:22 [INFO] : 实例化浏览器驱动
+[2020-05-18 17:45:34,721] base_page.py->open_url line:28 [INFO] : 打开浏览器path地址http://106.53.50.202:8999/zentao6/www/user-login.html
+[2020-05-18 17:45:34,745] base_page.py->find_element line:144 [INFO] : [用户名输入框]元素识别成功
+[2020-05-18 17:45:34,805] base_page.py->input_operation line:168 [INFO] : [用户名输入框]元素进行输入内容：admin
+[2020-05-18 17:45:34,829] base_page.py->find_element line:144 [INFO] : [密码输入框]元素识别成功
+[2020-05-18 17:45:34,917] base_page.py->input_operation line:168 [INFO] : [密码输入框]元素进行输入内容：P1666666,
+[2020-05-18 17:45:35,000] base_page.py->find_element line:144 [INFO] : [登录按钮]元素识别成功
+[2020-05-18 17:45:35,353] base_page.py->click_operation line:158 [INFO] : [登录按钮]元素进行点击操作
+[2020-05-18 17:49:18,981] base_page.py->__init__ line:22 [INFO] : 实例化浏览器驱动
+[2020-05-18 17:49:22,325] base_page.py->open_url line:28 [INFO] : 打开浏览器path地址http://106.53.50.202:8999/zentao6/www/user-login.html
+[2020-05-18 17:49:22,334] base_page.py->find_element line:144 [INFO] : [用户名输入框]元素识别成功
+[2020-05-18 17:49:22,367] base_page.py->input_operation line:168 [INFO] : [用户名输入框]元素进行输入内容：admin
+[2020-05-18 17:49:22,377] base_page.py->find_element line:144 [INFO] : [密码输入框]元素识别成功
+[2020-05-18 17:49:22,417] base_page.py->input_operation line:168 [INFO] : [密码输入框]元素进行输入内容：P1666666,
+[2020-05-18 17:49:22,423] base_page.py->find_element line:144 [INFO] : [登录按钮]元素识别成功
+[2020-05-18 17:49:22,657] base_page.py->click_operation line:158 [INFO] : [登录按钮]元素进行点击操作
+[2020-05-18 17:49:23,010] base_page.py->screen_shoot_as_file_old line:279 [INFO] : 截图
+[2020-05-18 17:50:51,129] base_page.py->__init__ line:22 [INFO] : 实例化浏览器驱动
+[2020-05-18 17:50:55,193] base_page.py->open_url line:28 [INFO] : 打开浏览器path地址http://106.53.50.202:8999/zentao6/www/user-login.html
+[2020-05-18 17:50:55,200] base_page.py->find_element line:144 [INFO] : [用户名输入框]元素识别成功
+[2020-05-18 17:50:55,239] base_page.py->input_operation line:168 [INFO] : [用户名输入框]元素进行输入内容：admin
+[2020-05-18 17:50:55,245] base_page.py->find_element line:144 [INFO] : [密码输入框]元素识别成功
+[2020-05-18 17:50:55,311] base_page.py->input_operation line:168 [INFO] : [密码输入框]元素进行输入内容：P1666666,
+[2020-05-18 17:50:55,319] base_page.py->find_element line:144 [INFO] : [登录按钮]元素识别成功
+[2020-05-18 17:50:55,556] base_page.py->click_operation line:158 [INFO] : [登录按钮]元素进行点击操作
+[2020-05-18 17:50:55,556] base_page.py->screen_shoot_as_file line:290 [ERROR] : 截图失败，失败的原因是：unsupported operand type(s) for +: 'NoneType' and 'str'
+[2020-05-18 18:08:23,831] base_page.py->__init__ line:22 [INFO] : 实例化浏览器驱动
+[2020-05-18 18:08:27,443] base_page.py->open_url line:28 [INFO] : 打开浏览器path地址http://106.53.50.202:8999/zentao6/www/user-login.html
+[2020-05-18 18:08:27,475] base_page.py->find_element line:144 [INFO] : [用户名输入框]元素识别成功
+[2020-05-18 18:08:27,519] base_page.py->input_operation line:168 [INFO] : [用户名输入框]元素进行输入内容：admin
+[2020-05-18 18:08:27,535] base_page.py->find_element line:144 [INFO] : [密码输入框]元素识别成功
+[2020-05-18 18:08:27,580] base_page.py->input_operation line:168 [INFO] : [密码输入框]元素进行输入内容：P1666666,
+[2020-05-18 18:08:27,593] base_page.py->find_element line:144 [INFO] : [登录按钮]元素识别成功
+[2020-05-18 18:08:27,839] base_page.py->click_operation line:158 [INFO] : [登录按钮]元素进行点击操作
+[2020-05-18 18:08:27,840] base_page.py->screen_shoot_as_file line:290 [ERROR] : 截图失败，失败的原因是：unsupported operand type(s) for +: 'NoneType' and 'str'
+[2020-05-18 18:09:13,060] base_page.py->__init__ line:22 [INFO] : 实例化浏览器驱动
+[2020-05-18 18:09:16,931] base_page.py->open_url line:28 [INFO] : 打开浏览器path地址http://106.53.50.202:8999/zentao6/www/user-login.html
+[2020-05-18 18:09:16,941] base_page.py->find_element line:144 [INFO] : [用户名输入框]元素识别成功
+[2020-05-18 18:09:16,988] base_page.py->input_operation line:168 [INFO] : [用户名输入框]元素进行输入内容：admin
+[2020-05-18 18:09:17,000] base_page.py->find_element line:144 [INFO] : [密码输入框]元素识别成功
+[2020-05-18 18:09:17,040] base_page.py->input_operation line:168 [INFO] : [密码输入框]元素进行输入内容：P1666666,
+[2020-05-18 18:09:17,048] base_page.py->find_element line:144 [INFO] : [登录按钮]元素识别成功
+[2020-05-18 18:09:17,286] base_page.py->click_operation line:158 [INFO] : [登录按钮]元素进行点击操作
+[2020-05-18 18:09:19,286] base_page.py->wait line:111 [INFO] : 固定等待时间为2
+[2020-05-18 18:09:19,288] base_page.py->screen_shoot_as_file line:290 [ERROR] : 截图失败，失败的原因是：unsupported operand type(s) for +: 'NoneType' and 'str'
+[2020-05-18 18:44:15,538] selenium_base_case.py->setUpClass line:11 [INFO] : 
+[2020-05-18 18:44:15,539] selenium_base_case.py->setUpClass line:12 [INFO] : ==============测试类开始执行==============
+[2020-05-18 18:44:15,539] selenium_base_case.py->setUp line:17 [INFO] : -------------测试方法开始执行-------------
+[2020-05-18 18:44:28,870] base_page.py->__init__ line:22 [INFO] : 实例化浏览器驱动
+[2020-05-18 18:44:29,139] base_page.py->set_browser_max line:52 [INFO] : 设置浏览器最大化
+[2020-05-18 18:44:29,142] base_page.py->implicitly_wait line:69 [INFO] : 设置隐式等待时间为5秒
+[2020-05-18 18:44:32,580] base_page.py->open_url line:28 [INFO] : 打开浏览器path地址http://106.53.50.202:8999/zentao6/www/user-login.html
+[2020-05-18 18:44:32,581] base_page.py->__init__ line:22 [INFO] : 实例化浏览器驱动
+[2020-05-18 18:44:32,634] base_page.py->find_element line:144 [INFO] : [用户名输入框]元素识别成功
+[2020-05-18 18:44:32,650] base_page.py->input_operation line:168 [INFO] : [用户名输入框]元素进行输入内容：sss
+[2020-05-18 18:44:32,656] base_page.py->find_element line:144 [INFO] : [密码输入框]元素识别成功
+[2020-05-18 18:44:32,679] base_page.py->input_operation line:168 [INFO] : [密码输入框]元素进行输入内容：213123
+[2020-05-18 18:44:32,684] base_page.py->find_element line:144 [INFO] : [登录按钮]元素识别成功
+[2020-05-18 18:44:32,908] base_page.py->click_operation line:158 [INFO] : [登录按钮]元素进行点击操作
+[2020-05-18 18:44:52,927] base_page.py->wait line:111 [INFO] : 固定等待时间为20.0
+[2020-05-18 18:44:52,971] base_page.py->switch_to_alter line:238 [INFO] : 切换至弹出框，返回弹出框文本信息登录失败，请检查您的用户名或密码是否填写正确。
+[2020-05-18 18:44:56,480] base_page.py->close_tab line:36 [INFO] : 关闭当前tab页签
+[2020-05-18 18:44:56,480] selenium_base_case.py->tearDown line:35 [INFO] : -------------测试方法执行完毕-------------
+[2020-05-18 18:44:56,480] selenium_base_case.py->tearDownClass line:39 [INFO] : ==============测试类执行完毕==============
+[2020-05-18 21:47:23,388] selenium_base_case.py->setUpClass line:11 [INFO] : 
+[2020-05-18 21:47:23,389] selenium_base_case.py->setUpClass line:12 [INFO] : ==============测试类开始执行==============
+[2020-05-18 21:47:23,389] selenium_base_case.py->setUp line:17 [INFO] : -------------测试方法开始执行-------------
+[2020-05-18 21:47:36,061] base_page.py->__init__ line:22 [INFO] : 实例化浏览器驱动
+[2020-05-18 21:47:36,382] base_page.py->set_browser_max line:52 [INFO] : 设置浏览器最大化
+[2020-05-18 21:47:36,385] base_page.py->implicitly_wait line:69 [INFO] : 设置隐式等待时间为5秒
+[2020-05-18 21:47:46,560] base_page.py->open_url line:28 [INFO] : 打开浏览器path地址http://106.53.50.202:8999/zentao6/www/user-login.html
+[2020-05-18 21:47:46,561] base_page.py->__init__ line:22 [INFO] : 实例化浏览器驱动
+[2020-05-18 21:47:46,618] base_page.py->find_element line:144 [INFO] : [用户名输入框]元素识别成功
+[2020-05-18 21:47:46,643] base_page.py->input_operation line:168 [INFO] : [用户名输入框]元素进行输入内容：sss
+[2020-05-18 21:47:46,648] base_page.py->find_element line:144 [INFO] : [密码输入框]元素识别成功
+[2020-05-18 21:47:46,669] base_page.py->input_operation line:168 [INFO] : [密码输入框]元素进行输入内容：213123
+[2020-05-18 21:47:46,675] base_page.py->find_element line:144 [INFO] : [登录按钮]元素识别成功
+[2020-05-18 21:47:46,897] base_page.py->click_operation line:158 [INFO] : [登录按钮]元素进行点击操作
+[2020-05-18 21:48:06,898] base_page.py->wait line:111 [INFO] : 固定等待时间为20.0
+[2020-05-18 21:48:06,933] base_page.py->switch_to_alter line:238 [INFO] : 切换至弹出框，返回弹出框文本信息登录失败，请检查您的用户名或密码是否填写正确。
+[2020-05-18 21:48:09,078] base_page.py->close_tab line:36 [INFO] : 关闭当前tab页签
+[2020-05-18 21:48:09,078] selenium_base_case.py->tearDown line:35 [INFO] : -------------测试方法执行完毕-------------
+[2020-05-18 21:48:09,078] selenium_base_case.py->tearDownClass line:39 [INFO] : ==============测试类执行完毕==============
