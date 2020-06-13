@@ -4,6 +4,15 @@ config:
 
 testcases:
   - name: 获取token
-    testcase: testcases/case004_delete_tags.yml
+    testcase: case001_get_accesstoken.yml
     parameters:
       json: [{"tag":{"id":245}},{"tag":{"id":246}},{"tag":{"id":247}}]
+
+  - name: 创建标签
+    testcase: case002_add_users_tags.yml
+
+  - name: 查看被创建的标签
+    testcase: case003_lookfor_makedtags.yml
+
+  - name: 删除case001中被创建的标签
+        testcase: case004_delete_tags.yml

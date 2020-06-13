@@ -11,9 +11,9 @@ from API_TEST_LINE_Frame.utils.log_utils import logutils
 
 class AddTags(unittest.TestCase):
     def setUp(self):
-        self.hosts= conf.hosts_url
+        logutils.info('测试用例 [%s] 开始执行' % ('创建标签接口测试'))
     def tearDown(self):
-        pass
+        logutils.info('测试用例 [%s] 执行完毕' % ('创建标签接口测试'))
 
     def test_add_tags_success(self):
         '''
