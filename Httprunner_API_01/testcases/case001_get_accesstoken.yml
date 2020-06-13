@@ -7,7 +7,7 @@
 
 
 - test:
-    name: get access_token api
+    name: get access_token api/获取access_token接口
     request:
       url: /cgi-bin/token
       method: GET
