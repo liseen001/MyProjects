@@ -11,6 +11,7 @@ import re
 from API_TEST_LINE_Frame.utils.config_utils import conf
 from API_TEST_LINE_Frame.utils.log_utils import logutils
 
+
 class CommonApi(object):
     def __init__(self):
         self.hosts=conf.hosts_url
