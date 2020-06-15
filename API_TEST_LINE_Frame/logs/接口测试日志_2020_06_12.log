@@ -1,3 +1,15 @@
+<<<<<<< HEAD
+[2020-06-12 21:22:10,591] log_utils.py-><module> line:44 [INFO] : liseen
+[2020-06-12 21:22:24,522] common_api.py->get_access_token line:37 [INFO] : 调用获取access_token接口成功
+[2020-06-12 21:22:25,132] common_api.py->get_access_token line:37 [INFO] : 调用获取access_token接口成功
+[2020-06-12 21:22:25,132] common_api.py->get_default_access_token line:46 [INFO] : 获取access_token成功，access_token为：[34_jC3gfx8hDn4I6HA1KVTdEvwuLkbL8oVhKigXn_-wRIZVkA3sbqdXEB34TPNJwYIsKr2-lK6nrNr46mCusO-rb9mdnAu8N2C7XKy71iaNMSt6rGhEFZLIQhF2wD9Tcrrzqbe8ocUcM-9OV0HJCVReABAMFB]
+[2020-06-12 21:22:25,846] common_api.py->add_tags line:61 [INFO] : 新增用户标签成功，新增的标签为：[bksrF]
+[2020-06-12 21:22:59,057] common_api.py->get_access_token line:37 [INFO] : 调用获取access_token接口成功
+[2020-06-12 21:23:17,564] common_api.py->get_access_token line:37 [INFO] : 调用获取access_token接口成功
+[2020-06-12 21:23:18,548] common_api.py->get_access_token line:37 [INFO] : 调用获取access_token接口成功
+[2020-06-12 21:23:18,548] common_api.py->get_default_access_token line:46 [INFO] : 获取access_token成功，access_token为：[34_uL9yanJbxVZIK_Umut2XGRuJhyJ5D3YgPgQZSRVo8-iBGHOF47mgRvxKrpXZMjhkU-ZuIR61NoNY26sWcDU8QQrgm9A4DLiJl5E0cPyyMD0FGngQlJHBQVgO5iiTZT1qN9TsjABlkeK9IzmOFXTgAEAKCY]
+[2020-06-12 21:23:19,318] common_api.py->add_tags line:61 [INFO] : 新增用户标签成功，新增的标签为：[AXfO1]
+=======
 [2020-06-12 17:45:41,868] log_utils.py-><module> line:44 [INFO] : liseen
 [2020-06-12 18:04:37,128] common_api.py->get_default_access_token line:29 [INFO] : 获取access_token成功，access_token为
 [2020-06-12 18:06:25,481] common_api.py->get_default_access_token line:29 [INFO] : 获取access_token成功，access_token为34_uyOV4OPk7TZbLoDPy3qvXYFqZ0ImBdVcaU1cgcQ_axE5r65eXN1Ob28EV7JivrvEKpVc5ZpTnrKTurRa2XR-umLtNGMlsBFE7yDAlqcT_B43QisAivk9mOnOGIqEkR8tmRTLn3Ayyvy-HfNeRJVeAJAGYK
@@ -243,3 +255,4 @@
 [2020-06-12 22:00:21,557] common_api.py->get_default_access_token line:46 [INFO] : 获取access_token成功，access_token为：[34_BF9F-oesQeajK93Z0f88V8qvSkepw1ZELMhKl3PGXyKLpiO1PFToNoLEJXZ8GB3T5J0BEqCmrVyNf1Wc8djzOGijzkBBEqWnIOvo4lpcEsgFmJhFw7070NeYGXQgzHG4pbQQi9kh-aEbx4nTEOSjACAJTX]
 [2020-06-12 22:00:22,880] common_api.py->look_for_makedtags line:73 [INFO] : 获取公众号已创建的标签成功
 [2020-06-12 22:00:24,100] common_api.py->edit_tags line:88 [INFO] : 编辑标签成功
+>>>>>>> origin/master
