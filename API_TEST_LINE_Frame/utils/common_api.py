@@ -17,6 +17,7 @@ class CommonApi(object):
         self.hosts=conf.hosts_url
         self.report_path = conf.report_parh
 
+
     '''生成随机字符串'''
     def ranstr(self,num):
         self.num=num
@@ -94,6 +95,7 @@ class CommonApi(object):
             logutils.error('编辑标签失败，失败的原因是：[%s]'%e.__str__())
         return response_obj
 
+
     '''封装删除标签接口'''
     def delete_tags(self):
         try:
@@ -119,5 +121,5 @@ class CommonApi(object):
 
 
 if __name__=="__main__":
-    re = CommonApi().add_tags()
+    re = CommonApi().edit_tags()
     print(re.content.decode('utf-8'))
