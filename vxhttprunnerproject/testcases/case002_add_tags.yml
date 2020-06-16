@@ -1,0 +1,14 @@
+- config:
+    name: 验证能否新增用户标签
+
+- test:
+      name: '获取token'
+      testcase: 'testcases/case001_get_access_token.yml'
+
+- test:
+    name: "step01: 执行新增用户标签接口"
+    api: 'api/api002_add_tags.yml'
+    validate:
+    - eq: ['status_code',200]
+
+

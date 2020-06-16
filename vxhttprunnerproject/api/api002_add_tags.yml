@@ -1,0 +1,17 @@
+#新增用户标签
+name: "新增用户标签"
+base_url: ${ENV(url)}
+
+variables:
+  token_id: $token_id
+request:
+  method: POST
+  url: /cgi-bin/tags/create
+  params:
+    access_token: $token_id
+  json:
+    {   "tag" : {     "name" : '${get_str(5,1)}'   } }
+validate:
+  - eq: ['status_code',200]
+
+

@@ -1,0 +1,12 @@
+- config:
+    name: "验证能否正确获取token"
+    export:
+        - token_id
+
+- test:
+    name: "step01: 执行get_access_token接口"
+    api: "api/api001_get_token.yml"
+    extract:
+        - token_id: content.access_token
+    validate:
+      - eq: [content.expires_in,7200]
