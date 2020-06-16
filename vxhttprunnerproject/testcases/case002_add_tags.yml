@@ -8,6 +8,8 @@
 - test:
     name: "step01: 执行新增用户标签接口"
     api: 'api/api002_add_tags.yml'
+    variables:
+      token_id: $token_id
     validate:
     - eq: ['status_code',200]
 

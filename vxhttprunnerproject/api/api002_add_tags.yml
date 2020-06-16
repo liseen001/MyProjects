@@ -2,8 +2,6 @@
 name: "新增用户标签"
 base_url: ${ENV(url)}
 
-variables:
-  token_id: $token_id
 request:
   method: POST
   url: /cgi-bin/tags/create
