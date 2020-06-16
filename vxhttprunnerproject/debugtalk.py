@@ -6,6 +6,7 @@
 # @desc:
 import hmac,base64,struct,hashlib,time,random
 
+
 def get_hotp_token(secret,intervals_no):
     key = base64.b32decode(secret,True)
     msg = struct.pack('>Q',intervals_no)
