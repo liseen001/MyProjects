@@ -16,4 +16,4 @@ import requests,json
 str1 ='{"name":"test","age":22}'
 
 print(type(str1))
-print(json.loads(str1),type(json.loads(str1)))
+print(json.loads(str1))
