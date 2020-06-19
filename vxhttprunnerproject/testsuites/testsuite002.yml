@@ -1,0 +1,7 @@
+config:
+  name:  测试套件整合测试用例进行执行
+
+testcases:
+  - name: 调用testcases中的用例执行
+    times: 2
+    testcase: testcases/study001.yml

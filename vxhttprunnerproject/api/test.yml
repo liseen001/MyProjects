@@ -1,0 +1,12 @@
+name: '获取access_token'
+base_url: ${ENV(url)}
+
+request:
+  url: /cgi-bin/token
+  method: GET
+  params:
+    grant_type: ${ENV(grant_type)}
+    appid: ${ENV(appid)}
+    secret: ${ENV(secret)}
+validate:
+  - eq: [status_code,200]

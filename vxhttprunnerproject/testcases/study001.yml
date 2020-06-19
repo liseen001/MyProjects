@@ -1,0 +1,9 @@
+- config:
+    name: testcases中调用api文件中的yml文件执行
+
+- test:
+#    times: 5
+    name:  step01：执行获取token的接口
+    api: api/test.yml
+    validate:
+      - contains: [content,access_token]

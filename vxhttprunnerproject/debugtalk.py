@@ -68,4 +68,4 @@ def get_random_mobilephone(count):
     return phone_list
 
 if __name__=="__main__":
-    print(type(get_str(1,2)),get_str(5,2))
+    print(get_randomint(1,10,5))

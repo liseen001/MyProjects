@@ -1,5 +1,9 @@
 {
     "testcase":[
-        "testcases/test_demo_06.yml"
+        "testcases/study008.yml",
+        "testcases/study008.yml",
+        "testcases/study008.yml",
+        "testcases/study008.yml",
+        "testcases/study008.yml"
     ]
 }

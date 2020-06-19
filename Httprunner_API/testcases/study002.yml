@@ -1,10 +1,11 @@
-#实现带参数的get请求
 - config:
-    name: 获取微信token
+    name: 发送带参数的get请求
     base_url: https://api.weixin.qq.com
+    export:
+      - token_id
 
 - test:
-    name: 获取微信tokenapi
+    name: 获取access_token
     request:
       url: /cgi-bin/token
       method: GET
@@ -12,6 +13,9 @@
         grant_type: client_credential
         appid: wx0591278088098c56
         secret: ceaab7a476a85194f507c8a00c82ad1f
+    extract:
+      - token_id: content.access_token
     validate:
-      - eq: ['status_code',200]
-      - eq: [content.expires_in,7200]
+      - contains: [content,access_token]
+#      - {'check':content,'comparator':'contains','expect':access_token}
+

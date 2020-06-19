@@ -1,0 +1,32 @@
+- config:
+    name: 发送带参数的get请求
+    base_url: https://api.weixin.qq.com
+    export:
+      - token
+
+- test:
+    name: 获取access_token
+    request:
+      url: /cgi-bin/token
+      method: GET
+      params:
+        grant_type: client_credential
+        appid: wx0591278088098c56
+        secret: ceaab7a476a85194f507c8a00c82ad1f
+    extract:
+      - token: content.access_token
+    validate:
+      - contains: [content,access_token]
+      - {'check':content,'comparator':'contains','expect':access_token}
+
+- test:
+    name: 查看已经被创建的标签
+    request:
+      url: /cgi-bin/tags/get
+      method: GET
+      headers:
+        Content-Type: aalication/json
+      params:
+        access_token: $token
+    validate:
+      - eq: ['status_code',200]

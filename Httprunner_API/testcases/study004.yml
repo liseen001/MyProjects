@@ -1,0 +1,21 @@
+- config:
+    name: 发送post请求
+    base_url: https://api.weixin.qq.com
+    variables:
+      - access_token: K_D_TTTuyohdY9Vsdwcg1ii-LBZRewwbtui27-400LhOthGRT1WpEWp1myLhgy-nNsORpxkPKwpPZ4-ysjaJ1zIK4nQSEbtr0FMN73_7fOj9hXQAPotClT958-euu-irO9dO6bQb4tsBl6yVMLCeAIAVUL
+
+- test:
+    name: 发送 post请求
+    variables:
+      - access_token: 34_K_D_TTTuyohdY9Vsdwcg1ii-LBZRewwbtui27-400LhOthGRT1WpEWp1myLhgy-nNsORpxkPKwpPZ4-ysjaJ1zIK4nQSEbtr0FMN73_7fOj9hXQAPotClT958-euu-irO9dO6bQb4tsBl6yVMLCeAIAVUL
+    request:
+      url: /cgi-bin/tags/create
+      method: POST
+      params:
+        access_token: $access_token
+      json:
+        {   "tag" : {     "name" : "test222"   } }
+    validate:
+      - eq: ['status_code',200]
+
+
