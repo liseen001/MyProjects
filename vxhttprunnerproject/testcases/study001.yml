@@ -1,9 +1,26 @@
 - config:
     name: testcases中调用api文件中的yml文件执行
+    base_url: https://www.baidu.com
+
+#- test:
+##    times: 5
+#    name:  step01：执行获取token的接口
+#    api: api/test.yml
+#    validate:
+#      - contains: [content,access_token]
 
 - test:
+    name: ces
+    skipUnless: 1
 #    times: 5
-    name:  step01：执行获取token的接口
-    api: api/test.yml
+    request:
+      url: /s
+      method: GET
+      params:
+        wd: python
+      headers:
+        Content-Type: text/html;charset=utf-8
+        Connection: keep-alive
+        User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.106 Safari/537.36
     validate:
-      - contains: [content,access_token]
+      - eq: ['status_code',200]

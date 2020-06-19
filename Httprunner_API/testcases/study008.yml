@@ -2,10 +2,13 @@
     name:  测试用例，被测试套件引用
     base_url: https://www.baidu.com
 
+- test:
+    name: 这里调用获取access_token的接口
+    testcase: testcases/study002.yml
 
 - test:
     skipUnless: 1
-#    times: 5
+    times: 5
     name: 百度搜索
     request:
       url: /s

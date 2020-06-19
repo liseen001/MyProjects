@@ -1,0 +1,20 @@
+- config:
+    name: 用例之间参数的调用，获取公众号已创建的标签
+    base_url: https://api.weixin.qq.com/
+
+- test:
+   name: 获取被调用的接口（获取acces_token接口）
+   testcase: testcases/study009.yml
+
+- test:
+    name: 获取公众号已创建的标签
+    variables:
+      token_id: $token_id
+    request:
+      method: GET
+      url: /cgi-bin/tags/get
+      params:
+        access_token: $token_id
+    validate:
+      - eq: ['status_code',200]
+

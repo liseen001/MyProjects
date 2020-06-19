@@ -1,5 +1,5 @@
 - config:
-    name: 发送带参数的get请求
+    name: 用例之间参数的调用（被调用的用例）
     base_url: https://api.weixin.qq.com
     export:
       - token_id
@@ -15,7 +15,6 @@
         secret: ceaab7a476a85194f507c8a00c82ad1f
     extract:
       - token_id: content.access_token
-
     validate:
       - contains: [content,access_token]
 #      - {'check':content,'comparator':'contains','expect':access_token}

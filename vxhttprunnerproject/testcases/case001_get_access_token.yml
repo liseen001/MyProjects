@@ -5,6 +5,7 @@
 
 - test:
     name: "step01: 执行get_access_token接口"
+#    times: 2
     api: "api/api001_get_token.yml"
     extract:
         - token_id: content.access_token

@@ -10,6 +10,7 @@ testcases:
   - name: 这里引用testcases中的测试用例
     times: 5
     skipIf: [1,2]
-    testcase: testcases/study008.yml
+    testcase: testcases/study003.yml
     parameters:
-      search_word: ${get_randomint(1,20,5)}
+      search_word: [刘德华,张学友,郭富城]
+#      result: [taobao,james,12306]
