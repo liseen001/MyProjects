@@ -39,5 +39,6 @@ def add_tags():
     return response.json()['tag']['id']
 
 
+
 if __name__=="__main__":
     print(add_tags())
