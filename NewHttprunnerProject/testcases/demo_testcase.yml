@@ -1,0 +1,11 @@
+- config:
+    name: 验证新梦想主页能否打开
+    base_url: http://www.hnxmxit.com
+
+- test:
+    name: open hnxmxit mainpage api
+    request:
+      method: GET
+      url: /
+    validate:
+      - eq: ['status_code',200]
