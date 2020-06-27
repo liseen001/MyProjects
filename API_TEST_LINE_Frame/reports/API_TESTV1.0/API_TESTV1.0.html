@@ -233,22 +233,14 @@ table       { font-size: 100%; }
                 innerSize: '80%',
                 name: '比例',
                 data: [
-<<<<<<< HEAD
-                    ['通过', 0],
-=======
-                    ['通过', 3],
->>>>>>> origin/master
+                    ['通过', 4],
                     {
                         name: '失败',
                         y: 0,
                         sliced: true,
                         selected: true
                     },
-<<<<<<< HEAD
-                    ['错误', 3]
-=======
-                    ['错误', 0]
->>>>>>> origin/master
+                    ['错误', 1]
                 ]
             }]
         }, function(c) {
@@ -383,19 +375,11 @@ function html_escape(s) {
 <div style="width: 650px; float: left;">
     <h1 style="font-family: Microsoft YaHei">API_TEST</h1>
     <p class='attribute'><strong>测试人员 : </strong> liseen</p>
-<<<<<<< HEAD
-<p class='attribute'><strong>开始时间 : </strong> 2020-06-11 21:28:01</p>
-<p class='attribute'><strong>合计耗时 : </strong> 0:01:03.663832</p>
-<p class='attribute'><strong>测试结果 : </strong> 共 3，错误 3，通过率 = 0.00%</p>
+<p class='attribute'><strong>开始时间 : </strong> 2020-06-27 16:46:48</p>
+<p class='attribute'><strong>合计耗时 : </strong> 0:00:06.963626</p>
+<p class='attribute'><strong>测试结果 : </strong> 共 5，通过 4，错误 1，通过率 = 80.00%</p>
 <p class='attribute'><strong>失败用例合集 : </strong> <ol style='float: left;'>无</ol></p>
-<p class='attribute'><strong>错误用例合集 : </strong> <div class='panel-default' style='float: left;'><a class='showDetail' data-toggle='collapse' href='#errorCaseOl' style='text-decoration: none;'>点击查看</a></div><ol id='errorCaseOl' class='collapse' style='float: left;'><li>test001_login_in_success (case001_login_in.login_in_testcase.LoginInTestcase)</li><li>test002_get_token (case001_login_in.login_in_testcase.LoginInTestcase)</li><li>test003_update_googlesectet (case002goolesecret_manage.google_secret_update_testcase.UpdateGooglsecretTestcase)</li></ol></p>
-=======
-<p class='attribute'><strong>开始时间 : </strong> 2020-06-11 16:58:21</p>
-<p class='attribute'><strong>合计耗时 : </strong> 0:00:00.712114</p>
-<p class='attribute'><strong>测试结果 : </strong> 共 3，通过 3，通过率 = 100.00%</p>
-<p class='attribute'><strong>失败用例合集 : </strong> <ol style='float: left;'>无</ol></p>
-<p class='attribute'><strong>错误用例合集 : </strong> <ol style='float: left;'>无</ol></p>
->>>>>>> origin/master
+<p class='attribute'><strong>错误用例合集 : </strong> <div class='panel-default' style='float: left;'><a class='showDetail' data-toggle='collapse' href='#errorCaseOl' style='text-decoration: none;'>点击查看</a></div><ol id='errorCaseOl' class='collapse' style='float: left;'><li>test_update_maked_tags (module002_user_manage.suite001_users_tag_manage.case003_update_makedtags_testcase.UpdateMakedtags)</li></ol></p>
 
     <p class='description'>基于测试环境的部分后台接口测试用例</p>
 </div>
@@ -406,18 +390,11 @@ function html_escape(s) {
 
 <div style="width: 500px; clear: both;">
 <p id='show_detail_line'>
-<<<<<<< HEAD
-<a class="btn btn-primary" href='javascript:showCase(0)'>概要{ 0.00% }</a>
-<a class="btn btn-success" href='javascript:showCase(2)'>通过{ 0 }</a>
+<a class="btn btn-primary" href='javascript:showCase(0)'>概要{ 80.00% }</a>
+<a class="btn btn-success" href='javascript:showCase(2)'>通过{ 4 }</a>
 <a class="btn btn-danger" href='javascript:showCase(1)'>失败{ 0 }</a>
-<a class="btn btn-warning" href='javascript:showCase(3)'>错误{ 3 }</a>
-=======
-<a class="btn btn-primary" href='javascript:showCase(0)'>概要{ 100.00% }</a>
-<a class="btn btn-success" href='javascript:showCase(2)'>通过{ 3 }</a>
-<a class="btn btn-danger" href='javascript:showCase(1)'>失败{ 0 }</a>
-<a class="btn btn-warning" href='javascript:showCase(3)'>错误{ 0 }</a>
->>>>>>> origin/master
-<a class="btn btn-info" href='javascript:showCase(4)'>所有{ 3 }</a>
+<a class="btn btn-warning" href='javascript:showCase(3)'>错误{ 1 }</a>
+<a class="btn btn-info" href='javascript:showCase(4)'>所有{ 5 }</a>
 </p>
 </div>
 <table id='result_table' class="table table-condensed table-bordered table-hover">
@@ -442,342 +419,124 @@ function html_escape(s) {
     <td>详细</td>
 </tr>
 
-<<<<<<< HEAD
-<tr class='errorClass warning'>
-    <td>LoginInTestcase</td>
-    <td></td>
-    <td class="text-center">2</td>
-    <td class="text-center">0</td>
-    <td class="text-center">0</td>
-    <td class="text-center">2</td>
-    <td class="text-center">42.12秒</td>
-    <td class="text-center"><a href="javascript:showClassDetail('c1',2)" class="detail" id='c1'>详细</a></td>
-</tr>
-
-    <tr id='et1_1' class='none'>
-        <td class='errorCase' style="vertical-align: middle"><div class='testcase'>test001_login_in_success</div></td>
-        <td style="vertical-align: middle">登录接口</td>
-        <td colspan='5' align='center'>
-        <!--默认收起错误信息 -Findyou
-        <button id='btn_et1_1' type="button"  class="btn btn-xs collapsed" data-toggle="collapse" data-target='#div_et1_1'>错误</button>
-        <div id='div_et1_1' class="collapse">  -->
-
-        <!-- 默认展开错误信息 -Findyou /  修复失败按钮的颜色 -- Gelomen -->
-        <button id='btn_et1_1' type="button"  class="btn btn-xs" data-toggle="collapse" data-target='#div_et1_1'>错误</button>
-        <div id='div_et1_1' class="collapse in">
-        <pre style="text-align:left">
-        
-et1_1: Traceback (most recent call last):
-  File "C:\Users\93985\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connection.py", line 156, in _new_conn
-    conn = connection.create_connection(
-  File "C:\Users\93985\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\util\connection.py", line 84, in create_connection
-    raise err
-  File "C:\Users\93985\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\util\connection.py", line 74, in create_connection
-    sock.connect(sa)
-TimeoutError: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "C:\Users\93985\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connectionpool.py", line 665, in urlopen
-    httplib_response = self._make_request(
-  File "C:\Users\93985\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connectionpool.py", line 387, in _make_request
-    conn.request(method, url, **httplib_request_kw)
-  File "C:\Users\93985\AppData\Local\Programs\Python\Python38\lib\http\client.py", line 1230, in request
-    self._send_request(method, url, body, headers, encode_chunked)
-  File "C:\Users\93985\AppData\Local\Programs\Python\Python38\lib\http\client.py", line 1276, in _send_request
-    self.endheaders(body, encode_chunked=encode_chunked)
-  File "C:\Users\93985\AppData\Local\Programs\Python\Python38\lib\http\client.py", line 1225, in endheaders
-    self._send_output(message_body, encode_chunked=encode_chunked)
-  File "C:\Users\93985\AppData\Local\Programs\Python\Python38\lib\http\client.py", line 1004, in _send_output
-    self.send(msg)
-  File "C:\Users\93985\AppData\Local\Programs\Python\Python38\lib\http\client.py", line 944, in send
-    self.connect()
-  File "C:\Users\93985\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connection.py", line 184, in connect
-    conn = self._new_conn()
-  File "C:\Users\93985\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connection.py", line 168, in _new_conn
-    raise NewConnectionError(
-urllib3.exceptions.NewConnectionError: &lt;urllib3.connection.HTTPConnection object at 0x000001CB17C87F40&gt;: Failed to establish a new connection: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "C:\Users\93985\AppData\Local\Programs\Python\Python38\lib\site-packages\requests\adapters.py", line 439, in send
-    resp = conn.urlopen(
-  File "C:\Users\93985\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connectionpool.py", line 719, in urlopen
-    retries = retries.increment(
-  File "C:\Users\93985\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\util\retry.py", line 436, in increment
-    raise MaxRetryError(_pool, url, error or ResponseError(cause))
-urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='192.168.103.251', port=9192): Max retries exceeded with url: /admin/login (Caused by NewConnectionError('&lt;urllib3.connection.HTTPConnection object at 0x000001CB17C87F40&gt;: Failed to establish a new connection: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。'))
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "D:\PageObject\API_TEST_LINE_Frame\testcases\case001_login_in\login_in_testcase.py", line 22, in test001_login_in_success
-    response_obj = CommonApi().logion_in()
-  File "D:\PageObject\API_TEST_LINE_Frame\utils\common_api.py", line 21, in logion_in
-    response_obj = requests.post(url=api_url,json=json_data,headers=headerinfos)
-  File "C:\Users\93985\AppData\Local\Programs\Python\Python38\lib\site-packages\requests\api.py", line 119, in post
-    return request('post', url, data=data, json=json, **kwargs)
-  File "C:\Users\93985\AppData\Local\Programs\Python\Python38\lib\site-packages\requests\api.py", line 61, in request
-    return session.request(method=method, url=url, **kwargs)
-  File "C:\Users\93985\AppData\Local\Programs\Python\Python38\lib\site-packages\requests\sessions.py", line 530, in request
-    resp = self.send(prep, **send_kwargs)
-  File "C:\Users\93985\AppData\Local\Programs\Python\Python38\lib\site-packages\requests\sessions.py", line 643, in send
-    r = adapter.send(request, **kwargs)
-  File "C:\Users\93985\AppData\Local\Programs\Python\Python38\lib\site-packages\requests\adapters.py", line 516, in send
-    raise ConnectionError(e, request=request)
-requests.exceptions.ConnectionError: HTTPConnectionPool(host='192.168.103.251', port=9192): Max retries exceeded with url: /admin/login (Caused by NewConnectionError('&lt;urllib3.connection.HTTPConnection object at 0x000001CB17C87F40&gt;: Failed to establish a new connection: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。'))
-
-
-        </pre>
-        </div>
-        </td>
-        <td class='errorCase' style="vertical-align: middle"></td>
-    </tr>
-    
-    <tr id='et1_2' class='none'>
-        <td class='errorCase' style="vertical-align: middle"><div class='testcase'>test002_get_token</div></td>
-        <td style="vertical-align: middle">获取token</td>
-        <td colspan='5' align='center'>
-        <!--默认收起错误信息 -Findyou
-        <button id='btn_et1_2' type="button"  class="btn btn-xs collapsed" data-toggle="collapse" data-target='#div_et1_2'>错误</button>
-        <div id='div_et1_2' class="collapse">  -->
-
-        <!-- 默认展开错误信息 -Findyou /  修复失败按钮的颜色 -- Gelomen -->
-        <button id='btn_et1_2' type="button"  class="btn btn-xs" data-toggle="collapse" data-target='#div_et1_2'>错误</button>
-        <div id='div_et1_2' class="collapse in">
-        <pre style="text-align:left">
-        
-et1_2: Traceback (most recent call last):
-  File "C:\Users\93985\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connection.py", line 156, in _new_conn
-    conn = connection.create_connection(
-  File "C:\Users\93985\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\util\connection.py", line 84, in create_connection
-    raise err
-  File "C:\Users\93985\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\util\connection.py", line 74, in create_connection
-    sock.connect(sa)
-TimeoutError: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "C:\Users\93985\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connectionpool.py", line 665, in urlopen
-    httplib_response = self._make_request(
-  File "C:\Users\93985\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connectionpool.py", line 387, in _make_request
-    conn.request(method, url, **httplib_request_kw)
-  File "C:\Users\93985\AppData\Local\Programs\Python\Python38\lib\http\client.py", line 1230, in request
-    self._send_request(method, url, body, headers, encode_chunked)
-  File "C:\Users\93985\AppData\Local\Programs\Python\Python38\lib\http\client.py", line 1276, in _send_request
-    self.endheaders(body, encode_chunked=encode_chunked)
-  File "C:\Users\93985\AppData\Local\Programs\Python\Python38\lib\http\client.py", line 1225, in endheaders
-    self._send_output(message_body, encode_chunked=encode_chunked)
-  File "C:\Users\93985\AppData\Local\Programs\Python\Python38\lib\http\client.py", line 1004, in _send_output
-    self.send(msg)
-  File "C:\Users\93985\AppData\Local\Programs\Python\Python38\lib\http\client.py", line 944, in send
-    self.connect()
-  File "C:\Users\93985\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connection.py", line 184, in connect
-    conn = self._new_conn()
-  File "C:\Users\93985\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connection.py", line 168, in _new_conn
-    raise NewConnectionError(
-urllib3.exceptions.NewConnectionError: &lt;urllib3.connection.HTTPConnection object at 0x000001CB17CAAA30&gt;: Failed to establish a new connection: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "C:\Users\93985\AppData\Local\Programs\Python\Python38\lib\site-packages\requests\adapters.py", line 439, in send
-    resp = conn.urlopen(
-  File "C:\Users\93985\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connectionpool.py", line 719, in urlopen
-    retries = retries.increment(
-  File "C:\Users\93985\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\util\retry.py", line 436, in increment
-    raise MaxRetryError(_pool, url, error or ResponseError(cause))
-urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='192.168.103.251', port=9192): Max retries exceeded with url: /admin/login (Caused by NewConnectionError('&lt;urllib3.connection.HTTPConnection object at 0x000001CB17CAAA30&gt;: Failed to establish a new connection: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。'))
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "D:\PageObject\API_TEST_LINE_Frame\testcases\case001_login_in\login_in_testcase.py", line 29, in test002_get_token
-    response_obj = CommonApi().get_token()
-  File "D:\PageObject\API_TEST_LINE_Frame\utils\common_api.py", line 26, in get_token
-    response_obj = self.logion_in()
-  File "D:\PageObject\API_TEST_LINE_Frame\utils\common_api.py", line 21, in logion_in
-    response_obj = requests.post(url=api_url,json=json_data,headers=headerinfos)
-  File "C:\Users\93985\AppData\Local\Programs\Python\Python38\lib\site-packages\requests\api.py", line 119, in post
-    return request('post', url, data=data, json=json, **kwargs)
-  File "C:\Users\93985\AppData\Local\Programs\Python\Python38\lib\site-packages\requests\api.py", line 61, in request
-    return session.request(method=method, url=url, **kwargs)
-  File "C:\Users\93985\AppData\Local\Programs\Python\Python38\lib\site-packages\requests\sessions.py", line 530, in request
-    resp = self.send(prep, **send_kwargs)
-  File "C:\Users\93985\AppData\Local\Programs\Python\Python38\lib\site-packages\requests\sessions.py", line 643, in send
-    r = adapter.send(request, **kwargs)
-  File "C:\Users\93985\AppData\Local\Programs\Python\Python38\lib\site-packages\requests\adapters.py", line 516, in send
-    raise ConnectionError(e, request=request)
-requests.exceptions.ConnectionError: HTTPConnectionPool(host='192.168.103.251', port=9192): Max retries exceeded with url: /admin/login (Caused by NewConnectionError('&lt;urllib3.connection.HTTPConnection object at 0x000001CB17CAAA30&gt;: Failed to establish a new connection: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。'))
-
-
-        </pre>
-        </div>
-        </td>
-        <td class='errorCase' style="vertical-align: middle"></td>
-    </tr>
-    
-<tr class='errorClass warning'>
-    <td>UpdateGooglsecretTestcase</td>
-    <td></td>
-    <td class="text-center">1</td>
-    <td class="text-center">0</td>
-    <td class="text-center">0</td>
-    <td class="text-center">1</td>
-    <td class="text-center">21.02秒</td>
-    <td class="text-center"><a href="javascript:showClassDetail('c2',1)" class="detail" id='c2'>详细</a></td>
-</tr>
-
-    <tr id='et2_1' class='none'>
-        <td class='errorCase' style="vertical-align: middle"><div class='testcase'>test003_update_googlesectet</div></td>
-        <td style="vertical-align: middle"></td>
-        <td colspan='5' align='center'>
-        <!--默认收起错误信息 -Findyou
-        <button id='btn_et2_1' type="button"  class="btn btn-xs collapsed" data-toggle="collapse" data-target='#div_et2_1'>错误</button>
-        <div id='div_et2_1' class="collapse">  -->
-
-        <!-- 默认展开错误信息 -Findyou /  修复失败按钮的颜色 -- Gelomen -->
-        <button id='btn_et2_1' type="button"  class="btn btn-xs" data-toggle="collapse" data-target='#div_et2_1'>错误</button>
-        <div id='div_et2_1' class="collapse in">
-        <pre style="text-align:left">
-        
-et2_1: Traceback (most recent call last):
-  File "C:\Users\93985\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connection.py", line 156, in _new_conn
-    conn = connection.create_connection(
-  File "C:\Users\93985\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\util\connection.py", line 84, in create_connection
-    raise err
-  File "C:\Users\93985\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\util\connection.py", line 74, in create_connection
-    sock.connect(sa)
-TimeoutError: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "C:\Users\93985\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connectionpool.py", line 665, in urlopen
-    httplib_response = self._make_request(
-  File "C:\Users\93985\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connectionpool.py", line 387, in _make_request
-    conn.request(method, url, **httplib_request_kw)
-  File "C:\Users\93985\AppData\Local\Programs\Python\Python38\lib\http\client.py", line 1230, in request
-    self._send_request(method, url, body, headers, encode_chunked)
-  File "C:\Users\93985\AppData\Local\Programs\Python\Python38\lib\http\client.py", line 1276, in _send_request
-    self.endheaders(body, encode_chunked=encode_chunked)
-  File "C:\Users\93985\AppData\Local\Programs\Python\Python38\lib\http\client.py", line 1225, in endheaders
-    self._send_output(message_body, encode_chunked=encode_chunked)
-  File "C:\Users\93985\AppData\Local\Programs\Python\Python38\lib\http\client.py", line 1004, in _send_output
-    self.send(msg)
-  File "C:\Users\93985\AppData\Local\Programs\Python\Python38\lib\http\client.py", line 944, in send
-    self.connect()
-  File "C:\Users\93985\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connection.py", line 184, in connect
-    conn = self._new_conn()
-  File "C:\Users\93985\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connection.py", line 168, in _new_conn
-    raise NewConnectionError(
-urllib3.exceptions.NewConnectionError: &lt;urllib3.connection.HTTPConnection object at 0x000001CB17C87220&gt;: Failed to establish a new connection: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "C:\Users\93985\AppData\Local\Programs\Python\Python38\lib\site-packages\requests\adapters.py", line 439, in send
-    resp = conn.urlopen(
-  File "C:\Users\93985\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connectionpool.py", line 719, in urlopen
-    retries = retries.increment(
-  File "C:\Users\93985\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\util\retry.py", line 436, in increment
-    raise MaxRetryError(_pool, url, error or ResponseError(cause))
-urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='192.168.103.251', port=9192): Max retries exceeded with url: /admin/login (Caused by NewConnectionError('&lt;urllib3.connection.HTTPConnection object at 0x000001CB17C87220&gt;: Failed to establish a new connection: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。'))
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "D:\PageObject\API_TEST_LINE_Frame\testcases\case002goolesecret_manage\google_secret_update_testcase.py", line 19, in test003_update_googlesectet
-    response_obj =CommonApi().update_google_secret()
-  File "D:\PageObject\API_TEST_LINE_Frame\utils\common_api.py", line 34, in update_google_secret
-    'Content-Type':'application/json;charset=UTF-8','X-Token':self.get_token(),'sid':'0'}
-  File "D:\PageObject\API_TEST_LINE_Frame\utils\common_api.py", line 26, in get_token
-    response_obj = self.logion_in()
-  File "D:\PageObject\API_TEST_LINE_Frame\utils\common_api.py", line 21, in logion_in
-    response_obj = requests.post(url=api_url,json=json_data,headers=headerinfos)
-  File "C:\Users\93985\AppData\Local\Programs\Python\Python38\lib\site-packages\requests\api.py", line 119, in post
-    return request('post', url, data=data, json=json, **kwargs)
-  File "C:\Users\93985\AppData\Local\Programs\Python\Python38\lib\site-packages\requests\api.py", line 61, in request
-    return session.request(method=method, url=url, **kwargs)
-  File "C:\Users\93985\AppData\Local\Programs\Python\Python38\lib\site-packages\requests\sessions.py", line 530, in request
-    resp = self.send(prep, **send_kwargs)
-  File "C:\Users\93985\AppData\Local\Programs\Python\Python38\lib\site-packages\requests\sessions.py", line 643, in send
-    r = adapter.send(request, **kwargs)
-  File "C:\Users\93985\AppData\Local\Programs\Python\Python38\lib\site-packages\requests\adapters.py", line 516, in send
-    raise ConnectionError(e, request=request)
-requests.exceptions.ConnectionError: HTTPConnectionPool(host='192.168.103.251', port=9192): Max retries exceeded with url: /admin/login (Caused by NewConnectionError('&lt;urllib3.connection.HTTPConnection object at 0x000001CB17C87220&gt;: Failed to establish a new connection: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。'))
-
-
-        </pre>
-        </div>
-        </td>
-        <td class='errorCase' style="vertical-align: middle"></td>
-    </tr>
-    
-<tr id='total_row' class="text-center active">
-    <td colspan='2'>总计</td>
-    <td>3</td>
-    <td>0</td>
-    <td>0</td>
-    <td>3</td>
-    <td>63.14秒</td>
-    <td>通过率：0.00%</td>
-=======
 <tr class='passClass warning'>
-    <td>LoginInTestcase</td>
+    <td>GetAccessToken</td>
     <td></td>
-    <td class="text-center">2</td>
-    <td class="text-center">2</td>
+    <td class="text-center">1</td>
+    <td class="text-center">1</td>
     <td class="text-center">0</td>
     <td class="text-center">0</td>
-    <td class="text-center">0.19秒</td>
-    <td class="text-center"><a href="javascript:showClassDetail('c1',2)" class="detail" id='c1'>详细</a></td>
+    <td class="text-center">0.76秒</td>
+    <td class="text-center"><a href="javascript:showClassDetail('c1',1)" class="detail" id='c1'>详细</a></td>
 </tr>
 
 <tr id='pt1_1' class='hiddenRow'>
-    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test001_login_in_success</div></td>
-    <td style="vertical-align: left">登录接口</td>
-    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
-    <td class='passCase' style="vertical-align: middle"></td>
-</tr>
-
-<tr id='pt1_2' class='hiddenRow'>
-    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test002_get_token</div></td>
-    <td style="vertical-align: left">获取token</td>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test001_get_access_token_success</div></td>
+    <td style="vertical-align: left">获取token接口</td>
     <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
     <td class='passCase' style="vertical-align: middle"></td>
 </tr>
 
 <tr class='passClass warning'>
-    <td>UpdateGooglsecretTestcase</td>
+    <td>AddTags</td>
     <td></td>
     <td class="text-center">1</td>
     <td class="text-center">1</td>
     <td class="text-center">0</td>
     <td class="text-center">0</td>
-    <td class="text-center">0.17秒</td>
+    <td class="text-center">1.0秒</td>
     <td class="text-center"><a href="javascript:showClassDetail('c2',1)" class="detail" id='c2'>详细</a></td>
 </tr>
 
 <tr id='pt2_1' class='hiddenRow'>
-    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test003_update_googlesectet</div></td>
-    <td style="vertical-align: left"></td>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_add_tags_success</div></td>
+    <td style="vertical-align: left">创建标签接口</td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr class='passClass warning'>
+    <td>LookforMakedtags</td>
+    <td></td>
+    <td class="text-center">1</td>
+    <td class="text-center">1</td>
+    <td class="text-center">0</td>
+    <td class="text-center">0</td>
+    <td class="text-center">0.93秒</td>
+    <td class="text-center"><a href="javascript:showClassDetail('c3',1)" class="detail" id='c3'>详细</a></td>
+</tr>
+
+<tr id='pt3_1' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_lookfor_maked_tags</div></td>
+    <td style="vertical-align: left">获取公众号已创建的标签接口</td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr class='errorClass warning'>
+    <td>UpdateMakedtags</td>
+    <td></td>
+    <td class="text-center">1</td>
+    <td class="text-center">0</td>
+    <td class="text-center">0</td>
+    <td class="text-center">1</td>
+    <td class="text-center">1.37秒</td>
+    <td class="text-center"><a href="javascript:showClassDetail('c4',1)" class="detail" id='c4'>详细</a></td>
+</tr>
+
+    <tr id='et4_1' class='none'>
+        <td class='errorCase' style="vertical-align: middle"><div class='testcase'>test_update_maked_tags</div></td>
+        <td style="vertical-align: middle">编辑标签接口</td>
+        <td colspan='5' align='center'>
+        <!--默认收起错误信息 -Findyou
+        <button id='btn_et4_1' type="button"  class="btn btn-xs collapsed" data-toggle="collapse" data-target='#div_et4_1'>错误</button>
+        <div id='div_et4_1' class="collapse">  -->
+
+        <!-- 默认展开错误信息 -Findyou /  修复失败按钮的颜色 -- Gelomen -->
+        <button id='btn_et4_1' type="button"  class="btn btn-xs" data-toggle="collapse" data-target='#div_et4_1'>错误</button>
+        <div id='div_et4_1' class="collapse in">
+        <pre style="text-align:left">
+        
+et4_1: Traceback (most recent call last):
+  File "C:\Users\Administrator\PycharmProjects\MyProjects\API_TEST_LINE_Frame\testcases\module002_user_manage\suite001_users_tag_manage\case003_update_makedtags_testcase.py", line 21, in test_update_maked_tags
+    response_obj = CommonApi().edit_tags()
+  File "C:\Users\Administrator\PycharmProjects\MyProjects\API_TEST_LINE_Frame\utils\common_api.py", line 96, in edit_tags
+    return response_obj
+UnboundLocalError: local variable 'response_obj' referenced before assignment
+
+
+        </pre>
+        </div>
+        </td>
+        <td class='errorCase' style="vertical-align: middle"></td>
+    </tr>
+    
+<tr class='passClass warning'>
+    <td>DeleteTags</td>
+    <td></td>
+    <td class="text-center">1</td>
+    <td class="text-center">1</td>
+    <td class="text-center">0</td>
+    <td class="text-center">0</td>
+    <td class="text-center">1.95秒</td>
+    <td class="text-center"><a href="javascript:showClassDetail('c5',1)" class="detail" id='c5'>详细</a></td>
+</tr>
+
+<tr id='pt5_1' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_delete_tags</div></td>
+    <td style="vertical-align: left">删除创建的标签接口</td>
     <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
     <td class='passCase' style="vertical-align: middle"></td>
 </tr>
 
 <tr id='total_row' class="text-center active">
     <td colspan='2'>总计</td>
-    <td>3</td>
-    <td>3</td>
+    <td>5</td>
+    <td>4</td>
     <td>0</td>
-    <td>0</td>
-    <td>0.36秒</td>
-    <td>通过率：100.00%</td>
->>>>>>> origin/master
+    <td>1</td>
+    <td>6.01秒</td>
+    <td>通过率：80.00%</td>
 </tr>
 </table>
 
