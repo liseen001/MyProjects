@@ -30,7 +30,7 @@ class ConfigUtils():
         return log_path_value
     @property
     def log_level(self):
-        log_level_value = self.conf.get('log','log_level')
+        log_level_value = int(self.conf.get('log','log_level'))
         return log_level_value
 
 conf = ConfigUtils()
