@@ -16,9 +16,7 @@ class GetAccessToken(unittest.TestCase):
         logutils.info('测试用例 [%s] 执行完毕' % ('获取access_token接口测试'))
 
     def test001_get_access_token_success(self):
-        '''
-        获取token接口
-        '''
+        '''获取token接口'''
         response_obj = CommonApi().get_access_token()
         self.assertEqual(response_obj.json()['expires_in'],7200)
 
