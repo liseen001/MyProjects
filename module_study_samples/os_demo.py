@@ -21,3 +21,5 @@ import os
 # os.rmdir('p1/p2')
 # os.makedirs('p2/p3/p4')
 # os.removedirs('p2/p3/p4')
+# os.rmdir('p1')
+os.mkdir('others')
