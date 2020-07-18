@@ -44,3 +44,4 @@ print(str1.encode(encoding='utf-8',errors='strict'))
 str1= 'aaa\tbbb'
 print(str1)
 print(str1.expandtabs(8))
+
