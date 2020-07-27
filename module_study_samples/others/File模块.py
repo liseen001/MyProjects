@@ -7,6 +7,7 @@
 import os
 import requests
 import re
+import time
 import  urllib.request
 session=requests.session()
 header_info={"Accept": "application/json,text/plain, */*",
@@ -37,3 +38,13 @@ for img in  result:
     f=open('test.txt','a')
     f.write(str(result_out))
     f.write('\n')
+    # print(result)
+
+# a=1
+# while a:
+#     session.get(url,headers=header_info)
+#     print(res.content.decode('utf-8'))
+#     print('======================================================================='
+#           '======================================================================='
+#           '=======================================================================')
+
