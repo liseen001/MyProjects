@@ -25,7 +25,7 @@ res= session.get(url,headers=header_info)
 
 regexp='"img":"(.+?)",'
 result=re.findall(regexp,res.content.decode('utf-8'))
-# print(result)
+print(result)
 
 count=0
 for img in  result:
@@ -48,3 +48,10 @@ for img in  result:
 #           '======================================================================='
 #           '=======================================================================')
 
+# os.mkdir('./images')
+# imgae_url=result
+# def request_download():
+#     for i in result:
+#     r=requests.get(i)
+#     with open('./images','wb') as f:
+#         f.write(r.content)
