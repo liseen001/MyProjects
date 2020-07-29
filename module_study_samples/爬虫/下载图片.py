@@ -9,7 +9,6 @@ from bs4 import BeautifulSoup
 import os
 import time
 import random
-
 from module_study_samples.爬虫 import UserAgent
 
 index = 'http://www.netbian.com'  # 网站根地址
