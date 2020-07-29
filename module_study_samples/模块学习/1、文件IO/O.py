@@ -54,12 +54,12 @@ tell() 方法告诉我们文件内的当前位置
 seek(offser [,from])  方法改变当前文件的位置，offset 变量表示要移动的字节数，From变量值定开始移动字节的参考位置
 如果from被设为0，意味着将文件的开头作为移动字节的参考位置，如果设为1，则使用当前的位置作为参考位置，如果设为2，那么文件的末尾作为参考位置
 '''
-with open('../../data/3.txt','r') as file:
-    str = file.read(10)
-    print(str)
-    print(file.tell())
-
-with open('../../data/3.txt','r') as file:
-    position =file.seek(0,2)
-    print(position)
-    file.close()
+# with open('../../data/3.txt','r') as file:
+#     str = file.read(10)
+#     print(str)
+#     print(file.tell())
+#
+# with open('../../data/3.txt','r') as file:
+#     position =file.seek(0,2)
+#     print(position)
+#     file.close()
