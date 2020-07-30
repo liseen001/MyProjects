@@ -121,5 +121,5 @@ class CommonApi(object):
 
 
 if __name__=="__main__":
-    re = CommonApi().edit_tags()
+    re = CommonApi().get_default_access_token()
     print(re.content.decode('utf-8'))
