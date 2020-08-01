@@ -1,0 +1,8 @@
+[2020-07-30 11:59:35,265] common_api.py->get_access_token line:39 [INFO] : 调用获取access_token接口成功
+[2020-07-30 11:59:35,265] common_api.py->get_default_access_token line:48 [INFO] : 获取access_token成功，access_token为：[35_G7CrxU2kL-v2uatgljh_npUQnAj-xylEFzutmpLdNUeTVLXkpiMcyGTQWzXJAs-ZhfF0RICRWnof8_RC4MrDUvuJCey3YWgFybZk7W1nVmzzqyLkreZGYpp-Hg7KJKyJ3i5T9Ozmp_2rOGQOHTOgAGAKWR]
+[2020-07-30 11:59:35,744] common_api.py->get_access_token line:39 [INFO] : 调用获取access_token接口成功
+[2020-07-30 11:59:35,744] common_api.py->get_default_access_token line:48 [INFO] : 获取access_token成功，access_token为：[35_G7CrxU2kL-v2uatgljh_npUQnAj-xylEFzutmpLdNUeTVLXkpiMcyGTQWzXJAs-ZhfF0RICRWnof8_RC4MrDUvuJCey3YWgFybZk7W1nVmzzqyLkreZGYpp-Hg7KJKyJ3i5T9Ozmp_2rOGQOVZAgAGAHLM]
+[2020-07-30 11:59:36,315] common_api.py->look_for_makedtags line:77 [INFO] : 获取公众号已创建的标签成功
+[2020-07-30 11:59:36,890] common_api.py->edit_tags line:93 [INFO] : 编辑标签成功
+[2020-07-30 12:45:52,021] common_api.py->get_access_token line:41 [ERROR] : 调用获取access_token接口失败，失败的原因是:[HTTPSConnectionPool(host='api.weixin.qq.com', port=443): Max retries exceeded with url: /cgi-bin/token?grant_type=client_credential&appid=wx0591278088098c56&secret=ceaab7a476a85194f507c8a00c82ad1f (Caused by SSLError(SSLError("bad handshake: Error([('SSL routines', 'tls_process_server_certificate', 'certificate verify failed')])")))]
+[2020-07-30 12:45:52,024] common_api.py->get_default_access_token line:50 [ERROR] : 获取access_token失败，失败的原因是:[local variable 'response_obj' referenced before assignment]
