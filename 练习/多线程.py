@@ -60,15 +60,15 @@ import time
 # print('主线程结束了')
 # print(threading.active_count())
 
-class MyThreading(threading.Thread):
-
-    def __init__(self,func,arg):
-        super(MyThreading,self).__init__()
-        self.func = func
-        self.arg = arg
-
-    def run(self):
-        self.func(self.arg)
-
-def my_func(args):
-    pass
+# class MyThreading(threading.Thread):
+#
+#     def __init__(self,func,arg):
+#         super(MyThreading,self).__init__()
+#         self.func = func
+#         self.arg = arg
+#
+#     def run(self):
+#         self.func(self.arg)
+#
+# def my_func(args):
+#     pass

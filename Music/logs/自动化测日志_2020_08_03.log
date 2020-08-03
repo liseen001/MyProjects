@@ -1,0 +1,21 @@
+[2020-08-03 16:53:50,387] email_utils.py->zip_send_mail line:99 [INFO] : 邮件发送成功
+[2020-08-03 17:44:12,174] selenium_base_case.py->setUpClass line:11 [INFO] : 
+[2020-08-03 17:44:12,177] selenium_base_case.py->setUpClass line:12 [INFO] : ==============测试类开始执行==============
+[2020-08-03 17:44:12,178] selenium_base_case.py->setUp line:17 [INFO] : -------------测试方法开始执行-------------
+[2020-08-03 17:44:24,080] base_page.py->__init__ line:22 [INFO] : 实例化浏览器驱动
+[2020-08-03 17:44:24,349] base_page.py->set_browser_max line:52 [INFO] : 设置浏览器最大化
+[2020-08-03 17:44:24,355] base_page.py->implicitly_wait line:69 [INFO] : 设置隐式等待时间为5秒
+[2020-08-03 17:44:41,843] base_page.py->open_url line:28 [INFO] : 打开浏览器path地址http://106.53.50.202:8999/zentao6/www/user-login.html
+[2020-08-03 17:44:41,843] base_page.py->__init__ line:22 [INFO] : 实例化浏览器驱动
+[2020-08-03 17:44:44,958] base_page.py->wait line:111 [INFO] : 固定等待时间为3
+[2020-08-03 17:44:45,265] base_page.py->screen_shoot_as_file line:288 [INFO] : 截图成功
+[2020-08-03 17:44:46,858] base_page.py->close_tab line:36 [INFO] : 关闭当前tab页签
+[2020-08-03 17:44:46,858] selenium_base_case.py->tearDown line:35 [INFO] : -------------测试方法执行完毕-------------
+[2020-08-03 17:44:46,860] selenium_base_case.py->tearDownClass line:39 [INFO] : ==============测试类执行完毕==============
+[2020-08-03 17:44:46,860] selenium_base_case.py->setUpClass line:11 [INFO] : 
+[2020-08-03 17:44:46,860] selenium_base_case.py->setUpClass line:12 [INFO] : ==============测试类开始执行==============
+[2020-08-03 17:44:56,753] base_page.py->__init__ line:22 [INFO] : 实例化浏览器驱动
+[2020-08-03 17:44:57,033] base_page.py->set_browser_max line:52 [INFO] : 设置浏览器最大化
+[2020-08-03 17:44:57,040] base_page.py->implicitly_wait line:69 [INFO] : 设置隐式等待时间为5秒
+[2020-08-03 17:44:57,042] selenium_base_case.py->tearDownClass line:39 [INFO] : ==============测试类执行完毕==============
+[2020-08-03 17:44:59,022] email_utils.py->zip_send_mail line:99 [INFO] : 邮件发送成功
