@@ -94,13 +94,19 @@
 
 
 
-import time
+# import time
+#
+# print('\033[1;31m')
+# print('登录信息'.center(46, "*"), "\033[0m")
+# print('\033[34m*HOST:\t', "192.168.1.10")
+# print('*PORT:\t', "80")
+# print('*User:\t', "jack")
+# print('*TIME:\t', time.strftime("%Y-%m-%d %H:%M:%S", time.localtime()))
+# print('\033[1;31m*' * 50, '\033[0m')
+# print("\033[32m欢迎登录！\033[0m")
 
-print('\033[1;31m')
-print('登录信息'.center(46, "*"), "\033[0m")
-print('\033[34m*HOST:\t', "192.168.1.10")
-print('*PORT:\t', "80")
-print('*User:\t', "jack")
-print('*TIME:\t', time.strftime("%Y-%m-%d %H:%M:%S", time.localtime()))
-print('\033[1;31m*' * 50, '\033[0m')
-print("\033[32m欢迎登录！\033[0m")
+
+def sum():
+    return 1+2
+
+print(sum())

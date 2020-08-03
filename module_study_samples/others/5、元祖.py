@@ -14,3 +14,8 @@ c=(1,2,3,4,5,6,7,8)
 print(c.index(2))
 
 #2、元祖也是一种序列，因此也可以对它进行索引、分片等，由于它是不可变的，因此就没有类似于列表的append\extend\sort等方法
+
+
+knights = {'gallahad': 'the pure', 'robin': 'the brave','name':'liseen'}
+for k, v in knights.items():
+    print(k,v)
