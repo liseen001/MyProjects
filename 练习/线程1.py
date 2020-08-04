@@ -44,7 +44,7 @@ n=0
 local = threading.Lock()
 
 def task1():
-    local.acquire()
+    local.acquire(timeout=5)
     global n
     for i in range(2000000):
         sleep(0.1)
@@ -55,7 +55,7 @@ def task1():
 
 
 def task2():
-    local.acquire()
+    local.acquire(timeout=5)
     global n
     for i in range(2000000):
         sleep(0.1)
