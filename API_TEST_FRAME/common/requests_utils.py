@@ -18,8 +18,10 @@ class RequestsUtils():
         self.temp_variables = {}
 
 
-    def __get(self,get_info):
+    def get(self,get_info):
         url = self.hosts+ get_info["请求地址"]
+        print(url)
+
         # param_variable_list = re.findall('\\${\w+}',get_info["请求参数(get)"])
         # if param_variable_list:   #正则关联参数
         #     for param_variable in param_variable_list:
@@ -104,5 +106,9 @@ class RequestsUtils():
         return temp_result
 
 if __name__=="__main__":
-    get_info ='{"测试用例编号": "case01", "测试用例名称": "测试能否正确执行获取access_token接口", "用例执行": "是", "测试用例步骤": "step_01", "接口名称": "获取access_token接口", "请求方式": "get", "请求地址": "/cgi-bin/token", "请求参数(get)": "{"grant_type":"client_credential","appid":"wx55614004f367f8ca","secret":"65515b46dd758dfdb09420bb7db2c67f"}", "提交数据（post）": '', "取值方式": "无", "传值变量": '', "取值代码": "", "期望结果类型": "json键是否存在", "期望结果": "access_token,expires_in"}'
-    RequestsUtils().request_by_step(get_info)
+    get_info ={'测试用例编号': 'case01', '测试用例名称': '测试能否正确执行获取access_token接口', '用例执行': '是',
+          '测试用例步骤': 'step_01', '接口名称': '获取access_token接口',
+          '请求方式': 'get', '请求地址': '/cgi-bin/token',
+          '请求参数(get)': '{"grant_type":"client_credential","appid":"wx55614004f367f8ca","secret":"65515b46dd758dfdb09420bb7db2c67f"}',
+          '提交数据（post）': '', '取值方式': '无', '传值变量': '', '取值代码': '', '期望结果类型': 'json键是否存在', '期望结果': 'access_token,expires_in'}
+    RequestsUtils().get(get_info)
