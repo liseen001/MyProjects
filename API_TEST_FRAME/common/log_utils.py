@@ -11,10 +11,11 @@ from API_TEST_FRAME.common.config_utils import conf
 current_path = os.path.dirname(__file__)
 log_output_path = os.path.join(current_path,'..',conf.log_path)
 
+
 class LogUtils():
     def __init__(self,log_path=log_output_path):
-        self.log_name = os.path.join(log_path,'ApiTest_%s.log'%time.strftime('%Y_%m_%d')) #日志文件,每天生成一个
-        self.logger = logging.getLogger('ApiTestLog_')
+        self.log_name = os.path.join(log_path,'后台接口测试日志_%s.log'%time.strftime('%Y_%m_%d')) #日志文件,每天生成一个
+        self.logger = logging.getLogger('后台接口测试日志_')
         self.logger.setLevel(conf.log_level)  #设置日志对象名称
 
         console_handler = logging.StreamHandler()   #控制台日志对象

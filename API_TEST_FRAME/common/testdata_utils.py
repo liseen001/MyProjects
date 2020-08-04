@@ -22,8 +22,8 @@ class TestdatatUtiles():
         for row_data in self.test_data:
             testcase_dict.setdefault( row_data['测试用例编号'],[]).append( row_data )
         return  testcase_dict
-
-    def def_testcase_data_list(self):
+    @property
+    def testcase_data_list(self):
         testcase_list = []
         for k,v in self.__get_testcase_data_dict().items():
             one_case_dict = {}
@@ -34,5 +34,5 @@ class TestdatatUtiles():
 
 if __name__ == "__main__":
     testdatautils = TestdatatUtiles()
-    for i in testdatautils.def_testcase_data_list():
+    for i in testdatautils.testcase_data_list:
         print(i)
