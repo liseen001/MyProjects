@@ -16,8 +16,8 @@ class RequestsUtils():
 
     #封装get方法，需要结合测试用例数据
     def __get(self,get_info):
-        url = self.hosts +get_info["请求地址"]
-        print(url)
+        url = self.hosts +get_info[ "请求地址"]
+        # print(url)
         response = self.session.get(url=url,
                                     params=ast.literal_eval(get_info["请求参数(get)"])
                                 )
@@ -59,6 +59,7 @@ class RequestsUtils():
         }
         return result
 
+    #判断请求方式，并发送请求
     def request(self,step_info):
         requests_type=step_info["请求方式"]
         if requests_type=='get':
@@ -94,6 +95,7 @@ if __name__ == '__main__':
     # RequestsUtils().__get(get_info)
     RequestsUtils().request(get_info)
     # RequestsUtils().request(get_info)
+
 
 
 
