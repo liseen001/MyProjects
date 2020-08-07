@@ -13,7 +13,8 @@ class ExcelUtils():
         self.file_path = file_path
         self.sheet_name = sheet_name
         self.sheet = self.get_sheet()  #整个表格对象，反向调用，构造里面调取下面的方法
-    
+
+
     def get_sheet(self):
         wb = xlrd.open_workbook(self.file_path)
         sheet = wb.sheet_by_name(self.sheet_name)
