@@ -5,7 +5,7 @@
 # @time: 2020/7/13 22:26
 # @desc:  封装requests
 import requests
-import ast,jsonpath
+import ast,jsonpath,re
 from  API_TEST_FRAME.common.config_utils import conf
 class RequestsUtils():
     def __init__(self):  #构造
@@ -50,6 +50,11 @@ class RequestsUtils():
             value = jsonpath.jsonpath( response.json(), post_info["取值代码"] )[0]
             self.temp_variables[ post_info["传值变量"] ] = value  #将变量传入临时变量
             print(self.temp_variables)
+        elif post_info["取值方式"]=="正则取值":   #正则表达式取值
+            value = re.findall( post_info["取值代码"],response.text )[0]       #取值代码放正则表达式,取列表中的第一个值
+            self.temp_variables[post_info["传值变量"]] = value
+
+
         result={
             'code': 0,                                     #标志位，请求是否成功的标志位
             'response_reson': response.reason,             #响应行
@@ -94,7 +99,7 @@ if __name__ == '__main__':
                '取值代码': '', '期望结果类型': 'json键值对', '期望结果': '{"errcode":0,"errmsg":"ok"}'}
     # RequestsUtils().__get(get_info)
     RequestsUtils().request(get_info)
-    # RequestsUtils().request(get_info)
+    RequestsUtils().request(get_info)
 
 
 
