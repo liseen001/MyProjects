@@ -28,7 +28,7 @@ class RequestUtils():
                       "User-Agent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36"
                       }
         self.session=requests.session()
-        self.temp_variables={""}
+        self.temp_variables={}
 
     def get(self,get_info):
         url = self.hosts+get_info["请求地址"]
@@ -36,6 +36,13 @@ class RequestUtils():
         response = self.session.get( url=url,headers=self.headers,params = ast.literal_eval(get_info[ "请求参数(get)" ]))
         response.encoding = response.apparent_encoding
         # print(response.text)
+        if get_info['取值方式']=="json取值":
+            value = jsonpath.jsonpath(response.json(),get_info['取值代码'])[0]
+            self.temp_variables[get_info["传值变量"]] = value
+        elif get_info['取值方式'] == "正则取值":
+            value = re.findall( response.text, get_info["取值代码"] )[0]
+            self.temp_variables[get_info["传值变量"]] = value
+
         result = {
             'code':0,                                         #标志位，请求是否成功的标志位
             'response_reson':response.reason,                 #响应行
@@ -57,6 +64,14 @@ class RequestUtils():
         print( result['code'] )
         return result
 
+    def request_by_step(self,step_infos):
+        for step_info in step_infos:
+            temp_result = self.request(step_info)
+            if temp_result['code'] !=0:
+                break
+        return  temp_result
+
+
 
 
 
@@ -65,6 +80,26 @@ if __name__ == '__main__':
     # result=RequestUtils().get(get_info)
     # print(result)
     step_infos = {"请求地址": "/api/unauthor/sys/menu", "请求参数(get)": '{"id":0,"terminal":0}', "请求方式": "get"}
-    res = RequestUtils().request(step_infos)
+    # res = RequestUtils().request(step_infos)
     # print(res)
-    print(jsonpath.jsonpath(step_infos,'$.请求方式'))
+
+
+    import re, ast
+    import requests
+
+    tem_variables = {"token": "123456"}
+    params = '{"access_token":${token}}'
+
+    value = re.findall('\\${\w+}', params)[ 0 ]
+    print(value)
+
+    # params = params.replace( value ,tem_variables["token"] )
+    params = params.replace(value, tem_variables.get(value[ 2:-1 ]))
+    print(params)
+
+    temp_variables = {"token": "123456", "number": "123", "age": "66"}
+    str1 = '{"access_token:${token},${age}==>${number}}'
+    for i in re.findall('\\${\w+}', str1):
+        print(i)
+        str1 = str1.replace(i, temp_variables.get(i[ 2:-1 ]))
+    print(str1)
