@@ -27,4 +27,21 @@ print(str1)
 
 # requests.get(url='/cgi-bin/tags/delete',
 #              params=ast.literal_eval( params )
-#              )
+
+#方式三  re模块中的sub方法
+str1 = '{"access_token":${token},${age}==>${number}}'
+str1 = re.sub('\\${\w+}',r'123456',str1,1)
+print(str1)
+
+#方法四  eval 参数替换
+# print( eval("{'name':'linux','age':age}",{"${age}":18}) )
+
+
+temp_variables ={}
+
+#第一个用例  添加标签
+temp_variables["token"] = "35__nZXHjUbxhptJMuGJvWTAf2Dtlgh7gfjZbXIUizW4"  #保存token值
+
+#第二个用例，删除标签  获取token ==
+temp_variables["token"] = "4564sfsdf"
+print(temp_variables)
