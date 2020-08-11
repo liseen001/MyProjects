@@ -6,109 +6,102 @@
 # @desc:  封装requests
 import requests
 import ast,jsonpath,re
+from  requests.exceptions import RequestException
+from  requests.exceptions import ProxyError
+from requests.exceptions import ConnectionError
 from  API_TEST_FRAME.common.config_utils import conf
 from API_TEST_FRAME.common.check_utils import CheckUtils
 
 
 class RequestsUtils():
-    def __init__(self):  #构造
+    def __init__(self):
         self.hosts = conf.url
-        self.headers = {"ContemtType":"application/json;charset=utf-8"}
-        self.session = requests.session()  #把requests对象转成session对象
-        self.temp_variables={}  #临时变量
+        self.headers = {"Content-Type":"application/json;charset=utf-8"}
+        self.session = requests.session()
+        self.temp_variables={}
 
     #封装get方法，需要结合测试用例数据
     def __get(self,get_info):
-        url = self.hosts +get_info[ "请求地址"]
-        print(url)
-        # param_variable_list = re.findall( '\\${\w+}',get_info["请求参数(get)"] )
-        # if param_variable_list:
-        #     for param_variable in param_variable_list:
-        #         get_info["请求参数(get)"] = get_info["请求参数(get)"].replace(param_variable,
-        #                                                               '"%s"'%self.temp_variables.get( param_variable[2:-1] ))
-        # print( get_info["请求参数(get)"] )
-        response = self.session.get(url=url,
-                                    params=ast.literal_eval(get_info["请求参数(get)"])
-                                )
-        response.encoding = response.apparent_encoding
-        if get_info["取值方式"]=="json取值":
-            value = jsonpath.jsonpath( response.json(), get_info["取值代码"] )[0]
-            self.temp_variables[ get_info["传值变量"] ] = value  #将变量传入临时变量
-        elif get_info["取值方式"] == "正则取值":
-            value = re.findall( get_info["取值代码"],response.text )[0]
-            self.temp_variables[ get_info["传值变量"] ] = value
-            # print(self.temp_variables)
-        # print(response.text)
-        result = CheckUtils(response).run_check(get_info["期望结果类型"], get_info["期望结果"])
-        # result={
-        #     'code': 0,                                     #标志位，请求是否成功的标志位
-        #     'response_reson': response.reason,             #响应行
-        #     'response_code':response.status_code,          #响应状态码
-        #     'response_headers': response.headers,          #响应头
-        #     'response_body': response.text                 #响应正文
-        # }
+        try:
+            url = self.hosts + get_info["请求地址"]
+            response = self.session.get(url = url,
+                                        params = ast.literal_eval( get_info["请求参数(get)"] )
+                                        )
+            response.encoding = response.apparent_encoding
+            if get_info["取值方式"] == "json取值":
+                value = jsonpath.jsonpath( response.json(),get_info["取值代码"] )[0]
+                self.temp_variables[get_info["传值变量"]] = value  # 将变量传入临时变量
+            elif get_info["取值方式"] == "正则取值":
+                value = re.findall( get_info["取值代码"], response.text )[0]
+                self.temp_variables[get_info["传值变量"]] = value
+            result = CheckUtils(response).run_check(get_info["期望结果类型"], get_info["期望结果"])
+        except ProxyError as e:
+            result = {'code': 4, 'result': '[%s]请求：代理错误异常' % (get_info['接口名称'],)}
+        except ConnectionError as e:
+            result = {'code': 4, 'result': '[%s]请求：连接超时异常' % (get_info['接口名称'])}
+        except RequestException as e:
+            result = {'code': 4, 'result': '[%s]请求：Request异常，原因是：%s' % (get_info['接口名称'], e.__str__())}
+        except Exception as e:
+            result = {'code':4,'result':'[%s]请求：系统异常，原因是：%s'%( get_info['接口名称'],e.__str__() )}
         return result
 
     #封装post请求
     def __post(self,post_info):
-        url = self.hosts +post_info["请求地址"]
-        # print(url)
-        # param_variable_list =  re.findall( '\\${\w+}',post_info["请求参数(get)"] )  #处理正则传参，替换值处理
-        # if param_variable_list:   #列表为空则不执行
-        #     for param_variable in param_variable_list:
-        #         post_info["请求参数(get)"] = post_info["请求参数(get)"].replace( param_variable,
-        #                                                                  '"%s"'%self.temp_variables.get( param_variable[2:-1] ) )
-        # print( post_info["请求参数(get)"] )  因为post和get代码一致性,将这部分代码放入 request中去
-        response = self.session.post(url=url,
-                                    params=ast.literal_eval(post_info["请求参数(get)"]),
-                                     headers=self.headers,
-                                     json=ast.literal_eval(post_info["提交数据（post）"])
-                                )
-        response.encoding = response.apparent_encoding
-        if post_info["取值方式"]=="json取值":
-            value = jsonpath.jsonpath( response.json(), post_info["取值代码"] )[0]
-            self.temp_variables[ post_info["传值变量"] ] = value  #将变量传入临时变量
-            # print(self.temp_variables)
-        elif post_info["取值方式"]=="正则取值":   #正则表达式取值
-            value = re.findall( post_info["取值代码"],response.text )[0]       #取值代码放正则表达式,取列表中的第一个值
-            self.temp_variables[post_info["传值变量"]] = value
-        result = CheckUtils(response).run_check( post_info["期望结果类型"],post_info["期望结果"] )
-        # result={
-        #     'code': 0,                                     #标志位，请求是否成功的标志位
-        #     'response_reson': response.reason,             #响应行
-        #     'response_code':response.status_code,          #响应状态码
-        #     'response_headers': response.headers,          #响应头
-        #     'response_body': response.text                 #响应正文
-        # }
+        try:
+            url = self.hosts + post_info["请求地址"]
+            response = self.session.post(url=url,
+                                         headers=self.headers,
+                                         params = ast.literal_eval(post_info["请求参数(get)"]),
+                                         json=ast.literal_eval(post_info["提交数据（post）"])
+                                         )
+            response.encoding = response.apparent_encoding
+            if post_info["取值方式"] == "json取值":
+                value = jsonpath.jsonpath( response.json(), post_info["取值代码"] )[0]
+                self.temp_variables[ post_info["传值变量"] ] = value  # 将变量传入临时变量
+            elif post_info["取值方式"] == "正则取值":  # 正则表达式取值
+                value = re.findall( post_info["取值代码"], response.text )[0]  # 取值代码放正则表达式,取列表中的第一个值
+                self.temp_variables[post_info["传值变量"]] = value
+            result = CheckUtils(response).run_check(post_info["期望结果类型"], post_info["期望结果"])
+        except ProxyError as e:
+            result = {'code': 4, 'result': '[%s]请求：代理错误异常' % (post_info['接口名称'],)}
+        except ConnectionError as e:
+            result = {'code': 4, 'result': '[%s]请求：连接超时异常' % (post_info['接口名称'])}
+        except RequestException as e:
+            result = {'code': 4, 'result': '[%s]请求：Request异常，原因是：%s' % (post_info['接口名称'], e.__str__())}
+        except Exception as e:
+            result = {'code': 4, 'result': '[%s]请求：系统异常，原因是：%s' % (post_info['接口名称'], e.__str__())}
         return result
 
     #判断请求方式，并发送请求
     def request(self,step_info):
-        requests_type = step_info["请求方式"]
-        param_variable_list = re.findall( '\\${\w+}',step_info["请求参数(get)"] )
-        if param_variable_list:
-            for param_variable in param_variable_list:
-                step_info["请求参数(get)"] = step_info["请求参数(get)"].\
-                    replace( param_variable,'"%s"' % self.temp_variables.get( param_variable[2:-1] ))
-        if requests_type=='get':
-            self.__get(step_info)
-            result = self.__get(step_info)
-        elif requests_type=='post':
-            data_variable_list = re.findall('\\${\w+}', step_info["提交数据（post）"])
-            if data_variable_list:
-                for param_variable in data_variable_list:
-                    step_info["提交数据（post）"] = step_info["提交数据（post）"]. \
+        try:
+            requests_type = step_info["请求方式"]
+            param_variable_list = re.findall('\\${\w+}', step_info["请求参数(get)"])
+            if param_variable_list:
+                for param_variable in param_variable_list:
+                    step_info["请求参数(get)"] = step_info["请求参数(get)"]. \
                         replace(param_variable, '"%s"' % self.temp_variables.get(param_variable[2:-1]))
-            result = self.__post( step_info )
-        else:
-            result = {'code':3,'result':'请求方式不支持'}
-        # print(result['code'])
+            if requests_type == 'get':
+                self.__get(step_info)
+                result = self.__get(step_info)
+            elif requests_type == 'post':
+                data_variable_list = re.findall('\\${\w+}', step_info["提交数据（post）"])
+                if data_variable_list:
+                    for param_variable in data_variable_list:
+                        step_info["提交数据（post）"] = step_info["提交数据（post）"]. \
+                            replace(param_variable, '"%s"' % self.temp_variables.get(param_variable[2:-1]))
+                result = self.__post(step_info)
+            else:
+                result = {'code': 1, 'result': '请求方式不支持'}
+        except Exception as e:
+            result = {'code': 4, 'result': '用例编号[%s]的[%s]步骤出现系统异常，原因是：%s' % (step_info["测试用例编号"],step_info['测试用例步骤'],e.__str__())}
         return  result
 
     def request_by_step(self,step_infos):
         self.temp_variables = {}
         for step_info in step_infos:
             temp_result = self.request(step_info)
+            print(temp_result)
             if temp_result['code'] !=0:
                 break
         return temp_result

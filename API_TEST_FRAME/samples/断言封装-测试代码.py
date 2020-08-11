@@ -121,6 +121,8 @@ class CheckUtils():
 if __name__ == '__main__':
     # CheckUtils({"access_token":"hello","expires_in":7200}).check_key("access_token,expires_in")
     # CheckUtils({"access_token": "hello", "expires_in": 7200}).check_keyvalue('{"expires_in":720}')
-    CheckUtils({"access_token": "hello", "expires_in": 7200}).check_regexp( '"access_token": "(.+?)"' )
+    # CheckUtils({"access_token": "hello", "expires_in": 7200}).check_regexp( '"access_token": "(.+?)"' )
     # s = {"access_token":"hello","expires_in":7200}
     # print(list(s.keys()))
+    str1='{"access_token": "hello", "expires_in": 7200}'
+    print(ast.literal_eval(str1))

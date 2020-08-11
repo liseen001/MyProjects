@@ -32,10 +32,10 @@ class CheckUtils():
             'response_headers': self.ck_response.headers,        # 响应头
             'response_body': self.ck_response.text,              # 响应正文
             'check_result': False,                               # 断言结果
-            'message': ''                                        # 保留字段，作为日志输出等
+            'message': '断言失败'                                        # 保留字段，作为日志输出等
         }
 
-    def no_check(self):
+    def no_check(self,check_data=None):
         '''
         断言结果为无
         :return:
