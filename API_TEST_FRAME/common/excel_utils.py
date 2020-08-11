@@ -63,8 +63,9 @@ class ExcelUtils():
 if __name__ =="__main__":
     current_path = os.path.dirname(__file__)
     excel_path = os.path.join(current_path,conf.case_data_path)
-    print(excel_path)
+    # print(excel_path)
     excelutils= ExcelUtils(excel_path,'Sheet1')
-    print( excelutils.get_merged_cell_value(4,0) )
+    # print( excelutils.get_merged_cell_value(4,0) )
     for row in excelutils.get_sheet_data_by_dict():
         print(row)
+    # print( excelutils.get_merged_cell_value(3,0) )

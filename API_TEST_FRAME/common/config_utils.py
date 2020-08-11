@@ -36,5 +36,5 @@ class ConfigUtils():
 conf = ConfigUtils()
 
 if __name__=="__main__":
-    print(conf.log_path)
+    print(conf.log_level)
 

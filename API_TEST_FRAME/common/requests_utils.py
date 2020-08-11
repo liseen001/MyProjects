@@ -20,7 +20,7 @@ class RequestsUtils():
     #封装get方法，需要结合测试用例数据
     def __get(self,get_info):
         url = self.hosts +get_info[ "请求地址"]
-        # print(url)
+        print(url)
         # param_variable_list = re.findall( '\\${\w+}',get_info["请求参数(get)"] )
         # if param_variable_list:
         #     for param_variable in param_variable_list:
@@ -68,7 +68,7 @@ class RequestsUtils():
         if post_info["取值方式"]=="json取值":
             value = jsonpath.jsonpath( response.json(), post_info["取值代码"] )[0]
             self.temp_variables[ post_info["传值变量"] ] = value  #将变量传入临时变量
-            print(self.temp_variables)
+            # print(self.temp_variables)
         elif post_info["取值方式"]=="正则取值":   #正则表达式取值
             value = re.findall( post_info["取值代码"],response.text )[0]       #取值代码放正则表达式,取列表中的第一个值
             self.temp_variables[post_info["传值变量"]] = value
@@ -127,7 +127,7 @@ if __name__ == '__main__':
                '提交数据（post）': '{"tag":{"id":408}}', '取值方式': '无', '传值变量': '',
                '取值代码': '', '期望结果类型': 'json键值对', '期望结果': '{"errcode":0,"errmsg":"ok"}'}
     # RequestsUtils().__get(get_info)
-    RequestsUtils().request(get_info)
+    RequestsUtils().request(post_info)
     RequestsUtils().request(get_info)
 
 
