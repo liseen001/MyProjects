@@ -27,10 +27,10 @@ class TestdatatUtiles():
         testcase_list = []
         for k,v in self.__get_testcase_data_dict().items():
             one_case_dict = {}
-            one_case_dict['case_name'] =k
+            one_case_dict['case_id'] = k
             one_case_dict['case_info'] = v
             testcase_list.append(one_case_dict)
-        return testcase_list
+        return tuple(testcase_list)   #以元组的方式返回数据  安全性
 
 if __name__ == "__main__":
     testdatautils = TestdatatUtiles()
