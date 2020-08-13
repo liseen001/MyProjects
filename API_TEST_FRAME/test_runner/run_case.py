@@ -8,6 +8,7 @@ import os
 import unittest
 from API_TEST_FRAME.common.config_utils import conf
 from API_TEST_FRAME.common import HTMLTestReportCN
+from API_TEST_FRAME.common.email_utils import EmailUtils
 
 current_path = os.path.dirname(__file__)
 test_case_path = os.path.join( current_path,'..',conf.case_path )  #例存放路径
@@ -39,7 +40,7 @@ class Runcase():
         '''运行所有测试用例'''
         report_dir = HTMLTestReportCN.ReportDirectory( self.report_path )      #创建测试报告的目录对象,传入测试报告路径
         report_dir.create_dir( self.title )    #创建测试报告存放文件夹 create_dir() 起一个标题
-        report_file_path = HTMLTestReportCN.GlobalMsg.get_value( 'report_path' )  #创建路径
+        report_file_path = HTMLTestReportCN.GlobalMsg.get_value( 'report_path' )  #创建路径,每次都会创建最新的文件
         fp = open( report_file_path,'wb' )  #创建文件
         runner = HTMLTestReportCN.HTMLTestRunner( stream=fp,
                                                   title=self.title,
@@ -47,7 +48,10 @@ class Runcase():
                                                   tester=self.tester)
         runner.run( self.load_test_suite() )
         fp.close()
+        return report_file_path  #返回最新的测试报告路径供邮件调用
 
 if __name__ == '__main__':
-    Runcase().run()
+    report_path = Runcase().run()  #运行测试用例
+    EmailUtils('<h3 align="center">自动化测试报告</h3>',report_path).send_mail()  #发送邮件
+    # EmailUtils(open(report_path, 'rb').read(), report_path).send_mail()  # 发送邮件
 
