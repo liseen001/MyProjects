@@ -13,7 +13,7 @@ import unittest
 from API_TEST_FRAME.common.testdata_utils import TestdatatUtiles
 from API_TEST_FRAME.common.requests_utils import RequestsUtils
 
-case_infos = TestdatatUtiles().def_testcase_data_list()  #取出所有测试用例数据
+case_infos = TestdatatUtiles().def_testcase_data_list_by_sql()  #取出所有测试用例数据
 
 @paramunittest.parametrized(
     *case_infos
