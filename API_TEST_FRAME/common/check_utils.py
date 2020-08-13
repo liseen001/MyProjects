@@ -18,7 +18,7 @@ class CheckUtils():
         }
         self.pass_result = {
             'code': 0,                                             #标志位，请求是否成功的标志位
-            'response_reson': self.ck_response.reason,             #响应行
+            'response_reason': self.ck_response.reason,             #响应行
             'response_code':self.ck_response.status_code,          #响应状态码
             'response_headers': self.ck_response.headers,          #响应头
             'response_body': self.ck_response.text,                #响应正文
@@ -27,7 +27,7 @@ class CheckUtils():
         }
         self.fail_result = {
             'code': 2,                                           # 标志位，表示请求失败
-            'response_reson': self.ck_response.reason,           # 响应行
+            'response_reason': self.ck_response.reason,           # 响应行
             'response_code': self.ck_response.status_code,       # 响应状态码
             'response_headers': self.ck_response.headers,        # 响应头
             'response_body': self.ck_response.text,              # 响应正文
