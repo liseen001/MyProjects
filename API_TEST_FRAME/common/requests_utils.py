@@ -6,6 +6,7 @@
 # @desc:  封装requests
 import requests
 import ast,jsonpath,re
+from API_TEST_FRAME.common.testdata_utils import TestdatatUtiles
 from  requests.exceptions import RequestException
 from  requests.exceptions import ProxyError
 from requests.exceptions import ConnectionError
@@ -102,8 +103,11 @@ class RequestsUtils():
         for step_info in step_infos:
             temp_result = self.request(step_info)
             # print(temp_result)
-            if temp_result['code'] !=0:
+            if temp_result['code'] !=0:  #cod不等于0则失败
+                TestdatatUtiles().write_result_to_excel( step_info['测试用例编号'],step_info['测试用例步骤'],'失败' )
                 break
+            else:
+                TestdatatUtiles().write_result_to_excel(step_info['测试用例编号'], step_info['测试用例步骤'])
         return temp_result
 
 

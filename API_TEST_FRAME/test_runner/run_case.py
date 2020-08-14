@@ -51,6 +51,7 @@ class Runcase():
         return report_file_path  #返回最新的测试报告路径供邮件调用
 
 if __name__ == '__main__':
+
     report_path = Runcase().run()  #运行测试用例
     EmailUtils('<h3 align="center">自动化测试报告</h3>',report_path).send_mail()  #发送邮件
     # EmailUtils(open(report_path, 'rb').read(), report_path).send_mail()  # 发送邮件
