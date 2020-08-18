@@ -85,8 +85,9 @@ if __name__ =="__main__":
     excel_path = os.path.join(current_path,conf.case_data_path)
     # print(excel_path)
     excelutils= ExcelUtils(excel_path,'Sheet1')
+    print(excelutils.get_sheet_data_by_dict())
     # print( excelutils.get_merged_cell_value(4,0) )
-    for row in excelutils.get_sheet_data_by_dict():
-        print(row)
+    # for row in excelutils.get_sheet_data_by_dict():
+    #     print(row)
     # print( excelutils.get_merged_cell_value(3,0) )
-    excelutils.update_excel_data( 2,14,'liseen' )
+    # excelutils.update_excel_data( 2,14,'liseen' )

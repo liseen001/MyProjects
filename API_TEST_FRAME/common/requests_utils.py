@@ -31,7 +31,8 @@ class RequestsUtils():
             response.encoding = response.apparent_encoding
             if get_info["取值方式"] == "json取值":
                 value = jsonpath.jsonpath( response.json(),get_info["取值代码"] )[0]
-                self.temp_variables[get_info["传值变量"]] = value  # 将变量传入临时变量
+                self.temp_variables[get_info["传值变量"]] = value  # 将变量传入临时变量{"token":"36_gM_OQS07L"}的字典格式
+                print( self.temp_variables ,'====')
             elif get_info["取值方式"] == "正则取值":
                 value = re.findall( get_info["取值代码"], response.text )[0]
                 self.temp_variables[get_info["传值变量"]] = value
@@ -59,6 +60,7 @@ class RequestsUtils():
             if post_info["取值方式"] == "json取值":
                 value = jsonpath.jsonpath( response.json(), post_info["取值代码"] )[0]
                 self.temp_variables[ post_info["传值变量"] ] = value  # 将变量传入临时变量
+                # print(self.temp_variables)
             elif post_info["取值方式"] == "正则取值":  # 正则表达式取值
                 value = re.findall( post_info["取值代码"], response.text )[0]  # 取值代码放正则表达式,取列表中的第一个值
                 self.temp_variables[post_info["传值变量"]] = value
@@ -82,6 +84,9 @@ class RequestsUtils():
                 for param_variable in param_variable_list:
                     step_info["请求参数(get)"] = step_info["请求参数(get)"]. \
                         replace(param_variable, '"%s"' % self.temp_variables.get(param_variable[2:-1]))
+            # if param_variable_list:
+            #     for param_variable in param_variable_list:
+            #         step_info['请求头'] = step_info['请求头'].replace( param_variable,'"{}"'.format( self.temp_variables.get( param_variable[2:-1] ) ) )
             if requests_type == 'get':
                 self.__get(step_info)
                 result = self.__get(step_info)
@@ -96,6 +101,7 @@ class RequestsUtils():
                 result = {'code': 1, 'result': '请求方式不支持'}
         except Exception as e:
             result = {'code': 4, 'result': '用例编号[%s]的[%s]步骤出现系统异常，原因是：%s' % (step_info["测试用例编号"],step_info['测试用例步骤'],e.__str__())}
+        # print( result['code'] )
         return  result
 
     def request_by_step(self,step_infos):
@@ -116,7 +122,7 @@ if __name__ == '__main__':
                 '测试用例步骤': 'step_01', '接口名称': '获取access_token接口',
                 '请求方式': 'get', '请求地址': '/cgi-bin/token',
                 '请求参数(get)': '{"grant_type":"client_credential","appid":"wx55614004f367f8ca","secret":"65515b46dd758dfdb09420bb7db2c67f"}',
-                '提交数据（post）': '', '取值方式': '无', '传值变量': '', '取值代码': '', '期望结果类型': 'json键是否存在',
+                '提交数据（post）': '', '取值方式': 'json取值', '传值变量': 'token', '取值代码': '$.access_token', '期望结果类型': 'json键是否存在',
                 '期望结果': 'access_token,expires_in'}
     post_info={'测试用例编号': 'case03', '测试用例名称': '测试能否正确删除用户标签', '用例执行': '是',
                '测试用例步骤': 'step_02', '接口名称': '删除标签接口', '请求方式': 'post',
@@ -124,7 +130,7 @@ if __name__ == '__main__':
                '提交数据（post）': '{"tag":{"id":408}}', '取值方式': '无', '传值变量': '',
                '取值代码': '', '期望结果类型': 'json键值对', '期望结果': '{"errcode":0,"errmsg":"ok"}'}
     # RequestsUtils().__get(get_info)
-    RequestsUtils().request(post_info)
+    # RequestsUtils().request_by_step(post_info)
     RequestsUtils().request(get_info)
 
 
