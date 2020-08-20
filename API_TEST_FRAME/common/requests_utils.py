@@ -12,7 +12,10 @@ from  requests.exceptions import ProxyError
 from requests.exceptions import ConnectionError
 from  API_TEST_FRAME.common.config_utils import conf
 from API_TEST_FRAME.common.check_utils import CheckUtils
+from nb_log import LogManager
 
+
+logger = LogManager(__file__).get_logger_and_add_handlers()
 
 class RequestsUtils():
     def __init__(self):
@@ -99,8 +102,10 @@ class RequestsUtils():
                 result = self.__post(step_info)
             else:
                 result = {'code': 1, 'result': '请求方式不支持'}
+                logger.error('请求方式不支持')
         except Exception as e:
             result = {'code': 4, 'result': '用例编号[%s]的[%s]步骤出现系统异常，原因是：%s' % (step_info["测试用例编号"],step_info['测试用例步骤'],e.__str__())}
+            logger.error('用例编号[%s]的[%s]步骤出现系统异常，原因是：%s' % (step_info["测试用例编号"],step_info['测试用例步骤'],e.__str__()))
         # print( result['code'] )
         return  result
 
