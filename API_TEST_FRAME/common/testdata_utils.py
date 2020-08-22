@@ -58,16 +58,25 @@ class TestdatatUtiles():
                 break
         return j+1
 
+    def get_result_id(self):
+        '''并获取测试结果的列号写入测试结果'''
+        for col_id in range( len(self.test_data_sheet.sheet.row(0)) ):
+            if self.test_data_sheet.sheet.row(0)[col_id].value == '测试结果':
+                break
+        return col_id
+
     def write_result_to_excel(self,case_id,case_step_name,content='通过'):
         '''把测试结果写入excel'''
         row_id = self.get_row_num(case_id,case_step_name)
-        self.test_data_sheet.update_excel_data( row_id,14,content )  #列号为固定值
+        col_id = self.get_result_id()
+        self.test_data_sheet.update_excel_data( row_id,col_id,content )  #列号为固定值
 
 
     def clear_result_from_excel(self):
         '''清空测试结果'''
+        col_id = self.get_result_id()
         row_count = self.test_data_sheet.get_row_count() #获取sheet行
-        self.test_data_sheet.clear_excel_colum(1,row_count,14)
+        self.test_data_sheet.clear_excel_colum(1,row_count,col_id)
 
 
 

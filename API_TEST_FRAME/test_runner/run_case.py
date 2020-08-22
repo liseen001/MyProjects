@@ -9,14 +9,19 @@ import unittest
 from API_TEST_FRAME.common.config_utils import conf
 from API_TEST_FRAME.common import HTMLTestReportCN
 from API_TEST_FRAME.common.email_utils import EmailUtils
+from nb_log import LogManager
 
 current_path = os.path.dirname(__file__)
 test_case_path = os.path.join( current_path,'..',conf.case_path )  #例存放路径
 test_report_pth = os.path.join( current_path,'..',conf.report_path )  #测试报告存放路径
+logger = LogManager(__file__).get_logger_and_add_handlers()
+
+
 # print( test_case_path )
 # print( test_report_pth )
 class Runcase():
     def __init__(self):
+        logger.info('接口测试开始启动')
         self.test_case_path= test_case_path
         self.report_path = test_report_pth
         self.title = 'P1P2接口自动化测试报告'  #测试报告标题
@@ -34,6 +39,7 @@ class Runcase():
                                                         top_level_dir=self.test_case_path)
         all_suite = unittest.TestSuite() #创建测试套件对象
         all_suite.addTest( discover )    #加载discover中的东西
+        logger.info('加载所有的测试模块及方法到测试套件')
         return  all_suite                #搜索用例加载测试用例,可以优化写成方法
 
     def run(self):
@@ -42,6 +48,8 @@ class Runcase():
         report_dir.create_dir( self.title )    #创建测试报告存放文件夹 create_dir() 起一个标题
         report_file_path = HTMLTestReportCN.GlobalMsg.get_value( 'report_path' )  #创建路径,每次都会创建最新的文件
         fp = open( report_file_path,'wb' )  #创建文件
+        logger.info('初始化创建测试报告路径：{}'.format(report_file_path))
+
         runner = HTMLTestReportCN.HTMLTestRunner( stream=fp,
                                                   title=self.title,
                                                   description=self.description,
@@ -53,6 +61,7 @@ class Runcase():
 if __name__ == '__main__':
 
     report_path = Runcase().run()  #运行测试用例
+    logger.info('测试活动结束')
     EmailUtils('<h3 align="center">自动化测试报告</h3>',report_path).send_mail()  #发送邮件
     # EmailUtils(open(report_path, 'rb').read(), report_path).send_mail()  # 发送邮件
 
