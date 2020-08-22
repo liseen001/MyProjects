@@ -38,10 +38,13 @@ class EmailUtils():
 
     def send_mail(self):
         '''发送邮件'''
-        smtp = smtplib.SMTP()
-        smtp.connect( self.smtp_server )
-        smtp.login( user=self.smtp_sender,password=self.smtp_password )
-        smtp.sendmail(self.smtp_sender,self.smtp_receiver.split(",")+self.smtp_cc.split(","),self.email_message_body().as_string())  #接收者为列表
-
+        try:
+            smtp = smtplib.SMTP()
+            smtp.connect(self.smtp_server)
+            smtp.login(user=self.smtp_sender, password=self.smtp_password)
+            smtp.sendmail(self.smtp_sender, self.smtp_receiver.split(",") + self.smtp_cc.split(","),self.email_message_body().as_string())  # 接收者为列表
+            print('发送成功')
+        except Exception as e:
+            print( '发送失败' )
 if __name__ == '__main__':
     EmailUtils('<h3 align="center">自动化测试报告</h3>').send_mail()
