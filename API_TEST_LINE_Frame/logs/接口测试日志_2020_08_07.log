@@ -1,0 +1,31 @@
+[2020-08-07 22:09:30,588] case001_get_access_testcase.py->setUp line:13 [INFO] : 测试用例 [获取access_token接口测试] 开始执行
+[2020-08-07 22:09:31,325] common_api.py->get_access_token line:39 [INFO] : 调用获取access_token接口成功
+[2020-08-07 22:09:31,325] case001_get_access_testcase.py->tearDown line:16 [INFO] : 测试用例 [获取access_token接口测试] 执行完毕
+[2020-08-07 22:09:31,327] case001_add_tags_testcase.py->setUp line:14 [INFO] : 测试用例 [创建标签接口测试] 开始执行
+[2020-08-07 22:09:31,819] common_api.py->get_access_token line:39 [INFO] : 调用获取access_token接口成功
+[2020-08-07 22:09:31,820] common_api.py->get_default_access_token line:48 [INFO] : 获取access_token成功，access_token为：[36_7O-bEOftYfdmAuApiZQdH80sSpqkORE_qe6hsxxqNzHvw0w-IfIdpFjla96rzAjbdBb3KVovf3l8ybF4r_RYL1doSrqP2Acpx_H-vZ8SB32H9vDPxgAt7uAI2xPw-XjZEWVAsJs0fDxQoC8VZERdAGAGLY]
+[2020-08-07 22:09:32,352] common_api.py->add_tags line:63 [INFO] : 新增用户标签成功，新增的标签为：[jqaJL]
+[2020-08-07 22:09:32,353] common_api.py->add_tags line:64 [INFO] : 创建的标签id为：[350]
+[2020-08-07 22:09:32,353] case001_add_tags_testcase.py->tearDown line:16 [INFO] : 测试用例 [创建标签接口测试] 执行完毕
+[2020-08-07 22:09:32,353] case002_lookfor_maked_tags_testcase.py->setUp line:14 [INFO] : 测试用例 [获取公众号已创建的标签] 开始执行
+[2020-08-07 22:09:32,847] common_api.py->get_access_token line:39 [INFO] : 调用获取access_token接口成功
+[2020-08-07 22:09:32,847] common_api.py->get_default_access_token line:48 [INFO] : 获取access_token成功，access_token为：[36_7O-bEOftYfdmAuApiZQdH80sSpqkORE_qe6hsxxqNzHvw0w-IfIdpFjla96rzAjbdBb3KVovf3l8ybF4r_RYL1doSrqP2Acpx_H-vZ8SB32H9vDPxgAt7uAI2xPw-XjZEWVAsJs0fDxQoC8VXOJdAGAPGB]
+[2020-08-07 22:09:33,381] common_api.py->look_for_makedtags line:77 [INFO] : 获取公众号已创建的标签成功
+[2020-08-07 22:09:33,381] case002_lookfor_maked_tags_testcase.py->tearDown line:17 [INFO] : 测试用例 [获取公众号已创建的标签] 执行结束
+[2020-08-07 22:09:33,381] case003_update_makedtags_testcase.py->setUp line:13 [INFO] : 测试用例 [获取编辑标签接口测试] 开始执行
+[2020-08-07 22:09:33,847] common_api.py->get_access_token line:39 [INFO] : 调用获取access_token接口成功
+[2020-08-07 22:09:33,847] common_api.py->get_default_access_token line:48 [INFO] : 获取access_token成功，access_token为：[36_7O-bEOftYfdmAuApiZQdH80sSpqkORE_qe6hsxxqNzHvw0w-IfIdpFjla96rzAjbdBb3KVovf3l8ybF4r_RYL1doSrqP2Acpx_H-vZ8SB32H9vDPxgAt7uAI2xPw-XjZEWVAsJs0fDxQoC8VLUFdAGATCN]
+[2020-08-07 22:09:34,314] common_api.py->get_access_token line:39 [INFO] : 调用获取access_token接口成功
+[2020-08-07 22:09:34,315] common_api.py->get_default_access_token line:48 [INFO] : 获取access_token成功，access_token为：[36_7O-bEOftYfdmAuApiZQdH80sSpqkORE_qe6hsxxqNzHvw0w-IfIdpFjla96rzAjbdBb3KVovf3l8ybF4r_RYL1doSrqP2Acpx_H-vZ8SB32H9vDPxgAt7uAI2xPw-XjZEWVAsJs0fDxQoC8VAMPdAGAUGJ]
+[2020-08-07 22:09:34,832] common_api.py->look_for_makedtags line:77 [INFO] : 获取公众号已创建的标签成功
+[2020-08-07 22:09:34,833] common_api.py->edit_tags line:95 [ERROR] : 编辑标签失败，失败的原因是：[list index out of range]
+[2020-08-07 22:09:34,833] case003_update_makedtags_testcase.py->tearDown line:15 [INFO] : 测试用例 [获取编辑标签接口测试] 执行完毕
+[2020-08-07 22:09:34,834] case004_delete_tags_testcase.py->setUp line:13 [INFO] : 测试用例 [删除标签接口测试] 开始执行
+[2020-08-07 22:09:35,326] common_api.py->get_access_token line:39 [INFO] : 调用获取access_token接口成功
+[2020-08-07 22:09:35,326] common_api.py->get_default_access_token line:48 [INFO] : 获取access_token成功，access_token为：[36_7O-bEOftYfdmAuApiZQdH80sSpqkORE_qe6hsxxqNzHvw0w-IfIdpFjla96rzAjbdBb3KVovf3l8ybF4r_RYL1doSrqP2Acpx_H-vZ8SB32H9vDPxgAt7uAI2xPw-XjZEWVAsJs0fDxQoC8VQIDdAGACUP]
+[2020-08-07 22:09:35,818] common_api.py->get_access_token line:39 [INFO] : 调用获取access_token接口成功
+[2020-08-07 22:09:35,818] common_api.py->get_default_access_token line:48 [INFO] : 获取access_token成功，access_token为：[36_7O-bEOftYfdmAuApiZQdH80sSpqkORE_qe6hsxxqNzHvw0w-IfIdpFjla96rzAjbdBb3KVovf3l8ybF4r_RYL1doSrqP2Acpx_H-vZ8SB32H9vDPxgAt7uAI2xPw-XjZEWVAsJs0fDxQoC8VKGQdAGAXTD]
+[2020-08-07 22:09:36,350] common_api.py->add_tags line:63 [INFO] : 新增用户标签成功，新增的标签为：[vrExZ]
+[2020-08-07 22:09:36,350] common_api.py->add_tags line:64 [INFO] : 创建的标签id为：[351]
+[2020-08-07 22:09:36,911] common_api.py->delete_tags line:110 [INFO] : 删除标签id: [351] 成功
+[2020-08-07 22:09:36,911] case004_delete_tags_testcase.py->tearDown line:15 [INFO] : 测试用例 [删除标签接口测试] 执行完毕
