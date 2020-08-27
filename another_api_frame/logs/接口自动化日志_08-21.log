@@ -1,0 +1,770 @@
+2020-08-21 20:27:12 - 接口自动化日志 - "C:/Users/Administrator/PycharmProjects/newadmin_api_framework/common/requests_utils.py:77" - __post - INFO - 登录后台接口接口调用成功
+2020-08-21 20:27:12 - 接口自动化日志 - "C:/Users/Administrator/PycharmProjects/newadmin_api_framework/common/requests_utils.py:78" - __post - INFO - 正在执行的测试用例名称==》测试能否正确查询平台商管理接口，正在请求的接口名称==》登录后台接口，测试用例编号==》case02，正在执行的测试用例步骤==》step_01，请求方式==》post，请求地址是==》/admin/login，请求参数==》{"loginName":"liseen1","password":"000000"}，请求头是==》{"Accept":"application/json, text/plain, */*","Content-Type": "application/json;charset=UTF-8","User-Agent": "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36","Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8","Accept-Encoding":"gzip, deflate","Connection": "keep-alive"}，测试结果为==》
+
+2020-08-21 20:27:14 - 接口自动化日志 - "C:/Users/Administrator/PycharmProjects/newadmin_api_framework/common/requests_utils.py:77" - __post - INFO - 查询平台商管理接口接口调用成功
+2020-08-21 20:27:14 - 接口自动化日志 - "C:/Users/Administrator/PycharmProjects/newadmin_api_framework/common/requests_utils.py:78" - __post - INFO - 正在执行的测试用例名称==》测试能否正确查询平台商管理接口，正在请求的接口名称==》查询平台商管理接口，测试用例编号==》case02，正在执行的测试用例步骤==》step_02，请求方式==》post，请求地址是==》/admin/platform/cagent/listPage，请求参数==》{"page":1,"limit":10,"cagent":"","status":""}，请求头是==》{"Accept":"application/json, text/plain, */*","Content-Type": "application/json;charset=UTF-8","User-Agent": "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36","Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8","Accept-Encoding":"gzip, deflate","Connection": "keep-alive","X-Token":"Z4Eg4hrr28H74xFv8ORgXQD8xE2JE9s/w6JKHXNgNYHXEQNxPpqLhw14zLtX0EwvZY6JHohkhJOzv3EjyfiJ/+/m+mkjgyeoEMy3g4IQg31LIOVcE52qL6/hMPHtAkdBqVmbgXp1DCp67k6D3oQ/OsvFz+SEMAjdZhdwjVzoIIx3i4oGs4qRQAvi44xEbPGyBsB1aJ9owhggGZnJwUopuZIo8hZZhHcCNwswk9YAnH9O5SVp6FVlOG2f5znWyr1Hk1kvKh99We/DXOBCnvqx4veTl0TlW3u1Fxz8IXrBGl7IPOlx9QNJEEwYRjRb4xgExdx5+veSiLNebAVdSmdptXicPWhyqkfwjQIXBaLsKYkJ3/e+adUbLaqL6gFCUtOyZ6BOwNlwrlGyhf9dDJBHHI3qBRkJCHuSwLaPT+WDoTxV6rqOg9WoLSrSFgPAZi3w4dV1q/W921XoZQ7T1JnozTdi32YoN9tZsZtQYGTW/jkQbZRXVmf/kTgzuITyGvuS","sid":"0","terminal":"0"}，测试结果为==》
+
+2020-08-21 20:28:17 - 接口自动化日志 - "C:/Users/Administrator/PycharmProjects/newadmin_api_framework/common/requests_utils.py:77" - __post - INFO - 登录后台接口接口调用成功
+2020-08-21 20:28:17 - 接口自动化日志 - "C:/Users/Administrator/PycharmProjects/newadmin_api_framework/common/requests_utils.py:78" - __post - INFO - 正在执行的测试用例名称==》测试能否正确查询平台商管理接口
+，正在请求的接口名称==》登录后台接口
+，测试用例编号==》case02
+，正在执行的测试用例步骤==》step_01
+，请求方式==》post
+，请求地址是==》/admin/login
+，请求参数==》{"loginName":"liseen1","password":"000000"}
+，请求头是==》{"Accept":"application/json, text/plain, */*","Content-Type": "application/json;charset=UTF-8","User-Agent": "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36","Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8","Accept-Encoding":"gzip, deflate","Connection": "keep-alive"}
+，测试结果为==》
+
+
+2020-08-21 20:28:18 - 接口自动化日志 - "C:/Users/Administrator/PycharmProjects/newadmin_api_framework/common/requests_utils.py:77" - __post - INFO - 查询平台商管理接口接口调用成功
+2020-08-21 20:28:18 - 接口自动化日志 - "C:/Users/Administrator/PycharmProjects/newadmin_api_framework/common/requests_utils.py:78" - __post - INFO - 正在执行的测试用例名称==》测试能否正确查询平台商管理接口
+，正在请求的接口名称==》查询平台商管理接口
+，测试用例编号==》case02
+，正在执行的测试用例步骤==》step_02
+，请求方式==》post
+，请求地址是==》/admin/platform/cagent/listPage
+，请求参数==》{"page":1,"limit":10,"cagent":"","status":""}
+，请求头是==》{"Accept":"application/json, text/plain, */*","Content-Type": "application/json;charset=UTF-8","User-Agent": "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36","Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8","Accept-Encoding":"gzip, deflate","Connection": "keep-alive","X-Token":"Ig2ymiJgiLYlQ/LYL8x1dMvAeKwi+CXFJ5KTHEbAkfKL5FA8U4AaRPPeUJCJhT457VUT666civ8nHYEbBBvRfNmiQi2Xgo8hLkIAXb8It+OIQOGDSv9D4FghL7S1lFz7dhCG9BXh5g80n9bp35kAWOr7m0KDlR8KeAaXjJTtW4dnEUzyBrpehxllY2kbsJrKxwJhFKzgmvOrBYNDp/eZn3cAECbXsFop7tukse5ZYzBzWCGmoGri7oeqOMDGmAsTH6evY2vlH18tu+P9q0VO49yu9QRfQL4kLpZUTAm3CjqfebLlpYkplaGz4KK1wKXSk0jTf5s/6TLm2TnDdrP0iCpVhRRm26Oj25MNZPiLsRe4AwgyP7ZL5CuQsVjYGZnQv2ZzBSmdV6lel05VuvUdXDP99OfhWu74HQgpIvnWb5oQf7dbgAfJcW6+MdBMww2WHoFfM89JwvCIOkxY55kv4kMLfwRoWhY0QXLLHRGWjH9qysTmrubo4CkPf7cSvHap","sid":"0","terminal":"0"}
+，测试结果为==》
+
+
+2020-08-21 20:30:08 - 接口自动化日志 - "C:/Users/Administrator/PycharmProjects/newadmin_api_framework/common/requests_utils.py:77" - __post - INFO - 登录后台接口接口调用成功
+2020-08-21 20:30:08 - 接口自动化日志 - "C:/Users/Administrator/PycharmProjects/newadmin_api_framework/common/requests_utils.py:78" - __post - INFO - 正在执行的测试用例名称：测试能否正确查询平台商管理接口
+，正在请求的接口名称：登录后台接口
+，测试用例编号：case02
+，正在执行的测试用例步骤：step_01
+，请求方式：post
+，请求地址是：/admin/login
+，请求参数：{"loginName":"liseen1","password":"000000"}
+，请求头是：{"Accept":"application/json, text/plain, */*","Content-Type": "application/json;charset=UTF-8","User-Agent": "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36","Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8","Accept-Encoding":"gzip, deflate","Connection": "keep-alive"}
+，测试结果为：
+
+
+2020-08-21 20:30:09 - 接口自动化日志 - "C:/Users/Administrator/PycharmProjects/newadmin_api_framework/common/requests_utils.py:77" - __post - INFO - 查询平台商管理接口接口调用成功
+2020-08-21 20:30:09 - 接口自动化日志 - "C:/Users/Administrator/PycharmProjects/newadmin_api_framework/common/requests_utils.py:78" - __post - INFO - 正在执行的测试用例名称：测试能否正确查询平台商管理接口
+，正在请求的接口名称：查询平台商管理接口
+，测试用例编号：case02
+，正在执行的测试用例步骤：step_02
+，请求方式：post
+，请求地址是：/admin/platform/cagent/listPage
+，请求参数：{"page":1,"limit":10,"cagent":"","status":""}
+，请求头是：{"Accept":"application/json, text/plain, */*","Content-Type": "application/json;charset=UTF-8","User-Agent": "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36","Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8","Accept-Encoding":"gzip, deflate","Connection": "keep-alive","X-Token":"jJopa9yM6m2rJj5jVCS3gmc4Nf68G4C/cseZpdGkmiRVjBhhsETgnKkJsy1rqFJbuZCeiBKafqN0g7ONL9KGuC+BWrTYR0tEeQf7lhD29x3YGdWXce6xMH8K/Z1kpQKzpG1uU1h25uCPNpfcZV+OwV9xha+JnOVgfxfILkQHpZFWfdwODVNxVETobghR3/h2WDa9J0S6Si/2wOXUsRqL0Yymehew2XACxAeVn8aAw/lYb4X9pCvvtbpC0xdQUoicu1rbt/wLJf+OE0v1+3oX0oMEayoe2rY4EaGoxN6cAe/skILKWdD3ZnqaRgSTvLPaKx7HvlRmIr6TRIB4KbJYjRX/txGb7YZRrdrqRpcNm3AzEHwM+dep1DhHS0+S7RzU/oXuPWOEM+4sIEFKBfcT2qzxEVVZp6eL0tP/owECIyzJ10gyXB5Xh1Lwf+FyLTMBzRVUVPs7+Dn32rVg/GiRJYOhvQSsbNmUQ0R8SCIvpKKYBhLbnr7qY+rnRzknsE9y","sid":"0","terminal":"0"}
+，测试结果为：
+
+
+2020-08-21 20:33:16 - 接口自动化日志 - "C:/Users/Administrator/PycharmProjects/newadmin_api_framework/common/nblog_utils.py:27" - <module> - INFO - 接口自动扣测试框架，UI自动化测试框架，appnium自动化测试框架
+
+2020-08-21 20:33:54 - 接口自动化日志 - "C:/Users/Administrator/PycharmProjects/newadmin_api_framework/common/nblog_utils.py:27" - <module> - INFO - 接口自动扣测试框架，UI自动化测试框架，appnium自动化测试框架
+2020-08-21 20:33:54 - 接口自动化日志 - "C:/Users/Administrator/PycharmProjects/newadmin_api_framework/common/nblog_utils.py:28" - <module> - ERROR - 接口自动扣测试框架，UI自动化测试框架，appnium自动化测试框架
+2020-08-21 20:33:54 - 接口自动化日志 - "C:/Users/Administrator/PycharmProjects/newadmin_api_framework/common/nblog_utils.py:29" - <module> - DEBUG - 接口自动扣测试框架，UI自动化测试框架，appnium自动化测试框架
+2020-08-21 20:33:54 - 接口自动化日志 - "C:/Users/Administrator/PycharmProjects/newadmin_api_framework/common/nblog_utils.py:30" - <module> - WARNING - 接口自动扣测试框架，UI自动化测试框架，appnium自动化测试框架
+2020-08-21 20:33:54 - 接口自动化日志 - "C:/Users/Administrator/PycharmProjects/newadmin_api_framework/common/nblog_utils.py:31" - <module> - CRITICAL - 接口自动扣测试框架，UI自动化测试框架，appnium自动化测试框架
+
+2020-08-21 20:34:42 - 接口自动化日志 - "C:/Users/Administrator/PycharmProjects/newadmin_api_framework/common/requests_utils.py:77" - __post - INFO - 登录后台接口接口调用成功
+2020-08-21 20:34:42 - 接口自动化日志 - "C:/Users/Administrator/PycharmProjects/newadmin_api_framework/common/requests_utils.py:78" - __post - INFO - 正在执行的测试用例名称：测试能否正确查询平台商管理接口
+，正在请求的接口名称：登录后台接口
+，测试用例编号：case02
+，正在执行的测试用例步骤：step_01
+，请求方式：post
+，请求地址是：/admin/login
+，请求参数：{"loginName":"liseen1","password":"000000"}
+，请求头：{"Accept":"application/json, text/plain, */*","Content-Type": "application/json;charset=UTF-8","User-Agent": "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36","Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8","Accept-Encoding":"gzip, deflate","Connection": "keep-alive"}
+，测试结果为：
+
+
+2020-08-21 20:34:43 - 接口自动化日志 - "C:/Users/Administrator/PycharmProjects/newadmin_api_framework/common/requests_utils.py:77" - __post - INFO - 查询平台商管理接口接口调用成功
+2020-08-21 20:34:43 - 接口自动化日志 - "C:/Users/Administrator/PycharmProjects/newadmin_api_framework/common/requests_utils.py:78" - __post - INFO - 正在执行的测试用例名称：测试能否正确查询平台商管理接口
+，正在请求的接口名称：查询平台商管理接口
+，测试用例编号：case02
+，正在执行的测试用例步骤：step_02
+，请求方式：post
+，请求地址是：/admin/platform/cagent/listPage
+，请求参数：{"page":1,"limit":10,"cagent":"","status":""}
+，请求头：{"Accept":"application/json, text/plain, */*","Content-Type": "application/json;charset=UTF-8","User-Agent": "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36","Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8","Accept-Encoding":"gzip, deflate","Connection": "keep-alive","X-Token":"NY2tbUDXidhqlo4u/QmGX5zp0WiPALh7Ww/pK3kawywxnLAupp8D3rvLizNmJTyH+woHGue3qonOCGpVJ8M4DvG8SFbyv2UnB/NjqnCv1FIBgKaXMFtDLm1AP+WNdJo4T2eJ8SloT4taCgnUuPvyuPuvpHNJNfA9dKXLaL261VMlUj3H+NVRc6UDqe4D8cfikRDzq6VBTD5yC2JZbgo1o14z2Dd3iq7A9EdvD7eAM57Mcnq/Yb7c56owyY6bkf6taMUhfS65SAVJmIGdpiUfZPN/R3J2FEkTDIppnv+vQl27n8HY2TOZ7wok0cc/QiCtGlQQ30VsKft3CrA5sug71nvJFGUVzSL70C783NPkxdGjEZkDijkm61Qk/Hw1cbtCXv0HsnupGpNJC4ZzivB0jB6RLdmOYweWpDLQIF7dzXOWmsqP2MRKy4ZFY6KIPmnShwDFNDy4tQReVpnGmbh7irNNkrdS/LP4AAqzI6rq4T914rfZpcPyggqpmmljB3C7","sid":"0","terminal":"0"}
+，测试结果为：
+
+
+2020-08-21 20:34:58 - 接口自动化日志 - "C:/Users/Administrator/PycharmProjects/newadmin_api_framework/common/nblog_utils.py:27" - <module> - INFO - 接口自动扣测试框架，UI自动化测试框架，appnium自动化测试框架
+2020-08-21 20:34:58 - 接口自动化日志 - "C:/Users/Administrator/PycharmProjects/newadmin_api_framework/common/nblog_utils.py:28" - <module> - ERROR - 接口自动扣测试框架，UI自动化测试框架，appnium自动化测试框架
+2020-08-21 20:34:58 - 接口自动化日志 - "C:/Users/Administrator/PycharmProjects/newadmin_api_framework/common/nblog_utils.py:29" - <module> - DEBUG - 接口自动扣测试框架，UI自动化测试框架，appnium自动化测试框架
+2020-08-21 20:34:58 - 接口自动化日志 - "C:/Users/Administrator/PycharmProjects/newadmin_api_framework/common/nblog_utils.py:30" - <module> - WARNING - 接口自动扣测试框架，UI自动化测试框架，appnium自动化测试框架
+2020-08-21 20:34:58 - 接口自动化日志 - "C:/Users/Administrator/PycharmProjects/newadmin_api_framework/common/nblog_utils.py:31" - <module> - CRITICAL - 接口自动扣测试框架，UI自动化测试框架，appnium自动化测试框架
+
+2020-08-21 20:43:24 - 接口自动化日志 - "C:/Users/Administrator/PycharmProjects/newadmin_api_framework/common/requests_utils.py:77" - __post - INFO - 登录后台接口接口调用成功
+2020-08-21 20:43:24 - 接口自动化日志 - "C:/Users/Administrator/PycharmProjects/newadmin_api_framework/common/requests_utils.py:78" - __post - INFO - 正在执行的测试用例名称：测试能否正确查询平台商管理接口
+正在请求的接口名称：登录后台接口
+测试用例编号：case02
+正在执行的测试用例步骤：step_01
+请求方式：post
+请求地址是：/admin/login
+请求参数：{"loginName":"liseen1","password":"000000"}
+请求头：{"Accept":"application/json, text/plain, */*","Content-Type": "application/json;charset=UTF-8","User-Agent": "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36","Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8","Accept-Encoding":"gzip, deflate","Connection": "keep-alive"}
+测试结果为：
+
+
+2020-08-21 20:43:25 - 接口自动化日志 - "C:/Users/Administrator/PycharmProjects/newadmin_api_framework/common/requests_utils.py:77" - __post - INFO - 查询平台商管理接口接口调用成功
+2020-08-21 20:43:25 - 接口自动化日志 - "C:/Users/Administrator/PycharmProjects/newadmin_api_framework/common/requests_utils.py:78" - __post - INFO - 正在执行的测试用例名称：测试能否正确查询平台商管理接口
+正在请求的接口名称：查询平台商管理接口
+测试用例编号：case02
+正在执行的测试用例步骤：step_02
+请求方式：post
+请求地址是：/admin/platform/cagent/listPage
+请求参数：{"page":1,"limit":10,"cagent":"","status":""}
+请求头：{"Accept":"application/json, text/plain, */*","Content-Type": "application/json;charset=UTF-8","User-Agent": "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36","Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8","Accept-Encoding":"gzip, deflate","Connection": "keep-alive","X-Token":"PLj41MTPcO1saa57Nvrh78YY14VHaf/864tQCfHn61j0O7wKRflroO2gKwsUEle72hEwJg4GZfIeyg/m5xxvFlsd4SeA8HSu/fOFJNYPJIzsTxt83TSzmq0E3R27Oh4mzBRhBWdNWW6xlOhVAZvMelj2r+HDp3zaYiaQ58wyoIOB5tAxd2UhU5cXO81VKz33WDcpDouHtqKX0t8yPqSpssO0osraI8kUpetN4VsERiHu8ZbmP4i64RUskF2kUtDIKVVpOMX57gp0xRhRs6UFASEGpJmMIe/P8svesZaUDtVUUaiZpWKMhcnq+HRET3nFB8EIYxkH+SMh/WG78Vx5kzdNZjbMHuo/DD3XjR64v7A/LvAueBWAbHPAAKUyBQ1o73mglkvgmkuY7QSAIVi7u8mhZn6kn2lG+ERTko941WrCIjGFfjU4eBXiqgyFwx0XpcpedbE1UWKn1Wv5jr/ImgTErWO8Kdez2VusGU5CWvR7Z16/GvPnZbz9n4jB/XTN","sid":"0","terminal":"0"}
+测试结果为：
+
+
+2020-08-21 20:44:21 - 接口自动化日志 - "C:/Users/Administrator/PycharmProjects/newadmin_api_framework/common/requests_utils.py:77" - __post - INFO - 登录后台接口接口调用成功
+2020-08-21 20:44:21 - 接口自动化日志 - "C:/Users/Administrator/PycharmProjects/newadmin_api_framework/common/requests_utils.py:78" - __post - INFO - 正在执行的测试用例名称：测试能否正确查询平台商管理接口
+正在请求的接口名称：登录后台接口
+测试用例编号：case02
+正在执行的测试用例步骤：step_01
+请求方式：post
+请求地址是：/admin/login
+请求参数：{"loginName":"liseen1","password":"000000"}
+请求头：{"Accept":"application/json, text/plain, */*","Content-Type": "application/json;charset=UTF-8","User-Agent": "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36","Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8","Accept-Encoding":"gzip, deflate","Connection": "keep-alive"}
+测试结果为：
+
+
+2020-08-21 20:44:22 - 接口自动化日志 - "C:/Users/Administrator/PycharmProjects/newadmin_api_framework/common/requests_utils.py:77" - __post - INFO - 查询平台商管理接口接口调用成功
+2020-08-21 20:44:22 - 接口自动化日志 - "C:/Users/Administrator/PycharmProjects/newadmin_api_framework/common/requests_utils.py:78" - __post - INFO - 正在执行的测试用例名称：测试能否正确查询平台商管理接口
+正在请求的接口名称：查询平台商管理接口
+测试用例编号：case02
+正在执行的测试用例步骤：step_02
+请求方式：post
+请求地址是：/admin/platform/cagent/listPage
+请求参数：{"page":1,"limit":10,"cagent":"","status":""}
+请求头：{"Accept":"application/json, text/plain, */*","Content-Type": "application/json;charset=UTF-8","User-Agent": "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36","Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8","Accept-Encoding":"gzip, deflate","Connection": "keep-alive","X-Token":"C3MxpfJSmXmRgqZAzPmUYZ3vh5Bh8a5j7aPJdjMHLns9Z02OWwx/kpnNbnzNU+++T5wX8CDFz1AeovMAMNdRjjRSABZ5N1pUiC8ICyjy/izWhjTtRUkSXkAKmekTS847GIrqZFM3QgnFY+Fd54bSYoBse58MHWPY2q84h7GYisg4KOXR7L+G2MDZ7vyiZuI8VltojMeuMVLCJZ3zL7WlP8McRBNqMlXPM9UjttvmHDz0nqF/r9zbwUbcJDq5iCyQKZQox6tGBsTbDQ07TBxFTfcIb9pW8+XcKtPywOd21oxWpnO/RrC6+Zt6+Vqe0Lbw1wMRrwV46CaSBun6DIwppmx3vsfJniNlbneYb1knKy7v3rJPY3Crh7LDy2xbJrZiotVFo6k1KpvRFU2aiwzbhWIyJax6hmYgevoDiwfdObRJ4ZpcCdzWK3XRuAqFKwBEKjbloEN7w6mRCJb7SJiuP6rsdkOo6UMF5QBFh6gTXrHckHXRcf1jh66HJxwYw5NY","sid":"0","terminal":"0"}
+测试结果为：
+
+
+2020-08-21 20:45:53 - 接口自动化日志 - "C:/Users/Administrator/PycharmProjects/newadmin_api_framework/common/requests_utils.py:77" - __post - INFO - 登录后台接口接口调用成功
+2020-08-21 20:45:53 - 接口自动化日志 - "C:/Users/Administrator/PycharmProjects/newadmin_api_framework/common/requests_utils.py:78" - __post - INFO - 正在执行的测试用例名称：测试能否正确查询平台商管理接口
+正在请求的接口名称：登录后台接口
+测试用例编号：case02
+正在执行的测试用例步骤：step_01
+请求方式：post
+请求地址是：/admin/login
+请求参数：{"loginName":"liseen1","password":"000000"}
+请求头：{"Accept":"application/json, text/plain, */*","Content-Type": "application/json;charset=UTF-8","User-Agent": "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36","Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8","Accept-Encoding":"gzip, deflate","Connection": "keep-alive"}
+测试结果为：
+
+
+2020-08-21 20:45:54 - 接口自动化日志 - "C:/Users/Administrator/PycharmProjects/newadmin_api_framework/common/requests_utils.py:77" - __post - INFO - 查询平台商管理接口接口调用成功
+2020-08-21 20:45:54 - 接口自动化日志 - "C:/Users/Administrator/PycharmProjects/newadmin_api_framework/common/requests_utils.py:78" - __post - INFO - 正在执行的测试用例名称：测试能否正确查询平台商管理接口
+正在请求的接口名称：查询平台商管理接口
+测试用例编号：case02
+正在执行的测试用例步骤：step_02
+请求方式：post
+请求地址是：/admin/platform/cagent/listPage
+请求参数：{"page":1,"limit":10,"cagent":"","status":""}
+请求头：{"Accept":"application/json, text/plain, */*","Content-Type": "application/json;charset=UTF-8","User-Agent": "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36","Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8","Accept-Encoding":"gzip, deflate","Connection": "keep-alive","X-Token":"ExdYcEJRGOwjPz37gigtZep7gM0o+LqVzPGZpnh63gYgRlGgyp0e/7H9oLNO7THoRF5UNNy7j0dDozj6lMsLgRAjzTjOIOSVUyPuGyjMQ8tS40f+frCue0xllbzFbF3t9w+WszUUDWHF80kz6cSgFnWB3iCqmTa2bWH4WrSjctaRoUlWXyYaPUtYPSUg+kdnix57uK1HlDApr+Rbzwk3rIexVPMAbBxMen5zlcMv0SS8fJg+FEp+IHvzI2TELyNQUUWvj8PjBWAQIzsOWPRs8kxZCSl+XBGcO08wEEaL3iGzLzZiu7TlcGLbJ3ZEzL2OOa4HGSZHU4rH49f7NbWEXKGcQ7FA5ezjuYwpRpEl9gerFRBkXxEqg8Hx+uUB1+0xpPlM/sdUd4lE4sP62uc0CMetIV8CCsMW413twkiFs4rAFG+cRT4v8QyAls2KZpJ5p1aGUO3jHUcSJSN8sDyEdxzY2Mzizasgo29DjZS1jFZYW3FVD6A5QqmCOp3vrQ/R","sid":"0","terminal":"0"}
+测试结果为：
+
+
+2020-08-21 20:48:09 - 接口自动化日志 - "C:/Users/Administrator/PycharmProjects/newadmin_api_framework/common/requests_utils.py:77" - __post - INFO - 
+登录后台接口接口调用成功
+2020-08-21 20:48:09 - 接口自动化日志 - "C:/Users/Administrator/PycharmProjects/newadmin_api_framework/common/requests_utils.py:78" - __post - INFO - 正在执行的测试用例名称：测试能否正确查询平台商管理接口
+正在请求的接口名称：登录后台接口
+测试用例编号：case02
+正在执行的测试用例步骤：step_01
+请求方式：post
+请求地址是：/admin/login
+请求参数：{"loginName":"liseen1","password":"000000"}
+请求头：{"Accept":"application/json, text/plain, */*","Content-Type": "application/json;charset=UTF-8","User-Agent": "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36","Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8","Accept-Encoding":"gzip, deflate","Connection": "keep-alive"}
+测试结果为：
+
+
+2020-08-21 20:48:10 - 接口自动化日志 - "C:/Users/Administrator/PycharmProjects/newadmin_api_framework/common/requests_utils.py:77" - __post - INFO - 
+查询平台商管理接口接口调用成功
+2020-08-21 20:48:10 - 接口自动化日志 - "C:/Users/Administrator/PycharmProjects/newadmin_api_framework/common/requests_utils.py:78" - __post - INFO - 正在执行的测试用例名称：测试能否正确查询平台商管理接口
+正在请求的接口名称：查询平台商管理接口
+测试用例编号：case02
+正在执行的测试用例步骤：step_02
+请求方式：post
+请求地址是：/admin/platform/cagent/listPage
+请求参数：{"page":1,"limit":10,"cagent":"","status":""}
+请求头：{"Accept":"application/json, text/plain, */*","Content-Type": "application/json;charset=UTF-8","User-Agent": "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36","Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8","Accept-Encoding":"gzip, deflate","Connection": "keep-alive","X-Token":"rDkx5V0WHKPuBfobjTWi9h7cEuxeLFh7LjTmvgvoScVTiEHelKkTBzXpm35No1AC2gOgPBNLXqPJaR1v+apvwC5WhsJDJcBeIPNlvjM0F+1HV3kSXP/kT9DtjIEnnfJPxSbQLOa5y5mcWjQz95Lf48ZUbFLlCbgkIqs6XgCaxJYw1s+R9HgIvs2rt+QJ0xVTY6y7MX6m/zvFUI5EL8Syu3XId75oBShnBmoajM+KZXXSGzAWqPpRW1thcLqSMb550Ab7l+e2vudlgrlRuA18QTvLWPyWlFLTncIGi0ejYr3vRNXQg6o13Hqeh0eNmo6rf7eksrdb4JWCg360Zuf64TLDGb/LgAoe3todBULV8fBNpXQJoIQIP77l1XV+jR+orp5+e2HsFUoJ9pRwgJnUcUqiBzx8JA85QDiAu4BaMPs7Pnk0zESkuxhTpjkPLo4Ljb7D6hbvpsbvnU7ZJGtDsgFW1pJDlxHEx4ZHjBteiyZZLpMdmOMQlsm8qqd5Op8X","sid":"0","terminal":"0"}
+测试结果为：
+
+
+2020-08-21 20:48:32 - 接口自动化日志 - "C:/Users/Administrator/PycharmProjects/newadmin_api_framework/common/requests_utils.py:77" - __post - INFO - 登录后台接口接口调用成功
+2020-08-21 20:48:32 - 接口自动化日志 - "C:/Users/Administrator/PycharmProjects/newadmin_api_framework/common/requests_utils.py:78" - __post - INFO - 
+正在执行的测试用例名称：测试能否正确查询平台商管理接口
+正在请求的接口名称：登录后台接口
+测试用例编号：case02
+正在执行的测试用例步骤：step_01
+请求方式：post
+请求地址是：/admin/login
+请求参数：{"loginName":"liseen1","password":"000000"}
+请求头：{"Accept":"application/json, text/plain, */*","Content-Type": "application/json;charset=UTF-8","User-Agent": "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36","Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8","Accept-Encoding":"gzip, deflate","Connection": "keep-alive"}
+测试结果为：
+
+
+2020-08-21 20:48:33 - 接口自动化日志 - "C:/Users/Administrator/PycharmProjects/newadmin_api_framework/common/requests_utils.py:77" - __post - INFO - 查询平台商管理接口接口调用成功
+2020-08-21 20:48:33 - 接口自动化日志 - "C:/Users/Administrator/PycharmProjects/newadmin_api_framework/common/requests_utils.py:78" - __post - INFO - 
+正在执行的测试用例名称：测试能否正确查询平台商管理接口
+正在请求的接口名称：查询平台商管理接口
+测试用例编号：case02
+正在执行的测试用例步骤：step_02
+请求方式：post
+请求地址是：/admin/platform/cagent/listPage
+请求参数：{"page":1,"limit":10,"cagent":"","status":""}
+请求头：{"Accept":"application/json, text/plain, */*","Content-Type": "application/json;charset=UTF-8","User-Agent": "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36","Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8","Accept-Encoding":"gzip, deflate","Connection": "keep-alive","X-Token":"HnpexnU6hNh1LK7yXFxwubqnPUYBuwpXEc/Yxxp8PwQzTe8up/P9z3c4ffD8ANZKzF9NHnXsr4t6jtHDbQEj9YYjE2WQQwJnk/0celBLBs+Af+ugM7ZEUmk7n/JUo7lvITmy2MSgEzIwo2Y5tghUstUcT+pWXH/iC6HZxBT21uxoEWBOsap1zeCctMaCcf1/ILgcafY3akGSSqSiyE5ixs/+oWHCONDiE0R+G/txZAIb5S99O2loKl2jgyHNh+MyP26Lb+uNvfwRG9B/hnrPwHlZQEM4va7x4rAOcvoGqqbQ0bonJ0bOpmVTHMFX32Ecx/ZBO8PgLSe3VLbqaCe1mwrBXqLmeQTpUXOVk50QIpm2IgsTdRZBInLE3rWM/j6ZgrtdD2mx6VigRx/loVEUb0rI/Hp8cl6atpf1JP6DdGkt8Ol9LfzV5BgB/Einmy/AD8gZiHT4OyMeCIgtwoaStgY+A4rGx3YpTN2LtzlFqin48kN4xo4/ZMsgepYtfEAJ","sid":"0","terminal":"0"}
+测试结果为：
+
+
+2020-08-21 20:53:14 - 接口自动化日志 - "C:/Users/Administrator/PycharmProjects/newadmin_api_framework/common/nblog_utils.py:27" - <module> - INFO - 接口自动扣测试框架，UI自动化测试框架，appnium自动化测试框架
+2020-08-21 20:53:14 - 接口自动化日志 - "C:/Users/Administrator/PycharmProjects/newadmin_api_framework/common/nblog_utils.py:28" - <module> - ERROR - 接口自动扣测试框架，UI自动化测试框架，appnium自动化测试框架
+2020-08-21 20:53:14 - 接口自动化日志 - "C:/Users/Administrator/PycharmProjects/newadmin_api_framework/common/nblog_utils.py:29" - <module> - DEBUG - 接口自动扣测试框架，UI自动化测试框架，appnium自动化测试框架
+2020-08-21 20:53:14 - 接口自动化日志 - "C:/Users/Administrator/PycharmProjects/newadmin_api_framework/common/nblog_utils.py:30" - <module> - WARNING - 接口自动扣测试框架，UI自动化测试框架，appnium自动化测试框架
+2020-08-21 20:53:14 - 接口自动化日志 - "C:/Users/Administrator/PycharmProjects/newadmin_api_framework/common/nblog_utils.py:31" - <module> - CRITICAL - 接口自动扣测试框架，UI自动化测试框架，appnium自动化测试框架
+
+2020-08-21 21:44:14 - 接口自动化日志 - "C:\Users\Administrator\PycharmProjects\newadmin_api_framework\common\requests_utils.py:77" - __post - INFO - 登录后台接口接口调用成功
+2020-08-21 21:44:14 - 接口自动化日志 - "C:\Users\Administrator\PycharmProjects\newadmin_api_framework\common\requests_utils.py:78" - __post - INFO - 
+正在执行的测试用例名称：测试能否正确登录后台接口
+正在请求的接口名称：登录后台接口
+测试用例编号：case01
+正在执行的测试用例步骤：step_01
+请求方式：post
+请求地址是：/admin/login
+请求参数：{"loginName":"liseen1","password":"000000"}
+请求头：{"Accept":"application/json, text/plain, */*","Content-Type": "application/json;charset=UTF-8","User-Agent": "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36","Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8","Accept-Encoding":"gzip, deflate","Connection": "keep-alive"}
+测试结果为：
+
+
+2020-08-21 21:44:15 - 接口自动化日志 - "C:\Users\Administrator\PycharmProjects\newadmin_api_framework\common\requests_utils.py:77" - __post - INFO - 登录后台接口接口调用成功
+2020-08-21 21:44:15 - 接口自动化日志 - "C:\Users\Administrator\PycharmProjects\newadmin_api_framework\common\requests_utils.py:78" - __post - INFO - 
+正在执行的测试用例名称：测试能否正确查询平台商管理接口
+正在请求的接口名称：登录后台接口
+测试用例编号：case02
+正在执行的测试用例步骤：step_01
+请求方式：post
+请求地址是：/admin/login
+请求参数：{"loginName":"liseen1","password":"000000"}
+请求头：{"Accept":"application/json, text/plain, */*","Content-Type": "application/json;charset=UTF-8","User-Agent": "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36","Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8","Accept-Encoding":"gzip, deflate","Connection": "keep-alive"}
+测试结果为：
+
+
+2020-08-21 21:44:16 - 接口自动化日志 - "C:\Users\Administrator\PycharmProjects\newadmin_api_framework\common\requests_utils.py:77" - __post - INFO - 查询平台商管理接口接口调用成功
+2020-08-21 21:44:16 - 接口自动化日志 - "C:\Users\Administrator\PycharmProjects\newadmin_api_framework\common\requests_utils.py:78" - __post - INFO - 
+正在执行的测试用例名称：测试能否正确查询平台商管理接口
+正在请求的接口名称：查询平台商管理接口
+测试用例编号：case02
+正在执行的测试用例步骤：step_02
+请求方式：post
+请求地址是：/admin/platform/cagent/listPage
+请求参数：{"page":1,"limit":10,"cagent":"","status":""}
+请求头：{"Accept":"application/json, text/plain, */*","Content-Type": "application/json;charset=UTF-8","User-Agent": "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36","Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8","Accept-Encoding":"gzip, deflate","Connection": "keep-alive","X-Token": "k1/ucK+lZm6UKNjVnRBD7ndG/FhE9Z4IKzR3IbMJ3fjjA2rM3eBsGR8BbRjbcsfUC4vJl6spgjuaYx9il/bOLc+xbeb7XCLjW3Ko+RmRHjtzWuv3LLBakF8ftcHp40sJ3ExpyGSsofhbhuh4F3Zm+KExqB3fqZXzUsyD5ctjdNCTr3NuQVOrKjdEja3CuliVW3lrqPkf9FYP/Sd5C2mymvALoUOKjy2GQkiW0o70rfRmL8K4Sjzf5+1KRaWhTVhMpkY1aWKED3kemJu003O1JTzD3KnU3rHfkc7dRE+jfUJYm6MkyisxiE5eRtgKOsz9WXHJE1JklX2FICxh/AtsgkSbuerfwfa83G2hw9bLN+puO2cf0q3gcfVAwnQ7pw0A3oMLJb8SwnPEE8PgntLIiB+tAe8H+wtIsIHgBgL7GJIDN9+qDnxOsOULwodg63/QADkRsO4micwxtoACim1HjgZtjuxj6mPvo/RBeeSIub+srbxP9AKSXOwO0TEZazVo","sid":"0","terminal":"0"}
+测试结果为：
+
+2020-08-21 21:44:16 - 接口自动化日志 - "C:\Users\Administrator\PycharmProjects\newadmin_api_framework\common\requests_utils.py:66" - __get - ERROR - [获取access_token接口]请求：系统异常，原因是：unexpected EOF while parsing (<unknown>, line 0)
+2020-08-21 21:44:16 - 接口自动化日志 - "C:\Users\Administrator\PycharmProjects\newadmin_api_framework\common\requests_utils.py:66" - __get - ERROR - [获取access_token接口]请求：系统异常，原因是：unexpected EOF while parsing (<unknown>, line 0)
+
+2020-08-21 21:45:39 - 接口自动化日志 - "C:\Users\Administrator\PycharmProjects\newadmin_api_framework\common\requests_utils.py:77" - __post - INFO - 登录后台接口接口调用成功
+2020-08-21 21:45:39 - 接口自动化日志 - "C:\Users\Administrator\PycharmProjects\newadmin_api_framework\common\requests_utils.py:78" - __post - INFO - 
+正在执行的测试用例名称：测试能否正确登录后台接口
+正在请求的接口名称：登录后台接口
+测试用例编号：case01
+正在执行的测试用例步骤：step_01
+请求方式：post
+请求地址是：/admin/login
+请求参数：{"loginName":"liseen1","password":"000000"}
+请求头：{"Accept":"application/json, text/plain, */*","Content-Type": "application/json;charset=UTF-8","User-Agent": "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36","Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8","Accept-Encoding":"gzip, deflate","Connection": "keep-alive"}
+测试结果为：
+
+
+2020-08-21 21:45:40 - 接口自动化日志 - "C:\Users\Administrator\PycharmProjects\newadmin_api_framework\common\requests_utils.py:77" - __post - INFO - 登录后台接口接口调用成功
+2020-08-21 21:45:40 - 接口自动化日志 - "C:\Users\Administrator\PycharmProjects\newadmin_api_framework\common\requests_utils.py:78" - __post - INFO - 
+正在执行的测试用例名称：测试能否正确查询平台商管理接口
+正在请求的接口名称：登录后台接口
+测试用例编号：case02
+正在执行的测试用例步骤：step_01
+请求方式：post
+请求地址是：/admin/login
+请求参数：{"loginName":"liseen1","password":"000000"}
+请求头：{"Accept":"application/json, text/plain, */*","Content-Type": "application/json;charset=UTF-8","User-Agent": "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36","Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8","Accept-Encoding":"gzip, deflate","Connection": "keep-alive"}
+测试结果为：
+
+
+2020-08-21 21:45:40 - 接口自动化日志 - "C:\Users\Administrator\PycharmProjects\newadmin_api_framework\common\requests_utils.py:77" - __post - INFO - 查询平台商管理接口接口调用成功
+2020-08-21 21:45:40 - 接口自动化日志 - "C:\Users\Administrator\PycharmProjects\newadmin_api_framework\common\requests_utils.py:78" - __post - INFO - 
+正在执行的测试用例名称：测试能否正确查询平台商管理接口
+正在请求的接口名称：查询平台商管理接口
+测试用例编号：case02
+正在执行的测试用例步骤：step_02
+请求方式：post
+请求地址是：/admin/platform/cagent/listPage
+请求参数：{"page":1,"limit":10,"cagent":"","status":""}
+请求头：{"Accept":"application/json, text/plain, */*","Content-Type": "application/json;charset=UTF-8","User-Agent": "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36","Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8","Accept-Encoding":"gzip, deflate","Connection": "keep-alive","X-Token": "T7ZUPhq30LeNWsZsbhZTfLslTduajCq45UKT7mLW0f+TdPgtN3HIGs2fR4aVLs6yq85EP3tZajlITzmTp+JBukuU3sNg6md70tU+pIoBSGBa5wblpT1rCTTH7hKi3Ve7i+0fhZWDpjZ+k3W1QPJY89h4szeN1JqlsBhtuSZsmTB84z6p06MT7/cnr8+vd3RhEtm8OVAtAFdp38cr0kOb10fwOH4KUdpqzjqOr0+mnEuWMv6fyVfouAifQGVoGco9zDvyHZFrPpfNbgyP5Z4FRZe8sNZm3+JPELuc6wfO3s49Gf/wGahPgRqm9+fCRguRXPTlYZBwA4SD/Y6mxG7ukBI2SJ5EqmN679CHT6U7B5ZwT4+wvg9of79ONVhs0XeTUU3OluH2hbj/TtT+kTrvkyon8XvxubRJP/hViNuCG9qV6aDpXcU8eAEvykik2UEau9G6hDO3NbnG4v5FZwWk/7mTW8ePkoFB3EFDkjMt4GbSH3FuwfBFxRBA0WkR88Uf","sid":"0","terminal":"0"}
+测试结果为：
+
+
+2020-08-21 22:06:58 - 接口自动化日志 - "C:/Users/Administrator/PycharmProjects/newadmin_api_framework/test_runner/run_case.py:38" - load_test_suite - INFO - 加载所有测试用例完毕
+2020-08-21 22:06:58 - 接口自动化日志 - "C:\Users\Administrator\PycharmProjects\newadmin_api_framework\common\requests_utils.py:77" - __post - INFO - 登录后台接口接口调用成功
+2020-08-21 22:06:58 - 接口自动化日志 - "C:\Users\Administrator\PycharmProjects\newadmin_api_framework\common\requests_utils.py:78" - __post - INFO - 
+正在执行的测试用例名称：测试能否正确登录后台接口
+正在请求的接口名称：登录后台接口
+测试用例编号：case01
+正在执行的测试用例步骤：step_01
+请求方式：post
+请求地址是：/admin/login
+请求参数：{"loginName":"liseen1","password":"000000"}
+请求头：{"Accept":"application/json, text/plain, */*","Content-Type": "application/json;charset=UTF-8","User-Agent": "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36","Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8","Accept-Encoding":"gzip, deflate","Connection": "keep-alive"}
+测试结果为：
+
+
+2020-08-21 22:06:59 - 接口自动化日志 - "C:\Users\Administrator\PycharmProjects\newadmin_api_framework\common\requests_utils.py:77" - __post - INFO - 登录后台接口接口调用成功
+2020-08-21 22:06:59 - 接口自动化日志 - "C:\Users\Administrator\PycharmProjects\newadmin_api_framework\common\requests_utils.py:78" - __post - INFO - 
+正在执行的测试用例名称：测试能否正确查询平台商管理接口
+正在请求的接口名称：登录后台接口
+测试用例编号：case02
+正在执行的测试用例步骤：step_01
+请求方式：post
+请求地址是：/admin/login
+请求参数：{"loginName":"liseen1","password":"000000"}
+请求头：{"Accept":"application/json, text/plain, */*","Content-Type": "application/json;charset=UTF-8","User-Agent": "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36","Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8","Accept-Encoding":"gzip, deflate","Connection": "keep-alive"}
+测试结果为：
+
+
+2020-08-21 22:07:01 - 接口自动化日志 - "C:\Users\Administrator\PycharmProjects\newadmin_api_framework\common\requests_utils.py:77" - __post - INFO - 查询平台商管理接口接口调用成功
+2020-08-21 22:07:01 - 接口自动化日志 - "C:\Users\Administrator\PycharmProjects\newadmin_api_framework\common\requests_utils.py:78" - __post - INFO - 
+正在执行的测试用例名称：测试能否正确查询平台商管理接口
+正在请求的接口名称：查询平台商管理接口
+测试用例编号：case02
+正在执行的测试用例步骤：step_02
+请求方式：post
+请求地址是：/admin/platform/cagent/listPage
+请求参数：{"page":1,"limit":10,"cagent":"","status":""}
+请求头：{"Accept":"application/json, text/plain, */*","Content-Type": "application/json;charset=UTF-8","User-Agent": "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36","Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8","Accept-Encoding":"gzip, deflate","Connection": "keep-alive","X-Token": "g8MR+XVSSg+RSKTcMIgES6T0YBh4FJtciWsjtevq8hoUS9IDXUPKBWeLlNkdLuetZ3V///vL22H1uBi2nYhx9tYFgle5rfPbxGA8E2HHvuRp1baeIlX8VNkt/qP//XLzi4DS55D53RZ5z7eZFqHWV3R7guXFDIemYFhC+pWrxT+EJeLzJx1h75xpFe0AeGlsYN0U6KNjAsK9a7Gh/2Mzi+rlEksLobSZKJdhdYY/JwfVRTKxFpZsr2+G6X9JeObMJSQfI5B0ENMZuYTYmg+kaWRSDTTb3k+7fOI3IHRjna1IEc7nk7sHGFlZIW4482LOdpeyX1o3DOqQhK+33qT46CRR6JHIq0ctnrNCisGRlb6mT89XSWD3BxfDlCu/SRS8mpuNfQC3CQtRv+FGUfhiR7yYm+zb2aOGFCN0sTPKRILZTvJ1i9PpZ+BHt+QqJ0XDOHdSJhDqiL2Nkc0B5wfH2bDuKxLq33PsxpSSDpGXWWeBQYU8r2EbG5cXHEzSr4ik","sid":"0","terminal":"0"}
+测试结果为：
+
+
+2020-08-21 22:07:01 - 接口自动化日志 - "C:\Users\Administrator\PycharmProjects\newadmin_api_framework\common\email_utils.py:51" - send_email - ERROR - 发送邮件失败，失败原因是tuple index out of range
+
+2020-08-21 22:08:27 - 接口自动化日志 - "C:/Users/Administrator/PycharmProjects/newadmin_api_framework/common/email_utils.py:49" - send_email - INFO - 发送邮件成功
+
+2020-08-21 22:08:33 - 接口自动化日志 - "C:/Users/Administrator/PycharmProjects/newadmin_api_framework/test_runner/run_case.py:38" - load_test_suite - INFO - 加载所有测试用例完毕
+2020-08-21 22:08:33 - 接口自动化日志 - "C:\Users\Administrator\PycharmProjects\newadmin_api_framework\common\requests_utils.py:77" - __post - INFO - 登录后台接口接口调用成功
+2020-08-21 22:08:33 - 接口自动化日志 - "C:\Users\Administrator\PycharmProjects\newadmin_api_framework\common\requests_utils.py:78" - __post - INFO - 
+正在执行的测试用例名称：测试能否正确登录后台接口
+正在请求的接口名称：登录后台接口
+测试用例编号：case01
+正在执行的测试用例步骤：step_01
+请求方式：post
+请求地址是：/admin/login
+请求参数：{"loginName":"liseen1","password":"000000"}
+请求头：{"Accept":"application/json, text/plain, */*","Content-Type": "application/json;charset=UTF-8","User-Agent": "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36","Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8","Accept-Encoding":"gzip, deflate","Connection": "keep-alive"}
+测试结果为：
+
+
+2020-08-21 22:08:35 - 接口自动化日志 - "C:\Users\Administrator\PycharmProjects\newadmin_api_framework\common\requests_utils.py:77" - __post - INFO - 登录后台接口接口调用成功
+2020-08-21 22:08:35 - 接口自动化日志 - "C:\Users\Administrator\PycharmProjects\newadmin_api_framework\common\requests_utils.py:78" - __post - INFO - 
+正在执行的测试用例名称：测试能否正确查询平台商管理接口
+正在请求的接口名称：登录后台接口
+测试用例编号：case02
+正在执行的测试用例步骤：step_01
+请求方式：post
+请求地址是：/admin/login
+请求参数：{"loginName":"liseen1","password":"000000"}
+请求头：{"Accept":"application/json, text/plain, */*","Content-Type": "application/json;charset=UTF-8","User-Agent": "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36","Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8","Accept-Encoding":"gzip, deflate","Connection": "keep-alive"}
+测试结果为：
+
+
+2020-08-21 22:08:36 - 接口自动化日志 - "C:\Users\Administrator\PycharmProjects\newadmin_api_framework\common\requests_utils.py:77" - __post - INFO - 查询平台商管理接口接口调用成功
+2020-08-21 22:08:36 - 接口自动化日志 - "C:\Users\Administrator\PycharmProjects\newadmin_api_framework\common\requests_utils.py:78" - __post - INFO - 
+正在执行的测试用例名称：测试能否正确查询平台商管理接口
+正在请求的接口名称：查询平台商管理接口
+测试用例编号：case02
+正在执行的测试用例步骤：step_02
+请求方式：post
+请求地址是：/admin/platform/cagent/listPage
+请求参数：{"page":1,"limit":10,"cagent":"","status":""}
+请求头：{"Accept":"application/json, text/plain, */*","Content-Type": "application/json;charset=UTF-8","User-Agent": "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36","Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8","Accept-Encoding":"gzip, deflate","Connection": "keep-alive","X-Token": "jmqhvOAovEee9s2q959loRnk0faZ/3xd6Zg6GTzP3KFLO/cec7HI1fC0NVuUvU3kW5EQ0zKYM0P6Lj5MNTqSnFju1iGcAs69Q+gQGWORG3g9hADHZGvTUvwNlppdi35P6qncLYyMwPcaTV+qz6BQ+ZPY47B9xH5N3Bm6I6gMsv53viANukAeucwirlYHsq46CJbAQSKrJpg/aIWWAnrL/eKIc97OdXetJRd0amLopgAVURlq8Cez1Ds00d1JDJktUcejwE380NsDyjgRVyVsXwNe9fNM/SM5Ia49S7qbHtodiQITaqd5+GHHYW8Dl/45e0LhliMe/qOLDAYK8CX8qoAHn7x1IqKjTV60JzDOtPgocoTshv1sxU7nxzW9531J6AiL6KmJKBUNhUQNea6LnfRHP/VhF8n7i2L5HqO2mle35lyVdKNAiTcv9UVIwRzSJVcNcEX6eD3occt5Hw9p7qtFulzrwr4EKqYVm5rJhGxAoSpoWs2LmjJHGZOA5yNI","sid":"0","terminal":"0"}
+测试结果为：
+
+
+2020-08-21 22:08:36 - 接口自动化日志 - "C:\Users\Administrator\PycharmProjects\newadmin_api_framework\common\email_utils.py:51" - send_email - ERROR - 发送邮件失败，失败原因是tuple index out of range
+
+2020-08-21 22:10:42 - 接口自动化日志 - "C:/Users/Administrator/PycharmProjects/newadmin_api_framework/test_runner/run_case.py:38" - load_test_suite - INFO - 加载所有测试用例完毕
+2020-08-21 22:10:43 - 接口自动化日志 - "C:\Users\Administrator\PycharmProjects\newadmin_api_framework\common\requests_utils.py:77" - __post - INFO - 登录后台接口接口调用成功
+2020-08-21 22:10:43 - 接口自动化日志 - "C:\Users\Administrator\PycharmProjects\newadmin_api_framework\common\requests_utils.py:78" - __post - INFO - 
+正在执行的测试用例名称：测试能否正确登录后台接口
+正在请求的接口名称：登录后台接口
+测试用例编号：case01
+正在执行的测试用例步骤：step_01
+请求方式：post
+请求地址是：/admin/login
+请求参数：{"loginName":"liseen1","password":"000000"}
+请求头：{"Accept":"application/json, text/plain, */*","Content-Type": "application/json;charset=UTF-8","User-Agent": "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36","Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8","Accept-Encoding":"gzip, deflate","Connection": "keep-alive"}
+测试结果为：
+
+
+2020-08-21 22:10:44 - 接口自动化日志 - "C:\Users\Administrator\PycharmProjects\newadmin_api_framework\common\requests_utils.py:77" - __post - INFO - 登录后台接口接口调用成功
+2020-08-21 22:10:44 - 接口自动化日志 - "C:\Users\Administrator\PycharmProjects\newadmin_api_framework\common\requests_utils.py:78" - __post - INFO - 
+正在执行的测试用例名称：测试能否正确查询平台商管理接口
+正在请求的接口名称：登录后台接口
+测试用例编号：case02
+正在执行的测试用例步骤：step_01
+请求方式：post
+请求地址是：/admin/login
+请求参数：{"loginName":"liseen1","password":"000000"}
+请求头：{"Accept":"application/json, text/plain, */*","Content-Type": "application/json;charset=UTF-8","User-Agent": "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36","Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8","Accept-Encoding":"gzip, deflate","Connection": "keep-alive"}
+测试结果为：
+
+
+2020-08-21 22:10:44 - 接口自动化日志 - "C:\Users\Administrator\PycharmProjects\newadmin_api_framework\common\requests_utils.py:77" - __post - INFO - 查询平台商管理接口接口调用成功
+2020-08-21 22:10:44 - 接口自动化日志 - "C:\Users\Administrator\PycharmProjects\newadmin_api_framework\common\requests_utils.py:78" - __post - INFO - 
+正在执行的测试用例名称：测试能否正确查询平台商管理接口
+正在请求的接口名称：查询平台商管理接口
+测试用例编号：case02
+正在执行的测试用例步骤：step_02
+请求方式：post
+请求地址是：/admin/platform/cagent/listPage
+请求参数：{"page":1,"limit":10,"cagent":"","status":""}
+请求头：{"Accept":"application/json, text/plain, */*","Content-Type": "application/json;charset=UTF-8","User-Agent": "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36","Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8","Accept-Encoding":"gzip, deflate","Connection": "keep-alive","X-Token": "njHRiv33vjtYlu4zw+kunHZ7eNn4i/GyD6DKrzFRduv0WfO2CQwXAfxtK1ie38xha5WQgEKIHpMQWuLWDGUBC+KphRXyaHHdGzjp7qQMOsnuvphj5Fcm9DBN1h/BPxymc5FOBAVCqQNWkZnQCDpvf7laBEaRR8+vZ74PA7+2j08lv2IQ+RGLW5AVc1gQDSsq+wopVdReMolExNLF1Wqvi7K3rSTaYKe80mY+BcEkYPWfyL9Z45Mh4tR65O5a/97cunyfC1ru8NBQiuNhMGYpcuFqK6w88n6pSpgmB3GohcQNgOCccnkeu76excbHTcv0zorB+VebURO2/qDXtHlSXy1cAgLYu4QnECSkyo7ZGaodmi5AjPSSL1IPAW0bT+m1EnT+E0gD5AUK93N9K4rqWcK0FZs6S/qN+5xaHSbN74HuLqKwDdw2FVvidnB9R1G+9K2xw6Nq7RpbovypDV9rZGizEGkBZpnGJzcCbEVDMT/MHWNraFWUJQVmb1sRrAZ5","sid":"0","terminal":"0"}
+测试结果为：
+
+2020-08-21 22:10:45 - 接口自动化日志 - "C:\Users\Administrator\PycharmProjects\newadmin_api_framework\common\email_utils.py:51" - send_email - ERROR - 发送邮件失败，失败原因是tuple index out of range
+
+2020-08-21 22:11:08 - 接口自动化日志 - "C:/Users/Administrator/PycharmProjects/newadmin_api_framework/test_runner/run_case.py:39" - load_test_suite - INFO - 加载所有测试用例完毕
+2020-08-21 22:11:08 - 接口自动化日志 - "C:\Users\Administrator\PycharmProjects\newadmin_api_framework\common\requests_utils.py:77" - __post - INFO - 登录后台接口接口调用成功
+2020-08-21 22:11:08 - 接口自动化日志 - "C:\Users\Administrator\PycharmProjects\newadmin_api_framework\common\requests_utils.py:78" - __post - INFO - 
+正在执行的测试用例名称：测试能否正确登录后台接口
+正在请求的接口名称：登录后台接口
+测试用例编号：case01
+正在执行的测试用例步骤：step_01
+请求方式：post
+请求地址是：/admin/login
+请求参数：{"loginName":"liseen1","password":"000000"}
+请求头：{"Accept":"application/json, text/plain, */*","Content-Type": "application/json;charset=UTF-8","User-Agent": "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36","Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8","Accept-Encoding":"gzip, deflate","Connection": "keep-alive"}
+测试结果为：
+
+
+2020-08-21 22:11:09 - 接口自动化日志 - "C:\Users\Administrator\PycharmProjects\newadmin_api_framework\common\requests_utils.py:77" - __post - INFO - 登录后台接口接口调用成功
+2020-08-21 22:11:09 - 接口自动化日志 - "C:\Users\Administrator\PycharmProjects\newadmin_api_framework\common\requests_utils.py:78" - __post - INFO - 
+正在执行的测试用例名称：测试能否正确查询平台商管理接口
+正在请求的接口名称：登录后台接口
+测试用例编号：case02
+正在执行的测试用例步骤：step_01
+请求方式：post
+请求地址是：/admin/login
+请求参数：{"loginName":"liseen1","password":"000000"}
+请求头：{"Accept":"application/json, text/plain, */*","Content-Type": "application/json;charset=UTF-8","User-Agent": "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36","Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8","Accept-Encoding":"gzip, deflate","Connection": "keep-alive"}
+测试结果为：
+
+
+2020-08-21 22:11:10 - 接口自动化日志 - "C:\Users\Administrator\PycharmProjects\newadmin_api_framework\common\requests_utils.py:77" - __post - INFO - 查询平台商管理接口接口调用成功
+2020-08-21 22:11:10 - 接口自动化日志 - "C:\Users\Administrator\PycharmProjects\newadmin_api_framework\common\requests_utils.py:78" - __post - INFO - 
+正在执行的测试用例名称：测试能否正确查询平台商管理接口
+正在请求的接口名称：查询平台商管理接口
+测试用例编号：case02
+正在执行的测试用例步骤：step_02
+请求方式：post
+请求地址是：/admin/platform/cagent/listPage
+请求参数：{"page":1,"limit":10,"cagent":"","status":""}
+请求头：{"Accept":"application/json, text/plain, */*","Content-Type": "application/json;charset=UTF-8","User-Agent": "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36","Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8","Accept-Encoding":"gzip, deflate","Connection": "keep-alive","X-Token": "jETz0R39IxGQh5HkEmFKNaDClg5wUQ/elw8cdygjLl2Uc6XuQLOit4NBXLuTahOwUFG0l4r33loBgfc8znIOcRmg6Nb3ITYLHAHJjaJhXrZSWujpzjzJ8/6/n0lhaX6Qfskp84C+4YalVht302j/ikK2ofsd/zVnbxlqDvkBfHZRCorpYWd6iYwCDm5pX3GQ0pPqzo5FHXqT4DlyyHD/iKhOKBRfbyq0Mcin9ZOVb9Pjzdbm7WRTzWFXuyPM1AVwE1c07HYXDh8zRwQZsxqlSppMf5VuZntmT0Dpg8a5ex7zHvo1CYk4ikmbMcVnrmKS/7BlA/nTkZzBDjMlnSvb9pX7OHYhTZhySHlXTHOQc3mDHxQRCA0SqoCE3XM11Qtp404Yg0qSFkSznc+BICbl3UySshaWYSFOddgNcILzgIK2jxIn3WJWgMwqdvys/cxqa288V9EadSlwO8VyjH36PeXLHeH6xurTlsu4yuWt9xmgjvKqyFS/t5rCsxy6puOs","sid":"0","terminal":"0"}
+测试结果为：
+
+
+2020-08-21 22:11:13 - 接口自动化日志 - "C:\Users\Administrator\PycharmProjects\newadmin_api_framework\common\email_utils.py:51" - send_email - ERROR - 发送邮件失败，失败原因是tuple index out of range
+
+2020-08-21 22:12:02 - 接口自动化日志 - "C:/Users/Administrator/PycharmProjects/newadmin_api_framework/test_runner/run_case.py:39" - load_test_suite - INFO - 加载所有测试用例完毕
+2020-08-21 22:12:03 - 接口自动化日志 - "C:\Users\Administrator\PycharmProjects\newadmin_api_framework\common\requests_utils.py:77" - __post - INFO - 登录后台接口接口调用成功
+2020-08-21 22:12:03 - 接口自动化日志 - "C:\Users\Administrator\PycharmProjects\newadmin_api_framework\common\requests_utils.py:78" - __post - INFO - 
+正在执行的测试用例名称：测试能否正确登录后台接口
+正在请求的接口名称：登录后台接口
+测试用例编号：case01
+正在执行的测试用例步骤：step_01
+请求方式：post
+请求地址是：/admin/login
+请求参数：{"loginName":"liseen1","password":"000000"}
+请求头：{"Accept":"application/json, text/plain, */*","Content-Type": "application/json;charset=UTF-8","User-Agent": "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36","Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8","Accept-Encoding":"gzip, deflate","Connection": "keep-alive"}
+测试结果为：
+
+
+2020-08-21 22:12:04 - 接口自动化日志 - "C:\Users\Administrator\PycharmProjects\newadmin_api_framework\common\requests_utils.py:77" - __post - INFO - 登录后台接口接口调用成功
+2020-08-21 22:12:04 - 接口自动化日志 - "C:\Users\Administrator\PycharmProjects\newadmin_api_framework\common\requests_utils.py:78" - __post - INFO - 
+正在执行的测试用例名称：测试能否正确查询平台商管理接口
+正在请求的接口名称：登录后台接口
+测试用例编号：case02
+正在执行的测试用例步骤：step_01
+请求方式：post
+请求地址是：/admin/login
+请求参数：{"loginName":"liseen1","password":"000000"}
+请求头：{"Accept":"application/json, text/plain, */*","Content-Type": "application/json;charset=UTF-8","User-Agent": "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36","Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8","Accept-Encoding":"gzip, deflate","Connection": "keep-alive"}
+测试结果为：
+
+
+2020-08-21 22:12:05 - 接口自动化日志 - "C:\Users\Administrator\PycharmProjects\newadmin_api_framework\common\requests_utils.py:77" - __post - INFO - 查询平台商管理接口接口调用成功
+2020-08-21 22:12:05 - 接口自动化日志 - "C:\Users\Administrator\PycharmProjects\newadmin_api_framework\common\requests_utils.py:78" - __post - INFO - 
+正在执行的测试用例名称：测试能否正确查询平台商管理接口
+正在请求的接口名称：查询平台商管理接口
+测试用例编号：case02
+正在执行的测试用例步骤：step_02
+请求方式：post
+请求地址是：/admin/platform/cagent/listPage
+请求参数：{"page":1,"limit":10,"cagent":"","status":""}
+请求头：{"Accept":"application/json, text/plain, */*","Content-Type": "application/json;charset=UTF-8","User-Agent": "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36","Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8","Accept-Encoding":"gzip, deflate","Connection": "keep-alive","X-Token": "oPE+wLnBteatmyRc33nPZMk3dBpVCqrZYkx5EECmg0uUroY8H6Fjx5OM3H7dJk6K36SJs95sDuAkQTzaTdCosTJYuTMlrPmUNe8NHsCTGWLhkpUyvHtnV01Wj7EhP+Vfm5XfuDI9RvhYb1SNJ6BuJ8JveHZqmzWzmKu6sZkC57qNiKPNkFrQ4EeH3uE7IIfCIjiYRxuayzMNqczcupvqd/bPvlvnZfyUSbMdR/M0/S2kldHMjN0F8FZ17UwW2jfGHZllU5rcVDq8FtlLkTDbsIUuz3Qv97XoIObQQ278gEqqpf3/9nJoj8fPD2MUgQfbcZ1/V8Q4/kMY5b4xHzXcsCml7mVj8JD8L/16Jpka9johBSUGVdX5cZtUKgF8S3ugQd3cNl6axIhTukzhzbhFfye4N+KevNGGUhpZ6TOOfXYOkXRKNTFYvuDHEQGwuhq29OzPGLlqtxkKvGkbe9ciJk4byKNOCBP7lSrom0TFY6YAryqsPiW68HJBYzrYl6FS","sid":"0","terminal":"0"}
+测试结果为：
+
+
+2020-08-21 22:12:07 - 接口自动化日志 - "C:\Users\Administrator\PycharmProjects\newadmin_api_framework\common\email_utils.py:51" - send_email - ERROR - 发送邮件失败，失败原因是tuple index out of range
+
+2020-08-21 22:12:54 - 接口自动化日志 - "C:/Users/Administrator/PycharmProjects/newadmin_api_framework/common/email_utils.py:49" - send_email - INFO - 发送邮件成功
+
+2020-08-21 22:13:22 - 接口自动化日志 - "C:/Users/Administrator/PycharmProjects/newadmin_api_framework/test_runner/run_case.py:39" - load_test_suite - INFO - 加载所有测试用例完毕
+2020-08-21 22:13:23 - 接口自动化日志 - "C:\Users\Administrator\PycharmProjects\newadmin_api_framework\common\requests_utils.py:77" - __post - INFO - 登录后台接口接口调用成功
+2020-08-21 22:13:23 - 接口自动化日志 - "C:\Users\Administrator\PycharmProjects\newadmin_api_framework\common\requests_utils.py:78" - __post - INFO - 
+正在执行的测试用例名称：测试能否正确登录后台接口
+正在请求的接口名称：登录后台接口
+测试用例编号：case01
+正在执行的测试用例步骤：step_01
+请求方式：post
+请求地址是：/admin/login
+请求参数：{"loginName":"liseen1","password":"000000"}
+请求头：{"Accept":"application/json, text/plain, */*","Content-Type": "application/json;charset=UTF-8","User-Agent": "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36","Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8","Accept-Encoding":"gzip, deflate","Connection": "keep-alive"}
+测试结果为：
+
+
+2020-08-21 22:13:24 - 接口自动化日志 - "C:\Users\Administrator\PycharmProjects\newadmin_api_framework\common\requests_utils.py:77" - __post - INFO - 登录后台接口接口调用成功
+2020-08-21 22:13:24 - 接口自动化日志 - "C:\Users\Administrator\PycharmProjects\newadmin_api_framework\common\requests_utils.py:78" - __post - INFO - 
+正在执行的测试用例名称：测试能否正确查询平台商管理接口
+正在请求的接口名称：登录后台接口
+测试用例编号：case02
+正在执行的测试用例步骤：step_01
+请求方式：post
+请求地址是：/admin/login
+请求参数：{"loginName":"liseen1","password":"000000"}
+请求头：{"Accept":"application/json, text/plain, */*","Content-Type": "application/json;charset=UTF-8","User-Agent": "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36","Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8","Accept-Encoding":"gzip, deflate","Connection": "keep-alive"}
+测试结果为：
+
+
+2020-08-21 22:13:25 - 接口自动化日志 - "C:\Users\Administrator\PycharmProjects\newadmin_api_framework\common\requests_utils.py:77" - __post - INFO - 查询平台商管理接口接口调用成功
+2020-08-21 22:13:25 - 接口自动化日志 - "C:\Users\Administrator\PycharmProjects\newadmin_api_framework\common\requests_utils.py:78" - __post - INFO - 
+正在执行的测试用例名称：测试能否正确查询平台商管理接口
+正在请求的接口名称：查询平台商管理接口
+测试用例编号：case02
+正在执行的测试用例步骤：step_02
+请求方式：post
+请求地址是：/admin/platform/cagent/listPage
+请求参数：{"page":1,"limit":10,"cagent":"","status":""}
+请求头：{"Accept":"application/json, text/plain, */*","Content-Type": "application/json;charset=UTF-8","User-Agent": "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36","Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8","Accept-Encoding":"gzip, deflate","Connection": "keep-alive","X-Token": "dpPnHBI5N3rZfwB+v7wDMqXN9B0TJkDlHQCsqzev7BoYZOtky2O1IDej743SYkQqCs2+HaXRbXM4KRPoR0KsvGCF0/vTU5XvwDZXV4Qd1ISkHkE/z4UtjAldeqKfWuA7Lg3FSNfqliyjDk0Y7ion077BRBKa44BHfjAMCaHyY/EArMg4KtEHs2deYg3w5oEEXd2F0PXxeiH8xW31/KIi6/1Cqz/hRDN0T2c6JFFJ5pl1f2p+XgrTj2qUrN0vlmbuy3ZLw3QUlsoDlnRu+pGrJDB5StOzZCnqp9Hpn+SNv3EK/PouLE8RLczNgox5RbqaOfwY010O50o0WZYZKTnagWA3BcV/+hmjERZgO/e0S9whmHhGIAzEoBLf4agbqdJchMedvLSpIVn1nyHoSmJiylqzsaKSlL78Y0n3hfYjeHgeFvVtCrNdCApa5Dv5pXk2IqfTsZkBEyd23ohQCSd82nhKiU8dcdZ5fg+2zjPY7K9/qIDfMQwxN6gVxkvRBwAc","sid":"0","terminal":"0"}
+测试结果为：
+
+
+2020-08-21 22:13:28 - 接口自动化日志 - "C:\Users\Administrator\PycharmProjects\newadmin_api_framework\common\email_utils.py:51" - send_email - ERROR - 发送邮件失败，失败原因是tuple index out of range
+
+2020-08-21 22:15:02 - 接口自动化日志 - "C:/Users/Administrator/PycharmProjects/newadmin_api_framework/common/email_utils.py:49" - send_email - INFO - 发送邮件成功
+
+2020-08-21 22:15:07 - 接口自动化日志 - "C:/Users/Administrator/PycharmProjects/newadmin_api_framework/test_runner/run_case.py:39" - load_test_suite - INFO - 加载所有测试用例完毕
+2020-08-21 22:15:07 - 接口自动化日志 - "C:\Users\Administrator\PycharmProjects\newadmin_api_framework\common\requests_utils.py:77" - __post - INFO - 登录后台接口接口调用成功
+2020-08-21 22:15:07 - 接口自动化日志 - "C:\Users\Administrator\PycharmProjects\newadmin_api_framework\common\requests_utils.py:78" - __post - INFO - 
+正在执行的测试用例名称：测试能否正确登录后台接口
+正在请求的接口名称：登录后台接口
+测试用例编号：case01
+正在执行的测试用例步骤：step_01
+请求方式：post
+请求地址是：/admin/login
+请求参数：{"loginName":"liseen1","password":"000000"}
+请求头：{"Accept":"application/json, text/plain, */*","Content-Type": "application/json;charset=UTF-8","User-Agent": "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36","Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8","Accept-Encoding":"gzip, deflate","Connection": "keep-alive"}
+测试结果为：
+
+
+2020-08-21 22:15:08 - 接口自动化日志 - "C:\Users\Administrator\PycharmProjects\newadmin_api_framework\common\requests_utils.py:77" - __post - INFO - 登录后台接口接口调用成功
+2020-08-21 22:15:08 - 接口自动化日志 - "C:\Users\Administrator\PycharmProjects\newadmin_api_framework\common\requests_utils.py:78" - __post - INFO - 
+正在执行的测试用例名称：测试能否正确查询平台商管理接口
+正在请求的接口名称：登录后台接口
+测试用例编号：case02
+正在执行的测试用例步骤：step_01
+请求方式：post
+请求地址是：/admin/login
+请求参数：{"loginName":"liseen1","password":"000000"}
+请求头：{"Accept":"application/json, text/plain, */*","Content-Type": "application/json;charset=UTF-8","User-Agent": "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36","Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8","Accept-Encoding":"gzip, deflate","Connection": "keep-alive"}
+测试结果为：
+
+
+2020-08-21 22:15:09 - 接口自动化日志 - "C:\Users\Administrator\PycharmProjects\newadmin_api_framework\common\requests_utils.py:77" - __post - INFO - 查询平台商管理接口接口调用成功
+2020-08-21 22:15:09 - 接口自动化日志 - "C:\Users\Administrator\PycharmProjects\newadmin_api_framework\common\requests_utils.py:78" - __post - INFO - 
+正在执行的测试用例名称：测试能否正确查询平台商管理接口
+正在请求的接口名称：查询平台商管理接口
+测试用例编号：case02
+正在执行的测试用例步骤：step_02
+请求方式：post
+请求地址是：/admin/platform/cagent/listPage
+请求参数：{"page":1,"limit":10,"cagent":"","status":""}
+请求头：{"Accept":"application/json, text/plain, */*","Content-Type": "application/json;charset=UTF-8","User-Agent": "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36","Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8","Accept-Encoding":"gzip, deflate","Connection": "keep-alive","X-Token": "QL11Zq550QLExQTEcyinVKonnQj7gSV62PVB6+h+oTBJxluzK02IPEjtP0jZyXiOsjWmy93THebkX4LY8UbV+/KiyoQn9zUNomfLQrIqutWU02MgP2yKXyfwS4NW1tLuOLhSCM4OP+09awyOQZC7B7/qC1U+hvkeudWy8FkgTDkK4vRT/JcTkEvMiajk1hBbayb0qnZDKB57nPwm1o1QEHI0/6rL0/Z6HPe1QpL0KwuIusVTiXbzgtq6ulz/fhMFC1RcP/zCeTF8qxW5UzcEppznj4ekHT9+s2VBkMkGw/wboJWfWcqSDI7iGg9ucqhu7GThmFvmdOhqYkoozg/usHdwmYmt1CKCHAn6XcvX0X2JFG5Ma9owhJmb5bNtUxsV7T3v/SvAkmILvnScL0ZdIfLZXGgIY3ItRr2YgKT3xKsTQo2nXGS4eoGAalzC0ifBNtrq4/5BVL6d22j0MdI4kEzecZbAFB++7CfULtQt6LpDR76L/rADnP/0M1t1rNwF","sid":"0","terminal":"0"}
+测试结果为：
+
+
+2020-08-21 22:15:11 - 接口自动化日志 - "C:\Users\Administrator\PycharmProjects\newadmin_api_framework\common\email_utils.py:51" - send_email - ERROR - 发送邮件失败，失败原因是：<method-wrapper '__str__' of IndexError object at 0x0000014695EF0130>
+
+2020-08-21 22:15:59 - 接口自动化日志 - "C:/Users/Administrator/PycharmProjects/newadmin_api_framework/test_runner/run_case.py:39" - load_test_suite - INFO - 加载所有测试用例完毕
+2020-08-21 22:15:59 - 接口自动化日志 - "C:\Users\Administrator\PycharmProjects\newadmin_api_framework\common\requests_utils.py:77" - __post - INFO - 登录后台接口接口调用成功
+2020-08-21 22:15:59 - 接口自动化日志 - "C:\Users\Administrator\PycharmProjects\newadmin_api_framework\common\requests_utils.py:78" - __post - INFO - 
+正在执行的测试用例名称：测试能否正确登录后台接口
+正在请求的接口名称：登录后台接口
+测试用例编号：case01
+正在执行的测试用例步骤：step_01
+请求方式：post
+请求地址是：/admin/login
+请求参数：{"loginName":"liseen1","password":"000000"}
+请求头：{"Accept":"application/json, text/plain, */*","Content-Type": "application/json;charset=UTF-8","User-Agent": "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36","Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8","Accept-Encoding":"gzip, deflate","Connection": "keep-alive"}
+测试结果为：
+
+
+2020-08-21 22:16:00 - 接口自动化日志 - "C:\Users\Administrator\PycharmProjects\newadmin_api_framework\common\requests_utils.py:77" - __post - INFO - 登录后台接口接口调用成功
+2020-08-21 22:16:00 - 接口自动化日志 - "C:\Users\Administrator\PycharmProjects\newadmin_api_framework\common\requests_utils.py:78" - __post - INFO - 
+正在执行的测试用例名称：测试能否正确查询平台商管理接口
+正在请求的接口名称：登录后台接口
+测试用例编号：case02
+正在执行的测试用例步骤：step_01
+请求方式：post
+请求地址是：/admin/login
+请求参数：{"loginName":"liseen1","password":"000000"}
+请求头：{"Accept":"application/json, text/plain, */*","Content-Type": "application/json;charset=UTF-8","User-Agent": "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36","Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8","Accept-Encoding":"gzip, deflate","Connection": "keep-alive"}
+测试结果为：
+
+2020-08-21 22:16:01 - 接口自动化日志 - "C:\Users\Administrator\PycharmProjects\newadmin_api_framework\common\requests_utils.py:77" - __post - INFO - 查询平台商管理接口接口调用成功
+2020-08-21 22:16:01 - 接口自动化日志 - "C:\Users\Administrator\PycharmProjects\newadmin_api_framework\common\requests_utils.py:78" - __post - INFO - 
+正在执行的测试用例名称：测试能否正确查询平台商管理接口
+正在请求的接口名称：查询平台商管理接口
+测试用例编号：case02
+正在执行的测试用例步骤：step_02
+请求方式：post
+请求地址是：/admin/platform/cagent/listPage
+请求参数：{"page":1,"limit":10,"cagent":"","status":""}
+请求头：{"Accept":"application/json, text/plain, */*","Content-Type": "application/json;charset=UTF-8","User-Agent": "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36","Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8","Accept-Encoding":"gzip, deflate","Connection": "keep-alive","X-Token": "cvzSm2rWNGUfUknQR8RPL9cGHQIAcw3ULBd2R6X3KPlV6Nf/AYnwJDH9NVffGunje0rzX5mVTOw96Wld0Ok5YHaWjwP+V1qtVQ4XVCuu3+rdtuiSzqXXQmRaZ8xNDWNpzPXVbg8j1HR3Esmnuk2MhUoPrRYAGCZsTu65zzjEg85s/6amB9qJM6PQ0pfvNnjMgje+YNOcYQwKW1nFRfSgNiBIEIWbEj2oWjOM4zb6uF0jVNixXZScMrnQKOw1UeUXFyoxhvHEVw8kIa1AaTYTfAyXSBw8kk0ZObKqbEcmPzrLvL8ruzdS5xt+IYukSttdxqdCvZiRILyjU+gyEtgj/ZBK1F3euv2DYnv1yjBNB9f474wvPYIvnHU18JTEM/ezHcCNvv8ruWTpATY+IVCfiWgFcMvCZ/cohzZO/a5/2/7A+hUvdZ5AcZZbDMJUUgogzIj/YDE5REpfMiYxWtFo4TyPwdYuNPLbNfKITGkZw8VKwAx1pwq2v80FbX+AhiM2","sid":"0","terminal":"0"}
+测试结果为：
+
+
+2020-08-21 22:16:03 - 接口自动化日志 - "C:\Users\Administrator\PycharmProjects\newadmin_api_framework\common\email_utils.py:51" - send_email - ERROR - 发送邮件失败，失败原因是：tuple index out of range
+
+2020-08-21 22:16:22 - 接口自动化日志 - "C:/Users/Administrator/PycharmProjects/newadmin_api_framework/test_runner/run_case.py:39" - load_test_suite - INFO - 加载所有测试用例完毕
+2020-08-21 22:16:23 - 接口自动化日志 - "C:\Users\Administrator\PycharmProjects\newadmin_api_framework\common\requests_utils.py:77" - __post - INFO - 登录后台接口接口调用成功
+2020-08-21 22:16:23 - 接口自动化日志 - "C:\Users\Administrator\PycharmProjects\newadmin_api_framework\common\requests_utils.py:78" - __post - INFO - 
+正在执行的测试用例名称：测试能否正确登录后台接口
+正在请求的接口名称：登录后台接口
+测试用例编号：case01
+正在执行的测试用例步骤：step_01
+请求方式：post
+请求地址是：/admin/login
+请求参数：{"loginName":"liseen1","password":"000000"}
+请求头：{"Accept":"application/json, text/plain, */*","Content-Type": "application/json;charset=UTF-8","User-Agent": "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36","Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8","Accept-Encoding":"gzip, deflate","Connection": "keep-alive"}
+测试结果为：
+
+
+2020-08-21 22:16:24 - 接口自动化日志 - "C:\Users\Administrator\PycharmProjects\newadmin_api_framework\common\requests_utils.py:77" - __post - INFO - 登录后台接口接口调用成功
+2020-08-21 22:16:24 - 接口自动化日志 - "C:\Users\Administrator\PycharmProjects\newadmin_api_framework\common\requests_utils.py:78" - __post - INFO - 
+正在执行的测试用例名称：测试能否正确查询平台商管理接口
+正在请求的接口名称：登录后台接口
+测试用例编号：case02
+正在执行的测试用例步骤：step_01
+请求方式：post
+请求地址是：/admin/login
+请求参数：{"loginName":"liseen1","password":"000000"}
+请求头：{"Accept":"application/json, text/plain, */*","Content-Type": "application/json;charset=UTF-8","User-Agent": "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36","Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8","Accept-Encoding":"gzip, deflate","Connection": "keep-alive"}
+测试结果为：
+
+
+2020-08-21 22:16:25 - 接口自动化日志 - "C:\Users\Administrator\PycharmProjects\newadmin_api_framework\common\requests_utils.py:77" - __post - INFO - 查询平台商管理接口接口调用成功
+2020-08-21 22:16:25 - 接口自动化日志 - "C:\Users\Administrator\PycharmProjects\newadmin_api_framework\common\requests_utils.py:78" - __post - INFO - 
+正在执行的测试用例名称：测试能否正确查询平台商管理接口
+正在请求的接口名称：查询平台商管理接口
+测试用例编号：case02
+正在执行的测试用例步骤：step_02
+请求方式：post
+请求地址是：/admin/platform/cagent/listPage
+请求参数：{"page":1,"limit":10,"cagent":"","status":""}
+请求头：{"Accept":"application/json, text/plain, */*","Content-Type": "application/json;charset=UTF-8","User-Agent": "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36","Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8","Accept-Encoding":"gzip, deflate","Connection": "keep-alive","X-Token": "GiISfjHWdcA8WtmieyN7guqHZegYFbF4R16y/UnNjjdz9MPD6XJyEC3bhrSWRQKmtCpnEqBm/b1cP8nplwdCjVTd07dQpS4+nCWCqHChTSgBYPAdUI/pOd+CXknwn/OUIqNfxYkVg2MQwGkTGXcrqzVJO+KXE7NZEqVwNQJKhU1/eOBAalVJmmvVHWBUl2/9KVDjovieo875sWsMkEStAPdU6MmfY0YTjCeBPVdELYD7qb4IkOBVM784rvwnjN4mVEmNWkWfzBVU9wmuIf0fIdAKvl5QbuqyxrAA2bSN4u1R73OOetlWn3C9Q3MBlJyaKw6CLGrOyZEUJIET0GGJC06zx+ooB+ultwVVSTMzrSS7VT8FYqJgawMPSh95Rhti0d09l955cmdZ3QuMf2hUYyfnV4F5xQaYNrBE+rlCF2hvJs0OR3Mew8YSPVGOVv9HAgNPrx2GH8/qXgKcutntwLHz0xKsDe+IL5UNAPz+ni+gpYrw/cSW9cU/YzajgiCh","sid":"0","terminal":"0"}
+测试结果为：
+
+
+2020-08-21 22:16:27 - 接口自动化日志 - "C:\Users\Administrator\PycharmProjects\newadmin_api_framework\common\email_utils.py:51" - send_email - ERROR - 发送邮件失败，失败原因是：tuple index out of range
+
+2020-08-21 22:19:32 - 接口自动化日志 - "C:/Users/Administrator/PycharmProjects/newadmin_api_framework/test_runner/run_case.py:39" - load_test_suite - INFO - 加载所有测试用例完毕
+2020-08-21 22:19:32 - 接口自动化日志 - "C:\Users\Administrator\PycharmProjects\newadmin_api_framework\common\requests_utils.py:77" - __post - INFO - 登录后台接口接口调用成功
+2020-08-21 22:19:32 - 接口自动化日志 - "C:\Users\Administrator\PycharmProjects\newadmin_api_framework\common\requests_utils.py:78" - __post - INFO - 
+正在执行的测试用例名称：测试能否正确登录后台接口
+正在请求的接口名称：登录后台接口
+测试用例编号：case01
+正在执行的测试用例步骤：step_01
+请求方式：post
+请求地址是：/admin/login
+请求参数：{"loginName":"liseen1","password":"000000"}
+请求头：{"Accept":"application/json, text/plain, */*","Content-Type": "application/json;charset=UTF-8","User-Agent": "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36","Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8","Accept-Encoding":"gzip, deflate","Connection": "keep-alive"}
+测试结果为：
+
+
+2020-08-21 22:19:33 - 接口自动化日志 - "C:\Users\Administrator\PycharmProjects\newadmin_api_framework\common\requests_utils.py:77" - __post - INFO - 登录后台接口接口调用成功
+2020-08-21 22:19:33 - 接口自动化日志 - "C:\Users\Administrator\PycharmProjects\newadmin_api_framework\common\requests_utils.py:78" - __post - INFO - 
+正在执行的测试用例名称：测试能否正确查询平台商管理接口
+正在请求的接口名称：登录后台接口
+测试用例编号：case02
+正在执行的测试用例步骤：step_01
+请求方式：post
+请求地址是：/admin/login
+请求参数：{"loginName":"liseen1","password":"000000"}
+请求头：{"Accept":"application/json, text/plain, */*","Content-Type": "application/json;charset=UTF-8","User-Agent": "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36","Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8","Accept-Encoding":"gzip, deflate","Connection": "keep-alive"}
+测试结果为：
+
+
+2020-08-21 22:19:34 - 接口自动化日志 - "C:\Users\Administrator\PycharmProjects\newadmin_api_framework\common\requests_utils.py:77" - __post - INFO - 查询平台商管理接口接口调用成功
+2020-08-21 22:19:34 - 接口自动化日志 - "C:\Users\Administrator\PycharmProjects\newadmin_api_framework\common\requests_utils.py:78" - __post - INFO - 
+正在执行的测试用例名称：测试能否正确查询平台商管理接口
+正在请求的接口名称：查询平台商管理接口
+测试用例编号：case02
+正在执行的测试用例步骤：step_02
+请求方式：post
+请求地址是：/admin/platform/cagent/listPage
+请求参数：{"page":1,"limit":10,"cagent":"","status":""}
+请求头：{"Accept":"application/json, text/plain, */*","Content-Type": "application/json;charset=UTF-8","User-Agent": "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36","Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8","Accept-Encoding":"gzip, deflate","Connection": "keep-alive","X-Token": "JkYrRZB0fgBqcCbZcaGTPXtaz8Ve0kAylOOcx4tn9S7g+PNuJA0mWdINdjA0D8bdX1v2UGtj5zyTW96TsIdW9Z6VZT+SSOFA+hyrmSdvrEjQ0EfF3OdPKkb1dX32TMXNTauIIGL3sB5Y4z80WUdhoYRD6xI8G/ivC0qc0jEcXVRPisOm0leV7b7WxxuqVaLasA0enerMuSaCLLXkl18A/TmqsBmaDokIn3DMcHmPJiDO5NXiJnWF8DkVqa+2bvtHZlg4zUEtu1ylgMI8U0YuqdzhuqeE7LB05ej0OJpYryTrdxh1ZGZgQGpUMJQb0lR+q6uN0R5yB91UffSUqbMi0SnMRQzhl+FNjMimzCTulemyvwayFYfiVJ7rULn7rQBrCeC9RxPIqoAAUJkvTPyx7ew6GMHZH/JueeHqmvO7ZTicJ9VTOErmK1rk1k/Amwko5kYpxv/9/0xgYWWJ0v4gf4OT6u5cIrkVCeM3Byvr33lmJUHyVexaJhJ7fO6gtDk6","sid":"0","terminal":"0"}
+测试结果为：
+
+
+2020-08-21 22:19:36 - 接口自动化日志 - "C:\Users\Administrator\PycharmProjects\newadmin_api_framework\common\email_utils.py:51" - send_email - ERROR - 发送邮件失败，失败原因是：tuple index out of range
+
+2020-08-21 22:21:10 - 接口自动化日志 - "C:/Users/Administrator/PycharmProjects/newadmin_api_framework/common/email_utils.py:49" - send_email - INFO - 发送邮件成功
+
+2020-08-21 22:21:31 - 接口自动化日志 - "C:/Users/Administrator/PycharmProjects/newadmin_api_framework/test_runner/run_case.py:39" - load_test_suite - INFO - 加载所有测试用例完毕
+2020-08-21 22:21:32 - 接口自动化日志 - "C:\Users\Administrator\PycharmProjects\newadmin_api_framework\common\requests_utils.py:77" - __post - INFO - 登录后台接口接口调用成功
+2020-08-21 22:21:32 - 接口自动化日志 - "C:\Users\Administrator\PycharmProjects\newadmin_api_framework\common\requests_utils.py:78" - __post - INFO - 
+正在执行的测试用例名称：测试能否正确登录后台接口
+正在请求的接口名称：登录后台接口
+测试用例编号：case01
+正在执行的测试用例步骤：step_01
+请求方式：post
+请求地址是：/admin/login
+请求参数：{"loginName":"liseen1","password":"000000"}
+请求头：{"Accept":"application/json, text/plain, */*","Content-Type": "application/json;charset=UTF-8","User-Agent": "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36","Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8","Accept-Encoding":"gzip, deflate","Connection": "keep-alive"}
+测试结果为：
+
+
+2020-08-21 22:21:33 - 接口自动化日志 - "C:\Users\Administrator\PycharmProjects\newadmin_api_framework\common\requests_utils.py:77" - __post - INFO - 登录后台接口接口调用成功
+2020-08-21 22:21:33 - 接口自动化日志 - "C:\Users\Administrator\PycharmProjects\newadmin_api_framework\common\requests_utils.py:78" - __post - INFO - 
+正在执行的测试用例名称：测试能否正确查询平台商管理接口
+正在请求的接口名称：登录后台接口
+测试用例编号：case02
+正在执行的测试用例步骤：step_01
+请求方式：post
+请求地址是：/admin/login
+请求参数：{"loginName":"liseen1","password":"000000"}
+请求头：{"Accept":"application/json, text/plain, */*","Content-Type": "application/json;charset=UTF-8","User-Agent": "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36","Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8","Accept-Encoding":"gzip, deflate","Connection": "keep-alive"}
+测试结果为：
+
+
+2020-08-21 22:21:34 - 接口自动化日志 - "C:\Users\Administrator\PycharmProjects\newadmin_api_framework\common\requests_utils.py:77" - __post - INFO - 查询平台商管理接口接口调用成功
+2020-08-21 22:21:34 - 接口自动化日志 - "C:\Users\Administrator\PycharmProjects\newadmin_api_framework\common\requests_utils.py:78" - __post - INFO - 
+正在执行的测试用例名称：测试能否正确查询平台商管理接口
+正在请求的接口名称：查询平台商管理接口
+测试用例编号：case02
+正在执行的测试用例步骤：step_02
+请求方式：post
+请求地址是：/admin/platform/cagent/listPage
+请求参数：{"page":1,"limit":10,"cagent":"","status":""}
+请求头：{"Accept":"application/json, text/plain, */*","Content-Type": "application/json;charset=UTF-8","User-Agent": "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36","Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8","Accept-Encoding":"gzip, deflate","Connection": "keep-alive","X-Token": "Z1lxIXUin1JgsRXjxPMsL22pMjQPV7utOJslOVixSeRH+uwXJV8m6XOb+TQvns9XhnqfsMg3S/fNHqj6R9hi1nJCk9Lq94PoCQq19CGFzkNjAmZbyiZ38P6D6V8BleJbiO9IJOaVu60p2jf+GkkU0Rrd87PwdshJxY86Eq0Uh69eEtTofpO3gL/j2f84fidR4QMWFrcHGo6wvyBkUHR/bQma4f8YIqj6T1+S97fH7+n22smWsxS1i1Flue5XQNzolQMCk9GmUurjE0fFJaKSDukaQBB8FT40RmGKlm2Lyf4SgmMWiurniKPBw6ZTyyB6myMS8EZrSoZnZjG3eg5SrWjjdruXcNGc5TAKRo1p/yG+NtRreqRz2RVQ8KHTIjR1cDD0SQzQvzwVPIfim0r1JFQOZwnG3Dhh2TEAny8lN3ICMxmgDk+RQLicsq1rUY7wQ6wXOsaKM7vyIeaabIUba7nckzln9LSSSoh+kiq7wMYjHwBvHnsy1zlNkI8E1S+u","sid":"0","terminal":"0"}
+测试结果为：
+
+
+2020-08-21 22:21:36 - 接口自动化日志 - "C:\Users\Administrator\PycharmProjects\newadmin_api_framework\common\email_utils.py:51" - send_email - ERROR - 发送邮件失败，失败原因是：tuple index out of range
+

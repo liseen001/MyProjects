@@ -1,0 +1,802 @@
+2020-08-24 12:07:40 - 接口自动化日志 - "C:\Users\Administrator\PycharmProjects\newadmin_api_framework\common\requests_utils.py:77" - __post - INFO - 查询积分商城类别接口调用成功
+2020-08-24 12:07:40 - 接口自动化日志 - "C:\Users\Administrator\PycharmProjects\newadmin_api_framework\common\requests_utils.py:78" - __post - INFO - 
+正在执行的测试用例名称：验证能正常查询金积分商城类别
+正在请求的接口名称：查询积分商城类别
+测试用例编号：case03
+正在执行的测试用例步骤：step_02
+请求方式：post
+请求地址是：/admin/mall/plu/cate/page
+请求参数：{"page":1,"limit":10,"cid":""}
+请求头：{"Accept":"application/json, text/plain, */*","Content-Type": "application/json;charset=UTF-8","User-Agent": "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36","Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8","Accept-Encoding":"gzip, deflate","Connection": "keep-alive","X-Token": "Z3dAFfFRgrxTTfIwJ6ZvDK2WqKSCUv9Jyl7US9+1yIJLagJmiW8hfN6VMDTeJ0uw2Uw2/dmafKY66R/bp4KCENu0eqpKDjfEvhc7PkRizlKVqtiI4ar6kpCCIt/dck48NXw2iCVdJpwI3IT+f5jlRHKZGn35obGQOgqzyl7EKnNOme2zyC2jlNQ7n7It8DDRXC+CHEmIlBjc3HY3uKjtfWmaVc8QzsCZGJbmhWTlKrfsL36sPeW6eKMALCJ/rNAsNwTfkMEfqDQ97Iz64+aG9hA0spzA+n/d24OIrV35O2HL7mEs9XIoHisvPmmGO1cotxLSW6QZshgIRKZ8ZZPULY7V0clvr1nmblVIJjFyRtEeAOd7omTQIqfcMJJu0DU8iD5I8GNF0zNJi9Hiv4h8LLhkmCwJLJUKpBF2rlwIt881i6i1hXWlAy5sxDhBmRQrp9KHYslTMrVxtR7BO5Z/HiFSgAEnoLBGO0UIvB7LrQbRW7H3lzTRLUhStceN8clJ","sid":"0","terminal":"0"}
+
+
+2020-08-24 12:07:42 - 接口自动化日志 - "C:\Users\Administrator\PycharmProjects\newadmin_api_framework\common\requests_utils.py:77" - __post - INFO - 登录后台接口接口调用成功
+2020-08-24 12:07:42 - 接口自动化日志 - "C:\Users\Administrator\PycharmProjects\newadmin_api_framework\common\requests_utils.py:78" - __post - INFO - 
+正在执行的测试用例名称：验证能正常查询金积分商城商品
+正在请求的接口名称：登录后台接口
+测试用例编号：case04
+正在执行的测试用例步骤：step_01
+请求方式：post
+请求地址是：/admin/login
+请求参数：{"loginName":"liseen1","password":"000000"}
+请求头：{"Accept":"application/json, text/plain, */*","Content-Type": "application/json;charset=UTF-8","User-Agent": "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36","Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8","Accept-Encoding":"gzip, deflate","Connection": "keep-alive"}
+
+
+2020-08-24 12:07:45 - 接口自动化日志 - "C:\Users\Administrator\PycharmProjects\newadmin_api_framework\common\requests_utils.py:77" - __post - INFO - 积分商品查询接口接口调用成功
+2020-08-24 12:07:45 - 接口自动化日志 - "C:\Users\Administrator\PycharmProjects\newadmin_api_framework\common\requests_utils.py:78" - __post - INFO - 
+正在执行的测试用例名称：验证能正常查询金积分商城商品
+正在请求的接口名称：积分商品查询接口
+测试用例编号：case04
+正在执行的测试用例步骤：step_02
+请求方式：post
+请求地址是：/admin/mall/plu/info/page
+请求参数：{"page":1,"limit":10,"cid":"","cateid":"","pluname":""}
+请求头：{"Accept":"application/json, text/plain, */*","Content-Type": "application/json;charset=UTF-8","User-Agent": "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36","Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8","Accept-Encoding":"gzip, deflate","Connection": "keep-alive","X-Token": "nUyF/bh0aESEOjMKAELOv8mm8+Z+AY+N57LOj5Dhq7OdlzXVODEyoqMD/7nKrT3U7mYIzO+DEaGaWM5osFc+s+QasfGuca7kZpyIsB51n/aQbLm20KYsZinymyiKuO1j0OLXtPUEa7cFTwWdEXJ5fZAoUGvzZypR57YeKdsLPnBNkE/QiED6f6klBrXOPYTeYnLNvaaNiCuIGOWQFzwTaPnpLki3Tv0bayZ8TX1VAKHwu0mEMRo8dwgsPQ4iJo1oARJutOw8fs4XJTDEl5zxqkVtnUj0/WdrxWabeehmpiqHyUj3i+ilyMOz4awd3fZr/KmsK7a8Il8dE6TdqzXBPWj/Rwfw85MR71cn4SVVgvoguFY5I2Qf9MzurVgGEtEKE9YRSzgO4G0VRYhH824dmTNrVTvBzOB4tjgWlHCH4cdpsyZv25dooXFI/06EnzjlcUMapc44EEkaaQFj6EHKmnmS6qPduqoT48J9Es77+1CPWLm6F9eY6aY4hbkixPSm","sid":"0","terminal":"0"}
+
+
+2020-08-24 12:07:46 - 接口自动化日志 - "C:\Users\Administrator\PycharmProjects\newadmin_api_framework\common\requests_utils.py:77" - __post - INFO - 登录后台接口接口调用成功
+2020-08-24 12:07:46 - 接口自动化日志 - "C:\Users\Administrator\PycharmProjects\newadmin_api_framework\common\requests_utils.py:78" - __post - INFO - 
+正在执行的测试用例名称：验证能正常查询金积分商城库存
+正在请求的接口名称：登录后台接口
+测试用例编号：case05
+正在执行的测试用例步骤：step_01
+请求方式：post
+请求地址是：/admin/login
+请求参数：{"loginName":"liseen1","password":"000000"}
+请求头：{"Accept":"application/json, text/plain, */*","Content-Type": "application/json;charset=UTF-8","User-Agent": "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36","Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8","Accept-Encoding":"gzip, deflate","Connection": "keep-alive"}
+
+
+2020-08-24 12:07:47 - 接口自动化日志 - "C:\Users\Administrator\PycharmProjects\newadmin_api_framework\common\requests_utils.py:77" - __post - INFO - 积分商城库存查询接口调用成功
+2020-08-24 12:07:47 - 接口自动化日志 - "C:\Users\Administrator\PycharmProjects\newadmin_api_framework\common\requests_utils.py:78" - __post - INFO - 
+正在执行的测试用例名称：验证能正常查询金积分商城库存
+正在请求的接口名称：积分商城库存查询
+测试用例编号：case05
+正在执行的测试用例步骤：step_02
+请求方式：post
+请求地址是：/admin/mall/plu/inventory/page
+请求参数：{"page":1,"limit":10,"cid":"","cateid":""}
+请求头：{"Accept":"application/json, text/plain, */*","Content-Type": "application/json;charset=UTF-8","User-Agent": "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36","Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8","Accept-Encoding":"gzip, deflate","Connection": "keep-alive","X-Token": "HEFf1M5weahhDJ9XIdfYkjz7nWzUvC1ZCVz30AB9eVXIwcahHOSFfqwJdItvFleMvlRXtv9fQzsjbpe234VPXW/9sitvy02n33hhJ6BzL271LT/ZymVr6OXuxE+rJZBswrzHICPrpPQNgNB+t9Y4DYszKl7kQIyJsHxf9FdOmMJsXCQfoDbNGzMaLPPdhYPMuRgj/PX5jGrquf7gknq2RHPQmdFf4AFlvT+1mbyjvwbfnGW6mQY9nEo67dT7GbKYY+inrBBHGabTZrCYfPPGttaYbcdm9J+6ABbasCawBmLd8oMq02I3sCAg5YoQ3tYlVF8o0okGhmj73OAVqvO8N6CIG0xgpxsxeMGIPFGF1OGP5KkDm7C+6b5Fb0rAdoU59rZLBXOqj/4PGIKZCHCf8j+1iV+09KNiUPRYkk7N15fXIeeeJnt/knEN1Gg3hmhmI/drHYPYzvcY/s4q8O9CAhTsz2BldNhftSD/BOIUo+HgF1/p5qLQk9F8ED1HklQB","sid":"0","terminal":"0"}
+
+
+2020-08-24 12:07:48 - 接口自动化日志 - "C:\Users\Administrator\PycharmProjects\newadmin_api_framework\common\requests_utils.py:77" - __post - INFO - 登录后台接口接口调用成功
+2020-08-24 12:07:48 - 接口自动化日志 - "C:\Users\Administrator\PycharmProjects\newadmin_api_framework\common\requests_utils.py:78" - __post - INFO - 
+正在执行的测试用例名称：验证能正常查询金积分商城库存流水
+正在请求的接口名称：登录后台接口
+测试用例编号：case06
+正在执行的测试用例步骤：step_01
+请求方式：post
+请求地址是：/admin/login
+请求参数：{"loginName":"liseen1","password":"000000"}
+请求头：{"Accept":"application/json, text/plain, */*","Content-Type": "application/json;charset=UTF-8","User-Agent": "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36","Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8","Accept-Encoding":"gzip, deflate","Connection": "keep-alive"}
+
+
+2020-08-24 12:07:49 - 接口自动化日志 - "C:\Users\Administrator\PycharmProjects\newadmin_api_framework\common\requests_utils.py:77" - __post - INFO - 积分商城库存流水查询接口调用成功
+2020-08-24 12:07:49 - 接口自动化日志 - "C:\Users\Administrator\PycharmProjects\newadmin_api_framework\common\requests_utils.py:78" - __post - INFO - 
+正在执行的测试用例名称：验证能正常查询金积分商城库存流水
+正在请求的接口名称：积分商城库存流水查询
+测试用例编号：case06
+正在执行的测试用例步骤：step_02
+请求方式：post
+请求地址是：/admin/mall/plu/inventory/log/page
+请求参数：{"page":1,"limit":10,"cid":"","pluname":"","cateid":"","time":["2020-08-24 00:00:00","2021-08-24 23:59:59"]}
+请求头：{"Accept":"application/json, text/plain, */*","Content-Type": "application/json;charset=UTF-8","User-Agent": "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36","Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8","Accept-Encoding":"gzip, deflate","Connection": "keep-alive","X-Token": "KekxQi1OEU9KohMrslJ2Wdsk5p9OVmESMUAQ02gtDKiynH8MLKJHWPszwafI97W4gW5MJwMcYnw2VFSklsL75mSnX/yWzEyQSldNbtrvBg8C6L9sv3b9bbB0cQUqoBvpPPkAvcecPyWk3ih1lyKeiqLSkXkZPd2SG0JWRFUv0fEf32cyY0wBsq6fDPT+NkfUyViIfenfN/O5zkTx3x0A+kDCWOGrTeCn2KeViuYEORhqz9ALIFfRYLAfMNcDlACHSPkqSqEpeR2vZAaJlZ5Pl7MTbHDE91Jf9BEwp0X+ak6i1Mq7XC3LpnAxEXToIEx0FgwJqaVxNUYHiKOi+UzSslTPcfdnHD/tiBiTFukTfaTg3azMKBocao3x2W7kIqm3rHH04zDPujtCOoQJsQaHdpVxEaqxz1GfnM5k3NjwVq1+iEGYLUOBlXduqoqwSnJHg1ayhyeL6iTvMZt1O3GykwsiNqEw4w9I2RNhAKWrPqZ4VMOyG9HDWoKndeeSVuc+","sid":"0","terminal":"0"}
+
+
+2020-08-24 12:07:52 - 接口自动化日志 - "C:/Users/Administrator/PycharmProjects/newadmin_api_framework/test_runner/run_case.py:72" - <module> - INFO - 
+
+===================================================已执行完所有测试用例，测试活动结束==========================================
+
+
+2020-08-24 12:07:52 - 接口自动化日志 - "C:/Users/Administrator/PycharmProjects/newadmin_api_framework/test_runner/run_case.py:77" - <module> - INFO - 
+
+===================================================测试活动已结束，是否发送报告===================================================
+
+
+
+2020-08-24 12:07:56 - 接口自动化日志 - "C:/Users/Administrator/PycharmProjects/newadmin_api_framework/test_runner/run_case.py:85" - <module> - INFO - 各位大佬不需要测试报告结果，没有发送测试报告
+
+2020-08-24 12:08:29 - 接口自动化日志 - "C:/Users/Administrator/PycharmProjects/newadmin_api_framework/test_runner/run_case.py:64" - <module> - INFO - 
+
+====================================================开始清除上次测试结果保留的值====================================================
+
+
+2020-08-24 12:08:29 - 接口自动化日志 - "C:/Users/Administrator/PycharmProjects/newadmin_api_framework/test_runner/run_case.py:66" - <module> - INFO - 
+
+====================================================开始清除上次测试结果保留的值成功====================================================
+
+
+2020-08-24 12:08:29 - 接口自动化日志 - "C:/Users/Administrator/PycharmProjects/newadmin_api_framework/test_runner/run_case.py:51" - run - INFO - 
+
+====================================================创建测试报告文件路径成功====================================================
+
+
+2020-08-24 12:08:29 - 接口自动化日志 - "C:\Users\Administrator\PycharmProjects\newadmin_api_framework\api_testcase\api_test.py:16" - <module> - INFO - 
+
+====================================================正在获取测试用例数据====================================================
+
+
+2020-08-24 12:08:29 - 接口自动化日志 - "C:/Users/Administrator/PycharmProjects/newadmin_api_framework/test_runner/run_case.py:40" - load_test_suite - INFO - 
+
+====================================================加载所有测试用例完毕====================================================
+
+
+2020-08-24 12:08:29 - 接口自动化日志 - "C:/Users/Administrator/PycharmProjects/newadmin_api_framework/test_runner/run_case.py:41" - load_test_suite - INFO - 
+
+====================================================开始执行所有测试用例====================================================
+
+
+2020-08-24 12:08:30 - 接口自动化日志 - "C:\Users\Administrator\PycharmProjects\newadmin_api_framework\common\requests_utils.py:77" - __post - INFO - 登录后台接口接口调用成功
+2020-08-24 12:08:30 - 接口自动化日志 - "C:\Users\Administrator\PycharmProjects\newadmin_api_framework\common\requests_utils.py:78" - __post - INFO - 
+正在执行的测试用例名称：测试能否正确登录后台接口
+正在请求的接口名称：登录后台接口
+测试用例编号：case01
+正在执行的测试用例步骤：step_01
+请求方式：post
+请求地址是：/admin/login
+请求参数：{"loginName":"liseen1","password":"000000"}
+请求头：{"Accept":"application/json, text/plain, */*","Content-Type": "application/json;charset=UTF-8","User-Agent": "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36","Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8","Accept-Encoding":"gzip, deflate","Connection": "keep-alive"}
+
+
+2020-08-24 12:08:33 - 接口自动化日志 - "C:\Users\Administrator\PycharmProjects\newadmin_api_framework\common\requests_utils.py:77" - __post - INFO - 登录后台接口接口调用成功
+2020-08-24 12:08:33 - 接口自动化日志 - "C:\Users\Administrator\PycharmProjects\newadmin_api_framework\common\requests_utils.py:78" - __post - INFO - 
+正在执行的测试用例名称：测试能否正确查询平台商管理接口
+正在请求的接口名称：登录后台接口
+测试用例编号：case02
+正在执行的测试用例步骤：step_01
+请求方式：post
+请求地址是：/admin/login
+请求参数：{"loginName":"liseen1","password":"000000"}
+请求头：{"Accept":"application/json, text/plain, */*","Content-Type": "application/json;charset=UTF-8","User-Agent": "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36","Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8","Accept-Encoding":"gzip, deflate","Connection": "keep-alive"}
+
+
+2020-08-24 12:08:36 - 接口自动化日志 - "C:\Users\Administrator\PycharmProjects\newadmin_api_framework\common\requests_utils.py:77" - __post - INFO - 查询平台商管理接口接口调用成功
+2020-08-24 12:08:36 - 接口自动化日志 - "C:\Users\Administrator\PycharmProjects\newadmin_api_framework\common\requests_utils.py:78" - __post - INFO - 
+正在执行的测试用例名称：测试能否正确查询平台商管理接口
+正在请求的接口名称：查询平台商管理接口
+测试用例编号：case02
+正在执行的测试用例步骤：step_02
+请求方式：post
+请求地址是：/admin/platform/cagent/listPage
+请求参数：{"page":1,"limit":10,"cagent":"","status":""}
+请求头：{"Accept":"application/json, text/plain, */*","Content-Type": "application/json;charset=UTF-8","User-Agent": "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36","Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8","Accept-Encoding":"gzip, deflate","Connection": "keep-alive","X-Token": "gn7RuTJUGTkv7ZxHBkO49a6GciaYsPuSAcQ6zhQ2gNtHpOgoPeNHe2CBHDAd6CGHNvKcDMHbXj2BPaHBuzRFLcMlL9ek9DTvDdDxJuE6CixdMBuzwoqLZxW0ArKjcQswescRkTZKP8NeZTEOhu2/9VV+DngmafQD+wofZTIqNlgR/ZRyndSsaoG4ftAvqgc4NHXa1FbRL9mzpUjWziMXt5hDXb35q3wrZYC+VeGnZsTvs6DrPXHi6J/pIh9oRH8i98VtIxDj5nSlUkmNBOYJn3B1ffaAvPMnBi9zLe8360c+HDzm2MAn5hjtU7vCk1jou0fB6jPoxdA9n01P820FTn7/0yeeQuVuuy3MVdJvqloBf8H8h9McnF8qK9hdsToUgG2xZhAbP6su/z4gUf7H13ctwmTWCMiA8CQpfmpWyHtu4GhHn66Y9Ndkk/WlcepTqoNxvaIzPNWj1SssZz/xQTQ2E6IFniLx92rWg/lCSWpi3ely2hAaKFhkJzIZr1lI","sid":"0","terminal":"0"}
+
+
+2020-08-24 12:08:37 - 接口自动化日志 - "C:\Users\Administrator\PycharmProjects\newadmin_api_framework\common\requests_utils.py:77" - __post - INFO - 登录后台接口接口调用成功
+2020-08-24 12:08:37 - 接口自动化日志 - "C:\Users\Administrator\PycharmProjects\newadmin_api_framework\common\requests_utils.py:78" - __post - INFO - 
+正在执行的测试用例名称：验证能正常查询金积分商城类别
+正在请求的接口名称：登录后台接口
+测试用例编号：case03
+正在执行的测试用例步骤：step_01
+请求方式：post
+请求地址是：/admin/login
+请求参数：{"loginName":"liseen1","password":"000000"}
+请求头：{"Accept":"application/json, text/plain, */*","Content-Type": "application/json;charset=UTF-8","User-Agent": "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36","Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8","Accept-Encoding":"gzip, deflate","Connection": "keep-alive"}
+
+
+2020-08-24 12:08:38 - 接口自动化日志 - "C:\Users\Administrator\PycharmProjects\newadmin_api_framework\common\requests_utils.py:77" - __post - INFO - 查询积分商城类别接口调用成功
+2020-08-24 12:08:38 - 接口自动化日志 - "C:\Users\Administrator\PycharmProjects\newadmin_api_framework\common\requests_utils.py:78" - __post - INFO - 
+正在执行的测试用例名称：验证能正常查询金积分商城类别
+正在请求的接口名称：查询积分商城类别
+测试用例编号：case03
+正在执行的测试用例步骤：step_02
+请求方式：post
+请求地址是：/admin/mall/plu/cate/page
+请求参数：{"page":1,"limit":10,"cid":""}
+请求头：{"Accept":"application/json, text/plain, */*","Content-Type": "application/json;charset=UTF-8","User-Agent": "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36","Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8","Accept-Encoding":"gzip, deflate","Connection": "keep-alive","X-Token": "cMG5vvUaymdEOx0rBHb7SSyJgFt5PwQrAe7u4vAnYrq/BVWUKrQx0xp+Akh13MgCVHIc/mS4GKmStRSr8UycZnTpylsW7m9xX20QhYatiIpE+faOKbh07+KCqiWOIUXIhrLHguvtj5HmDg+8utg1MpvOodJq+HbyM9LisgNlCyMHjYHlWX8VrQL2s7u1zwvqGsxtltnS24uXDuMcS0IB0jlZox9PSf7SWXS97vySKpkdqv6BLfD9l4r16IlTaXBakAWSePeW0mSKD30VCxsUG0YgsqtNURguVbco9VcK5EoLeGfzrNZXN0u0Sm+9Nn4EocVCTB8f9D7zN3LySXl9gXqexYGW5F1Dn1to5ux/LaxLQTH8kXfvQAIzB696ivUmMBk2eRfk/4FOLa1Gf4xYsYzSmdWiCH2GVIfbcGFTi+ZD1z96NaaPRAKcMp713FOOtu+rFqcy8fk4fWxXhVBrX6RmMlu2BOQgTYAElY4roGrMw3ek6+mao3vFr78oOUw+","sid":"0","terminal":"0"}
+
+
+2020-08-24 12:08:40 - 接口自动化日志 - "C:\Users\Administrator\PycharmProjects\newadmin_api_framework\common\requests_utils.py:77" - __post - INFO - 登录后台接口接口调用成功
+2020-08-24 12:08:40 - 接口自动化日志 - "C:\Users\Administrator\PycharmProjects\newadmin_api_framework\common\requests_utils.py:78" - __post - INFO - 
+正在执行的测试用例名称：验证能正常查询金积分商城商品
+正在请求的接口名称：登录后台接口
+测试用例编号：case04
+正在执行的测试用例步骤：step_01
+请求方式：post
+请求地址是：/admin/login
+请求参数：{"loginName":"liseen1","password":"000000"}
+请求头：{"Accept":"application/json, text/plain, */*","Content-Type": "application/json;charset=UTF-8","User-Agent": "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36","Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8","Accept-Encoding":"gzip, deflate","Connection": "keep-alive"}
+
+
+2020-08-24 12:08:42 - 接口自动化日志 - "C:\Users\Administrator\PycharmProjects\newadmin_api_framework\common\requests_utils.py:77" - __post - INFO - 积分商品查询接口接口调用成功
+2020-08-24 12:08:42 - 接口自动化日志 - "C:\Users\Administrator\PycharmProjects\newadmin_api_framework\common\requests_utils.py:78" - __post - INFO - 
+正在执行的测试用例名称：验证能正常查询金积分商城商品
+正在请求的接口名称：积分商品查询接口
+测试用例编号：case04
+正在执行的测试用例步骤：step_02
+请求方式：post
+请求地址是：/admin/mall/plu/info/page
+请求参数：{"page":1,"limit":10,"cid":"","cateid":"","pluname":""}
+请求头：{"Accept":"application/json, text/plain, */*","Content-Type": "application/json;charset=UTF-8","User-Agent": "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36","Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8","Accept-Encoding":"gzip, deflate","Connection": "keep-alive","X-Token": "DekDeKXXIAIxk0fc7/0SMqKFXp5Tk6H1ulhpX0pfUsQq002XM9oGu4mwccAFPJ6+fXCIWj4E3q0YA7U/UHeeZQwF5EU+YqAIsIUggpg/PIETfuM09y23nqqY7Fmg1gCn4n/X2OvlC3eh6+rfo47F0dVu1fPKVmHNqNKW3HJeyPaN++zeAoEEBlgi/aiT8yS2Bwt+Yu7E13li7BL4ycwsUtD4EMm8Ijjb8SbruHys0TFiTWcILN4Vm8D9YmWtHyQcF3oTx5XMJzivDaurawiQPJhfMw6PWoEiy3VC82ISfJkdCDqYEwNaTWpqhgg7+KyWJIZPjLZWIE9fr5p57AE69phowSRCFZxUsEjx/g95Z1nGpHbCN5YSmYmVRfQX+OV7b2m4fUF3Wknh+EMpyjMiuvInjjXPzsJn5soDmaiYiOXlBwpMefZfv5QcijiAH+bGjhxJlbjcUSPzGEK4jMl+UqAWe82NLpLQgKEhA9OGW0gAidvVUxxSXRN7Ri3WqE4R","sid":"0","terminal":"0"}
+
+
+2020-08-24 12:08:43 - 接口自动化日志 - "C:\Users\Administrator\PycharmProjects\newadmin_api_framework\common\requests_utils.py:77" - __post - INFO - 登录后台接口接口调用成功
+2020-08-24 12:08:43 - 接口自动化日志 - "C:\Users\Administrator\PycharmProjects\newadmin_api_framework\common\requests_utils.py:78" - __post - INFO - 
+正在执行的测试用例名称：验证能正常查询金积分商城库存
+正在请求的接口名称：登录后台接口
+测试用例编号：case05
+正在执行的测试用例步骤：step_01
+请求方式：post
+请求地址是：/admin/login
+请求参数：{"loginName":"liseen1","password":"000000"}
+请求头：{"Accept":"application/json, text/plain, */*","Content-Type": "application/json;charset=UTF-8","User-Agent": "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36","Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8","Accept-Encoding":"gzip, deflate","Connection": "keep-alive"}
+
+
+2020-08-24 12:08:45 - 接口自动化日志 - "C:\Users\Administrator\PycharmProjects\newadmin_api_framework\common\requests_utils.py:77" - __post - INFO - 积分商城库存查询接口调用成功
+2020-08-24 12:08:45 - 接口自动化日志 - "C:\Users\Administrator\PycharmProjects\newadmin_api_framework\common\requests_utils.py:78" - __post - INFO - 
+正在执行的测试用例名称：验证能正常查询金积分商城库存
+正在请求的接口名称：积分商城库存查询
+测试用例编号：case05
+正在执行的测试用例步骤：step_02
+请求方式：post
+请求地址是：/admin/mall/plu/inventory/page
+请求参数：{"page":1,"limit":10,"cid":"","cateid":""}
+请求头：{"Accept":"application/json, text/plain, */*","Content-Type": "application/json;charset=UTF-8","User-Agent": "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36","Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8","Accept-Encoding":"gzip, deflate","Connection": "keep-alive","X-Token": "GFPFmmvgq9ixjuy3J3a6rBUb9rN0WZqpAlzYPT8+AnnN2rji4Vx+RYaut1PpuU2l3RvT8yzWPsle6DBko/GfD9hTQ0mzRlliFMFM3PmXMTECTF5IeAqDP6rT/8DPrCItunqFWDOHS4Qe6u12q77O/arPuz8Q4rN3hzXWvV7iUMVCq17lpQAhgS5QIR+5sRILgzbavion4ArNghAipXu9L696CPDzqHNHpmvLqha6/I6BukP/uoWZuJWRuumGhuodQKuNQLTWXb0I2Os4kXxiUI36+NWf3XlQgxqxnASzEFCXFFP8iphD1eiuqQOc/S0v5pQ5tsdBkpOYUUUMfWGeBmzadPRSnYMTmO0r1taG9uNIgpz3XxlOHQxFaN1NFXtPVaxHnXjHvfgNAnyHFlD9J2x37LWFkmPf/Y53mn0ci104uBCcNgn+mnAfD2I3i9HqzJOn+Q1bstL4Fwzt1+0PEV20Fu7DqR0/mCMKnMuU5FlHGTQ4hBZXpiw/A5AOm1qv","sid":"0","terminal":"0"}
+
+
+2020-08-24 12:08:48 - 接口自动化日志 - "C:\Users\Administrator\PycharmProjects\newadmin_api_framework\common\requests_utils.py:77" - __post - INFO - 登录后台接口接口调用成功
+2020-08-24 12:08:48 - 接口自动化日志 - "C:\Users\Administrator\PycharmProjects\newadmin_api_framework\common\requests_utils.py:78" - __post - INFO - 
+正在执行的测试用例名称：验证能正常查询金积分商城库存流水
+正在请求的接口名称：登录后台接口
+测试用例编号：case06
+正在执行的测试用例步骤：step_01
+请求方式：post
+请求地址是：/admin/login
+请求参数：{"loginName":"liseen1","password":"000000"}
+请求头：{"Accept":"application/json, text/plain, */*","Content-Type": "application/json;charset=UTF-8","User-Agent": "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36","Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8","Accept-Encoding":"gzip, deflate","Connection": "keep-alive"}
+
+
+2020-08-24 12:08:51 - 接口自动化日志 - "C:\Users\Administrator\PycharmProjects\newadmin_api_framework\common\requests_utils.py:77" - __post - INFO - 积分商城库存流水查询接口调用成功
+2020-08-24 12:08:51 - 接口自动化日志 - "C:\Users\Administrator\PycharmProjects\newadmin_api_framework\common\requests_utils.py:78" - __post - INFO - 
+正在执行的测试用例名称：验证能正常查询金积分商城库存流水
+正在请求的接口名称：积分商城库存流水查询
+测试用例编号：case06
+正在执行的测试用例步骤：step_02
+请求方式：post
+请求地址是：/admin/mall/plu/inventory/log/page
+请求参数：{"page":1,"limit":10,"cid":"","pluname":"","cateid":"","time":["2020-08-24 00:00:00","2021-08-24 23:59:59"]}
+请求头：{"Accept":"application/json, text/plain, */*","Content-Type": "application/json;charset=UTF-8","User-Agent": "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36","Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8","Accept-Encoding":"gzip, deflate","Connection": "keep-alive","X-Token": "LU+oc6KOsPkY62JhkKdn9McmjFvf4tEZUtfl5n02N5FcTKv2WQ3OqV2ECuGdZz5ITbUS/Hq70w+Zj8KS+2WA0NQmo6py0zAJYWmQJuEcM5+jpwoVc2kpCEwOeQsID5RCLlIhX4gCtVLbp/WF8Feu0NR9vIxr9TovHV9/oIH0QnGTSI268nx2wdli9yD31gAwrzbR5O5ursyCfKYZOthMr0npA65DI6uhk9Atr0bKDMDu5aQoJKjBX/GBn0OAoM3oIqe+rx98oLiqm1fJDimVFLXsRqsy/H+oMexRGgYbcLaw+osksZiSTjGCIJ/6DK1FueaiSdHmBFTZ+wT+SCCR+4JyH9FOanuMqCT++QqUBSzNN/aVrm+UZHKbwRoY35eaOLzhkJDar/kPdD0UHMKZS6jcYCag0CCZAb5TPO5snZRL/yptNQ6VHzlkgiRVHy2BOsokywXAQoIY5475Nck+6ZLVZgJnrq2calgKBbCtyzZoy6bJ71fK00Ib0T+KGU9k","sid":"0","terminal":"0"}
+
+
+2020-08-24 12:08:54 - 接口自动化日志 - "C:/Users/Administrator/PycharmProjects/newadmin_api_framework/test_runner/run_case.py:72" - <module> - INFO - 
+
+===================================================已执行完所有测试用例，测试活动结束==========================================
+
+
+2020-08-24 12:08:54 - 接口自动化日志 - "C:/Users/Administrator/PycharmProjects/newadmin_api_framework/test_runner/run_case.py:77" - <module> - INFO - 
+
+===================================================测试活动已结束，是否发送报告===================================================
+
+
+
+2020-08-24 12:09:00 - 接口自动化日志 - "C:/Users/Administrator/PycharmProjects/newadmin_api_framework/test_runner/run_case.py:85" - <module> - INFO - 各位大佬不需要测试报告结果，没有发送测试报告
+
+2020-08-24 12:12:32 - 接口自动化日志 - "C:/Users/Administrator/PycharmProjects/newadmin_api_framework/test_runner/run_case.py:64" - <module> - INFO - 
+
+====================================================开始清除上次测试结果保留的值====================================================
+
+
+2020-08-24 12:12:32 - 接口自动化日志 - "C:/Users/Administrator/PycharmProjects/newadmin_api_framework/test_runner/run_case.py:66" - <module> - INFO - 
+
+====================================================开始清除上次测试结果保留的值成功====================================================
+
+
+2020-08-24 12:12:32 - 接口自动化日志 - "C:/Users/Administrator/PycharmProjects/newadmin_api_framework/test_runner/run_case.py:51" - run - INFO - 
+
+====================================================创建测试报告文件路径成功====================================================
+
+
+2020-08-24 12:12:32 - 接口自动化日志 - "C:\Users\Administrator\PycharmProjects\newadmin_api_framework\api_testcase\api_test.py:16" - <module> - INFO - 
+
+====================================================正在获取测试用例数据====================================================
+
+
+2020-08-24 12:12:32 - 接口自动化日志 - "C:/Users/Administrator/PycharmProjects/newadmin_api_framework/test_runner/run_case.py:40" - load_test_suite - INFO - 
+
+====================================================加载所有测试用例完毕====================================================
+
+
+2020-08-24 12:12:32 - 接口自动化日志 - "C:/Users/Administrator/PycharmProjects/newadmin_api_framework/test_runner/run_case.py:41" - load_test_suite - INFO - 
+
+====================================================开始执行所有测试用例====================================================
+
+
+2020-08-24 12:12:33 - 接口自动化日志 - "C:\Users\Administrator\PycharmProjects\newadmin_api_framework\common\requests_utils.py:77" - __post - INFO - 登录后台接口接口调用成功
+2020-08-24 12:12:33 - 接口自动化日志 - "C:\Users\Administrator\PycharmProjects\newadmin_api_framework\common\requests_utils.py:78" - __post - INFO - 
+正在执行的测试用例名称：测试能否正确登录后台接口
+正在请求的接口名称：登录后台接口
+测试用例编号：case01
+正在执行的测试用例步骤：step_01
+请求方式：post
+请求地址是：/admin/login
+请求参数：{"loginName":"liseen1","password":"000000"}
+请求头：{"Accept":"application/json, text/plain, */*","Content-Type": "application/json;charset=UTF-8","User-Agent": "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36","Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8","Accept-Encoding":"gzip, deflate","Connection": "keep-alive"}
+
+
+2020-08-24 12:12:34 - 接口自动化日志 - "C:\Users\Administrator\PycharmProjects\newadmin_api_framework\common\requests_utils.py:77" - __post - INFO - 登录后台接口接口调用成功
+2020-08-24 12:12:34 - 接口自动化日志 - "C:\Users\Administrator\PycharmProjects\newadmin_api_framework\common\requests_utils.py:78" - __post - INFO - 
+正在执行的测试用例名称：测试能否正确查询平台商管理接口
+正在请求的接口名称：登录后台接口
+测试用例编号：case02
+正在执行的测试用例步骤：step_01
+请求方式：post
+请求地址是：/admin/login
+请求参数：{"loginName":"liseen1","password":"000000"}
+请求头：{"Accept":"application/json, text/plain, */*","Content-Type": "application/json;charset=UTF-8","User-Agent": "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36","Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8","Accept-Encoding":"gzip, deflate","Connection": "keep-alive"}
+
+
+2020-08-24 12:12:37 - 接口自动化日志 - "C:\Users\Administrator\PycharmProjects\newadmin_api_framework\common\requests_utils.py:77" - __post - INFO - 查询平台商管理接口接口调用成功
+2020-08-24 12:12:37 - 接口自动化日志 - "C:\Users\Administrator\PycharmProjects\newadmin_api_framework\common\requests_utils.py:78" - __post - INFO - 
+正在执行的测试用例名称：测试能否正确查询平台商管理接口
+正在请求的接口名称：查询平台商管理接口
+测试用例编号：case02
+正在执行的测试用例步骤：step_02
+请求方式：post
+请求地址是：/admin/platform/cagent/listPage
+请求参数：{"page":1,"limit":10,"cagent":"","status":""}
+请求头：{"Accept":"application/json, text/plain, */*","Content-Type": "application/json;charset=UTF-8","User-Agent": "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36","Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8","Accept-Encoding":"gzip, deflate","Connection": "keep-alive","X-Token": "pxKTQPdcXhfDCDRsS+g7shXW5m9o8DviPJ2St6sMietUeUZFjQxb3VL/m36f/XUvusm2+zDP2VIc+xRA3kPm99HE2YoGMyb8hZv3QWXS827cp3mOf1ewoIt1VdMtxZENBefhKIwKaSkBHI5zUqNuWioViB97SSeN7JAZ6Os2uTkRVQDRfXppEuCAq1b9ucrwqpziO3JjZoIbWZXrjbsDWeZXF3MbiLEiPurtaB18BcnpA2wPOyUTSBOsRoDguDhOw8kg8zIj4sSbZ4PWQUKWolC3mJxX9XG2jdRO4tbqBSA9+lJ2lptmCiCFri5omO9jliI+Iqso/qrHjA69A7P9CgO2zXKkLNM9RY4g/B930O2euOgyLoEncKFGFz5MR1L4ejnpnXdWS1zSCOrup5RuEUGHx+vhb9nIMZQoCtqj3NCSdwBRavF7skcL2WPrfs5pAtFupTcdbyImq23njFE0Tqa20BaLvJw6uy0qUqkhAu8zbTKHNlWgN60mbTDqxdzB","sid":"0","terminal":"0"}
+
+2020-08-24 12:12:38 - 接口自动化日志 - "C:\Users\Administrator\PycharmProjects\newadmin_api_framework\common\requests_utils.py:77" - __post - INFO - 登录后台接口接口调用成功
+2020-08-24 12:12:38 - 接口自动化日志 - "C:\Users\Administrator\PycharmProjects\newadmin_api_framework\common\requests_utils.py:78" - __post - INFO - 
+正在执行的测试用例名称：验证能正常查询金积分商城库存流水
+正在请求的接口名称：登录后台接口
+测试用例编号：case06
+正在执行的测试用例步骤：step_01
+请求方式：post
+请求地址是：/admin/login
+请求参数：{"loginName":"liseen1","password":"000000"}
+请求头：{"Accept":"application/json, text/plain, */*","Content-Type": "application/json;charset=UTF-8","User-Agent": "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36","Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8","Accept-Encoding":"gzip, deflate","Connection": "keep-alive"}
+
+
+2020-08-24 12:12:41 - 接口自动化日志 - "C:\Users\Administrator\PycharmProjects\newadmin_api_framework\common\requests_utils.py:77" - __post - INFO - 积分商城库存流水查询接口调用成功
+2020-08-24 12:12:41 - 接口自动化日志 - "C:\Users\Administrator\PycharmProjects\newadmin_api_framework\common\requests_utils.py:78" - __post - INFO - 
+正在执行的测试用例名称：验证能正常查询金积分商城库存流水
+正在请求的接口名称：积分商城库存流水查询
+测试用例编号：case06
+正在执行的测试用例步骤：step_02
+请求方式：post
+请求地址是：/admin/mall/plu/inventory/log/page
+请求参数：{"page":1,"limit":10,"cid":"","pluname":"","cateid":"","time":["2020-08-24 00:00:00","2021-08-24 23:59:59"]}
+请求头：{"Accept":"application/json, text/plain, */*","Content-Type": "application/json;charset=UTF-8","User-Agent": "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36","Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8","Accept-Encoding":"gzip, deflate","Connection": "keep-alive","X-Token": "eZfxdecZv6n7ZWt4o77irNXuCgwLzf/LvowBLavsXxt4yeiFaidTw+bfM6OOXpJzegvim3WhlOJ8aHEhhlLAb2T0AjzmZB6UxTUxEaIO8fk0KOY1giSHCkXKB4oVoa6laZk5QUooxXPHC4iFvUE0jon+5aCiwn5UxKZI21StTmQY7GasOaUGFcsbbOIrbl/CN+NqLYmMDUMvvFPMTzESvZeHWvyOf6i4v7JiykzC5jLzmJvfElGsqxik7y17bLBvP6/yHksr1hGdFhSADNd8F772lKzz+ocXziW14sRBJCuc+YmcogTOcBoW106DmFiYaSOjo2Q4fH+U98BlYdX8onwSA+Cut9y2NSkMSRF6iOOhUiQ7YD4aOMEpmldMDRL6byEmCf6gylccp2yZcnwX+LxIpYTpWwnuVguypwUVNAyrrhQsEOc9X7o4IeicjJeAtxXM/kA/W6uQf+uU/SPxb5s5whh+OL1qWhe4D99bkGq+TcCE1MQ74yJFpz/mfIeV","sid":"0","terminal":"0"}
+
+
+2020-08-24 12:12:44 - 接口自动化日志 - "C:/Users/Administrator/PycharmProjects/newadmin_api_framework/test_runner/run_case.py:72" - <module> - INFO - 
+
+===================================================已执行完所有测试用例，测试活动结束==========================================
+
+
+2020-08-24 12:12:44 - 接口自动化日志 - "C:/Users/Administrator/PycharmProjects/newadmin_api_framework/test_runner/run_case.py:77" - <module> - INFO - 
+
+===================================================测试活动已结束，是否发送报告===================================================
+
+
+
+2020-08-24 12:13:21 - 接口自动化日志 - "C:/Users/Administrator/PycharmProjects/newadmin_api_framework/test_runner/run_case.py:85" - <module> - INFO - 各位大佬不需要测试报告结果，没有发送测试报告
+
+2020-08-24 12:16:28 - 接口自动化日志 - "C:/Users/Administrator/PycharmProjects/newadmin_api_framework/test_runner/run_case.py:64" - <module> - INFO - 
+
+====================================================开始清除上次测试结果保留的值====================================================
+
+
+2020-08-24 12:16:29 - 接口自动化日志 - "C:/Users/Administrator/PycharmProjects/newadmin_api_framework/test_runner/run_case.py:66" - <module> - INFO - 
+
+====================================================开始清除上次测试结果保留的值成功====================================================
+
+
+2020-08-24 12:16:29 - 接口自动化日志 - "C:/Users/Administrator/PycharmProjects/newadmin_api_framework/test_runner/run_case.py:51" - run - INFO - 
+
+====================================================创建测试报告文件路径成功====================================================
+
+
+2020-08-24 12:16:29 - 接口自动化日志 - "C:\Users\Administrator\PycharmProjects\newadmin_api_framework\api_testcase\api_test.py:16" - <module> - INFO - 
+
+====================================================正在获取测试用例数据====================================================
+
+
+2020-08-24 12:16:29 - 接口自动化日志 - "C:/Users/Administrator/PycharmProjects/newadmin_api_framework/test_runner/run_case.py:40" - load_test_suite - INFO - 
+
+====================================================加载所有测试用例完毕====================================================
+
+
+2020-08-24 12:16:29 - 接口自动化日志 - "C:/Users/Administrator/PycharmProjects/newadmin_api_framework/test_runner/run_case.py:41" - load_test_suite - INFO - 
+
+====================================================开始执行所有测试用例====================================================
+
+
+2020-08-24 12:16:29 - 接口自动化日志 - "C:\Users\Administrator\PycharmProjects\newadmin_api_framework\common\requests_utils.py:77" - __post - INFO - 登录后台接口接口调用成功
+2020-08-24 12:16:29 - 接口自动化日志 - "C:\Users\Administrator\PycharmProjects\newadmin_api_framework\common\requests_utils.py:78" - __post - INFO - 
+正在执行的测试用例名称：测试能否正确登录后台接口
+正在请求的接口名称：登录后台接口
+测试用例编号：case01
+正在执行的测试用例步骤：step_01
+请求方式：post
+请求地址是：/admin/login
+请求参数：{"loginName":"liseen1","password":"000000"}
+请求头：{"Accept":"application/json, text/plain, */*","Content-Type": "application/json;charset=UTF-8","User-Agent": "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36","Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8","Accept-Encoding":"gzip, deflate","Connection": "keep-alive"}
+
+
+2020-08-24 12:18:54 - 接口自动化日志 - "C:/Users/Administrator/PycharmProjects/newadmin_api_framework/test_runner/run_case.py:64" - <module> - INFO - 
+
+====================================================开始清除上次测试结果保留的值====================================================
+
+
+2020-08-24 12:18:54 - 接口自动化日志 - "C:/Users/Administrator/PycharmProjects/newadmin_api_framework/test_runner/run_case.py:66" - <module> - INFO - 
+
+====================================================开始清除上次测试结果保留的值成功====================================================
+
+
+2020-08-24 12:18:54 - 接口自动化日志 - "C:/Users/Administrator/PycharmProjects/newadmin_api_framework/test_runner/run_case.py:51" - run - INFO - 
+
+====================================================创建测试报告文件路径成功====================================================
+
+
+2020-08-24 12:18:54 - 接口自动化日志 - "C:\Users\Administrator\PycharmProjects\newadmin_api_framework\api_testcase\api_test.py:16" - <module> - INFO - 
+
+====================================================正在获取测试用例数据====================================================
+
+
+2020-08-24 12:18:54 - 接口自动化日志 - "C:/Users/Administrator/PycharmProjects/newadmin_api_framework/test_runner/run_case.py:40" - load_test_suite - INFO - 
+
+====================================================加载所有测试用例完毕====================================================
+
+
+2020-08-24 12:18:54 - 接口自动化日志 - "C:/Users/Administrator/PycharmProjects/newadmin_api_framework/test_runner/run_case.py:41" - load_test_suite - INFO - 
+
+====================================================开始执行所有测试用例====================================================
+
+
+2020-08-24 12:18:55 - 接口自动化日志 - "C:\Users\Administrator\PycharmProjects\newadmin_api_framework\common\requests_utils.py:77" - __post - INFO - 登录后台接口接口调用成功
+2020-08-24 12:18:55 - 接口自动化日志 - "C:\Users\Administrator\PycharmProjects\newadmin_api_framework\common\requests_utils.py:78" - __post - INFO - 
+正在执行的测试用例名称：测试能否正确登录后台接口
+正在请求的接口名称：登录后台接口
+测试用例编号：case01
+正在执行的测试用例步骤：step_01
+请求方式：post
+请求地址是：/admin/login
+请求参数：{"loginName":"liseen1","password":"000000"}
+请求头：{"Accept":"application/json, text/plain, */*","Content-Type": "application/json;charset=UTF-8","User-Agent": "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36","Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8","Accept-Encoding":"gzip, deflate","Connection": "keep-alive"}
+
+
+2020-08-24 12:18:57 - 接口自动化日志 - "C:\Users\Administrator\PycharmProjects\newadmin_api_framework\common\requests_utils.py:77" - __post - INFO - 登录后台接口接口调用成功
+2020-08-24 12:18:57 - 接口自动化日志 - "C:\Users\Administrator\PycharmProjects\newadmin_api_framework\common\requests_utils.py:78" - __post - INFO - 
+正在执行的测试用例名称：测试能否正确查询平台商管理接口
+正在请求的接口名称：登录后台接口
+测试用例编号：case02
+正在执行的测试用例步骤：step_01
+请求方式：post
+请求地址是：/admin/login
+请求参数：{"loginName":"liseen1","password":"000000"}
+请求头：{"Accept":"application/json, text/plain, */*","Content-Type": "application/json;charset=UTF-8","User-Agent": "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36","Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8","Accept-Encoding":"gzip, deflate","Connection": "keep-alive"}
+
+
+2020-08-24 12:19:01 - 接口自动化日志 - "C:\Users\Administrator\PycharmProjects\newadmin_api_framework\common\requests_utils.py:77" - __post - INFO - 查询平台商管理接口接口调用成功
+2020-08-24 12:19:01 - 接口自动化日志 - "C:\Users\Administrator\PycharmProjects\newadmin_api_framework\common\requests_utils.py:78" - __post - INFO - 
+正在执行的测试用例名称：测试能否正确查询平台商管理接口
+正在请求的接口名称：查询平台商管理接口
+测试用例编号：case02
+正在执行的测试用例步骤：step_02
+请求方式：post
+请求地址是：/admin/platform/cagent/listPage
+请求参数：{"page":1,"limit":10,"cagent":"","status":""}
+请求头：{"Accept":"application/json, text/plain, */*","Content-Type": "application/json;charset=UTF-8","User-Agent": "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36","Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8","Accept-Encoding":"gzip, deflate","Connection": "keep-alive","X-Token": "KKo4nBE7Q55P7DhRbkIDEAkHuMtVtI7oy2SykXYSVBpqGD5ydmb3i2WnG0QYFktANESMlA2VX8+kOuWfiV+iwULuIhpm1ZNqGwQdjypwPOcfWHev3TauD/uUlKB+oFKMVY8z4tYBWNifRN9riSuZh+DshvNPHiTHd+RZOwic4tcYQziO49svDuHjnVPNcuod47o6bdsjAJENCiOXjlHlf7fXju4OEhmKJWppgajhg5VtXmPiSchG9AnNDc3XphndzdUEI9qqix2gi30+RSUdihWIoibNjzJaoynz/zY+GtULOhFvXhFw0c5RdQUCdnP0XXWjN5LjrNehH340MEuFHEEuzRso5gJ6v/u0Kjo4ktFGpuIA22lPmNPIlzJRlNIz6YTPC0Lw9/xwqi5Gpj76E2gXkcxLv/aAfYYTSeAVEdAK0nVo7UpDlBj+BmeKb7yE72Q0zy1g9GQLqDReu7eomAUYWjpO/+Ydh+l14xVMEWqo9adcQxedqtiHYs2rkpPw","sid":"0","terminal":"0"}
+
+
+2020-08-24 12:19:03 - 接口自动化日志 - "C:\Users\Administrator\PycharmProjects\newadmin_api_framework\common\requests_utils.py:77" - __post - INFO - 登录后台接口接口调用成功
+2020-08-24 12:19:03 - 接口自动化日志 - "C:\Users\Administrator\PycharmProjects\newadmin_api_framework\common\requests_utils.py:78" - __post - INFO - 
+正在执行的测试用例名称：验证能正常查询金积分商城库存流水
+正在请求的接口名称：登录后台接口
+测试用例编号：case06
+正在执行的测试用例步骤：step_01
+请求方式：post
+请求地址是：/admin/login
+请求参数：{"loginName":"liseen1","password":"000000"}
+请求头：{"Accept":"application/json, text/plain, */*","Content-Type": "application/json;charset=UTF-8","User-Agent": "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36","Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8","Accept-Encoding":"gzip, deflate","Connection": "keep-alive"}
+
+
+2020-08-24 12:19:05 - 接口自动化日志 - "C:\Users\Administrator\PycharmProjects\newadmin_api_framework\common\requests_utils.py:77" - __post - INFO - 积分商城库存流水查询接口调用成功
+2020-08-24 12:19:05 - 接口自动化日志 - "C:\Users\Administrator\PycharmProjects\newadmin_api_framework\common\requests_utils.py:78" - __post - INFO - 
+正在执行的测试用例名称：验证能正常查询金积分商城库存流水
+正在请求的接口名称：积分商城库存流水查询
+测试用例编号：case06
+正在执行的测试用例步骤：step_02
+请求方式：post
+请求地址是：/admin/mall/plu/inventory/log/page
+请求参数：{"page":1,"limit":10,"cid":"","pluname":"","cateid":"","time":["2020-08-24 00:00:00","2021-08-24 23:59:59"]}
+请求头：{"Accept":"application/json, text/plain, */*","Content-Type": "application/json;charset=UTF-8","User-Agent": "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36","Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8","Accept-Encoding":"gzip, deflate","Connection": "keep-alive","X-Token": "AyNCxIIKH8ClcJu+9Oe2u46be8vn9N7JGnBWnhcIaCZvafh/CFcxJSlAVUCf3VsYUxRJ5/X4eJ4m7OYkEzzSoJSMa2g46XOHAy+lMALgyupEZeuj+oZFemw4Hu+Cjy5shqdjyX1GjUiXbiGfsD+I4SjGqPFBmR6oCXITQPxloyYUe4t2Nc5u6v63WysewnnTzhu9/P4Ts73ptB6CNeg1TeJl+Q1dBvGejEn9Z0NQTEK2CK0w5muhatmxOGlJcFW0j9gV1VsOEUgg5E2X1tj5bU3SUpeFwBmtPCtzqHiuIDRu1F3gf31KPBUx4I0HfeH5BgZGYCM/7FmPfO48z/CleJed4FD4MNelceM1Od8LCmj+/85dbAet5/H6AezLcqxrjcjsyIzq8C8nhkRGAhfIE+pPtIykPseICbEjSDpx5aJlmxygrCn6RZCMqWnUazd9rSI2UV6JGoyHZS8bUZJWAm84fAt4HFAMzmBEpgTXJQnZ4rWu9mO4KlynYBvjQ+q0","sid":"0","terminal":"0"}
+
+
+2020-08-24 12:19:09 - 接口自动化日志 - "C:/Users/Administrator/PycharmProjects/newadmin_api_framework/test_runner/run_case.py:72" - <module> - INFO - 
+
+===================================================已执行完所有测试用例，测试活动结束==========================================
+
+
+2020-08-24 12:19:09 - 接口自动化日志 - "C:/Users/Administrator/PycharmProjects/newadmin_api_framework/test_runner/run_case.py:77" - <module> - INFO - 
+
+===================================================测试活动已结束，是否发送报告===================================================
+
+
+
+2020-08-24 12:19:22 - 接口自动化日志 - "C:/Users/Administrator/PycharmProjects/newadmin_api_framework/test_runner/run_case.py:85" - <module> - INFO - 各位大佬不需要测试报告结果，没有发送测试报告
+
+2020-08-24 12:20:58 - 接口自动化日志 - "C:\Users\Administrator\PycharmProjects\newadmin_api_framework\api_testcase\api_test.py:16" - <module> - INFO - 
+
+====================================================正在获取测试用例数据====================================================
+
+
+
+2020-08-24 12:21:04 - 接口自动化日志 - "C:\Users\Administrator\PycharmProjects\newadmin_api_framework\api_testcase\api_test.py:16" - <module> - INFO - 
+
+====================================================正在获取测试用例数据====================================================
+
+
+
+2020-08-24 12:21:09 - 接口自动化日志 - "C:/Users/Administrator/PycharmProjects/newadmin_api_framework/test_runner/run_case.py:64" - <module> - INFO - 
+
+====================================================开始清除上次测试结果保留的值====================================================
+
+
+2020-08-24 12:21:09 - 接口自动化日志 - "C:/Users/Administrator/PycharmProjects/newadmin_api_framework/test_runner/run_case.py:66" - <module> - INFO - 
+
+====================================================开始清除上次测试结果保留的值成功====================================================
+
+
+2020-08-24 12:21:09 - 接口自动化日志 - "C:/Users/Administrator/PycharmProjects/newadmin_api_framework/test_runner/run_case.py:51" - run - INFO - 
+
+====================================================创建测试报告文件路径成功====================================================
+
+
+2020-08-24 12:21:09 - 接口自动化日志 - "C:\Users\Administrator\PycharmProjects\newadmin_api_framework\api_testcase\api_test.py:16" - <module> - INFO - 
+
+====================================================正在获取测试用例数据====================================================
+
+
+2020-08-24 12:21:09 - 接口自动化日志 - "C:/Users/Administrator/PycharmProjects/newadmin_api_framework/test_runner/run_case.py:40" - load_test_suite - INFO - 
+
+====================================================加载所有测试用例完毕====================================================
+
+
+2020-08-24 12:21:09 - 接口自动化日志 - "C:/Users/Administrator/PycharmProjects/newadmin_api_framework/test_runner/run_case.py:41" - load_test_suite - INFO - 
+
+====================================================开始执行所有测试用例====================================================
+
+
+2020-08-24 12:21:10 - 接口自动化日志 - "C:\Users\Administrator\PycharmProjects\newadmin_api_framework\common\requests_utils.py:77" - __post - INFO - 登录后台接口接口调用成功
+2020-08-24 12:21:10 - 接口自动化日志 - "C:\Users\Administrator\PycharmProjects\newadmin_api_framework\common\requests_utils.py:78" - __post - INFO - 
+正在执行的测试用例名称：测试能否正确登录后台接口
+正在请求的接口名称：登录后台接口
+测试用例编号：case01
+正在执行的测试用例步骤：step_01
+请求方式：post
+请求地址是：/admin/login
+请求参数：{"loginName":"liseen1","password":"000000"}
+请求头：{"Accept":"application/json, text/plain, */*","Content-Type": "application/json;charset=UTF-8","User-Agent": "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36","Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8","Accept-Encoding":"gzip, deflate","Connection": "keep-alive"}
+
+
+2020-08-24 12:21:13 - 接口自动化日志 - "C:\Users\Administrator\PycharmProjects\newadmin_api_framework\common\requests_utils.py:77" - __post - INFO - 登录后台接口接口调用成功
+2020-08-24 12:21:13 - 接口自动化日志 - "C:\Users\Administrator\PycharmProjects\newadmin_api_framework\common\requests_utils.py:78" - __post - INFO - 
+正在执行的测试用例名称：测试能否正确查询平台商管理接口
+正在请求的接口名称：登录后台接口
+测试用例编号：case02
+正在执行的测试用例步骤：step_01
+请求方式：post
+请求地址是：/admin/login
+请求参数：{"loginName":"liseen1","password":"000000"}
+请求头：{"Accept":"application/json, text/plain, */*","Content-Type": "application/json;charset=UTF-8","User-Agent": "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36","Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8","Accept-Encoding":"gzip, deflate","Connection": "keep-alive"}
+
+
+2020-08-24 12:21:16 - 接口自动化日志 - "C:\Users\Administrator\PycharmProjects\newadmin_api_framework\common\requests_utils.py:77" - __post - INFO - 查询平台商管理接口接口调用成功
+2020-08-24 12:21:16 - 接口自动化日志 - "C:\Users\Administrator\PycharmProjects\newadmin_api_framework\common\requests_utils.py:78" - __post - INFO - 
+正在执行的测试用例名称：测试能否正确查询平台商管理接口
+正在请求的接口名称：查询平台商管理接口
+测试用例编号：case02
+正在执行的测试用例步骤：step_02
+请求方式：post
+请求地址是：/admin/platform/cagent/listPage
+请求参数：{"page":1,"limit":10,"cagent":"","status":""}
+请求头：{"Accept":"application/json, text/plain, */*","Content-Type": "application/json;charset=UTF-8","User-Agent": "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36","Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8","Accept-Encoding":"gzip, deflate","Connection": "keep-alive","X-Token": "ndEi0KUBrxr5KyGpPMH6L7I+u0evVt4Tv/064tidHZY2FEVwry5J2SNJ1njFjwkm+dRA8dmoCbqcMwYmEgaX9PjjJ3s8Vz5baZVKzUROXpRNBfk8CzH6M5tKRUW+7DUITFaCUzq4PSKYhbnO3PuBqO+DAL9jJ98fmbm8arRJqYMaoC45r9JiM4eRAfb+m3JTs5xGeElU5Y1fQ0+ifpbHOxjXZgvT8EpN8U2FzzihYI/6w6/NkZWk2IaQmu91zT3e/hpZ+NHCAzbGAsK2HieaB1hb9Gl60O7oJ5m15m2EsdFdUV2W7uuitwbdHyQzNl3v333Zn7kkd9QMQM0KXLihNgYrjjoVb99M/PtXcSbdP1YPjfrz+zElQ4cWs616wYbjC/QqQDKd8qf7JKm3oyIfuD2ZeaDP1JXQw/GmBpecw1G1nFtcrjtkczmDgkJXggvjusNDXKQ3WxjBhWs/b2N/FKl/SzSD59MRsQuyb8DTDb/olJ+vVKtdn4dt7J5GOoUZ","sid":"0","terminal":"0"}
+
+
+2020-08-24 12:21:18 - 接口自动化日志 - "C:\Users\Administrator\PycharmProjects\newadmin_api_framework\common\requests_utils.py:77" - __post - INFO - 登录后台接口接口调用成功
+2020-08-24 12:21:18 - 接口自动化日志 - "C:\Users\Administrator\PycharmProjects\newadmin_api_framework\common\requests_utils.py:78" - __post - INFO - 
+正在执行的测试用例名称：验证能正常查询金积分商城库存流水
+正在请求的接口名称：登录后台接口
+测试用例编号：case06
+正在执行的测试用例步骤：step_01
+请求方式：post
+请求地址是：/admin/login
+请求参数：{"loginName":"liseen1","password":"000000"}
+请求头：{"Accept":"application/json, text/plain, */*","Content-Type": "application/json;charset=UTF-8","User-Agent": "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36","Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8","Accept-Encoding":"gzip, deflate","Connection": "keep-alive"}
+
+
+2020-08-24 12:21:21 - 接口自动化日志 - "C:\Users\Administrator\PycharmProjects\newadmin_api_framework\common\requests_utils.py:77" - __post - INFO - 积分商城库存流水查询接口调用成功
+2020-08-24 12:21:21 - 接口自动化日志 - "C:\Users\Administrator\PycharmProjects\newadmin_api_framework\common\requests_utils.py:78" - __post - INFO - 
+正在执行的测试用例名称：验证能正常查询金积分商城库存流水
+正在请求的接口名称：积分商城库存流水查询
+测试用例编号：case06
+正在执行的测试用例步骤：step_02
+请求方式：post
+请求地址是：/admin/mall/plu/inventory/log/page
+请求参数：{"page":1,"limit":10,"cid":"","pluname":"","cateid":"","time":["2020-08-24 00:00:00","2021-08-24 23:59:59"]}
+请求头：{"Accept":"application/json, text/plain, */*","Content-Type": "application/json;charset=UTF-8","User-Agent": "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36","Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8","Accept-Encoding":"gzip, deflate","Connection": "keep-alive","X-Token": "QfuY7QJVuZn97/volahRi0G5jEnxE97oQDsU+e06QkEK6KBF+uG+/jl7s4ipLIo1lkKvr4s/JPEYLZXnkXxbBslScOo0FSiK3OrAKnHmwoPpcVnqkrp31OdGU4O1QH+wNPY0dS4PsjR6bZQwE6PdXrUnKMT/XpcFxUDqmESICLkfsFiDk+IZ6J5odeSWtShrKc78vcAalY8XU0ZDZkkXoS6q4ob0bWJykxJluNu5feZ9yi6r2x4IEA/nkLzPOx0789OHAicDIqDe4jy4DBi7hOHCcfXajmOSyBGgQ6bGuY83XHeIsuEYUD4en8XDAGAv/yCXH0akDi+EWJ7v7t5EVF5HvVWheWX9fHOh3y3k4xirPkc0lFHyqMccUcIJYTeOx9fLk7o2/I7SY3Lj/8QI2xEXiZ+MO3SpgMlgr1LLNSqeKWIEfkOBhkwacBhSvxCF1K+PNg4OX/DIRQInn3U200WNL1JGkCJ9+ELgX1zbkPm6GL4cr05XewPViqyhEJjS","sid":"0","terminal":"0"}
+
+
+2020-08-24 12:21:26 - 接口自动化日志 - "C:/Users/Administrator/PycharmProjects/newadmin_api_framework/test_runner/run_case.py:72" - <module> - INFO - 
+
+===================================================已执行完所有测试用例，测试活动结束==========================================
+
+
+2020-08-24 12:21:26 - 接口自动化日志 - "C:/Users/Administrator/PycharmProjects/newadmin_api_framework/test_runner/run_case.py:77" - <module> - INFO - 
+
+===================================================测试活动已结束，是否发送报告===================================================
+
+
+
+2020-08-24 12:21:30 - 接口自动化日志 - "C:/Users/Administrator/PycharmProjects/newadmin_api_framework/test_runner/run_case.py:85" - <module> - INFO - 各位大佬不需要测试报告结果，没有发送测试报告
+
+2020-08-24 12:22:05 - 接口自动化日志 - "C:/Users/Administrator/PycharmProjects/newadmin_api_framework/test_runner/run_case.py:64" - <module> - INFO - 
+
+====================================================开始清除上次测试结果保留的值====================================================
+
+
+2020-08-24 12:22:05 - 接口自动化日志 - "C:/Users/Administrator/PycharmProjects/newadmin_api_framework/test_runner/run_case.py:66" - <module> - INFO - 
+
+====================================================开始清除上次测试结果保留的值成功====================================================
+
+
+2020-08-24 12:22:05 - 接口自动化日志 - "C:/Users/Administrator/PycharmProjects/newadmin_api_framework/test_runner/run_case.py:51" - run - INFO - 
+
+====================================================创建测试报告文件路径成功====================================================
+
+
+2020-08-24 12:22:05 - 接口自动化日志 - "C:\Users\Administrator\PycharmProjects\newadmin_api_framework\api_testcase\api_test.py:16" - <module> - INFO - 
+
+====================================================正在获取测试用例数据====================================================
+
+
+2020-08-24 12:22:05 - 接口自动化日志 - "C:/Users/Administrator/PycharmProjects/newadmin_api_framework/test_runner/run_case.py:40" - load_test_suite - INFO - 
+
+====================================================加载所有测试用例完毕====================================================
+
+
+2020-08-24 12:22:05 - 接口自动化日志 - "C:/Users/Administrator/PycharmProjects/newadmin_api_framework/test_runner/run_case.py:41" - load_test_suite - INFO - 
+
+====================================================开始执行所有测试用例====================================================
+
+
+2020-08-24 12:22:06 - 接口自动化日志 - "C:\Users\Administrator\PycharmProjects\newadmin_api_framework\common\requests_utils.py:77" - __post - INFO - 登录后台接口接口调用成功
+2020-08-24 12:22:06 - 接口自动化日志 - "C:\Users\Administrator\PycharmProjects\newadmin_api_framework\common\requests_utils.py:78" - __post - INFO - 
+正在执行的测试用例名称：测试能否正确登录后台接口
+正在请求的接口名称：登录后台接口
+测试用例编号：case01
+正在执行的测试用例步骤：step_01
+请求方式：post
+请求地址是：/admin/login
+请求参数：{"loginName":"liseen1","password":"000000"}
+请求头：{"Accept":"application/json, text/plain, */*","Content-Type": "application/json;charset=UTF-8","User-Agent": "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36","Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8","Accept-Encoding":"gzip, deflate","Connection": "keep-alive"}
+
+
+2020-08-24 12:22:08 - 接口自动化日志 - "C:\Users\Administrator\PycharmProjects\newadmin_api_framework\common\requests_utils.py:77" - __post - INFO - 登录后台接口接口调用成功
+2020-08-24 12:22:08 - 接口自动化日志 - "C:\Users\Administrator\PycharmProjects\newadmin_api_framework\common\requests_utils.py:78" - __post - INFO - 
+正在执行的测试用例名称：测试能否正确查询平台商管理接口
+正在请求的接口名称：登录后台接口
+测试用例编号：case02
+正在执行的测试用例步骤：step_01
+请求方式：post
+请求地址是：/admin/login
+请求参数：{"loginName":"liseen1","password":"000000"}
+请求头：{"Accept":"application/json, text/plain, */*","Content-Type": "application/json;charset=UTF-8","User-Agent": "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36","Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8","Accept-Encoding":"gzip, deflate","Connection": "keep-alive"}
+
+
+2020-08-24 12:22:11 - 接口自动化日志 - "C:\Users\Administrator\PycharmProjects\newadmin_api_framework\common\requests_utils.py:77" - __post - INFO - 查询平台商管理接口接口调用成功
+2020-08-24 12:22:11 - 接口自动化日志 - "C:\Users\Administrator\PycharmProjects\newadmin_api_framework\common\requests_utils.py:78" - __post - INFO - 
+正在执行的测试用例名称：测试能否正确查询平台商管理接口
+正在请求的接口名称：查询平台商管理接口
+测试用例编号：case02
+正在执行的测试用例步骤：step_02
+请求方式：post
+请求地址是：/admin/platform/cagent/listPage
+请求参数：{"page":1,"limit":10,"cagent":"","status":""}
+请求头：{"Accept":"application/json, text/plain, */*","Content-Type": "application/json;charset=UTF-8","User-Agent": "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36","Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8","Accept-Encoding":"gzip, deflate","Connection": "keep-alive","X-Token": "W5ea73j4FDmHI4rGphPmUgshu9TN2Eyy0r3XJ3VlrgHzUxx3HH13V5aCtphqzJe5pSXw7drSafbkZLeaLtHxHf9muUJYk+jjsXmY0HZxh03qqzAfhKhJ/U/LaFYHjjV2ocWPyqQQR+QrCVLrDFJE2/h1RyROBsRiqWCj5tYQgn56/1+ge049hDSKCG1WATpSCvRnSeteXxIonj6L2jMrj2tqSYY5kFxxYrht4zZKsThyTr0ZgpF07uAzwo5LpRBAmWgiy5pQohguPp1tU4qSLheJamFAyqpy1O5V/iDWYoggyoyIgxoKdaNcxKPFBUhP1cKMtgJ73PfCRa3PllVu9qKSCyHZ8AgYT4Mn6plBqRdNaqzRIByTUIlOa6ZFhk/aCHlue50Mgeu8gKuPZCGWq0IdRAw6e1s5v95P6akZIgCLbi6Bmxl/3lPJeCG3ffQQpuVAqdaR7oeqF5ZHEYvvAeY4M0Yo6Cy8OQYy+OzU/UILb2b1UMA8JYo3eagknek0","sid":"0","terminal":"0"}
+
+
+2020-08-24 12:22:14 - 接口自动化日志 - "C:\Users\Administrator\PycharmProjects\newadmin_api_framework\common\requests_utils.py:77" - __post - INFO - 登录后台接口接口调用成功
+2020-08-24 12:22:14 - 接口自动化日志 - "C:\Users\Administrator\PycharmProjects\newadmin_api_framework\common\requests_utils.py:78" - __post - INFO - 
+正在执行的测试用例名称：验证能正常查询金积分商城库存流水
+正在请求的接口名称：登录后台接口
+测试用例编号：case06
+正在执行的测试用例步骤：step_01
+请求方式：post
+请求地址是：/admin/login
+请求参数：{"loginName":"liseen1","password":"000000"}
+请求头：{"Accept":"application/json, text/plain, */*","Content-Type": "application/json;charset=UTF-8","User-Agent": "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36","Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8","Accept-Encoding":"gzip, deflate","Connection": "keep-alive"}
+
+
+2020-08-24 12:22:17 - 接口自动化日志 - "C:\Users\Administrator\PycharmProjects\newadmin_api_framework\common\requests_utils.py:77" - __post - INFO - 积分商城库存流水查询接口调用成功
+2020-08-24 12:22:17 - 接口自动化日志 - "C:\Users\Administrator\PycharmProjects\newadmin_api_framework\common\requests_utils.py:78" - __post - INFO - 
+正在执行的测试用例名称：验证能正常查询金积分商城库存流水
+正在请求的接口名称：积分商城库存流水查询
+测试用例编号：case06
+正在执行的测试用例步骤：step_02
+请求方式：post
+请求地址是：/admin/mall/plu/inventory/log/page
+请求参数：{"page":1,"limit":10,"cid":"","pluname":"","cateid":"","time":["2020-08-24 00:00:00","2021-08-24 23:59:59"]}
+请求头：{"Accept":"application/json, text/plain, */*","Content-Type": "application/json;charset=UTF-8","User-Agent": "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36","Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8","Accept-Encoding":"gzip, deflate","Connection": "keep-alive","X-Token": "IPx+2JDq+rIJ7ULcbD+9tnftu/LSnkI6LODNjsNg2rvSUe7H5gDrkSOhhXwApyGrqLABKUgFGOhJbhl8WkME2sZy8lFOVUI9QjsH9LszXEOvsFISZwxkwfTv/EnnJme4RYHxhyodDT7dh/Kx+q4YsmekVK6jdCluAFNnlOikFy6Zaq49j8ZqAa3oIWEaLI5xwupYhgxA0ALuL1Jf7H7f/vUt4yjvWbt8wuKwgNnP0ba0Ls+hX4D2veotKgaCwKIAHEctMMl+nSOPaJoz8qTJZs6SRxmoF5w564EnN5s8lJjoZvQ0kwewa4CkN/XGmoJw4xr69gufAoJpQxbAFUlhZnFBV7oWtkbviNTODnBCrX4UdeBoqxj4fRp/h0v4djUwVgHRYkgjEcHM/7sKwhiqZXY9WqK7jbkNDt78nn/U7/TsVmidr9iBZQuJsZVyNTnxBwtMJfHcbVpJUUvMxJK/zcwMsnnOeBZKK3edxd7HDh+2lQtlsQ257PIxN56tggav","sid":"0","terminal":"0"}
+
+
+2020-08-24 12:22:22 - 接口自动化日志 - "C:/Users/Administrator/PycharmProjects/newadmin_api_framework/test_runner/run_case.py:72" - <module> - INFO - 
+
+===================================================已执行完所有测试用例，测试活动结束==========================================
+
+
+2020-08-24 12:22:22 - 接口自动化日志 - "C:/Users/Administrator/PycharmProjects/newadmin_api_framework/test_runner/run_case.py:77" - <module> - INFO - 
+
+===================================================测试活动已结束，是否发送报告===================================================
+
+
+
+2020-08-24 12:22:35 - 接口自动化日志 - "C:/Users/Administrator/PycharmProjects/newadmin_api_framework/test_runner/run_case.py:85" - <module> - INFO - 各位大佬不需要测试报告结果，没有发送测试报告
+
+2020-08-24 12:34:00 - 接口自动化日志 - "C:\Users\Administrator\PycharmProjects\newadmin_api_framework\api_testcase\api_test.py:16" - <module> - INFO - 
+
+====================================================正在获取测试用例数据====================================================
+
+
+2020-08-24 12:34:01 - 接口自动化日志 - "C:\Users\Administrator\PycharmProjects\newadmin_api_framework\common\requests_utils.py:77" - __post - INFO - 登录后台接口接口调用成功
+2020-08-24 12:34:01 - 接口自动化日志 - "C:\Users\Administrator\PycharmProjects\newadmin_api_framework\common\requests_utils.py:78" - __post - INFO - 
+正在执行的测试用例名称：测试能否正确登录后台接口
+正在请求的接口名称：登录后台接口
+测试用例编号：case01
+正在执行的测试用例步骤：step_01
+请求方式：post
+请求地址是：/admin/login
+请求参数：{"loginName":"liseen1","password":"000000"}
+请求头：{"Accept":"application/json, text/plain, */*","Content-Type": "application/json;charset=UTF-8","User-Agent": "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36","Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8","Accept-Encoding":"gzip, deflate","Connection": "keep-alive"}
+
+
+2020-08-24 12:34:04 - 接口自动化日志 - "C:\Users\Administrator\PycharmProjects\newadmin_api_framework\common\requests_utils.py:77" - __post - INFO - 登录后台接口接口调用成功
+2020-08-24 12:34:04 - 接口自动化日志 - "C:\Users\Administrator\PycharmProjects\newadmin_api_framework\common\requests_utils.py:78" - __post - INFO - 
+正在执行的测试用例名称：测试能否正确查询平台商管理接口
+正在请求的接口名称：登录后台接口
+测试用例编号：case02
+正在执行的测试用例步骤：step_01
+请求方式：post
+请求地址是：/admin/login
+请求参数：{"loginName":"liseen1","password":"000000"}
+请求头：{"Accept":"application/json, text/plain, */*","Content-Type": "application/json;charset=UTF-8","User-Agent": "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36","Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8","Accept-Encoding":"gzip, deflate","Connection": "keep-alive"}
+
+
+2020-08-24 12:34:06 - 接口自动化日志 - "C:\Users\Administrator\PycharmProjects\newadmin_api_framework\common\requests_utils.py:77" - __post - INFO - 查询平台商管理接口接口调用成功
+2020-08-24 12:34:06 - 接口自动化日志 - "C:\Users\Administrator\PycharmProjects\newadmin_api_framework\common\requests_utils.py:78" - __post - INFO - 
+正在执行的测试用例名称：测试能否正确查询平台商管理接口
+正在请求的接口名称：查询平台商管理接口
+测试用例编号：case02
+正在执行的测试用例步骤：step_02
+请求方式：post
+请求地址是：/admin/platform/cagent/listPage
+请求参数：{"page":1,"limit":10,"cagent":"","status":""}
+请求头：{"Accept":"application/json, text/plain, */*","Content-Type": "application/json;charset=UTF-8","User-Agent": "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36","Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8","Accept-Encoding":"gzip, deflate","Connection": "keep-alive","X-Token": "BoqAFn24Wi2Iax6A4XdFdE8rxozLRsL0mz3TvJsHKxjZDNIcHCYFW1e9hGcgENQp1THPIKd8n3H5fU52YIeITfXCoYcYWAsf/nGLMGHbRQSS0PYJzU0ovy/qrQr6qplXbUXy9Lwei7keqpWwpB4gJWQlwU0+PJLJHjcHRw2hsXcj1gvhpQ4MuL2NTd6XmUIoDdUNeMvj6iivAdKGA+BXrnTlpvUUU4SQeZAE8TktzkEedC6qCA7KS1dGVDCltlVTCYXIImpch2F+4siepr1Au6F6aSALlRmdiEkrbsiHRiQ/3ghEmfNZSTHZtHzJJ7xSeHxL1tcwpicwPu5jYv+2woVhEi+yphDcSiA8WnNW1WG4sEcI47HdYgZrnZPuC4t4F1WgoIZgC799Jk1AWOQvxIqhTLEACkp0w/rHqE8e9mPDLZMhmIq8OgSaumzi6PweNM3Z4hjqbbLaVgKSYXZmWGsz0DmMaCBRnuKnDKky8qVur62S3axdOEL/r+bmtgtX","sid":"0","terminal":"0"}
+
+
+2020-08-24 12:34:08 - 接口自动化日志 - "C:\Users\Administrator\PycharmProjects\newadmin_api_framework\common\requests_utils.py:77" - __post - INFO - 登录后台接口接口调用成功
+2020-08-24 12:34:08 - 接口自动化日志 - "C:\Users\Administrator\PycharmProjects\newadmin_api_framework\common\requests_utils.py:78" - __post - INFO - 
+正在执行的测试用例名称：验证能正常查询金积分商城库存流水
+正在请求的接口名称：登录后台接口
+测试用例编号：case06
+正在执行的测试用例步骤：step_01
+请求方式：post
+请求地址是：/admin/login
+请求参数：{"loginName":"liseen1","password":"000000"}
+请求头：{"Accept":"application/json, text/plain, */*","Content-Type": "application/json;charset=UTF-8","User-Agent": "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36","Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8","Accept-Encoding":"gzip, deflate","Connection": "keep-alive"}
+
+
+2020-08-24 12:34:09 - 接口自动化日志 - "C:\Users\Administrator\PycharmProjects\newadmin_api_framework\common\requests_utils.py:77" - __post - INFO - 积分商城库存流水查询接口调用成功
+2020-08-24 12:34:09 - 接口自动化日志 - "C:\Users\Administrator\PycharmProjects\newadmin_api_framework\common\requests_utils.py:78" - __post - INFO - 
+正在执行的测试用例名称：验证能正常查询金积分商城库存流水
+正在请求的接口名称：积分商城库存流水查询
+测试用例编号：case06
+正在执行的测试用例步骤：step_02
+请求方式：post
+请求地址是：/admin/mall/plu/inventory/log/page
+请求参数：{"page":1,"limit":10,"cid":"","pluname":"","cateid":"","time":["2020-08-24 00:00:00","2021-08-24 23:59:59"]}
+请求头：{"Accept":"application/json, text/plain, */*","Content-Type": "application/json;charset=UTF-8","User-Agent": "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36","Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8","Accept-Encoding":"gzip, deflate","Connection": "keep-alive","X-Token": "S4fcCBLr0SgCKq1wPPNYLG11dBq4tJVnIBbNOMwrJ+6rNT7CndhjG+CsOp4UM0rpGNjCxTH4H4z7WCJFbr32ZhoJsobA5ZPmmmJQlqR1DS3NNGHmhKWkl6Vtg8bmA8DUFwcHBdAgXhvICys3Cv24oK9Fg0CzgfY2J2z626de1OKh5TPZ2Cx4ZyX9yZcXIqM3MzvCTWUtM5TmtoZwNrWBTDeHNMXWWuYj7t/nUisuENCyKHOIOq83Yo3PPA5+evxHbDnzxo3nIMpVCHVgUosRx54Ast4X59zFNsc0yglHsrnFC0DSWbLr3mb1bwHKz094bG7rdCZOhtsiZwa8loRUWjqNniujjMWdsqnFL9UWoeuMoY7fOEq4MWv9sZdXN8DM+mBcnPN5dRPkY9FvDiJ6gnenB7Z+zsm1x06ySlWMLNzgIje/XbenS9PkgU8RHvHPfmnaKEtl6bb5cqCTiDR+oQdMZIXzBPJHnnk0sfCdVsaxrd/Sjx/aexoPKZDTDpQH","sid":"0","terminal":"0"}
+
+
