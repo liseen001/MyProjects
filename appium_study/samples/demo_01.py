@@ -11,12 +11,13 @@ des ={
     'platformVersion': '9.0',  #版本号
     'deviceName': 'vivo 1725',      #设备名称：型号  可随便填
     'udid':'dfa4d640', #设备号
-    'appPackage':'com.youdao.calculator',
-    'appActivity':'com.youdao.calculator.activities.MainActivity',
+    'appPackage':'com.tx.app.amhg',
+    'appActivity':'com.tx.app.mango.ui.activity.MainActivity',
     'noReset':True,
     'unicodeKeyboard':True,  #这个和下面的选项一起写，支持中文
     'resetKeyboard': True
 }
 driver = webdriver.Remote('http://127.0.0.1:4723/wd/hub',des)
+
 
 
