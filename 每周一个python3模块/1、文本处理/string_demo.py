@@ -4,13 +4,9 @@
 # @file: demo.py
 # @time: 2020/5/13 23:09
 # @desc:
-import threading
-def worker():
-    '''thread worker function'''
-    print( 'worker' )
+import string
 
-threads = []
-for i in range(5):
-    t = threading.Thread(target=worker)
-    threads.append(t)
-    t.start()
+s= 'cao ni ma ni da ye'
+print(s)
+print(string.capwords(s))
+
