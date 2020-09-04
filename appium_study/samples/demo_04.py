@@ -6,13 +6,14 @@
 # @desc:
 import os,time
 from appium import webdriver
+from appium.webdriver.common.touch_action import TouchAction
 
 des = {
     'platformName':'Android',
     'platformVersion': '9.0',
     'deviceName':'vivo 1027',
-    'appPackage':'com.aweproject',
-    'appActivity':'com.aweproject.MainActivity',
+    # 'appPackage':'com.aweproject',
+    # 'appActivity':'com.aweproject.MainActivity',
     'noReset':True,
     'unicodeKeyboard':True,
     'resetKeyboard': True
@@ -20,10 +21,20 @@ des = {
 
 driver = webdriver.Remote('http://127.0.0.1:4723/wd/hub',des)
 driver.implicitly_wait(8)
-print(driver.network_connection)  #返回网络状态，返回整型数字
-driver.set_network_connection(connection_type=2)  #设置网络状态方式一 0 1 2 4 6
-print( driver.network_connection )
-from appium.webdriver.connectiontype import ConnectionType
-driver.set_network_connection(ConnectionType.WIFI_ONLY)    #方式二设置网络状态
-driver.save_screenshot('test00.png')  #截屏操作,传文件路径，图片格式为png  screenshot('1.png') 是对元素截图
-print(driver.get_device_time(format='YYYY-MM-DDTHH:mm:ssZ'))  #时间格式可以不传
+driver.start_activity('com.aweproject','com.aweproject.MainActivity')
+driver.implicitly_wait(10)
+driver.find_element_by_xpath('//android.widget.TextView[@text="登录"]').click()
+driver.implicitly_wait(10)
+driver.find_element_by_xpath('//android.widget.EditText[@text="请输入用户名"]').send_keys('larry002')
+driver.implicitly_wait(10)
+driver.find_element_by_xpath('//android.widget.EditText[@text="请输入密码"]').send_keys('larry1')
+driver.implicitly_wait(10)
+driver.find_element_by_xpath('//android.widget.TextView[@text="立即登录"]').click()
+driver.implicitly_wait(10)
+driver.find_element_by_xpath('//android.widget.ImageView[@bounds="[548,1252][1065,1545]"]').click()
+time.sleep(5)
+driver.implicitly_wait(10)
+print(driver.contexts)
+# print(driver.contexts)
+time.sleep(5)
+driver.back()
